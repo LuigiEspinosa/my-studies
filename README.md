@@ -1,4 +1,6 @@
-# My-Studies
+# Mis estudios
+
+# Universidad
 
 ## Transformación digital
 
@@ -29,12 +31,13 @@
 * [Curso de Prework: Configuración de Entorno de Desarrollo en Windows](https://platzi.com/clases/prework-windows/)
 * [Curso de Prework: Configuración de Entorno de Desarrollo en macOS](https://platzi.com/clases/prework-macos/)
 
-# Frontend con VueJS
+## Frontend con VueJS
 
 * [Curso de Frontend Developer](https://platzi.com/clases/frontend-developer/)
 * [Curso Básico de JavaScript](https://platzi.com/clases/basico-javascript/)
 * [Curso de ECMAScript 6+](https://platzi.com/clases/ecmascript-6/)
+* [Curso de Closures y Scope en JavaScript](https://platzi.com/clases/scope/)
 
-# Seguridad Informática
+## Seguridad Informática
 
 * [Curso de Introducción a la Terminal y Línea de Comandos 2019](https://platzi.com/clases/terminal-2019/)
