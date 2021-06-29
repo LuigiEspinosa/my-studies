@@ -1,5 +1,4 @@
 # Mis estudios
-
 ---
 
 ## Universidad
@@ -34,7 +33,7 @@
 ## Escuela de JavaScript
 
 - [Curso de Prework: Configuración de Entorno de Desarrollo en Windows](https://platzi.com/clases/prework-windows/)
-- [Curso de Prework: Configuración de Entorno de Desarrollo en macOS](https://platzi.com/clases/prework-macos/)
+- [Curso de Prework: Configuración de Entorno de Desarrollo en MacOS](https://platzi.com/clases/prework-macos/)
 
 ## Frontend con VueJS
 
@@ -43,6 +42,7 @@
 - [Curso de ECMAScript 6+](https://platzi.com/clases/ecmascript-6/)
 - [Curso de Closures y Scope en JavaScript](https://platzi.com/clases/scope/)
 - [Curso de Asincronismo con JavaScript](https://platzi.com/clases/asincronismo-js/)
+- [Curso de Frameworks y Librerías de JavaScript](https://platzi.com/clases/frameworks-javascript/)
 
 ## Seguridad Informática
 

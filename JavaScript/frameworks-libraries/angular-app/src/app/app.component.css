@@ -1,0 +1,35 @@
+h2 {
+    border-bottom: 1px solid #522;
+    padding: 0 10px 15px;
+}
+
+form {
+    background-color:  #ffcece;
+    border: 1px solid #522;
+    margin: 0 50px 25px;
+    padding: 10px 25px 25px;
+    text-align: center;
+    transform: scale(1);
+    transition: transform .3s;
+}
+
+form:hover {
+    transform: scale(1.2);
+}
+
+button {
+    background-color: rgba(100,5,5,0.5);
+    margin: 5px;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: border-color .15s;
+}
+
+button:hover {
+    border-color: #522;
+}
+
+button[disabled] {
+    opacity: .5;
+}
