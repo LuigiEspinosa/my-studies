@@ -167,6 +167,7 @@ Backup of *.doc*
 
 # PowerPoint temporary
 ~$*.ppt*
+*.pptx
 
 # Visio autosave temporary files
 *.~vsd*
