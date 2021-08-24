@@ -72,6 +72,7 @@
 ### freeCodeCamp&#46;org
 
 - [Learn Vue.js - Full Course for Beginners - 2019](https://www.youtube.com/watch?v=4deVCNJq3qc)
+- [How to Code with Python and C#](https://www.youtube.com/watch?v=__izua1kKeI)
 
 ### Laith Harb
 
