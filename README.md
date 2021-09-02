@@ -72,7 +72,12 @@
 ### freeCodeCamp&#46;org
 
 - [Learn Vue.js - Full Course for Beginners - 2019](https://www.youtube.com/watch?v=4deVCNJq3qc)
+- [How to Code with Python and C#](https://www.youtube.com/watch?v=__izua1kKeI)
 
 ### Laith Harb
 
 - [Nuxt JS Crash Course - 2021](https://www.youtube.com/watch?v=Wdmi4k7sFzU)
+
+### Fazt Code
+
+- [Nuxtjs | SSR Framework de Vuejs](https://www.youtube.com/watch?v=CSxnujWDCwU)
