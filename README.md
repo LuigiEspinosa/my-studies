@@ -13,6 +13,7 @@
 - [Curso de Productividad](https://platzi.com/clases/productividad/)
 - [Curso de Escritura Online 2018](https://platzi.com/clases/escritura-2018/)
 - [Curso para Crear Hábitos Positivos](https://platzi.com/clases/creacion-habitos/)
+- [Curso de Técnicas Efectivas de Estudio](https://platzi.com/clases/formacion/)
 
 ### Platzi English Academy
 
@@ -81,3 +82,7 @@
 ### Fazt Code
 
 - [Nuxtjs | SSR Framework de Vuejs](https://www.youtube.com/watch?v=CSxnujWDCwU)
+
+## Books
+
+- JAVA - Code Your Way to Corporate - A Beginners Guide to Learn the Latest Edition of Java Programming and Coding By Anton Romanov (2015)
