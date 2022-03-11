@@ -1,13 +1,10 @@
-# Mis estudios
-
-## Universidad
-
-- [Ingeniería de Sistemas - Universidad de Cundinamarca](https://github.com/LuigiEspinosa/Trabajos-UdeC)
+# My Studies
 
 ## Platzi
 
 ### Escuela de habilidades blandas
 
+- [Curso de Estrategias para Aprender en Línea Efectivamente 2019](https://platzi.com/cursos/aprender-2019/)
 - [Curso de Estrategias para Aprender en Línea Efectivamente](https://platzi.com/clases/aprender/)
 - [Curso de Gestión Efectiva del Tiempo](https://platzi.com/clases/gestion-tiempo/)
 - [Curso de Productividad](https://platzi.com/clases/productividad/)
