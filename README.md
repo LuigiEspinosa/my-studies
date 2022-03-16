@@ -4,11 +4,11 @@
 
 ### Escuela de habilidades blandas
 
-- [Curso de Estrategias para Aprender en Línea Efectivamente 2019](https://platzi.com/cursos/aprender-2019/)
+- [Curso de Estrategias para Aprender en Línea Efectivamente (2019)](https://platzi.com/cursos/aprender-2019/)
 - [Curso de Estrategias para Aprender en Línea Efectivamente](https://platzi.com/clases/aprender/)
 - [Curso de Gestión Efectiva del Tiempo](https://platzi.com/clases/gestion-tiempo/)
 - [Curso de Productividad](https://platzi.com/clases/productividad/)
-- [Curso de Escritura Online 2018](https://platzi.com/clases/escritura-2018/)
+- [Curso de Escritura Online (2018)](https://platzi.com/clases/escritura-2018/)
 - [Curso para Crear Hábitos Positivos](https://platzi.com/clases/creacion-habitos/)
 - [Curso de Técnicas Efectivas de Estudio](https://platzi.com/clases/formacion/)
 
@@ -40,6 +40,10 @@
 - [Curso de ECMAScript 6+](https://platzi.com/clases/ecmascript-6/)
 - [Curso de Asincronismo con JavaScript](https://platzi.com/clases/asincronismo-js/)
 - [Curso de Frameworks y Librerías de JavaScript](https://platzi.com/clases/frameworks-javascript/)
+
+### Frontend con React.js
+
+- [Curso de Frontend Developer](https://platzi.com/clases/frontend-developer)
 
 ### Seguridad Informática
 
