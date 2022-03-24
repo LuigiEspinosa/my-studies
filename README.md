@@ -49,6 +49,10 @@
 
 - [Curso de Introducción a la Terminal y Línea de Comandos 2019](https://platzi.com/clases/terminal-2019/)
 
+### Escuela de Matemáticas
+
+- [Curso de Fundamentos de Matemáticas](https://platzi.com/cursos/fundamentos-matematicas/)
+
 ### Cursos Exclusivos
 
 - [Curso de Trabajo Remoto o Teletrabajo](https://platzi.com/clases/teletrabajo-trabajo-remoto/)
