@@ -53,6 +53,11 @@
 
 - [Curso de Fundamentos de Matemáticas](https://platzi.com/cursos/fundamentos-matematicas/)
 
+### Escuela de Ciencias
+
+- [Curso de Fundamentos de Matemáticas](https://platzi.com/cursos/fundamentos-matematicas/)
+- [Curso de Álgebra](https://platzi.com/cursos/algebra/)
+
 ### Cursos Exclusivos
 
 - [Curso de Trabajo Remoto o Teletrabajo](https://platzi.com/clases/teletrabajo-trabajo-remoto/)
