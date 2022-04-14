@@ -58,6 +58,10 @@
 - [Curso de Fundamentos de Matemáticas](https://platzi.com/cursos/fundamentos-matematicas/)
 - [Curso de Álgebra](https://platzi.com/cursos/algebra/)
 
+### Escuela de Data Science e Inteligencia Artificial
+
+- [Cómo y Por Qué Aprender Data Science e Inteligencia Artificial](https://platzi.com/cursos/aprender-data-ia/)
+
 ### Cursos Exclusivos
 
 - [Curso de Trabajo Remoto o Teletrabajo](https://platzi.com/clases/teletrabajo-trabajo-remoto/)
