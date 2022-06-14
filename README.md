@@ -52,6 +52,12 @@
 ### Escuela de Matemáticas
 
 - [Curso de Fundamentos de Matemáticas](https://platzi.com/cursos/fundamentos-matematicas/)
+- [Curso de Álgebra](https://platzi.com/cursos/algebra/)
+
+### Matemáticas para Programación
+
+- [Curso de Fundamentos de Matemáticas](https://platzi.com/cursos/fundamentos-matematicas/)
+- [Curso de Álgebra](https://platzi.com/cursos/algebra/)
 
 ### Escuela de Ciencias
 
