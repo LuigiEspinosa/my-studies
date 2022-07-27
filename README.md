@@ -59,6 +59,10 @@
 - [Curso de Fundamentos de Matemáticas](https://platzi.com/cursos/fundamentos-matematicas/)
 - [Curso de Álgebra](https://platzi.com/cursos/algebra/)
 
+### Amazon Web Services
+
+- [Curso de Tecnología para Gerentes y Directores](https://platzi.com/cursos/tecnologia-gerentes/)
+
 ### Escuela de Ciencias
 
 - [Curso de Fundamentos de Matemáticas](https://platzi.com/cursos/fundamentos-matematicas/)
@@ -105,4 +109,4 @@
 
 ## Books
 
-- JAVA - Code Your Way to Corporate - A Beginners Guide to Learn the Latest Edition of Java Programming and Coding By Anton Romanov (2015)
+- Java: Code Your Way to Corporate - A Beginners Guide to Learn the Latest Edition of Java Programming and Coding (java, java programming, java for dummies, ... java tutorial, java book, java guide) by Anton Romanov, George Bert
