@@ -192,9 +192,9 @@
 - [ ] [Curso de Introducción al Desarrollo de Lenguajes de Programación](https://platzi.com/cursos/desarrollo-lenguajes-programacion/)
 - [ ] [Curso de Creación de Lenguajes de Programación: Intérpretes](https://platzi.com/cursos/interpretes-software/)
 
-### Programación y Desarrollo de Software - 60 Cursos • 8% completada
+### Programación y Desarrollo de Software - 60 Cursos • 9% completada
 
-- [ ] [Curso de Computación Básica](https://platzi.com/cursos/computacion-basica/)
+- [x] [Curso de Computación Básica](https://platzi.com/cursos/computacion-basica/)
 - [x] [Curso de Pensamiento Lógico 2018](https://platzi.com/clases/pensamiento-logico-2018/)
 - [ ] [Curso de Pensamiento Lógico: Algoritmos y Diagramas de Flujo](https://platzi.com/cursos/pensamiento-logico/)
 - [ ] [Curso de Pensamiento Lógico: Lenguajes de Programación](https://platzi.com/cursos/pensamiento-logico-lenguajes/)
@@ -354,7 +354,7 @@
 
 ### Desarrollo Web - 144 Cursos • 4% completada
 
-- [ ] [Curso de Computación Básica](https://platzi.com/cursos/computacion-basica/)
+- [x] [Curso de Computación Básica](https://platzi.com/cursos/computacion-basica/)
 - [ ] [Curso de Pensamiento Lógico: Algoritmos y Diagramas de Flujo](https://platzi.com/cursos/pensamiento-logico/)
 - [ ] [Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/)
 - [ ] [Curso de Pensamiento Lógico: Lenguajes de Programación](https://platzi.com/cursos/pensamiento-logico-lenguajes/)
@@ -1253,6 +1253,10 @@
 ### Fazt Code
 
 - [Nuxtjs | SSR Framework de Vuejs](https://www.youtube.com/watch?v=CSxnujWDCwU)
+
+## Documentations
+
+- [Vue 3](https://vuejs.org/guide/introduction.html)
 
 ## Books
 
