@@ -4,9 +4,8 @@
 
 ### Escuela de habilidades blandas - 71 Cursos • 7% completada
 
-- [x] [Curso de Estrategias para Aprender en Línea Efectivamente (2019)](https://platzi.com/cursos/aprender-2019/)
-- [x] [Curso de Estrategias para Aprender en Línea](https://platzi.com/cursos/aprender/)
-- [x] [Curso de Gestión Efectiva del Tiempo](https://platzi.com/cursos/gestion-tiempo/)
+- ~~[x] [Curso de Estrategias para Aprender en Línea](https://platzi.com/cursos/aprender/)~~
+- ~~[x] [Curso de Gestión Efectiva del Tiempo](https://platzi.com/cursos/gestion-tiempo/)~~
 - [x] [Curso para Crear Hábitos Positivos](https://platzi.com/cursos/creacion-habitos/)
 - [ ] [Curso de Estrategias para la Productividad y la Organización](https://platzi.com/cursos/estrategias-productividad/)
 - [ ] [Curso de Manejo de Emociones para la Productividad y la Organización](https://platzi.com/cursos/emociones-productividad/)
