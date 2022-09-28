@@ -76,9 +76,9 @@
 - [ ] [Curso de Fundamentos de Coaching](https://platzi.com/cursos/fundamentos-coaching/)
 - [ ] [Audiocurso de Filosofía para Managers](https://platzi.com/cursos/filosofia-managers/)
 
-### Platzi English Academy - 75 Cursos • 1% completada
+### Platzi English Academy - 75 Cursos • 2% completada
 
-- [ ] [Estrategias para Aprender en Línea](https://platzi.com/cursos/estrategias-ingles/)
+- [x] ~~[Estrategias para Aprender en Línea](https://platzi.com/cursos/estrategias-ingles/)~~
 - [ ] [Weekly English Activities](https://platzi.com/cursos/english-activities/)
 - [ ] [Curso de Inglés Básico A1 para Principiantes](https://platzi.com/cursos/ingles-basico-principiantes/)
 - [ ] [Curso de Inglés Básico A1: Presente Simple y Vocabulario Común](https://platzi.com/cursos/presente-simple-vocabulario-comun/)
