@@ -12,7 +12,7 @@
 8. The results of work _over_ the hours put in.
 9. Formal communication channels _over_ informal communication channels.
 
-![Teletrabajo](https://teletrabajo.gov.co/622/articles-8142_recurso_infografia.jpg)
+[Infografía Teletrabajo](https://teletrabajo.gov.co/622/articles-8142_recurso_infografia.jpg)
 
 ## Async vs Sync
 

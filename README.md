@@ -4,19 +4,20 @@
 
 ### Escuela de Desarrollo Web
 
-[Rutas de la Escuela de Desarrollo Web](https://platzi.com/escuela/escuela-web/)
-[Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Desarrollo%20Web)
+- [Rutas de la Escuela de Desarrollo Web](https://platzi.com/escuela/escuela-web/)
+- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Desarrollo%20Web)
 
 ### Escuela de Blockchain y Criptomonedas
 
-[Rutas de la Escuela de Blockchain y Criptomonedas](https://platzi.com/escuela/escuela-blockchain/)
-[Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Blockchain%20y%20Criptomonedas)
+- [Rutas de la Escuela de Blockchain y Criptomonedas](https://platzi.com/escuela/escuela-blockchain/)
+- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Blockchain%20y%20Criptomonedas)
 
 ### Cursos Exclusivos Platzi Expert
 
 [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Rutas/Cursos%20Exclusivos)
 
 - [x] [Curso de Trabajo Remoto o Teletrabajo](https://platzi.com/clases/teletrabajo-trabajo-remoto/)
+- [x] [Cómo Conseguir Trabajo en Programación](https://platzi.com/cursos/developer/)
 - [ ] [Clases del Curso de Escritura en Inglés 2018](https://platzi.com/clases/old/escritura-ingles/)
 - [ ] [Curso de Finanzas para Startups](https://platzi.com/cursos/financiera-startups/)
 - [ ] [Curso de Inglés Avanzado: Conversación](https://platzi.com/cursos/conversacion-avanzado/)
