@@ -2,9 +2,21 @@
 
 ## Platzi
 
-### Cursos Exclusivos
+### Escuela de Desarrollo Web
 
-- [x] ~~[Curso de Trabajo Remoto o Teletrabajo](https://platzi.com/clases/teletrabajo-trabajo-remoto/)~~
+[Rutas de la Escuela de Desarrollo Web](https://platzi.com/escuela/escuela-web/)
+[Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Desarrollo%20Web)
+
+### Escuela de Blockchain y Criptomonedas
+
+[Rutas de la Escuela de Blockchain y Criptomonedas](https://platzi.com/escuela/escuela-blockchain/)
+[Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Blockchain%20y%20Criptomonedas)
+
+### Cursos Exclusivos Platzi Expert
+
+[Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Rutas/Cursos%20Exclusivos)
+
+- [x] [Curso de Trabajo Remoto o Teletrabajo](https://platzi.com/clases/teletrabajo-trabajo-remoto/)
 - [ ] [Clases del Curso de Escritura en Inglés 2018](https://platzi.com/clases/old/escritura-ingles/)
 - [ ] [Curso de Finanzas para Startups](https://platzi.com/cursos/financiera-startups/)
 - [ ] [Curso de Inglés Avanzado: Conversación](https://platzi.com/cursos/conversacion-avanzado/)
@@ -45,26 +57,6 @@
 - [ ] [Taller de Creación de Startups](https://platzi.com/cursos/taller-startups/)
 - [ ] [Taller de Inglés Básico A1 para Principiantes](https://platzi.com/cursos/taller-principiantes/)
 - [ ] [Weekly English Activities](https://platzi.com/cursos/english-activities/)
-
-### Escuela de Desarrollo Web
-
-INTRODUCCIÓN:
-
-#### Fundamentos de Programación y Desarrollo Web
-
-- [x] ~~[Curso de Computación Básica](https://platzi.com/cursos/computacion-basica/)~~
-- [x] [Curso de Pensamiento Lógico 2018](https://platzi.com/clases/pensamiento-logico-2018/)
-- [ ] [Curso de Pensamiento Lógico: Algoritmos y Diagramas de Flujo](https://platzi.com/cursos/pensamiento-logico/)
-- [ ] [Curso de Pensamiento Lógico: Manejo de Datos, Estructuras y Funciones](https://platzi.com/cursos/pensamiento-logico-estructuras/)
-- [ ] [Curso de Pensamiento Lógico: Lenguajes de Programación](https://platzi.com/cursos/pensamiento-logico-lenguajes/)
-- [ ] [Curso Gratis de Programación Básica](https://platzi.com/cursos/programacion-basica/)
-- [ ] [Curso Profesional de Git y GitHub](https://platzi.com/cursos/git-github/)
-- [ ] [Curso de Introducción a la Web: Historia y Funcionamiento de Internet](https://platzi.com/cursos/introweb/)
-- [ ] [Fundamentos de Ingeniería de Software](https://platzi.com/cursos/ingenieria/)
-- [ ] [Curso de Historia de la Programación: Lenguajes y Paradigmas](https://platzi.com/cursos/historia-programacion/)
-- [ ] [Curso de Introducción al Pensamiento Computacional con Python](https://platzi.com/cursos/python-cs/)
-- [ ] [Curso de Historia de la Innovación y el Emprendimiento con Diana Uribe](https://platzi.com/cursos/historia-innovacion/)
-- [ ] [Curso de Tecnología para Gerentes y Directores](https://platzi.com/cursos/tecnologia-gerentes/)
 
 ## Books
 

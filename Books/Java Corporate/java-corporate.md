@@ -4,7 +4,7 @@ After being officially launched as "Java" in the mid-90's (1995), it has been ca
 
 ## Java Basic Syntax and Operators
 
-- **Object:** It's a Java component that presents states and behaviours. By states, we mean the basic traits, and by behaviour, we are talking about what we can expect from the object development. Using an analogy, consider someone named Mike: his states will be his name, nationality, everything that defines him as a person, while the behaviours will be the code of norms and rules he will use to fit in society.
+- **Object:** It's a Java component that presents states and behaviors. By states, we mean the basic traits, and by behavior, we are talking about what we can expect from the object development. Using an analogy, consider someone named Mike: his states will be his name, nationality, everything that defines him as a person, while the behaviors will be the code of norms and rules he will use to fit in society.
 - **Class:** The class is the support where the objects will be placed, according to each type.
 - **Methods:** A class can contain several methods; with these, you'll define a set of rules, manipulate the data, and execute actions.
 - **Instance Variables:** The instance variables make the object unique, since you'll be able to set values to each one.
@@ -187,7 +187,7 @@ class AudioPlayer {
 }
 
 class StreamingAudioPlayer {
-  boolean openSpeaker(Speaekr sp) {
+  boolean openSpeaker(Speaker sp) {
     // Implementation details
   }
 }
@@ -213,7 +213,7 @@ public class ClassName {
 
 private boolean myFlag;
 static final double weeks = 9.5;
-protected static final int BOXWIDTH = 42;
+protected static final int BOX_WIDTH = 42;
 
 public static void main(String[] arguments) {
   // Body of method
