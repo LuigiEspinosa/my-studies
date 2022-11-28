@@ -1,0 +1,16 @@
+{
+  "name": "login-social",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "jade": "~1.11.0",
+    "mongoose": "^6.7.3",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "passport-twitter": "^1.0.4"
+  }
+}
