@@ -59,6 +59,12 @@
 - [ ] [Taller de Inglés Básico A1 para Principiantes](https://platzi.com/cursos/taller-principiantes/)
 - [ ] [Weekly English Activities](https://platzi.com/cursos/english-activities/)
 
+## Youtube Channels
+
+- [devaslife](https://www.youtube.com/@devaslife)
+- [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
+- [Platzi](https://www.youtube.com/@Platzi)
+
 ## Books
 
 - Java: Code Your Way to Corporate - A Beginners Guide to Learn the Latest Edition of Java Programming and Coding (java, java programming, java for dummies, ... java tutorial, java book, java guide) by Anton Romanov, George Bert
