@@ -10,7 +10,7 @@ Durante los últimos años ha incrementado la demanda por profesionales en block
 
 - [x] [Audiocurso de Historia de Bitcoin y Criptomonedas](https://platzi.com/cursos/historia-bitcoin/)
 - [x] [Audiocurso de Historia de Ethereum y Smart Contracts](https://platzi.com/cursos/historia-ethereum/)
-- [ ] [Curso de Gestión de Criptoactivos](https://platzi.com/cursos/gestion-criptoactivos/)
+- [x] [Curso de Gestión de Criptoactivos](https://platzi.com/cursos/gestion-criptoactivos/)
 - [ ] [Curso de Seguridad para Usuarios de Criptomonedas](https://platzi.com/cursos/seguridad-cripto/)
 
 ---
