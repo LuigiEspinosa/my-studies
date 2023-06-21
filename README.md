@@ -12,6 +12,11 @@
 - [Rutas de la Escuela de Blockchain y Criptomonedas](https://platzi.com/escuela/escuela-blockchain/)
 - [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Blockchain%20y%20Criptomonedas)
 
+### Escuela DevOps y Cloud Computing
+
+- [Rutas de la Escuela DevOps y Cloud Computing](https://platzi.com/escuela/devops-cloud/)
+- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/DevOps%20y%20Cloud%20Computing)
+
 ### Cursos Exclusivos Platzi Expert
 
 [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Rutas/Cursos%20Exclusivos)
