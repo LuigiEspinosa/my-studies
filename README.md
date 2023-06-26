@@ -68,6 +68,7 @@
 
 - [devaslife](https://www.youtube.com/@devaslife)
 - [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
+- [LeonidasEsteban](https://www.youtube.com/@LeonidasEsteban)
 - [Platzi](https://www.youtube.com/@Platzi)
 
 ## Books
