@@ -24,7 +24,7 @@
 - [x] [Curso de Trabajo Remoto o Teletrabajo](https://platzi.com/clases/teletrabajo-trabajo-remoto/)
 - [x] [Cómo Conseguir Trabajo en Programación](https://platzi.com/cursos/developer/)
 - [x] [Curso Avanzado de Gramática en Inglés (2020)](https://platzi.com/clases/old/avanzado-gramatica-2020/)
-- [ ] [Curso Avanzado de Inglés para el Trabajo 2020](https://platzi.com/clases/old/ingles-avanzado-trabajo/)
+- [x] [Curso Avanzado de Inglés para el Trabajo 2020](https://platzi.com/clases/old/ingles-avanzado-trabajo/)
 - [ ] [Curso de Escritura en Inglés 2018](https://platzi.com/clases/old/escritura-ingles/)
 - [ ] [Curso de Finanzas para Startups](https://platzi.com/cursos/financiera-startups/)
 - [ ] [Curso de Inglés Avanzado: Conversación 2020](https://platzi.com/clases/old/conversacion-avanzado/)
