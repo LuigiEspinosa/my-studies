@@ -25,7 +25,7 @@
 - [x] [Cómo Conseguir Trabajo en Programación](https://platzi.com/cursos/developer/)
 - [x] [Curso Avanzado de Gramática en Inglés (2020)](https://platzi.com/clases/old/avanzado-gramatica-2020/)
 - [x] [Curso Avanzado de Inglés para el Trabajo 2020](https://platzi.com/clases/old/ingles-avanzado-trabajo/)
-- [x] [Curso de Escritura en Inglés 2018](https://platzi.com/clases/old/escritura-ingles/)
+- [x] [Curso de Escritura en Inglés 2018](https://platzi.com/clases/old/escritura-ingles-2018/)
 - [ ] [Curso de Finanzas para Startups](https://platzi.com/cursos/financiera-startups/)
 - [ ] [Curso de Inglés Avanzado: Conversación 2020](https://platzi.com/clases/old/conversacion-avanzado/)
 - [ ] [Curso de Inglés Básico A1: Conversaciones Cortas y Habituales](https://platzi.com/cursos/ingles-principiantes/)
@@ -77,6 +77,7 @@
 
 - [devaslife](https://www.youtube.com/@devaslife)
 - [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
+- [LearnCode.academy](https://www.youtube.com/@learncodeacademy)
 - [LeonidasEsteban](https://www.youtube.com/@LeonidasEsteban)
 - [Platzi](https://www.youtube.com/@Platzi)
 
