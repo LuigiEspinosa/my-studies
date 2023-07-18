@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/zsh,yarn,grunt,macos,windows,visualstudiocode,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=zsh,yarn,grunt,macos,windows,visualstudiocode,node
+# Created by https://www.toptal.com/developers/gitignore/api/zsh,node,yarn,grunt,macos,windows,visualstudiocode,vue,vuejs
+# Edit at https://www.toptal.com/developers/gitignore?templates=zsh,node,yarn,grunt,macos,windows,visualstudiocode,vue,vuejs
 
 ### grunt ###
 # Grunt usually compiles files inside this directory
@@ -200,6 +200,23 @@ dist
 .history
 .ionide
 
+### Vue ###
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
+
+# TODO: where does this rule come from?
+docs/_book
+
+# TODO: where does this rule come from?
+test/
+
+### Vuejs ###
+# Recommended template: Node.gitignore
+
+npm-debug.log
+yarn-error.log
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -279,4 +296,4 @@ zsdoc/data
 /tests/_output/*
 !/tests/_output/.gitkeep
 
-# End of https://www.toptal.com/developers/gitignore/api/zsh,yarn,grunt,macos,windows,visualstudiocode,node
+# End of https://www.toptal.com/developers/gitignore/api/zsh,node,yarn,grunt,macos,windows,visualstudiocode,vue,vuejs
