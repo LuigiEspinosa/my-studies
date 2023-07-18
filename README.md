@@ -2,20 +2,30 @@
 
 ## Platzi
 
-### Escuela de Desarrollo Web
-
-- [Rutas de la Escuela de Desarrollo Web](https://platzi.com/escuela/escuela-web/)
-- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Desarrollo%20Web)
-
 ### Escuela de Blockchain y Criptomonedas
 
 - [Rutas de la Escuela de Blockchain y Criptomonedas](https://platzi.com/escuela/escuela-blockchain/)
 - [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Blockchain%20y%20Criptomonedas)
 
+### Data Science e Inteligencia Artificial
+
+- [Rutas de la Escuela de Data Science e Inteligencia Artificial](https://platzi.com/escuela/datos/)
+- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Data%20Science%20e%20Inteligencia%20Artificial)
+
+### Escuela de Desarrollo Web
+
+- [Rutas de la Escuela de Desarrollo Web](https://platzi.com/escuela/escuela-web/)
+- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Desarrollo%20Web)
+
 ### Escuela DevOps y Cloud Computing
 
 - [Rutas de la Escuela DevOps y Cloud Computing](https://platzi.com/escuela/devops-cloud/)
 - [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/DevOps%20y%20Cloud%20Computing)
+
+### Escuela Programación y Software
+
+- [Rutas de la Escuela Programación y Software](https://platzi.com/escuela/programacion-software/)
+- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Programación%20y%20Software/)
 
 ### Cursos Exclusivos Platzi Expert
 
