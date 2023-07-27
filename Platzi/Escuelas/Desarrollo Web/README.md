@@ -19,7 +19,7 @@ Descubre el panorama general de herramientas, roles, empleos y proyectos que pue
 - [ ] [JavaScript a Profundidad](https://platzi.com/ruta/web-javascript/?school=_escuela_web_)
 - [ ] [Librerías y Dependencias de JavaScript con NPM](https://platzi.com/ruta/web-npm/?school=_escuela_web_)
 - [ ] [Frontend con React.js](https://platzi.com/ruta/web-react/?school=_escuela_web_)
-- [x] [Frontend con Vue.js](https://platzi.com/ruta/web-vue/?school=_escuela_web_)
+- [ ] [Frontend con Vue.js](https://platzi.com/ruta/web-vue/?school=_escuela_web_)
 - [ ] [Frontend con Angular](https://platzi.com/ruta/web-angular/?school=_escuela_web_)
 - [ ] [Especialización en Sistemas de Diseño](https://platzi.com/ruta/web-design/?school=_escuela_web_)
 - [ ] [Especialización en Accesibilidad Web](https://platzi.com/ruta/web-accesibilidad/?school=_escuela_web_)
