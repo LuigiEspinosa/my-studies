@@ -13,7 +13,7 @@ Durante los últimos años ha incrementado la demanda por profesionales en block
 - [x] [Curso de Gestión de Criptoactivos](https://platzi.com/cursos/gestion-criptoactivos/)
 - [x] [Curso de Seguridad para Usuarios de Criptomonedas](https://platzi.com/cursos/seguridad-cripto/)
 - [x] [Audiocurso de Historia de los NFT](https://platzi.com/cursos/historia-nft/)
-- [ ] [Curso de Creación de NFT](https://platzi.com/cursos/nft/)
+- [x] [Curso de Creación de NFT](https://platzi.com/cursos/nft/)
 
 ---
 
