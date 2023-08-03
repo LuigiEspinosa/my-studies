@@ -157,6 +157,7 @@
 
 - [devaslife](https://www.youtube.com/@devaslife)
 - [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
+- [insidewebdev](https://www.youtube.com/@insidewebdev)
 - [LearnCode.academy](https://www.youtube.com/@learncodeacademy)
 - [LeonidasEsteban](https://www.youtube.com/@LeonidasEsteban)
 - [Platzi](https://www.youtube.com/@Platzi)
