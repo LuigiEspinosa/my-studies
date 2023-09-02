@@ -165,3 +165,4 @@
 ## Books
 
 - Java: Code Your Way to Corporate - A Beginners Guide to Learn the Latest Edition of Java Programming and Coding (java, java programming, java for dummies, ... java tutorial, java book, java guide) by Anton Romanov, George Bert.
+- RASPBERRY PI: A Beginners Concise Guide to Raspberry Pi Setup, Learning Programming and Developing Innovative Projects by Duke Denton
