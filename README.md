@@ -2,25 +2,25 @@
 
 ## Platzi
 
+### Escuela de Blockchain y Web3
+
+- [Rutas de la Escuela de Blockchain y Web3](hhttps://platzi.com/escuela/blockchain/)
+- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Blockchain%20y%20Web3)
+
 ### Data Science e Inteligencia Artificial
 
 - [Rutas de la Escuela de Data Science e Inteligencia Artificial](https://platzi.com/escuela/datos/)
 - [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Data%20Science%20e%20Inteligencia%20Artificial)
 
-### Escuela de Blockchain y Web3
+### Escuela de Desarrollo Web
 
-- [Rutas de la Escuela de Blockchain y Web3](https://platzi.com/escuela/escuela-blockchain/)
-- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Blockchain%20y%20Criptomonedas)
+- [Rutas de la Escuela de Desarrollo Web](https://platzi.com/escuela/escuela-web/)
+- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Desarrollo%20Web)
 
 ### Escuela DevOps y Cloud Computing
 
 - [Rutas de la Escuela DevOps y Cloud Computing](https://platzi.com/escuela/devops-cloud/)
 - [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/DevOps%20y%20Cloud%20Computing)
-
-### Escuela de Desarrollo Web
-
-- [Rutas de la Escuela de Desarrollo Web](https://platzi.com/escuela/escuela-web/)
-- [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Desarrollo%20Web)
 
 ### Escuela Programación y Software
 
@@ -30,6 +30,41 @@
 ### Platzi English Academy
 
 - [Platzi English Academy](https://platzi.com/escuela/ingles/)
+- [Notas]
+
+### E-Commerce y Negocios Digitales
+
+- [E-Commerce y Negocios Digitales](https://platzi.com/escuela/ecommerce/)
+- [Notas]
+
+### Diseño
+
+- [Diseño](https://platzi.com/escuela/diseno/)
+- [Notas]
+
+### Producto
+
+- [Producto](https://platzi.com/escuela/producto/)
+- [Notas]
+
+### Finanzas e Inversiones
+
+- [Finanzas e Inversiones](https://platzi.com/escuela/finanzas/)
+- [Notas]
+
+### Habilidades Blandas
+
+- [Habilidades Blandas](https://platzi.com/escuela/habilidades-blandas/)
+- [Notas]
+
+### Negocios
+
+- [Negocios](https://platzi.com/escuela/negocios/)
+- [Notas]
+
+### Startups
+
+- [Startups](https://platzi.com/escuela/startups/)
 - [Notas]
 
 ### Marketing Digital
@@ -52,44 +87,9 @@
 - [Talento y Recursos Humanos](https://platzi.com/escuela/recursos-humanos/)
 - [Notas]
 
-### Habilidades Blandas
-
-- [Habilidades Blandas](https://platzi.com/escuela/habilidades-blandas/)
-- [Notas]
-
 ### Liderazgo y Management
 
 - [Liderazgo y Management](https://platzi.com/escuela/liderazgo-management/)
-- [Notas]
-
-### E-Commerce y Negocios Digitales
-
-- [E-Commerce y Negocios Digitales](https://platzi.com/escuela/ecommerce/)
-- [Notas]
-
-### Finanzas e Inversiones
-
-- [Finanzas e Inversiones](https://platzi.com/escuela/finanzas/)
-- [Notas]
-
-### Negocios
-
-- [Negocios](https://platzi.com/escuela/negocios/)
-- [Notas]
-
-### Startups
-
-- [Startups](https://platzi.com/escuela/startups/)
-- [Notas]
-
-### Diseño
-
-- [Diseño](https://platzi.com/escuela/diseno/)
-- [Notas]
-
-### Producto
-
-- [Producto](https://platzi.com/escuela/producto/)
 - [Notas]
 
 ### Contenido Audiovisual
@@ -102,7 +102,6 @@
 [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Rutas/Cursos%20Exclusivos)
 
 - [x] [Curso de Trabajo Remoto o Teletrabajo](https://platzi.com/clases/teletrabajo-trabajo-remoto/)
-- [x] [Cómo Conseguir Trabajo en Programación](https://platzi.com/cursos/developer/)
 - [x] [Curso Avanzado de Gramática en Inglés (2020)](https://platzi.com/clases/old/avanzado-gramatica-2020/)
 - [x] [Curso Avanzado de Inglés para el Trabajo 2020](https://platzi.com/clases/old/ingles-avanzado-trabajo/)
 - [x] [Curso de Escritura en Inglés 2018](https://platzi.com/clases/old/escritura-ingles-2018/)
@@ -143,9 +142,10 @@
 - [ ] [Taller de Creación de Startups](https://platzi.com/cursos/taller-startups/)
 - [ ] [Taller de Inglés Básico para Descripciones Personales](https://platzi.com/cursos/taller-descripciones-personales/)
 
-#### Removed from exclusives or Updated
+#### Removed or Updated from exclusives
 
-- [ ] [Curso de Inglés Avanzado C1: Comunicación Persuasiva y Efectiva](https://platzi.com/cursos/habilidades-comunicacion/)
+- [x] [Cómo Conseguir Trabajo en Programación](https://platzi.com/cursos/developer/)
+- [x] [Curso de Inglés Avanzado C1: Comunicación Persuasiva y Efectiva](https://platzi.com/cursos/habilidades-comunicacion/)
 - [ ] [Curso de Inglés Avanzado para el Trabajo](https://platzi.com/cursos/avanzado-trabajo/)
 - [ ] [Curso de Inglés Básico A2: Preguntas y Respuestas Comunes](https://platzi.com/cursos/basico-preguntas-respuestas/)
 - [ ] [Curso de Conectores y Contracciones Informales en inglés](https://platzi.com/cursos/reducciones-conectores/)
@@ -155,6 +155,7 @@
 
 ## Youtube Channels
 
+- [Bro Code](https://www.youtube.com/@BroCodez)
 - [devaslife](https://www.youtube.com/@devaslife)
 - [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
 - [insidewebdev](https://www.youtube.com/@insidewebdev)
@@ -164,5 +165,12 @@
 
 ## Books
 
+- Eloquent JavaScript, 3rd Edition A Modern Introduction to Programming by Marijn Haverbeke.
 - Java: Code Your Way to Corporate - A Beginners Guide to Learn the Latest Edition of Java Programming and Coding (java, java programming, java for dummies, ... java tutorial, java book, java guide) by Anton Romanov, George Bert.
 - RASPBERRY PI: A Beginners Concise Guide to Raspberry Pi Setup, Learning Programming and Developing Innovative Projects by Duke Denton
+- The JavaScript Language - Ilya Kantor
+
+## Websites
+
+- [web.dev](https://web.dev/)
+

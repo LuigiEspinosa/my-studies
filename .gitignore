@@ -1,5 +1,39 @@
-# Created by https://www.toptal.com/developers/gitignore/api/zsh,node,yarn,grunt,macos,windows,visualstudiocode,vue,vuejs
-# Edit at https://www.toptal.com/developers/gitignore?templates=zsh,node,yarn,grunt,macos,windows,visualstudiocode,vue,vuejs
+# Created by https://www.toptal.com/developers/gitignore/api/vue,zsh,node,yarn,grunt,macos,vuejs,windows,visualstudiocode,vim,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=vue,zsh,node,yarn,grunt,macos,vuejs,windows,visualstudiocode,vim,c++
+
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
 
 ### grunt ###
 # Grunt usually compiles files inside this directory
@@ -181,6 +215,27 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -296,4 +351,4 @@ zsdoc/data
 /tests/_output/*
 !/tests/_output/.gitkeep
 
-# End of https://www.toptal.com/developers/gitignore/api/zsh,node,yarn,grunt,macos,windows,visualstudiocode,vue,vuejs
+# End of https://www.toptal.com/developers/gitignore/api/vue,zsh,node,yarn,grunt,macos,vuejs,windows,visualstudiocode,vim,c++
