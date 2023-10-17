@@ -36,7 +36,7 @@ Once the Assets have been uploaded, the viewable rendition in Vault PromoMats wi
 
 ## Approving the Email Template
 
-Before syncing Vault PromoMats and Veeva CRM, the Email Template must be set to Approved by clicking the Workflow and Change State menu adn selecting 'Approved'.
+Before syncing Vault PromoMats and Veeva CRM, the Email Template must be set to Approved by clicking the Workflow and Change State menu and selecting 'Approved'.
 
 ![Approving the Email Template](Assets/Approved-Email-Template.png)
 
