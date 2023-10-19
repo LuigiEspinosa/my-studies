@@ -45,7 +45,7 @@ Zoom functionality for HTML Key Messages must be disabled in the HTML code.
 
 ```html
 <!-- iPad HTML Code -->
-<meta name=viewport content-width=devide-width, initial-scale=1.0, user-salable=no />
+<meta name="viewport" content="width=devide-width, initial-scale=1.0, user-salable=no" />
 ```
 
 ```css
