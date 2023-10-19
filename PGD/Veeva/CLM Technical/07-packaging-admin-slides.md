@@ -1,6 +1,6 @@
 # Packaging and Administration of Presentations and Slides
 
-- CLM Presentation: A collectino of Key Messages that make up the presentation that the Rep uses with the HCP. These are commonly referred to as IVAs (Interactive Visual Aids), eDAs (Electronic Visual Aids), DSAa (Digital Sales Aids), etc.
+- CLM Presentation: A collection of Key Messages that make up the presentation that the Rep uses with the HCP. These are commonly referred to as IVAs (Interactive Visual Aids), eDAs (Electronic Visual Aids), DSAa (Digital Sales Aids), etc.
 
 - Key Message: Specific messages that are delivered for each product or detail topic selecting in the detailing section (e.g. Safety, Dosgin, etc.). A Key Message is a slide of a CLM Presentation and can be an HTML, Image PDF or Video file.
 
