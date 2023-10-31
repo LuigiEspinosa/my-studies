@@ -165,12 +165,19 @@
 
 ## Books
 
-- Eloquent JavaScript, 3rd Edition A Modern Introduction to Programming by Marijn Haverbeke.
+- Becoming an Agile Software Architect: Strategies, practices, and patterns to help architects design continually evolving solutions by Rajesh R V
+- Computer Systems, 3rd Edition: A Programmer's Perspective by Randal E. Bryant and David R. O'Hallaron
+- Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming by Marijn Haverbeke.
 - Java: Code Your Way to Corporate - A Beginners Guide to Learn the Latest Edition of Java Programming and Coding (java, java programming, java for dummies, ... java tutorial, java book, java guide) by Anton Romanov, George Bert.
 - RASPBERRY PI: A Beginners Concise Guide to Raspberry Pi Setup, Learning Programming and Developing Innovative Projects by Duke Denton
-- The JavaScript Language - Ilya Kantor
+- The Elements of Computing Systems, 2nd Edition: Bulding a Modern Computer from First Principles by Noam Nisan and Shimon Schocken
 
 ## Websites
 
+- [javascript.info](https://javascript.info/getting-started)
+- [w3schools](https://www.w3schools.com/)
 - [web.dev](https://web.dev/)
 
+## LinkedIn Learning
+
+- [Conviértete en especialista de metodologías ágiles para programación](https://www.linkedin.com/learning/paths/conviertete-en-especialista-de-metodologias-agiles-para-programacion)
