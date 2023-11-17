@@ -157,6 +157,7 @@
 
 - [Bro Code](https://www.youtube.com/@BroCodez)
 - [devaslife](https://www.youtube.com/@devaslife)
+- [developedbyed](https://www.youtube.com/@developedbyed)
 - [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
 - [insidewebdev](https://www.youtube.com/@insidewebdev)
 - [LearnCode.academy](https://www.youtube.com/@learncodeacademy)
