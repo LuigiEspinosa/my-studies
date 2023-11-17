@@ -1,5 +1,10 @@
-# Created by https://www.toptal.com/developers/gitignore/api/vue,zsh,node,yarn,grunt,macos,vuejs,windows,visualstudiocode,vim,c++
-# Edit at https://www.toptal.com/developers/gitignore?templates=vue,zsh,node,yarn,grunt,macos,vuejs,windows,visualstudiocode,vim,c++
+# Created by https://www.toptal.com/developers/gitignore/api/c++,vim,vue,zsh,node,yarn,astro,grunt,macos,vuejs,windows,visualstudiocode,nextjs
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,vim,vue,zsh,node,yarn,astro,grunt,macos,vuejs,windows,visualstudiocode,nextjs
+
+### Astro ###
+# Gitignore template for Astro projects
+# Ignore content collection generated files
+.astro
 
 ### C++ ###
 # Prerequisites
@@ -75,15 +80,46 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+### NextJS ###
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
 ### Node ###
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 lerna-debug.log*
-.pnpm-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -124,7 +160,6 @@ jspm_packages/
 web_modules/
 
 # TypeScript cache
-*.tsbuildinfo
 
 # Optional npm cache directory
 .npm
@@ -351,4 +386,4 @@ zsdoc/data
 /tests/_output/*
 !/tests/_output/.gitkeep
 
-# End of https://www.toptal.com/developers/gitignore/api/vue,zsh,node,yarn,grunt,macos,vuejs,windows,visualstudiocode,vim,c++
+# End of https://www.toptal.com/developers/gitignore/api/c++,vim,vue,zsh,node,yarn,astro,grunt,macos,vuejs,windows,visualstudiocode,nextjs
