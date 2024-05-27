@@ -4,7 +4,7 @@
 
 ### Escuela de Blockchain y Web3
 
-- [Rutas de la Escuela de Blockchain y Web3](hhttps://platzi.com/escuela/blockchain/)
+- [Rutas de la Escuela de Blockchain y Web3](https://platzi.com/escuela/blockchain/)
 - [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Escuelas/Blockchain%20y%20Web3)
 
 ### Data Science e Inteligencia Artificial
@@ -101,11 +101,13 @@
 
 [Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Rutas/Cursos%20Exclusivos)
 
-- [x] [Curso de Trabajo Remoto o Teletrabajo](https://platzi.com/clases/teletrabajo-trabajo-remoto/)
+- [x] [Cómo Conseguir Trabajo en Programación](https://platzi.com/cursos/developer/)
 - [x] [Curso Avanzado de Gramática en Inglés (2020)](https://platzi.com/clases/old/avanzado-gramatica-2020/)
 - [x] [Curso Avanzado de Inglés para el Trabajo 2020](https://platzi.com/clases/old/ingles-avanzado-trabajo/)
 - [x] [Curso de Escritura en Inglés 2018](https://platzi.com/clases/old/escritura-ingles-2018/)
-- [ ] [Curso de Finanzas para Startups](https://platzi.com/cursos/financiera-startups/)
+- [x] [Curso de Finanzas para Startups](https://platzi.com/cursos/financiera-startups/)
+
+- [x] [Curso de Trabajo Remoto o Teletrabajo](https://platzi.com/clases/teletrabajo-trabajo-remoto/)
 - [ ] [Curso de Inglés Avanzado: Conversación 2020](https://platzi.com/clases/old/conversacion-avanzado/)
 - [ ] [Curso de Inglés Básico A1: Conversaciones Cortas y Habituales](https://platzi.com/cursos/ingles-principiantes/)
 - [ ] [Curso de Inglés Básico A1: Fechas, Horas y Expresiones Simples](https://platzi.com/cursos/fechas-horas-expresiones-simples/)
@@ -141,17 +143,6 @@
 - [ ] [Curso para Entrevistas de Trabajo en Inglés (2020)](https://platzi.com/clases/old/entrevistas-ingles-2020/)
 - [ ] [Taller de Creación de Startups](https://platzi.com/cursos/taller-startups/)
 - [ ] [Taller de Inglés Básico para Descripciones Personales](https://platzi.com/cursos/taller-descripciones-personales/)
-
-#### Removed or Updated from exclusives
-
-- [x] [Cómo Conseguir Trabajo en Programación](https://platzi.com/cursos/developer/)
-- [x] [Curso de Inglés Avanzado C1: Comunicación Persuasiva y Efectiva](https://platzi.com/cursos/habilidades-comunicacion/)
-- [ ] [Curso de Inglés Avanzado para el Trabajo](https://platzi.com/cursos/avanzado-trabajo/)
-- [ ] [Curso de Inglés Básico A2: Preguntas y Respuestas Comunes](https://platzi.com/cursos/basico-preguntas-respuestas/)
-- [ ] [Curso de Conectores y Contracciones Informales en inglés](https://platzi.com/cursos/reducciones-conectores/)
-- [ ] [Curso de Inglés Intermedio para el Trabajo](https://platzi.com/cursos/ingles-trabajo/)
-- [x] [Curso de Inglés para Principiantes](https://platzi.com/cursos/ingles-principiantes/)
-- [ ] [Weekly English Activities](https://platzi.com/cursos/english-activities/)
 
 ## Youtube Channels
 
