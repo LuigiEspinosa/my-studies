@@ -173,3 +173,9 @@
 ## LinkedIn Learning
 
 - [Conviértete en especialista de metodologías ágiles para programación](https://www.linkedin.com/learning/paths/conviertete-en-especialista-de-metodologias-agiles-para-programacion)
+
+## Udemy
+
+- [Complete Agile Scrum Master Certification Training](https://www.udemy.com/course/complete-professional-scrum-master-training-exam-simulator)
+- [Perfect Job Interview English | Questions, Answers, and Tips](https://www.udemy.com/course/job-interview-english-essentials)
+- [Sitecore 10 Content Editing Basics Step-by-Step](https://www.udemy.com/course/sitecore-experience-management-fundamentals)
