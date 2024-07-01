@@ -1,0 +1,15 @@
+#alignment {
+  max-width: 960px;
+  margin: 20px auto;
+}
+
+#alignment .box {
+  background: #f4f4f4;
+  border: 1px solid #333;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+#alignment .box p {
+  text-align: center;
+}

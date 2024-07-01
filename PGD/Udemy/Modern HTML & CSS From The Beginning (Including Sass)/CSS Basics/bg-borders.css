@@ -1,0 +1,28 @@
+#background #box-1 {
+  background-color: beige;
+  /* border-width: 3px;
+  border-color: yellow;
+  border-style: dashed; */
+  border: 3px dashed yellow;
+  margin-bottom: 1rem;
+}
+
+#background #box-2 {
+  background: #333;
+  color: #fff;
+  border-top: 3px solid blue;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+}
+
+#background #box-3 {
+  /* background: url('https://images.unsplash.com/photo-1502236876560-243e78f715f7');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+  background: url('https://images.unsplash.com/photo-1502236876560-243e78f715f7') no-repeat center
+    center/cover;
+
+  height: 300px;
+  width: 400px;
+}

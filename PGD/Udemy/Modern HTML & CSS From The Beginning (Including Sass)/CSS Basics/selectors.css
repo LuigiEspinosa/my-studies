@@ -1,0 +1,26 @@
+/* Body Styling - Element Selector */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.selectors .green-heading {
+  color: purple;
+}
+
+.selectors #welcome {
+  background-color: #f4f4f4;
+}
+
+/* Multiple Selectors */
+.selectors #welcome,
+.selectors #about {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
