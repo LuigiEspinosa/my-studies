@@ -162,7 +162,7 @@
 - Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming by Marijn Haverbeke.
 - Java: Code Your Way to Corporate - A Beginners Guide to Learn the Latest Edition of Java Programming and Coding (java, java programming, java for dummies, ... java tutorial, java book, java guide) by Anton Romanov, George Bert.
 - RASPBERRY PI: A Beginners Concise Guide to Raspberry Pi Setup, Learning Programming and Developing Innovative Projects by Duke Denton
-- The Elements of Computing Systems, 2nd Edition: Bulding a Modern Computer from First Principles by Noam Nisan and Shimon Schocken
+- The Elements of Computing Systems, 2nd Edition: Building a Modern Computer from First Principles by Noam Nisan and Shimon Schocken
 
 ## Websites
 
@@ -180,3 +180,4 @@
 - [Perfect Job Interview English | Questions, Answers, and Tips](https://www.udemy.com/course/job-interview-english-essentials)
 - [Sitecore 10 Content Editing Basics Step-by-Step](https://www.udemy.com/course/sitecore-experience-management-fundamentals)
 - [Modern HTML & CSS From The Beginning (Including Sass)](https://www.udemy.com/course/modern-html-css-from-the-beginning)
+- [Behavioral Economics and Neuromarketing](https://www.udemy.com/course/behavioral-economics-and-neuromarketing/)

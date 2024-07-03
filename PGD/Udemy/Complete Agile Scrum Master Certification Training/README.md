@@ -26,7 +26,7 @@ So, the team keeps running the Sprints and refining the Product Backlog with the
 - Sprint Retrospective is about the team's continuous improvement.
 - Daily Scrum, a 15 minutes event that happens daily, where the team inspects and adapts their work, giving the team complete focus on achieving the goals of the Sprint.
 
-## SCRM accountabilities
+## SCRUM accountabilities
 
 - Product Owner. The PO is the single person accountable for managing the Product Backlog, ensuring that everybody is aligned with the work to do and that the most important stuff is done first. The Product Owner's goal is to maximize the value of the product!
 
@@ -74,21 +74,21 @@ Agile means **responding to change**.
 
 Agility is more related to getting to the correct product, but we need to get there efficiently by reducing the waste. Reducing the waste is what is widely known as being Lean. In the agile approach, we produce waste whenever we work on anything or not part of the correct product vision.
 
-Thus, notice that the value of agile follows from being capable of making the necessary adjustments with as minimal waste as possible. Thus, it also follows that you have to be Lean for you to succed with Agile and Srum.
+Thus, notice that the value of agile follows from being capable of making the necessary adjustments with as minimal waste as possible. Thus, it also follows that you have to be Lean for you to succeed with Agile and Scrum.
 
-> Succeding with Agile and Scrum required being rapid and lean.
+> Succeeding with Agile and Scrum required being rapid and lean.
 
 ### Agile Mindset
 
-1. See setbacks as LEARNING OPORTUNINTIES
+1. See setbacks as LEARNING OPPORTUNITIES
 2. Adopt SHORT DELIVERY CYCLES, COLLABORATION, AND CHANGE.
 3. Focus on DELIVERING VALUE.
 
 ### Agile Values
 
-- Individuals and interactions **over** Porcesses and tools.
+- Individuals and interactions **over** Processes and tools.
 - Working software **over** Comprehensive documentation.
-- Customer collaboration **over** Contract negotation.
+- Customer collaboration **over** Contract negotiation.
 
 ### Agile Principles
 
@@ -109,11 +109,11 @@ Thus, notice that the value of agile follows from being capable of making the ne
 
 It gets its name because how we can visualize uncertainly using a 2D Cartesian coordinate system.
 
-The Y-axis is variablity in estimates or defree of error. The more uncertainly involved in the estimate, the higher its variablity. The variability can be used for adjusting our expectations regarding an estimate.
+The Y-axis is variability in estimates or degree of error. The more uncertainly involved in the estimate, the higher its variability. The variability can be used for adjusting our expectations regarding an estimate.
 
 The worst-case scenario is calculated by multiplying the estimate by the variability. For instance, let's say that we have an estimate of taking 4 hours to get done with something. If we have a variability of 2, it means that it could take eight days; in the worst case, or two days in the best case.
 
-The x-axis is for time. The Cone of Uncertainly shows how unvertainty varies through time, which is represented by these lines.
+The x-axis is for time. The Cone of Uncertainly shows how uncertainty varies through time, which is represented by these lines.
 
 ### PSM I Sniper - Fundamentals
 
@@ -121,7 +121,7 @@ The x-axis is for time. The Cone of Uncertainly shows how unvertainty varies thr
     - The evolution of a product's knowledge over time.
 
 2. Which Agile aspect claims that overtime must be avoided?
-    - Sustaibale Pace
+    - Sustainable Pace
 
 3. True or False: Scrum is both an incremental and iterative Agile way o delivering work.
     - True
@@ -147,7 +147,7 @@ The x-axis is for time. The Cone of Uncertainly shows how unvertainty varies thr
 
 ## Scrum Theory and Values
 
-Scrum is founded on empiricism and lean thinking. Empisicism asserts that knowledge comes from experience and making decisions based on what is observed. Lean thingking reduces waste and focuses on the essentials.
+Scrum is founded on empiricism and lean thinking. Empiricism asserts that knowledge comes from experience and making decisions based on what is observed. Lean thinking reduces waste and focuses on the essentials.
 
 ### Dissecting Empiricism
 
@@ -160,7 +160,7 @@ Scrum is founded on empiricism and lean thinking. Empisicism asserts that knowle
 ### Scrum Values
 
 - Commitment
-- Corage
+- Courage
 - Openness
 - Focus
 - Respect
@@ -170,7 +170,7 @@ Scrum is founded on empiricism and lean thinking. Empisicism asserts that knowle
 1. What are the pillars of empiricism?
     - Transparency, Inspection, and adaptation.
 
-2. Wich Scrun value is manifested when an information radiator such as a burndown, burnup or cumulative flow chart is made available so that everyone can see it?
+2. Which Scrum value is manifested when an information radiator such as a burndown, burnup or cumulative flow chart is made available so that everyone can see it?
     - Openness
 
 3. Scrum is founded on?
@@ -230,7 +230,7 @@ The Product Backlog is an emergent, ordered list of what is needed to improve th
 
 ### Product Goal, connecting the Product with the Vision
 
-> A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, well-defined users or customers. A product could be a service, a physicial product, or something more abstract.
+> A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, well-defined users or customers. A product could be a service, a physical product, or something more abstract.
 
 ### Product Backlog Refinement
 
@@ -278,7 +278,7 @@ The typically unpredictable overhead of maintaining the product. Often caused by
 
 ### Increment
 
-An Increment is concrete stepping stone toward the Product Goal. Each Increment is additive to all prior Increments and thorouhhly verified, ensuring that all Increments work together. In order to provide value, the Increment must be usable.
+An Increment is concrete stepping stone toward the Product Goal. Each Increment is additive to all prior Increments and thoroughly verified, ensuring that all Increments work together. In order to provide value, the Increment must be usable.
 
 - You **do not** need to release at the end of every Sprint.
 - The Sprint is **not a gate**; release might be performed during a Sprint.
@@ -298,12 +298,12 @@ An Increment is concrete stepping stone toward the Product Goal. Each Increment 
 4. Who creates the definition of "Done"?
     - The organization (or Scrum Team if none is available from the organization).
 
-5. True or False: If the definition of "Done" for an increment is part of the conventions, standards or guidelines of the development organization, all Scrum Teams must follow it, and they are not allowd to adapt it.
+5. True or False: If the definition of "Done" for an increment is part of the conventions, standards or guidelines of the development organization, all Scrum Teams must follow it, and they are not allowed to adapt it.
     - False.
 
 ## Scrum Events - Sprint Planning
 
-The Sprint is a container for all other events. Each event in Scrum is a formal opportunity to inspect and adapt Scrum artifacts. These events are specifically designed to enable the transparency required. Failure to operate any events as prescribed results in lost opportunities to inspect and adapt. Events are used in Scrum to create regulary and to minimize the need for meetings not defined in Scrum.
+The Sprint is a container for all other events. Each event in Scrum is a formal opportunity to inspect and adapt Scrum artifacts. These events are specifically designed to enable the transparency required. Failure to operate any events as prescribed results in lost opportunities to inspect and adapt. Events are used in Scrum to create regularly and to minimize the need for meetings not defined in Scrum.
 
 ### Sprint Planning
 
@@ -378,7 +378,7 @@ The Sprint Goal is the single objective for the Sprint. Although the Sprint Goal
 
 ### PSM I Sniper - The Sprint
 
-1. The length of a Sprint sould be:
+1. The length of a Sprint should be:
     - At most, one month.
     - Short enough to handle business risks.
     - Short enough to synchronize with other business events.
@@ -396,7 +396,7 @@ The Sprint Goal is the single objective for the Sprint. Although the Sprint Goal
 
 The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary, adjusting the upcoming planned work.
 
-The develoeprs can select whatever structure and techniques they want, as long as their Daily Scrum focuses on progress toward the Sprint Goal and produces an actionable plan for the next day of work. This creates focus and improves self-management.
+The developers can select whatever structure and techniques they want, as long as their Daily Scrum focuses on progress toward the Sprint Goal and produces an actionable plan for the next day of work. This creates focus and improves self-management.
 
 ### PSM I Sniper - The Development Work and Daily Scrum
 
