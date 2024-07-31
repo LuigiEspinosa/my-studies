@@ -144,11 +144,19 @@
 - [ ] [Taller de Creación de Startups](https://platzi.com/cursos/taller-startups/)
 - [ ] [Taller de Inglés Básico para Descripciones Personales](https://platzi.com/cursos/taller-descripciones-personales/)
 
+### Others
+
+[Notas](https://github.com/LuigiEspinosa/my-studies/tree/main/Platzi/Rutas/Otros)
+
+- [x] [Curso de Dart desde Cero](https://platzi.com/cursos/dart/)
+- [ ] [Curso de Flutter](https://platzi.com/cursos/flutter/)
+
 ## Youtube Channels
 
 - [Bro Code](https://www.youtube.com/@BroCodez)
 - [devaslife](https://www.youtube.com/@devaslife)
 - [developedbyed](https://www.youtube.com/@developedbyed)
+- [Dreams of Code](https://www.youtube.com/@dreamsofcode)
 - [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
 - [insidewebdev](https://www.youtube.com/@insidewebdev)
 - [LearnCode.academy](https://www.youtube.com/@learncodeacademy)
