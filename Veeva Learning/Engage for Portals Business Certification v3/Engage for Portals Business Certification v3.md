@@ -17,8 +17,15 @@
 - [[Introduction to Veeva CRM and Veeva Vault PromoMats]]
 - [[Veeva Engage for Portal Basics]]
 - [[Veeva CLM Content Basics]]
+- [[Approved Email Basics]]
+- [[HCP Experience]]
 
 ## Working with Content
+
+- [[Supported File Types and Packaging Content]]
+- [[Content Best Practices and Content Reuse]]
+- [[Preview Engage for Portals Presentations in Vault PromoMats]]
+
 ## Engage for Portals Player
 ## Administrative Requirements
 ## Tracking and Reporting
