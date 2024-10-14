@@ -5,9 +5,6 @@
 - [[#Administrative Requirements]]
 - [[#Tracking and Reporting]]
 - [[#Using Approved Email]]
-- [[#Show Off Your Certification]]
-- [[#Feedback Survey]]
-
 ## Reference Courses
 
 - [[Start Here - Multichannel Certification#Multichannel Certification Terms and Conditions|Multichannel Certification Terms and Conditions Reference]]
@@ -30,7 +27,12 @@
 
 - [[Embedding the Engage for Portals Player]]
 ## Administrative Requirements
+
+- [[Prerequisites in Engage for Portals]]
 ## Tracking and Reporting
+
+- [[Tracking in Engage for Portals]]
+- [[Reporting on Engage for Portals]]
 ## Using Approved Email
-## Show Off Your Certification
-## Feedback Survey
+
+- [[Approved Email in Engage for Portals]]
