@@ -27,6 +27,8 @@
 - [[Preview Engage for Portals Presentations in Vault PromoMats]]
 
 ## Engage for Portals Player
+
+- [[Embedding the Engage for Portals Player]]
 ## Administrative Requirements
 ## Tracking and Reporting
 ## Using Approved Email
