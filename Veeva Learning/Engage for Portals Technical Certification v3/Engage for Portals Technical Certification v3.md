@@ -5,9 +5,6 @@
 - [[#Administrative Requirements]]
 - [[#Tracking and Reporting]]
 - [[#Using Approved Email]]
-## Reference Courses
-
-- [[Start Here - Multichannel Certification#Multichannel Certification Terms and Conditions|Multichannel Certification Terms and Conditions Reference]]
 ## Getting Started
 
 - [[Introduction to Veeva CRM and Veeva Vault PromoMats]]
@@ -19,6 +16,7 @@
 
 - [[Supported File Types and Packaging Content]]
 - [[Content Best Practices and Content Reuse]]
+- [[Loading Content and Syncing to CRM]]
 - [[Preview Engage for Portals Presentations in Vault PromoMats]]
 ## Engage for Portals Player
 
