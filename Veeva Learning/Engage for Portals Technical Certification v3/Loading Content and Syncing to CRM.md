@@ -16,7 +16,6 @@ The Binder becomes the Engage for Portals Presentation record in Veeva CRM and g
 2. Click 'Create'.
 3. Select 'Binder'.
 4. Choose Binder Type 'Multichannel Presentation' and Click 'Ok' and 'Next'.
-
 ## Enter Required Vault Fields
 
 Before the Multichannel Presentation can be saved, the required metadata fields (highlighted yellow) need to be filled out.
