@@ -1,6 +1,7 @@
 - [[#Reference Courses]]
 - [[#Getting Started]]
 - [[#More CLM Features]]
+- [[#Working in Vault]]
 ## Reference Courses
 
 - [[Start Here - Multichannel Certification#Multichannel Certification Terms and Conditions|Multichannel Certification Terms and Conditions Reference]]
@@ -14,3 +15,7 @@
 ## More CLM Features
 
 - [[Veeva CLM Presentation Advanced Features]]
+
+## Working in Vault
+
+- [[Presentation and Slides Content Management]]
