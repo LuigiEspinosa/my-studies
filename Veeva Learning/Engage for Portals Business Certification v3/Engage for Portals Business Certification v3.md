@@ -22,6 +22,7 @@
 
 - [[Supported File Types and Packaging Content]]
 - [[Content Best Practices and Content Reuse]]
+- [[Preview Engage for Portals Presentations in Vault PromoMats]]
 
 ## Engage for Portals Player
 
