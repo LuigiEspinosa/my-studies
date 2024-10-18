@@ -1,0 +1,3 @@
+[submodule "Code Examples"]
+	path = Code Examples
+	url = git@github.com:LuigiEspinosa/my-studies-code.git
