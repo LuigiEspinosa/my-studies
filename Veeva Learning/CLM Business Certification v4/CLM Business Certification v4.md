@@ -2,6 +2,7 @@
 - [[#Getting Started]]
 - [[#More CLM Features]]
 - [[#Working in Vault]]
+- [[#Gathering Data]]
 ## Reference Courses
 
 - [[Start Here - Multichannel Certification#Multichannel Certification Terms and Conditions|Multichannel Certification Terms and Conditions Reference]]
@@ -19,3 +20,9 @@
 ## Working in Vault
 
 - [[Presentation and Slides Content Management]]
+
+## Gathering Data
+
+- [[Survey Basics]]
+- [[Surveys in CLM]]
+
