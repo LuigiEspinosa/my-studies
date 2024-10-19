@@ -6,4 +6,3 @@ List of all the stuff I read, watch, follow, and so on.
 - [[Skillshop]]
 - [[Udemy]]
 - [[Veeva Learning]]
-- [[YouTube]]
