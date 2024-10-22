@@ -1,6 +1,7 @@
 ## Learning Paths
 
 - [[Complete Beginner]]
+- [[Cyber Security 101]]
 
 ## Basic Computer Exploitation
 
