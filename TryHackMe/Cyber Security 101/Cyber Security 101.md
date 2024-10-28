@@ -13,3 +13,6 @@
 ## Windows and AD Fundamentals
 
 - [[Windows Fundamentals 1]]
+- [[Windows Fundamentals 2]]
+- [[Windows Fundamentals 3]]
+
