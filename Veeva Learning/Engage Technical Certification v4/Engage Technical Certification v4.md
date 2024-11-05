@@ -8,3 +8,5 @@
 ## Getting Started with Veeva CRM Engage
 
 - [[Veeva CRM Engage]]
+- [[Integrating Scheduling]]
+
