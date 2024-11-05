@@ -1,5 +1,6 @@
 - [[#Reference Courses]]
 - [[#Getting Started]]
+
 ## Reference Courses
 
 - [[Start Here - Multichannel Certification#Multichannel Certification Terms and Conditions|Multichannel Certification Terms and Conditions Reference]]
@@ -24,3 +25,13 @@
 
 - [[Veeva Vault PromoMats Administration]]
 - [[Presentation and Slides Content Handoff]]
+
+## Gathering Data
+
+- [[Survey Basics]]
+- [[Surveys in CLM]]
+
+## Advanced Concepts
+
+- [[CLM Content on Windows]]
+- [[Veeva JavaScript Library]]
