@@ -2,6 +2,7 @@
 - [[#Getting Started with Veeva CRM Engage]]
 - [[#Getting Started with Presentation Content]]
 - [[#How Engage Meeting Works]]
+- [[#Inviting HCPs to Meetings]]
 
 ## Reference Courses
 
@@ -23,3 +24,8 @@
 
 - [[Engage Meeting Basics]]
 - [[Engage Meeting Platforms]]
+
+## Inviting HCPs to Meetings
+
+- [[Approved Email Basics]]
+- [[Using Approved Email with Engage Meeting]]

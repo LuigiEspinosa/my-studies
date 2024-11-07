@@ -164,7 +164,7 @@ These Tokens are not supported in Email Fragments as they require user input whi
 ### Free Text/Picklist Field
 
 - `{{customText:Required}}` - This Token marks the free text field as required which means the Rep cannot send the email without entering text in this field.
-- `{{customText[opionts]` - This Token creates a Picklist field in the email. The values of the Picklist are defined in the HTML of the email. This creates a list of options for the Rep to choose from so they can personalize the email. `{{customText[practice|congress|pharmacy|clinic|hospital]}}`.
+- `{{customText[options]` - This Token creates a Picklist field in the email. The values of the Picklist are defined in the HTML of the email. This creates a list of options for the Rep to choose from so they can personalize the email. `{{customText[practice|congress|pharmacy|clinic|hospital]}}`.
 
 ### Content Token
 
