@@ -2,6 +2,7 @@
 
 - [[Complete Beginner]]
 - [[Cyber Security 101]]
+- [[Advent of Cyber 2024]]
 
 ## Basic Computer Exploitation
 
