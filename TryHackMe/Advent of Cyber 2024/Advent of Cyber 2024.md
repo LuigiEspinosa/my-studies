@@ -1,6 +1,7 @@
 
-- [[Day 1||Day 1: Maybe SOC-mas music, he thought, doesn't come from a store?]]
-- [[Day 2||Day 2: One man's false positive is another man's potpourri.]]
+- [[Day 1|Day 1: Maybe SOC-mas music, he thought, doesn't come from a store?]]
+- [[Day 2|Day 2: One man's false positive is another man's potpourri.]]
+- [[Day 3|Day 3: Even if I wanted to go, their vulnerabilities wouldn't allow it.]]
 
 ## Glossary
 
