@@ -3,6 +3,7 @@
 - [[Day 2|Day 2: One man's false positive is another man's potpourri.]]
 - [[Day 3|Day 3: Even if I wanted to go, their vulnerabilities wouldn't allow it.]]
 - [[Day 4|Day 4: I’m all atomic inside!]]
+- [[Day 5|Day 5: SOC-mas XX-what-ee?]]
 
 ## Glossary
 
