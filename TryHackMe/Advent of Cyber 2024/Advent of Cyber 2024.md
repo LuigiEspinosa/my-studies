@@ -4,6 +4,7 @@
 - [[Day 3|Day 3: Even if I wanted to go, their vulnerabilities wouldn't allow it.]]
 - [[Day 4|Day 4: I’m all atomic inside!]]
 - [[Day 5|Day 5: SOC-mas XX-what-ee?]]
+- [[Day 6|Day 6: If I can't find a nice malware to use, I'm not going.]]
 
 ## Glossary
 
