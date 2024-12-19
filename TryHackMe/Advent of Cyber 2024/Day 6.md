@@ -3,22 +3,19 @@
 YARA is a tool used to identify and classify malware based on patterns in its code. By writing custom rules, analysts can define specific characteristics to look for—such as particular strings, file headers, or behaviors—and YARA will scan files or processes to find matches, making it invaluable for detecting malicious code.
 
 ```javascript
-rule SANDBOXDETECTED
-{
-    meta:
-        description = "Detects the sandbox by querying the registry key for Program Path"
-        author = "TryHackMe"
-        date = "2024-10-08"
-        version = "1.1"
+rule SANDBOXDETECTED {
+	meta:
+		description = "Detects the sandbox by querying the registry key for Program Path"
+		author = "TryHackMe"
+		date = "2024-10-08"
+		version = "1.1"
 
-    strings:
-        
-    $cmd= "Software\\Microsoft\\Windows\\CurrentVersion\" /v ProgramFilesDir" nocase
-
-    
-
-    condition:
-        $cmd
+	strings:
+		
+	$cmd= "Software\\Microsoft\\Windows\\CurrentVersion\" /v ProgramFilesDir" nocase
+	
+	condition:
+		$cmd
 }
 ```
 
