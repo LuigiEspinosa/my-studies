@@ -1,0 +1,1 @@
+- [Nate Herk | AI Automation - YouTube](https://www.youtube.com/@nateherk) - [[Nate Herk|Notes]]
