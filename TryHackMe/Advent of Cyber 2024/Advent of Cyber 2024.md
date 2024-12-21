@@ -6,6 +6,7 @@
 - [[Day 5|Day 5: SOC-mas XX-what-ee?]]
 - [[Day 6|Day 6: If I can't find a nice malware to use, I'm not going.]]
 - [[Day 7|Day 7: Oh, no. I'M SPEAKING IN CLOUDTRAIL!]]
+- [[Day 8|Day 8: Shellcodes of the world, unite!]]
 
 ## Glossary
 
