@@ -8,6 +8,7 @@
 - [[Day 7|Day 7: Oh, no. I'M SPEAKING IN CLOUDTRAIL!]]
 - [[Day 8|Day 8: Shellcodes of the world, unite!]]
 - [[Day 9|Day 9: Nine o'clock, make GRC fun, tell no one.]]
+- [[Day 10|Day 10: He had a brain full of macros, and had shells in his soul.]]
 
 ## Glossary
 
