@@ -1,5 +1,7 @@
 ## SOC-mas XX-what-ee?
 
+[Advent of Cyber - Day 5: Exploiting XXE in Web Apps!](https://www.youtube.com/watch?v=w7aAinxT1pE)
+
 XML is a commonly used method to transport and store data in a structured format that humans and machines can easily understand. Consider a scenario where two computers need to communicate and share data. Both devices need to agree on a common format for exchanging information. This agreement (format) is known as `XML`.
 
 A DTD (Document Type Definition) is a set of **rules** that defines the structure of an XML document. Just like a database scheme, it acts like a blueprint, telling you what elements (tags) and attributes are allowed in the XML file. Think of it as a guideline that ensures the XML document follows a specific structure.

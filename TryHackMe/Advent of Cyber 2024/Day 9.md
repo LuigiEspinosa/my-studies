@@ -1,5 +1,7 @@
 ## Nine o'clock, make GRC fun, tell no one.
 
+[Learn to Assess Third Party Risk (GRC Skills)](https://www.youtube.com/watch?v=NoMNMJGdwn0
+
 Governance, Risk, and Compliance (GRC) plays a crucial role in any organization to ensure that their security practices align with their personal, regulatory, and legal obligations. Although in general good security practices help protect a business from suffering a breach, depending on the sector in which an organization operates, there may be external security regulations that it needs to adhere to.
 
 Let's take a look at some examples in the financial sector:

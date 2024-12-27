@@ -1,5 +1,7 @@
 ## If I can't find a nice malware to use, I'm not going.
 
+[Advent of Cyber 2024 - Day 6 - "If I can't find a nice malware to use, I'm not going"](https://www.youtube.com/watch?v=cIiPcTfEqS0)
+
 YARA is a tool used to identify and classify malware based on patterns in its code. By writing custom rules, analysts can define specific characteristics to look for—such as particular strings, file headers, or behaviors—and YARA will scan files or processes to find matches, making it invaluable for detecting malicious code.
 
 ```javascript

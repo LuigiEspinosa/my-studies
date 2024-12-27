@@ -1,5 +1,6 @@
 ## One man's false positive is another man's potpourri.
 
+[Advent of Cyber - Day 2: Threat Hunting with Elastic SIEM!](https://www.youtube.com/watch?v=-FSt5WmvTEM)
 ### True Positives or False Positives?
 
 In a SOC, events from different devices are sent to the [[#^9e0b02|SIEM]], which is the single source of truth where all the information and events are aggregated. Certain rules (Detection Engineering rules) are defined to identify malicious or suspicious activity from these events. If an event or set of events fulfils the conditions of a rule, it triggers an alert. A SOC analyst then analyses the alert to identify if the alert is a True Positive (TP) or a False Positive (FP). An alert is considered a TP if it contains actual malicious activity. On the flip side, if the alert triggers because of an activity that is not actually malicious, it is considered an FP. This might seem very simple in theory, but practically, separating TPs from FPs can be a tedious job. It can sometimes become very confusing to differentiate between an attacker and a system administrator.

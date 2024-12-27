@@ -1,5 +1,7 @@
 ## He had a brain full of macros, and had shells in his soul.
 
+[Crush Advent of Cyber Day 10 (Catch that Sweet Rev Shell)](https://www.youtube.com/watch?v=egM0Emlgvkw)
+
 Phishing is a play on the word fishing; however, the attacker is not after seafood. Phishing works by sending a “bait” to a usually large group of target users. Furthermore, the attacker often craft their messages with a sense of urgency, prompting target users to take immediate action without thinking critically, increasing the chances of success. The purpose is to steal personal information or install malware, usually by convincing the target user to fill out a form, open a file, or click a link.
 
 One might get an email out of nowhere claiming that they are being charged a hefty sum and that they should check the details in the attached file or URL. The attacker just needs to have their target users open the malicious file or view the malicious link. This can trigger specific actions that would give the attack control over your system.

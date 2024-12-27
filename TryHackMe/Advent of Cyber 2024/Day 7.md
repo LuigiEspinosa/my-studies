@@ -1,5 +1,7 @@
 ## Oh, no. I'M SPEAKING IN CLOUDTRAIL!
 
+[Advent of Cyber - Day 7: Detecting Malicious Behavior in AWS!](https://www.youtube.com/watch?v=134vRszJTus)
+
 [[#^9c7393|AWS]] CloudWatch is a monitoring and observability platform that gives us greater insight into our AWS environment by monitoring applications at multiple levels. CloudWatch provides functionalities such as the monitoring of system and application metrics. Running an application in a cloud environment can mean leveraging lots of different services (e.g. a service running the application, a service running functions triggered by that application, a service running the application backend, etc.); this translates to logs being generated from lots of different sources. CloudWatch logs make it easy for users to access, monitor and store the logs from all these various sources. A CloudWatch agent must be installed on the appropriate instance for application and system metrics to be captured.
 
 - **Log Events:** A log event is a single log entry recording an application "event"; these will be timestamped and packaged with log messages and metadata.

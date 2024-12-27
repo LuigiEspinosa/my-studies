@@ -1,5 +1,6 @@
 ## Shellcodes of the world, unite!
 
+[Unlock the World of Shellcode - Day 8 of TryHackMe Advent of Cyber 2024](https://www.youtube.com/watch?v=ZBZhfu1A3Fw)
 ### Essential Terminologies
 
 - **Shellcode**: A piece of code usually used by malicious actors during exploits like buffer overflow attacks to inject commands into a vulnerable system, often leading to executing arbitrary commands or giving attackers control over a compromised machine. Shellcode is typically written in assembly language and delivered through various techniques, depending on the exploited vulnerability.

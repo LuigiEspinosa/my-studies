@@ -1,5 +1,7 @@
 ## Even if I wanted to go, their vulnerabilities wouldn't allow it.
 
+[TryHackMe Advent Of Cyber - Day 3 (Log Analysis)](https://www.youtube.com/watch?v=FnbTVkbLbqY)
+
 Log analysis is crucial to blue-teaming work. Analyzing logs can quickly become overwhelming, especially if you have multiple devices and services. [[#^339502|ELK]], or Elasticsearch, Logstash, and Kibana, combines data analytics and processing tools to make analyzing logs much more manageable.
 
 | **Query/Syntax** | **Description**                                                                                                                                                                               | **Example**                                             |

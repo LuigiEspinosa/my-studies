@@ -1,5 +1,7 @@
 ## I’m all atomic inside!
 
+[Exploring Phishing with Atomic Red Team | THM Advent of Cyber Day 4](https://www.youtube.com/watch?v=xIrlwCQu3EE)
+
 Detection gaps are usually for one of two main reasons:
 
 - **Security is a cat-and-mouse game.** As we detect more, the threat actors and red teamers will find new sneaky ways to thwart our detection. We then need to study these novel techniques and update our signature and alert rules to detect these new techniques.

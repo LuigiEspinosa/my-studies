@@ -1,4 +1,4 @@
-
+ 
 - [[Day 1|Day 1: Maybe SOC-mas music, he thought, doesn't come from a store?]]
 - [[Day 2|Day 2: One man's false positive is another man's potpourri.]]
 - [[Day 3|Day 3: Even if I wanted to go, their vulnerabilities wouldn't allow it.]]
@@ -10,6 +10,7 @@
 - [[Day 9|Day 9: Nine o'clock, make GRC fun, tell no one.]]
 - [[Day 10|Day 10: He had a brain full of macros, and had shells in his soul.]]
 - [[Day 11|Day 11: If you'd like to WPA, press the star key!]]
+- [[Day 12|Day 12: If I can’t steal their money, I’ll steal their joy!]]
 
 ## Glossary
 

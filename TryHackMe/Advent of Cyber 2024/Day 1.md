@@ -1,5 +1,7 @@
 ## Maybe SOC-mas music, he thought, doesn't come from a store?
 
+[Advent of Cyber 2024 - TryHackMe (Day 1)](https://www.youtube.com/watch?v=CYYD_fbwHtg)
+
 - **Malvertising**: Many sites contain malicious ads that can exploit vulnerabilities in a user's system, which could lead to infection.
 - **[[#^796888|Phishing]] scams**: Users can be tricked into providing personal or sensitive information via fake surveys or offers.
 - **Bundled malware**: Some converters may come with malware, tricking users into unknowingly running it.
