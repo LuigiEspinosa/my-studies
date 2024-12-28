@@ -11,6 +11,7 @@
 - [[Day 10|Day 10: He had a brain full of macros, and had shells in his soul.]]
 - [[Day 11|Day 11: If you'd like to WPA, press the star key!]]
 - [[Day 12|Day 12: If I can’t steal their money, I’ll steal their joy!]]
+- [[Day 13|Day 13: It came without buffering! It came without lag!]]
 
 ## Glossary
 
