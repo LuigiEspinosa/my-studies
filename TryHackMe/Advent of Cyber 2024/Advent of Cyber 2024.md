@@ -18,6 +18,7 @@
 - [[Day 17|Day 17: He analyzed and analyzed till his analyzer was sore!]]
 - [[Day 18|Day 18: I could use a little AI interaction!]]
 - [[Day 19|Day 19: I merely noticed that you’re improperly stored, my dear secret!]]
+- [[Day 20|Day 20: If you utter so much as one packet…]]
 
 ## Glossary
 
