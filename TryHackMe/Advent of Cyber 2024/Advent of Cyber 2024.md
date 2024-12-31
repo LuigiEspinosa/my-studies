@@ -15,6 +15,7 @@
 - [[Day 14|Day 14: Even if we're horribly mismanaged, there'll be no sad faces on SOC-mas!]]
 - [[Day 15|Day 15: Be it ever so heinous, there's no place like Domain Controller.]]
 - [[Day 16|Day 16: The Wareville’s Key Vault grew three sizes that day.]]
+- [[Day 17|Day 17: He analyzed and analyzed till his analyzer was sore!]]
 
 ## Glossary
 
