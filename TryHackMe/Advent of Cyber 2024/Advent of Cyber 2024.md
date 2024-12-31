@@ -12,6 +12,7 @@
 - [[Day 11|Day 11: If you'd like to WPA, press the star key!]]
 - [[Day 12|Day 12: If I can’t steal their money, I’ll steal their joy!]]
 - [[Day 13|Day 13: It came without buffering! It came without lag!]]
+- [[Day 14|Day 14: Even if we're horribly mismanaged, there'll be no sad faces on SOC-mas!]]
 
 ## Glossary
 
