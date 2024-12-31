@@ -17,6 +17,8 @@
 - [[Day 16|Day 16: The Wareville’s Key Vault grew three sizes that day.]]
 - [[Day 17|Day 17: He analyzed and analyzed till his analyzer was sore!]]
 - [[Day 18|Day 18: I could use a little AI interaction!]]
+- [[Day 19|Day 19: I merely noticed that you’re improperly stored, my dear secret!]]
+
 ## Glossary
 
 - Security Operations Center (SOC) is a team of IT security professionals tasked with monitoring, preventing, detecting, investigating, and responding to threats within a company’s network and systems.
