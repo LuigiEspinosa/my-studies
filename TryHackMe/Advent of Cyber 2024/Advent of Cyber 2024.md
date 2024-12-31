@@ -19,6 +19,7 @@
 - [[Day 18|Day 18: I could use a little AI interaction!]]
 - [[Day 19|Day 19: I merely noticed that you’re improperly stored, my dear secret!]]
 - [[Day 20|Day 20: If you utter so much as one packet…]]
+- [[Day 21|Day 21: HELP ME...I'm REVERSE ENGINEERING!]]
 
 ## Glossary
 
