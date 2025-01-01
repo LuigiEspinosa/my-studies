@@ -22,6 +22,7 @@
 - [[Day 21|Day 21: HELP ME...I'm REVERSE ENGINEERING!]]
 - [[Day 22|Day 22: It's because I'm kubed, isn't it?]]
 - [[Day 23|Day 23: You wanna know what happens to your hashes?]]
+- [[Day 24|Day 24: You can’t hurt SOC-mas, Mayor Malware!]]
 
 ## Glossary
 
