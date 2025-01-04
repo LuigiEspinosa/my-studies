@@ -1,4 +1,3 @@
-
 URL: https://platzi.com/cursos/developer/
 
 Puede comenzar desde mi lugar de origen, lo que importa es hacer lo que nos gusta en mi propia empresa o ser parte de un gran proyecto. Para comenzar sólo es necesario:

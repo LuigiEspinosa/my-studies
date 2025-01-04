@@ -4,3 +4,4 @@
 - [[Curso Avanzado de Gramática en Inglés (2020)]]
 - [[Curso Avanzado de Inglés para el Trabajo (2020)]]
 - [[Curso de Escritura en Inglés (2018)]]
+- [[Curso de Finanzas para Startups]]

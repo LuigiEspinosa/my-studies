@@ -1,5 +1,4 @@
 URL: https://platzi.com/clases/old/escritura-ingles-2018/
-
 ## Effective and Persuasive Communication
 
 ### Why is it important to write in English?
