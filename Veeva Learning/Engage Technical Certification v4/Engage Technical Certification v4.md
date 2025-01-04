@@ -3,6 +3,8 @@
 - [[#Getting Started with Presentation Content]]
 - [[#How Engage Meeting Works]]
 - [[#Inviting HCPs to Meetings]]
+- [[#Working in Vault]]
+- [[#Advanced Concepts]]
 
 ## Reference Courses
 
@@ -29,3 +31,11 @@
 
 - [[Approved Email Basics]]
 - [[Using Approved Email with Engage Meeting]]
+
+## Working in Vault
+
+- [[Veeva Vault PromoMats Administration]]
+
+## Advanced Concepts
+
+- [[Using CLM Content with Engage Meeting - Technical]]
