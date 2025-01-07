@@ -39,3 +39,4 @@
 ## Advanced Concepts
 
 - [[Using CLM Content with Engage Meeting - Technical]]
+- [[Veeva JavaScript Library]]
