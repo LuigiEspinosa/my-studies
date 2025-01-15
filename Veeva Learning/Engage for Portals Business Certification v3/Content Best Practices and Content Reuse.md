@@ -48,7 +48,7 @@ While legacy content created for CLM can often be updated for Engage For Portals
 | Video-embedded in HTML | Yes | No |
 | HTML + browser events | All | All |
 | Rich HTML Interactions (drags, touch-specific, animations) | Yes | Yes |
-| PDF | Yes | Limited (Must be converted to image) 
+| PDF | Yes | Limited (Must be converted to image) |
 
 | Veeva JavaScript Support | CLM | Engage for Portals |
 | ------------------------ | --- | ------------------ |
@@ -76,7 +76,6 @@ While legacy content created for CLM can often be updated for Engage For Portals
 
 ## Responsive vs Fixed Content Behavior
 
-
 | Type of Content                                   | Responsive Website                                                                                                                                                                                                                                      | Fixed Website                                                                                                                                                                                                                                                                                                             |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Responsive Content                                | Content automatically adjust for different screen sizes/devices                                                                                                                                                                                         | Player will stay at the size designated on the browser window.                                                                                                                                                                                                                                                            |
@@ -87,13 +86,13 @@ While legacy content created for CLM can often be updated for Engage For Portals
 
 The following functions in the library will work with Enage for Portals: [^3]
 
--  `GetDataForCurrentObject` 
-	- Append `&actId = <Account SFDC records ID>` parameters to Engage for Portals link to associate the specific account with the Multichannel Activity and Multichannel Activity Line. 
-	- The `&extId = <anything>` parameter can be utilized to associate a 3rd party external ID Multichannel Activity and Multichannel Activity Lines via an Account External ID Map record. 
-	- Allows access using following keywords: Account.
-	- Can be used to jump to other slides within  the same presentation or to slides within a different presentation.
+- `GetDataForCurrentObject`
+  - Append `&actId = <Account SFDC records ID>` parameters to Engage for Portals link to associate the specific account with the Multichannel Activity and Multichannel Activity Line.
+  - The `&extId = <anything>` parameter can be utilized to associate a 3rd party external ID Multichannel Activity and Multichannel Activity Lines via an Account External ID Map record.
+  - Allows access using following keywords: Account.
+  - Can be used to jump to other slides within  the same presentation or to slides within a different presentation.
 - `createMultichannelActivityLine`
-	- Similar to Call Clickstream functionality in CLM.
+  - Similar to Call Clickstream functionality in CLM.
 - `nextSlide`
 - `prevSlide`
 
@@ -103,12 +102,12 @@ The following functions in the library will work with Enage for Portals: [^3]
 
 - Required Slides
 - Surveys
-	- Survey functionality is possible by tracking to multichannel activity lines, but you cannot use CRM's survey module.
+  - Survey functionality is possible by tracking to multichannel activity lines, but you cannot use CRM's survey module.
 - Call Clickstream
-	- Call Clickstream is not available, but you can record elements within HTML content by tracking to multichannel activity lines.
+  - Call Clickstream is not available, but you can record elements within HTML content by tracking to multichannel activity lines.
 - PDF Documents embedded within HTML popups.
 - Embedded videos within HTML content.
-	- Standalone video key messages are possible.
+  - Standalone video key messages are possible.
 
 ## Development Tips
 
