@@ -5,6 +5,7 @@
 - [[#Inviting HCPs to Meetings]]
 - [[#Working in Vault]]
 - [[#Advanced Concepts]]
+- [[#Communicating and Sharing Content with Veeva CRM Engage]]
 
 ## Reference Courses
 
@@ -41,3 +42,7 @@
 - [[Using CLM Content with Engage Meeting - Technical]]
 - [[Veeva JavaScript Library]]
 - [[Engage Meeting Advanced Concepts]]
+
+## Communicating and Sharing Content with Veeva CRM Engage
+
+- [[Engage Content]]
