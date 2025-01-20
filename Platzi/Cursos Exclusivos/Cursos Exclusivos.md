@@ -6,3 +6,4 @@
 - [[Curso de Inglés Avanzado de Conversación (2020)]]
 - [[Curso de Inglés Básico A1 - Conversaciones Cortas y Habituales (2020)]]
 - [[Curso de Inglés Básico A1 - Fechas, Horas y Expresiones Simples]]
+- [[Curso de Inglés Básico A1 - Presente Simple y Vocabulario Común]]
