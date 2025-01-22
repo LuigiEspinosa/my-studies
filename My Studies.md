@@ -1,8 +1,9 @@
 List of all the stuff I read, watch, follow, and so on.
 
-- [[Books|Books]]
+- [[Books]]
 - [[LeetCode]]
 - [[Platzi]]
+- [[Roadmap]]
 - [[Skillshop]]
 - [[Udemy]]
 - [[TryHackeMe]]
