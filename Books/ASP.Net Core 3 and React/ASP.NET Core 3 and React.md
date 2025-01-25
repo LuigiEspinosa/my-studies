@@ -2,8 +2,11 @@ ASP.NET Core is an open source and cross-platform web application framework buil
 
 React was built by Facebook in order to improve the scalability of their code base, and was eventually open sourced in 2013.
 
+## Section 1: Getting Started
+
 - [[Chapter 1, Understanding the ASP.NET Core React Template]]
 - [[Chapter 2, Creating Decoupled React and ASP.NET Core Apps]]
+
 - [[Chapter 3, Getting Started with React and TypeScript]]
 - [[Chapter 4, Routing with React Router]]
 - [[Chapter 5, Working with Forms]]
