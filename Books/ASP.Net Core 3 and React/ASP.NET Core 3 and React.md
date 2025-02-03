@@ -14,12 +14,15 @@ React was built by Facebook in order to improve the scalability of their code ba
 - [[Chapter 5, Working with Forms]]
 - [[Chapter 6, Managing State with Redux]]
 
+## Section 3: Building an ASP.NET Core Backend
+
 - [[Chapter 7, Interacting with the Database with Dapper]]
 - [[Chapter 8, Creating REST API Endpoints]]
 - [[Chapter 9, Creating a Real-Time API with SignalR]]
 - [[Chapter 10, Improving Performance and Scalability]]
 - [[Chapter 11, Securing the Backend]]
 - [[Chapter 12, Interacting with RESTful APIs]]
+
 - [[Chapter 13, Adding Automated Tests]]
 - [[Chapter 14, Configuring and Deploying to Azure]]
 - [[Chapter 15, Implementing CI and CD with Azure DevOps]]
