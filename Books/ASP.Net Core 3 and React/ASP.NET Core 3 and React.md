@@ -23,6 +23,8 @@ React was built by Facebook in order to improve the scalability of their code ba
 - [[Chapter 11, Securing the Backend]]
 - [[Chapter 12, Interacting with RESTful APIs]]
 
+## Section 4: Moving into Production
+
 - [[Chapter 13, Adding Automated Tests]]
 - [[Chapter 14, Configuring and Deploying to Azure]]
 - [[Chapter 15, Implementing CI and CD with Azure DevOps]]
