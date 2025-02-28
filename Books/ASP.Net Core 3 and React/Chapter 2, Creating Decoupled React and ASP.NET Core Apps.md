@@ -11,3 +11,25 @@ Linting is a series of checks that are used to identify code that is potentially
 ## Adding automatic code formatting to React and TypeScript
 
 Enforcing a consistent code style improves the readability of the code base. **Prettier** is one of many tools.
+
+## Quiz
+
+> [!faq]- What class does an API controller need to inherit from for invalid models to automatically return HTTP status code 400?
+> 
+> `ControllerBase`
+
+> [!faq]- What option on `create-react-app` did we use to create a React with a TypeScript project?
+> 
+> `--typescript`
+
+> [!faq]- What ESLint rule could we use to help to prevent `console.log` statements being added to our code?
+> 
+> `no-console`
+
+> [!faq]- What setting in `.prettierrc` could we set to use single quotes in our code?  
+> 
+> `"singleQuote": true`
+
+> [!faq]- What file can we use to tell Visual Studio Code to validate TypeScript code using ESLint and to automatically format code using Prettier?
+> 
+> `settings.json` in a `.vscode` folder

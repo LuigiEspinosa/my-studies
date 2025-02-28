@@ -21,3 +21,25 @@ The following are descriptions of some useful methods:
 ## Adding CORS to our backend
 
 > *CORS stands for Cross-Origin Resource Sharing and is a mechanism that uses HTTP headers to tell a browser to let a web application run at certain origins (domains) so that it has permission to access certain resources on a server at a different origin.*
+
+## Quiz
+
+> [!faq]- In a SignalR hub class, what method can we use to push data to a group of connected clients?
+> 
+> `Clients.Group("GroupeName).SendAsync()`
+
+> [!faq]- In a SignalR hub class, what method can we use to push data to all clients except for the client that has made the request?
+> 
+> `Clients.AllExcept(Context.ConnectionId).SendAsync()`
+
+> [!faq]- Why did we need a CORS policy for our React app to be able to interact with out SignalR real-time API?
+> 
+> A CORS policy is required because the frontend and backend were hosted in different domains.
+
+> [!faq]- In our React frontend, why did we check whether the connection was in a connected state before subscribing to the question?
+> 
+> If starting the connection failed, the connection would be in an unconnected state and not able to make the request for the subscription.
+
+> [!faq]- Why did we stop the connection when the user navigates away from the question page?
+> 
+> The user is unsubscribed from question updates when navigating away from the question page and so there is no requirement to interact with the SignalR server anymore. So, we stop the connection to save resources.

@@ -12,3 +12,108 @@
 
 >*The `lazy` function in React lets us render a dynamic import as a regular component. A dynamic import returns a promise for the requested module that is resolved after it has been fetched, instantiated, and evaluated.*
 
+## Quiz
+
+> [!info] We have the following routes defined:
+> 
+> ```tsx
+> \<BrowseRouter>
+> 	\<Route path="/" component={HomePage} />
+> 	\<Route path="/search" component={SearchPage} />
+> \</BrowserRouter>
+> ```
+>
+>> [!faq]- What component(s) will be rendered when the `/` location is entered in the browser?
+>> 
+>> `HomePage`
+> 
+>> [!faq]- What about when the `/search` locations is entered in the browser?
+>> 
+>> Both `HomePage` and `SearchPage`
+
+> [!info] We have the following routes defined:
+> 
+> ```tsx
+> \<BrowseRouter>
+> 	\<Switch>
+> 		\<Route path="/" component={HomePage} />
+> 		\<Route path="/search" component={SearchPage} />
+> 	\</Switch>
+> \</BrowserRouter>
+> ```
+> 
+>> [!faq]- What component(s) will be rendered when the `/` locations is entered into the browser?
+>> 
+>> `HomePage`
+> 
+>> [!faq]- What about when the `/search` location is entered into the browser?
+>> 
+>> `HomePage`
+
+> [!info] We have the following routes defined:
+> 
+> ```tsx
+> \<BrowseRouter>
+> 	\<Switch>
+> 		\<Route path="/search" component={SearchPage} />
+> 		\<Route path="/" component={HomePage} />
+> 	\</Switch>
+> \</BrowserRouter>
+> ```
+> 
+>> [!faq]- What component(s) will be rendered when the `/` locations is entered into the browser?
+>> 
+>> `HomePage`
+> 
+>> [!faq]- What about when the `/search` location is entered into the browser?
+>> 
+>> `SearchPage`
+
+> [!faq]- In our Q and A app, we want a `/login` path to navigate to the sign-in page as well as the `/signin` path. How can we implement this?
+> 
+> ```tsx
+> \<Redirect from="/login" to="/signin" />
+> ```
+
+> [!info] We have the following routes defined:
+> 
+> ```tsx
+> \<BrowseRouter>
+> 	\<Switch>
+> 		\<Route path="/search" component={SearchPage} />
+> 		\<Route path="/" component={HomePage} />
+> 		\<Route component={NotFoundPage} />
+> 	\</Switch>
+> \</BrowserRouter>
+> ```
+> 
+>> [!faq]- What component(s) will be rendered when the `/signin` locations is entered into the browser?
+>> 
+>> `HomePage`
+
+> [!info] We have the following routes defined:
+> 
+> ```tsx
+> \<BrowseRouter>
+> 	\<Switch>
+> 		\<Route path="/" component={HomePage} />
+> 		\<Route path="/search" component={SearchPage} />
+> 		\<Route component={NotFoundPage} />
+> 	\</Switch>
+> \</BrowserRouter>
+> ```
+> 
+>With the preceding implementation, when a user navigates to the `/search` path or an invalid path such as `/unknown`, the `HomePage` component is rendered.
+> 
+>>[!faq]- How can we change the code to render `HomePage` when only the `/` path is entered in the browser?
+>>
+>> `<Route exact path="/" component={HomePage} />`
+>
+
+> [!info] We have the following route defined:
+> 
+> `<Route path="/users/:userId" component={UserPage} />`
+> 
+>> [!faq]- How can we reference the `userId` route parameter in the `UserPage` component?
+>> 
+>> if we make the props type for `User Page RouteComponentProps<{ userId: string }>`, then `props.match.params.userId` will hold the `userId` route paramter.

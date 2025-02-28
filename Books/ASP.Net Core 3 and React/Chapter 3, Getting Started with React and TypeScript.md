@@ -114,3 +114,51 @@ There is a performance cost when `memo` determines whether a component has chang
 - The component returns the same output for a given set of props.
 - The component renders often.
 - The component outputs lots of elements.
+
+## Quiz
+
+> [!faq]- Does a component re-render when its props change?
+> 
+> Yes.
+
+> [!faq]- Does a component re-render when a parent's props change?
+> 
+> Yes.
+
+> [!faq]- How can we ensure a component re-renders only when its props change?
+> 
+> Wrap the component in the `memo` function.
+
+> [!faq]- What function prop would we use to add a `keydown` event listener?
+> 
+> `onKeyDown`.
+
+> [!info] A component has the following props interface:
+> 
+> ```ts
+> interface Props {  
+> 	name: string;  
+> 	active: boolean;
+> }
+> ```
+> 
+>> [!faq]- How can we destructure the props parameter and default active to true?
+>>
+>> ```tsx
+>> export const myComponent: FC<\Props> = ({ name, active = true }) => ( ... )
+>> ```
+>
+
+> [!faq]- Let's say we have a state called dateOfBirth. How can we type this to be Date?
+> 
+> ```tsx
+> const [dateOfBirth, setDateOfBirth] = useState<\Date>(undefined);
+> ```
+
+> [!faq]- How could we use the `useEffect` hook to call a synchronous function called `getItems` when a piece of state called `category`changes, passing in `category` to `getItems`?
+> 
+> ```tsx
+> useEffect(() => {
+> 	getItems(category);
+> }, [category]);
+> ```

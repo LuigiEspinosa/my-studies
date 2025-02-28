@@ -93,3 +93,55 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env) {
 ```
 
 So, the `Startup` class allows us to configure how all request are generally handled.
+
+## Quiz
+
+> [!faq]- What is the entry point method in an ASP.NET Core app?
+> 
+> A method called `Main` in the `Program` class.
+
+> [!faq]- What is the single HTML page filename an ASP.NET Core React app created by the template, and what folder is this located in?
+> 
+> A file called `index.html`, which is located in the `public` folder with the `ClientApp` folder.
+
+> [!faq]- What file are the React app dependencies defined in?
+> 
+> A file called `package.json` in the `ClientApp` folder
+
+> [!faq]- What `npm` command will run the React app in the WebPack development server?
+> 
+> `npm start`
+
+> [!faq]- What `npm` command builds the React app ready for production?
+> 
+> `npm run build`
+
+> [!faq]- What is the method name in a React component class that renders the component?
+> 
+> `render`
+
+> [!info] Have a look at the following snippet of code, which configures the request/response pipeline in an ASP.NET Core app: 
+> 
+> ```cs
+> public void Configure(IApplicationBuilder app, IHostingEnvironment env) {
+> 	app.UseAuthentication();
+> 	app.UseHttpsRedirection();
+> 	app.UseMvc();
+> }
+> ```
+> 
+>> [!faq]- Which is invoked first in the request/response pipeline, authentication or the MVC controllers?
+>> Authentication
+
+> [!faq]- Does the class that configures the services and request/response pipeline need to be called `Startup`? Or can we give it a different name?
+> 
+> We can give this class a different name by defining this class in `IWebHostBuilder` that is created, as in the following example:
+> 
+> ```cs
+>  public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+> 	WebHost.CreateDefaultBuilder(args).UseStartup\<MyStartup>();
+>  ```
+
+> [!faq]- What browsers are supported by a React app created by CRA?
+> 
+> All modern browsers, including IE.
