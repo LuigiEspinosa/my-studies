@@ -1,5 +1,10 @@
 - [[#Reference Courses]]
 - [[#Getting Started]]
+- [[#More CLM Features]]
+- [[#Managing CLM Content]]
+- [[#Working in Vault]]
+- [[#Gathering Data]]
+- [[#Advanced Concepts]]
 
 ## Reference Courses
 

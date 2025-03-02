@@ -3,7 +3,7 @@
 - [[Vault PromoMats Review and Approval Certification v2]]
 - [[Engage for Portals Business Certification v3]]
 - [[Engage for Portals Technical Certification v3]]
-- [[CLM Business Certification v4]]
+- [[CLM Business Certification v5]]
 - [[CLM Business Certification v5]]
 - [[CLM Technical Certification v4]]
 - [[CLM Technical Certification v5]]
