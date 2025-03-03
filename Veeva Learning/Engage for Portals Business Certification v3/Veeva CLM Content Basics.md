@@ -238,21 +238,21 @@ Login using Veeva CRM testing Users (e.g. cviewer) and click 'Sync'.
 ## Quiz
 
 > [!faq]- Is there tracking out of the box?
-> 
+>
 > Yes
 
 > [!faq]- What method is used for custom tracking?
-> 
+>
 > Veeva Call Clickstream
 
 > [!faq]- Which of the following versions are included in the Veeva CRM iOS Support Policy?
-> 
+>
 > The latest version and one previous version.
 
 > [!faq]- Which of the following can be disable within CLM?
-> 
+>
 > The swipe motion for slide navigation.
 
 > [!faq]- Which of the following **cannot** be made available from the Action Button?
-> 
+>
 > Connect to the Brand website.
