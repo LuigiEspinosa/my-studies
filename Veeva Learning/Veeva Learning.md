@@ -4,8 +4,6 @@
 - [[Engage for Portals Business Certification v3]]
 - [[Engage for Portals Technical Certification v3]]
 - [[CLM Business Certification v5]]
-- [[CLM Business Certification v5]]
-- [[CLM Technical Certification v4]]
 - [[CLM Technical Certification v5]]
 - [[Engage Technical Certification v4]]
 - [[Engage Business Certification v4]]
