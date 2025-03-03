@@ -196,3 +196,35 @@ Any record that exist in the destination org will be overwritten.
 
 [^5]: You will need login credentials to your Customers CRM to be able to complete migration.
 
+## Quiz
+
+> [!faq]- Is it possible to migrate individual Key Messages from one Veeva CRM instance to another Veeva CRM instance?
+> 
+> No.
+
+> [!faq]- Is it possible to automatically link a Key Message to a CLM Presentation in Veeva CRM?
+> 
+> Yes.
+
+> [!faq]- Is it possible to migrate CLM Content from one Veeva CRM instance to another Veeva CRM instance?
+> 
+> Yes.
+
+> [!faq]- For Legacy Packaging, if the ZIP file is called Media1.zip what should the corresponding HTML file be called?
+> 
+> Media1.html
+
+> [!faq]- Under what circumstances must you use legacy packaging?
+> 
+> Loading content in to Veeva CRM.
+
+> [!faq]- Is it possible to create Key Messages directly in Veeva CRM?
+> 
+> Yes.
+
+> [!faq]- Which of the following are requirements for uploading CLM content via FTP?
+> 
+> - Control file per ZIP file.
+> - FTP details.
+> - CLM ZIP files correctly packaged.
+> - Veeva CRM Admin User account.

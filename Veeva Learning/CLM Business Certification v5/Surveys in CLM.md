@@ -82,7 +82,7 @@ Surveys can be accessed from CLM Presentations by utilizing Veeva's JavaScript l
 	- **Callback** - call back function that is used to return the information.
 
 - `createRecord` and `updateRecord`
-	- **`createRecord`**` and **`updateRecord`** methods are used to save responses to the database.
+	- **`createRecord`** and **`updateRecord`** methods are used to save responses to the database.
 
 ## Quiz
 
@@ -105,3 +105,35 @@ Surveys can be accessed from CLM Presentations by utilizing Veeva's JavaScript l
 > [!faq]- What is the advantage of using the Survey Overlay?
 > 
 > Eliminates the need to navigate away from the presentation to complete a specified survey.
+
+> [!faq]- When Survey Branching is used, will the HCP see the child questions when the Survey initially loads on the page?
+> 
+> No.
+
+> [!faq]- Does Survey Overlay need to be configured?
+> 
+> Yes.
+
+> [!faq]- Is it possible to integrate a Veeva Survey into the HTML of a CLM Presentation?
+> 
+> Yes.
+
+> [!faq]- Which of the following Veeva JavaScript methods are used to add or update Survey Data in HTML?
+> 
+> - `updateRecord`.
+> - `createdRecord`.
+
+> [!faq]- Survey Branching allows for conditional questions based on previous answer choices.
+> 
+> Yes.
+
+> [!faq]- Can the Survey Overlay be used without selecting an Account?
+> 
+> No.
+
+> [!faq]- Which of the following Veeva JavaScript methods are used to get Survey Data in HTML?
+> 
+> - `getSurveyQuestions_Survey`.
+> - `getSurveyTarget_Account`.
+> - `getQuestionsResponse_SurveyTarget`.
+

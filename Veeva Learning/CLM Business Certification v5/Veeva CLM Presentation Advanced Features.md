@@ -431,7 +431,7 @@ When updating a Shared Resource, the update affects all content where the Shared
 
 > [!faq]- Can a Key Message be viewed in Portrait mode?
 > 
-> Yes.
+> Yes, but only if the Rotation Lock has been disabled for the given Key Message.
 
 > [!faq]- Select the native CLM functions that can be disabled?
 > 
@@ -459,3 +459,31 @@ When updating a Shared Resource, the update affects all content where the Shared
 > 
 > Yes.
 
+> [!faq]- What type of resources can be shared via "Shared Resources"?
+> 
+> - JavaScript.
+> - Logos.
+> - PDF.
+> - CSS.
+
+> [!faq]- Is it possible to require specific content to be viewed?
+> 
+> Yes, if grouped as a presentation and associated as a sub-presentation.
+
+> [!faq]- Can the Custom Presentation be turned on presentation by presentation?
+> 
+> No.
+
+> [!faq]- If no option is selected, which resolution is selected by default?
+> 
+> Scale to 1024x768.
+
+> [!faq]- Select all the Native Resolution Options?
+> 
+> - Scale to 1024x768.
+> - Scale to Fit.
+> - Default for Device.
+
+> [!faq]- Does Veeva CLM support Microsoft PowerPoint natively?
+> 
+> Yes, but with certain considerations.

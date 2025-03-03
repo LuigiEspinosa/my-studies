@@ -83,6 +83,7 @@ CLM Preview only mimics CLM.
 > 
 > - CRM Media Type.
 > - Publish for CRM (CLM).
+> - CLM Content.
 
 > [!faq]- What is best practice for testing CLM content?
 > 
@@ -98,3 +99,35 @@ CLM Preview only mimics CLM.
 > 
 > HTML.
 > 
+
+> [!faq]- Fro HTML Content which files must be included in the ZIP file?
+> 
+> - `thumb.png`
+> - `index.html`
+
+> [!faq]- Can CLM content be previewed in Vault?
+> 
+> Yes.
+
+> [!faq]- What types of content can be loaded?
+> 
+> - PDF.
+> - Video.
+> - HTML.
+> - PowerPoint.
+> - Image.
+
+> [!faq]- Which content type must be created and manually packaged?
+> 
+> HTML.
+
+> [!faq]- For Aut-Packaging of Images, PDFs and Videos, do you need to upload a ZIP file?
+> 
+> No.
+
+> [!faq]- Excluding HTML, what other types o content can be packaged and loaded?
+> 
+> - Image.
+> - PowerPoint.
+> - Video.
+> - PDF.
