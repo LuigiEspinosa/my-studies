@@ -1,4 +1,4 @@
-<<<<<<<< HEAD:Veeva Learning/CLM Business Certification v5/CLM Business Certification v5.md
+
 - [[#Reference Courses]]
 - [[#Getting Started]]
 - [[#More CLM Features]]
@@ -26,7 +26,6 @@
 
 - [[Survey Basics]]
 - [[Surveys in CLM]]
-========
 - [[#Reference Courses]]
 - [[#Getting Started]]
 - [[#More CLM Features]]
