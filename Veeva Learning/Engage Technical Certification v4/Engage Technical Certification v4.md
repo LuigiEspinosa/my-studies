@@ -46,3 +46,7 @@
 ## Communicating and Sharing Content with Veeva CRM Engage
 
 - [[Engage Content]]
+- [[Share - Remote CLM]]
+- [[Share - Send Content to HCPs using Web Link]]
+
+
