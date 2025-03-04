@@ -88,9 +88,9 @@ Interaction with the link itself is tracked, allowing admins to analyze engageme
 2. Select 'Send Presentation' to view the available sharing options.
 3. Select the appropriate app or sharing option.
 4. Select the recipient in the app, if applicable and not already populated. The recipient field is automatically populated if the following options are true
-	- The user selected the account before selecting the sharing option.
-	- The selected sharing options is Messages or WhatsApp.
-	- The `SMS_vod` or `WhatsApp_vod` fields for the account are populated.
+ - The user selected the account before selecting the sharing option.
+ - The selected sharing options is Messages or WhatsApp.
+ - The `SMS_vod` or `WhatsApp_vod` fields for the account are populated.
 
 If users attempt to send a link to expired content, the link is not generated, and an error message displays.
 
@@ -152,37 +152,37 @@ In order to distinguish which CLM presentations can be used for Remote CLM and/o
 ## Quiz
 
 > [!faq]- Websites that are marked as training content cannot be shared from the media library in Veeva CRM.
-> 
+>
 > True.
 
 > [!faq]- Binders and slides from Veeva Vault are not able to be sent via a link.
-> 
+>
 > True.
 
 > [!faq]- Admins can add tracking tokens to website links in Veeva CRM, to track visitor engagement with specific websites and identify where and when the link was shared.
-> 
+>
 > True.
 
 > [!faq]- Users can send websites via a link in Veeva CRM.
-> 
+>
 > True.
 
 > [!faq]- A document link sent via Veeva CRM expires after 2 weeks.
-> 
+>
 > False.
 
 > [!faq]- Only Auto-Published content can be shared via a link.
-> 
+>
 > True.
 
 > [!faq]- When sharing content through Veeva CRM, hyperlinks pointing to other sections within the same document will not work.
-> 
+>
 > True.
 
 > [!faq]- Admins can define the SMS and WhatsApp phone numbers for an Account in Veeva CRM.
-> 
+>
 > True.
 
 > [!faq]- Reps using Veeva CRM for iPhone can send HCPs Web Links using messaging apps on their phone.
-> 
+>
 > True.
