@@ -6,6 +6,7 @@
 - [[#Working in Vault]]
 - [[#Advanced Concepts]]
 - [[#Communicating and Sharing Content with Veeva CRM Engage]]
+- [[#Engage Sign]]
 
 ## Reference Courses
 
@@ -49,3 +50,7 @@
 - [[Share - Remote CLM]]
 - [[Share - Send Content to HCPs using Web Link]]
 - [[Auto-publishing]]
+
+## Engage Sign
+
+- [[Engage Sign]]

@@ -148,3 +148,25 @@ In order to distinguish which CLM presentations can be used for Remote CLM and/o
 ## Auto Publishing Overview
 
 ![[Auto Publishing.png]]
+
+## Quiz
+
+> [!faq]- Websites that are marked as training content cannot be shared from the media library in Veeva CRM.
+> 
+> True.
+
+> [!faq]- Binders and slides from Veeva Vault are not able to be sent via a link.
+> 
+> True.
+
+> [!faq]- Admins can add tracking tokens to website links in Veeva CRM, to track visitor engagement with specific websites and identify where and when the link was shared.
+> 
+> True.
+
+> [!faq]- Users can send websites via a link in Veeva CRM.
+> 
+> True.
+
+> [!faq]- A document link sent via Veeva CRM expires after 2 weeks.
+> 
+> False.
