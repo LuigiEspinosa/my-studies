@@ -170,3 +170,19 @@ In order to distinguish which CLM presentations can be used for Remote CLM and/o
 > [!faq]- A document link sent via Veeva CRM expires after 2 weeks.
 > 
 > False.
+
+> [!faq]- Only Auto-Published content can be shared via a link.
+> 
+> True.
+
+> [!faq]- When sharing content through Veeva CRM, hyperlinks pointing to other sections within the same document will not work.
+> 
+> True.
+
+> [!faq]- Admins can define the SMS and WhatsApp phone numbers for an Account in Veeva CRM.
+> 
+> True.
+
+> [!faq]- Reps using Veeva CRM for iPhone can send HCPs Web Links using messaging apps on their phone.
+> 
+> True.

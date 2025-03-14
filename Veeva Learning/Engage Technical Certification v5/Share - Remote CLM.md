@@ -210,3 +210,12 @@ In order to distinguish which CLM presentations can be used for Remote CLM and/o
 > 
 > True.
 
+> [!faq]- Which of the following entry points are available from the 'More Actions' button in Remote CLM? Select all that apply.
+> 
+> - Presentation slide library.
+> - Specific slide in a presentation.
+> - Presentation thumbnail in the media library.
+
+> [!faq]- On ending a call, Rep users are prompted to select an account with which to associate the tracked remote CLM activity if one was not selected before sharing the presentation.
+> 
+> True.

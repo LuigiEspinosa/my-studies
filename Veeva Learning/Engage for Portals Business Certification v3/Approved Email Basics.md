@@ -215,3 +215,28 @@ This feature does not require configuration.
 - Tokens in template fragments and email fragments are not supported on the Windows Table platform.
 
 See the [21R3.0 Functionality Guide](https://crmhelp.veeva.com/doc/Content/CRM_topics/ReleaseNotes/21R3.0/21R3.0FunctionalityGuide.htm#Approved) for a complete list of newly available Tokens.
+
+## Quiz
+
+> [!faq]- A Template Fragment cannot be used across many Email Templates.
+> 
+> False.
+
+> [!faq]- Approved Email has a very low open rate. Even lower than the industry average.
+> 
+> False.
+
+> [!faq]- Select from the following the elements of a Veeva Approved Email.
+> 
+> - Template Fragments.
+> - Email Templates.
+> - Email Fragments.
+
+> [!faq]- The Rich Text token allows End Users to add a more versatile free text email by displaying a default text area of which of the following:
+> 
+> 400x300 pixels
+
+> [!faq]- The Vault Viewer can be embedded into an external branded website.
+> 
+> True.
+

@@ -100,3 +100,25 @@ For convenience during remote meetings, and to accommodate any restrictions on i
 
 1. A confirmation appears for the rep, after HCP submits the signature.
 2. Rep reviews signature and accepts, or requests the HCP to sign again.
+
+## Quiz
+
+> [!faq]- QR code signature capture enables CRM users and HCPs to maintain physical distance, and eliminates the need to share devices during face-to-face visits.
+> 
+> True.
+
+> [!faq]- For convenience during remote meetings, and to accommodate any restrictions on in-person meetings, users can capture signatures for samples opt-in using Share Link or a QR code.
+> 
+> True.
+
+> [!faq]- Remote Signature capture for sampling using Share Link allows for the capture of a remote signature when outside of an Engage Meeting.
+> 
+> True.
+
+> [!faq]- Engage Meeting supports sampling BRCs, and capturing a signature for those samples.
+> 
+> True.
+
+> [!faq]- Remote signature capture for sampling enables field reps to capture and fulfill HCPs sample requests.
+> 
+> True.
