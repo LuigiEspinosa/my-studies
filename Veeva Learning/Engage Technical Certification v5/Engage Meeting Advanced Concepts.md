@@ -193,3 +193,25 @@ No, this is not currently possible. Although there is a Veeva CRM field that can
 ##### Alternative
 
 Simply ask the HCP at the start of the Engage Meeting which device they are using and have separate flows available which can be selected by the Rep.
+
+## Quiz
+
+> [!faq]- Splash Screens are not required to use Engage Meeting.
+> 
+> True.
+
+> [!faq]- Once the custom Splash Screen has been created, where should it be uploaded?
+> 
+> Veeva CRM Online.
+
+> [!faq]- What Veeva JavaScript Library can be used to create Splash Screens?
+> 
+> Veeva MyInsights JavaScript Library.
+
+> [!faq]- Once the custom Splash Screen has been created, where in Veeva CRM Online should it be uploaded?
+> 
+> HTML Reports Tab.
+
+> [!faq]- Admins and Content Creators can customize the Splash Screen using a Veeva CRM MyInsights visualization.
+> 
+> True.

@@ -95,3 +95,27 @@ A new object has been added to allow the rep to create or edit settings for Enga
 - When Engage Connect Group Request records are data-loaded, the Engage Connect server creates or updates the appropriate groups.
 - The data-loaded records are automatically updated to inform users of the server request status.
 
+## Quiz
+
+> [!faq]- Engage Connect is a licensed mobile application, used to enable virtual communication between end users and HCPs.
+> 
+> True.
+
+> [!faq]- Which of the following are functionalities included in Veeva CRM Engage? Select all that apply.
+> 
+> - Request samples and materials.
+> - Connect end users with HCPs.
+> - View upcoming Engage Meetings.
+> - Share Approved content.
+
+> [!faq]- Remote CLM is included in the Engage Connect app.
+> 
+> True.
+
+> [!faq]- Engage Connect can be used on an iPhone, on an iPad and in the browser.
+> 
+> True.
+
+> [!faq]- Integrated Scheduling is included in the Engage Connect app.
+> 
+> True.

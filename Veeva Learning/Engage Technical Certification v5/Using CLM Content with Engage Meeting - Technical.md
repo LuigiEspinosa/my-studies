@@ -257,7 +257,7 @@ function JSprevSlide() {
 - `getDataForCurrentObject()`
 - `queryRecord()`
 
-[^3]: This means common functions such as **Surveys** vie the Veeva CLM JavaScript Library are not supported in CRM Desktop.
+[^3]: This means common functions such as **Surveys** via the Veeva CLM JavaScript Library are not supported in CRM Desktop.
 
 ## Adapting CLM Content for CRM Desktop
 
@@ -324,3 +324,29 @@ Conversely, the Engage Content document field **does not** need to be filled as 
 ## Sync to CRM
 
 Once CLM content is uploaded to Veeva Vault, it can be synced to Veeva CRM. This process is outlined in detail in the Managing Your Sandbox Course.
+
+## Quiz
+
+> [!faq]- Microsoft Edge WebView2 allows for the support of what types of video files in Engage Meeting?
+> 
+> - .mp4
+> - .m4v
+> - .mov
+
+> [!faq]- Existing CLM content can be reused in Engage Meeting.
+> 
+> True.
+
+> [!faq]- A CLM Presentation must be uploaded to Veeva Vault PromoMats in order to be visible in the Media Library when hosting an Engage Meeting from a Windows PC (via CRM Online).
+> 
+> True.
+
+> [!faq]- What should Content Creators consider when creating/adapting CLM content for use in Engage Meeting.
+> 
+> - Enabling the laser pointer (iPad only).
+> - Adjusting content to ensure HCPs know which elements are being tapped or clicked.
+> - Enabling or disabling features on a channel basis.
+
+> [!faq]- All CLM JS Library functions are supported in CLM presentations used in Engage Meetings Hosted via the iPad.
+> 
+> True.
