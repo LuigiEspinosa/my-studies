@@ -35,3 +35,14 @@
 ## Advanced Concepts
 
 - [[Using CLM Content with Engage Meeting - Business]]
+
+## Communicating and Sharing Content with Veeva CRM Engage
+
+- [[Engage Content]]
+- [[Share - Remote CLM]]
+- [[Share - Send Content to HCPs using Web Link]]
+- [[Auto-publishing]]
+
+## Capturing Remote Signatures
+
+- [[Engage Sign]]
