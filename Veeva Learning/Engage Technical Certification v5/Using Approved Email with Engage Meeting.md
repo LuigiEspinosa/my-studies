@@ -173,3 +173,28 @@ if the Approved Email Administration Tab isn't visible, all Tabs in Veeva CRM ca
 > [!faq]- Engage Meeting Invitations should never include the Participant URL.
 > 
 > False.
+
+> [!faq]- `{{addToCalendar}}` token will not work if an Email Template is sent through the Veeva CRM Mobile Application on a Windows tablet.
+> 
+> True.
+
+> [!faq]- When using the `{{addToCalendar}}` Token, any date & time Tokens will display in the HCP local format.
+> 
+> False.
+
+> [!faq]- The best way to invite an HCP to an Engage Meeting is by an Approved Email invitation.
+> 
+> True.
+
+> [!faq]- To include the Meeting Date & Time in an Engage Meeting invitation it is best to use the `{{Call2_vod__c.Cobrowse_URL_Participant_vod__c}}` token.
+> 
+> False.
+
+> [!faq]- There aren't Tokens that provide the HCP with the date and time of the meeting and details to join the meeting. 
+> 
+> False.
+
+> [!faq]- Before syncing Vault PromoMats and Veeva CRM, the Email Template for Engage Meeting 
+> must be set to Expired
+> 
+> False.
