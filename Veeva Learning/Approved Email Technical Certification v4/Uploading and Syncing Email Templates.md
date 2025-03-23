@@ -15,7 +15,7 @@ Before the Email Template can be saved, the required metadata fields (highlighte
 
 After filling out the required fields, click 'Save'.
 
-The From and Reply to fields can be hard-coded or dynamic using `{{userEmailAddres}}` and `{{userName}}` Tokens. The Subject field can be hard-coded or dynamic using Custom Text or Merge Tokens.
+The From and Reply to fields can be hard-coded or dynamic using `{{userEmailAddress}}` and `{{userName}}` Tokens. The Subject field can be hard-coded or dynamic using Custom Text or Merge Tokens.
 
 ## Upload Image Assets
 

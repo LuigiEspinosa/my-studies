@@ -18,3 +18,7 @@
 - [[Managing Your Multichannel Sandboxes]]
 - [[Approved Email Basics]]
 - [[Uploading and Syncing Email Templates]]
+
+## More Document Types
+
+- [[Email Fragments, Template Fragments and Document Types]]
