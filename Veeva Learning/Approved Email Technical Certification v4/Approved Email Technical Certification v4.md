@@ -22,3 +22,5 @@
 ## More Document Types
 
 - [[Email Fragments, Template Fragments and Document Types]]
+- [[Uploading and Syncing Email Fragments, Template Fragments and Document Types]]
+
