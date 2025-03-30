@@ -24,3 +24,6 @@
 - [[Email Fragments, Template Fragments and Document Types]]
 - [[Uploading and Syncing Email Fragments, Template Fragments and Document Types]]
 
+## Send an Email
+
+- [[Sending an Approved Email]]
