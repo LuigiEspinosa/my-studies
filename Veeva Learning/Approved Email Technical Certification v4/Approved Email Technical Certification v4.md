@@ -27,3 +27,8 @@
 ## Send an Email
 
 - [[Sending an Approved Email]]
+
+## Gathering Data
+
+- [[Survey Basics]]
+- [[Surveys in Veeva CRM Approved Email]]
