@@ -32,3 +32,11 @@
 
 - [[Survey Basics]]
 - [[Surveys in Veeva CRM Approved Email]]
+
+## Working in Vault
+
+- [[Veeva Vault PromoMats Administration]]
+
+## Advanced Features
+
+- [[Additional Functionalities in Approved Email]]
