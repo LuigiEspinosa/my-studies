@@ -40,3 +40,8 @@
 ## Advanced Features
 
 - [[Additional Functionalities in Approved Email]]
+
+## Integrating with Other Products
+
+- [[Launch Approved Email from CLM]]
+- [[Using Approved Email with Engage Meeting]]
