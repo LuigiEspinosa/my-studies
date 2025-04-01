@@ -194,7 +194,6 @@ if the Approved Email Administration Tab isn't visible, all Tabs in Veeva CRM ca
 > 
 > False.
 
-> [!faq]- Before syncing Vault PromoMats and Veeva CRM, the Email Template for Engage Meeting 
-> must be set to Expired
+> [!faq]- Before syncing Vault PromoMats and Veeva CRM, the Email Template for Engage Meeting must be set to Expired
 > 
 > False.
