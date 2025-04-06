@@ -175,3 +175,20 @@ Monitoring Rules defined which fields are monitored and managed by Approved Note
 > - Clicked.
 > - Name.
 > - Opened.
+
+> [!faq]- To send an Approved Email in Veeva CRM Mobile, first select the template and then the HCP Account (e.g. Clinton Ackerman).
+> 
+> False.
+
+> [!faq]- The user can add Email Fragments to the Email Template by selecting the eye icon.
+> 
+> False.
+
+> [!faq]- When sending an Approved Email, ensure the Account Approved Email Consent is set to 'Explicit Opt In'.
+> 
+> False.
+
+> [!faq]- A Rep can send an Approved Email via Veeva CRM Online.
+> 
+> True.
+

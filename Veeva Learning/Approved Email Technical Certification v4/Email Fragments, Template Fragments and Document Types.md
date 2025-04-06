@@ -135,3 +135,8 @@ Download options can be controlled with the two fields below.
 > [!faq]- It is possible to include multiple Email Fragments in a single Email Template.
 > 
 > True.
+
+> [!faq]- Vault Viewer can be embedded into an external branded website.
+> 
+> True.
+

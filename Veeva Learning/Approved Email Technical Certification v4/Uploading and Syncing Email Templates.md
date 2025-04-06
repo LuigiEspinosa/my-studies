@@ -83,3 +83,7 @@ If the Approved Email Administration Tab isn't visible, all Tabs in Veeva CRM ca
 > [!faq]- To synchronize content from Vault PromoMats into CRM Online, the user needs to click on the:
 > 
 > Approved Email Administration Tab.
+
+> [!faq]- If the Email Template is in the Staged State, then this will only be available to Users with the 'Approved Email Admin' field checked on their User Record.
+> 
+> True.

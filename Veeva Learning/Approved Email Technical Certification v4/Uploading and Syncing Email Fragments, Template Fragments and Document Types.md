@@ -172,3 +172,16 @@ If the Approved Email Administration Tab isn't visible, all Tabs in Veeva CRM ca
 > [!faq]- The token `{{PieceLink}}` in the HTML will link to a Prescribing Information Document Type.
 > 
 > False.
+
+> [!faq]- In CRM Online, the user will need to click on the __ to synchronize content from Vault PromoMats.
+> 
+> Approved Email Administration Tab.
+
+> [!faq]- Before syncing Vault PromoMats and Veeva CRM, the Documents must be set to Staged in the Agency's environment.
+> 
+> False.
+
+> [!faq]- All Template Fragments need to contain images.
+> 
+> False.
+

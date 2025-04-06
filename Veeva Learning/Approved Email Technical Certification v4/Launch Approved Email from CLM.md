@@ -282,3 +282,10 @@ function getResult(result) {
 > 
 > Salesforce Record IDs.
 
+> [!faq]- Launching Approved Email from CLM requires extensive use of JavaScript and firm Knowledge of Vault PromoMats.
+> 
+> False.
+
+> [!faq]- In order to trigger Approved Email functionality from CLM content, the `launchApprovedEmail` call must be used.
+> 
+> True.

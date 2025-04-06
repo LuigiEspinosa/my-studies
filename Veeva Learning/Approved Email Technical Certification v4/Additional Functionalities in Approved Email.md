@@ -221,3 +221,12 @@ If the images for the fragments were originally hosted in the BEE Editor templat
 > [!faq]- In BEE Editor, it is not possible to have multiple columns in a row.
 > 
 > False.
+
+> [!faq]- BEE Editor gives customers the opportunity to add a link to the PI, ISI or other Vault Document. These documents must be in the steady state (e.g. Approved).
+> 
+> True.
+
+> [!faq]- Approved Email Configuration Tokens are used to define what citations and footnotes are included, and where they are located in the Email Template.
+> 
+> True.
+

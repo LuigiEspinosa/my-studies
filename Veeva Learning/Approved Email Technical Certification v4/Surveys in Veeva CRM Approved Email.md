@@ -84,3 +84,17 @@ Embedding the Survey iFrame in a custom landing page is not supported.
 > [!faq]- If an Approved Email includes a Survey, the user needs to create the Survey Record in Vault and set the same External ID and Start & End Dates as in Veeva CRM.
 > 
 > True.
+
+> [!faq]- Which fields must be filled in when creating a survey in Vault?
+> 
+> - Survey Name.
+> - External ID.
+
+> [!faq]- Which of the following tokens is used by the user to include a survey in the Email Template or Email Fragment?
+> 
+> `{{surveyLink}}`
+
+> [!faq]- When setting up surveys in CRM for Approved Email, which option must be selected for the Channels field?
+> 
+> Approved Email.
+
