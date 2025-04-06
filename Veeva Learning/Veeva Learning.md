@@ -8,4 +8,5 @@
 - [[Engage Technical Certification v5]]
 - [[Engage Business Certification v5]]
 - [[Approved Email Technical Certification v4]]
+- [[Approved Email Technical Certification v5]]
 - [[Approved Email Business Certification v4]]
