@@ -262,6 +262,7 @@ function getResult(result) {
 
 > [!faq]- In order to launch Approved Email from CLM, the Admin User and Rep would need access to which of the following fields on the `Approved_Document_vod` object?
 > 
+> Vault Instance ID (`Vault_Instance_ID_vod`).
 > Document ID (`Vault_Document_ID_vod`).
 
 > [!faq]- Which of the following statements are true?

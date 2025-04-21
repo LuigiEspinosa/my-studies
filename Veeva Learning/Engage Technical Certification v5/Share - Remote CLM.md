@@ -210,7 +210,6 @@ In order to distinguish which CLM presentations can be used for Remote CLM and/o
 > 
 > True.
 
-<<<<<<< HEAD:Veeva Learning/Engage Technical Certification v5/Share - Remote CLM.md
 > [!faq]- Which of the following entry points are available from the 'More Actions' button in Remote CLM? Select all that apply.
 > 
 > - Presentation slide library.
@@ -220,5 +219,3 @@ In order to distinguish which CLM presentations can be used for Remote CLM and/o
 > [!faq]- On ending a call, Rep users are prompted to select an account with which to associate the tracked remote CLM activity if one was not selected before sharing the presentation.
 > 
 > True.
-=======
->>>>>>> b842658 (Share - Remote CLM):Veeva Learning/Engage Technical Certification v4/Share - Remote CLM.md
