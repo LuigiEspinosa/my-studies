@@ -7,3 +7,5 @@ List of all the stuff I read, watch, follow, and so on.
 - [[Udemy]]
 - [[TryHackeMe]]
 - [[Veeva Learning]]
+- [[Midu.dev]]
+
