@@ -7,6 +7,7 @@ Cuando hablamos de scraping, pensamos en **robots** o **bots** que navegan p
 Sin embargo, es importante ser consciente de las normas y restricciones que pueden existir en la página web que deseas scrapear. Algunos sitios tienen protecciones para evitar el scraping.
 
 ## Introducción al Scraping
+
 ### Legalidad del Scraping
 
 **Extraer datos** de una página web en sí mismo no es necesariamente un acto ilícito, pero el _uso_ que hagas de esos datos sí puede serlo.
