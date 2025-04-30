@@ -1,3 +1,6 @@
+> [!info]
+> [Iniciación al Scraping con Python - Cursos de Programación y Desarrollo Web | midudev](https://midu.dev/curso/iniciacion-al-scraping-con-python)
+
 El **web scraping** o _raspado web_ es una técnica valiosa que nos permite extraer información de sitios web automáticamente. Pero, ¿qué significa realmente? En términos simples, es el proceso de **escribir código** para recopilar datos de páginas web.
 
 Plataformas como **CamelCamelCamel** utilizan web scraping para rastrear y mostrar la evolución de precios de productos en Amazon, algo que a menudo no está disponible mediante APIs.

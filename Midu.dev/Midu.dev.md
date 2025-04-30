@@ -1,1 +1,2 @@
+- [[Lo último de JavaScript (ES2023 & ES2024)]]
 - [[Introducción al Web Scraping con Python]]
