@@ -3,9 +3,10 @@ List of all the stuff I read, watch, follow, and so on.
 - [[Books]]
 - [[LeetCode]]
 - [[Platzi]]
+- [[Santander Open Academy]]
 - [[Skillshop]]
-- [[Udemy]]
 - [[TryHackeMe]]
+- [[Udemy]]
 - [[Veeva Learning]]
 - [[Midu.dev]]
 
