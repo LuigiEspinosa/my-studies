@@ -1,0 +1,4 @@
+- [[The Complete AI-Powered Copywriting Course & ChatGPT Course]]
+- [[Content Writing Course for Businesses - Copywriting Basics]]
+- [[Alan Sharpe's 30-hr Copywriting Masterclass + ChatGPT tips]]
+- [[Creative Writing AI Course - Creative Writing Using ChatGPT]]

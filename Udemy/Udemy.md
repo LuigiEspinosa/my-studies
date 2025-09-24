@@ -1,2 +1,3 @@
 - [[Game Development in JS-TS with Phaser 3]]
-- [[NodeJS - De Cero a Experto]]
+- [[AI for Copywriting]]
+- [[Prompt Engineering]]
