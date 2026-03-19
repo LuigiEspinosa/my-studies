@@ -1,4 +1,7 @@
-URL: https://typehero.dev/challenge/default-generic-arguments
+# Default Generic Arguments
+
+URL: <https://typehero.dev/challenge/default-generic-arguments>
+
 ## Why Generic Arguments Need Defaults
 
 Technically speaking, no program absolutely requires default arguments. It's a convenience feature for the humans writing programs.
@@ -15,7 +18,7 @@ Let's take the case of a run-of-the-mill logging function. The logger always nee
 type LogLevel = 'debug' | 'info' | 'notice' | 'warning' | 'error' | 'critical';
 
 const log = (message: string, level: LogLevel = 'info') => {
-  // application logic
+    // application logic
 };
 
 log('this has an explicit debug log level', 'debug');
@@ -28,8 +31,8 @@ You can do exactly this kind of thing for generic types! This is yet another par
 
 ```ts
 type Log<Message, Level = 'info'> = {
-  message: Message;
-  level: Level;
+    message: Message;
+    level: Level;
 };
 
 type ExplicitDebugLog = Log<'explicit debug', 'debug'>;
@@ -42,7 +45,7 @@ One notable exception is that there's no TypeScript value you can pass that will
 
 ```ts
 const greet = (name = 'Stranger') => {
-  console.log(`Hello ${name}!`);
+    console.log(`Hello ${name}!`);
 };
 
 greet(); // Hello Stranger!
