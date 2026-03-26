@@ -1,3 +1,5 @@
+# Self-Awareness - The Cornerstone of Effective Leadership
+
 Self-awareness allows leaders to understand their strengths, limitations, values and emotional triggers, and when leaders understand this, it enables them to be more authentic, intentional and empathetic.
 
 High self-awareness often goes hand in hand with high levels of trust as well. if leaders open up about their challenges and play to their strengths, it will encourage others to do the same.

@@ -1,3 +1,5 @@
+# Beyond Emotion - Leading with Sound Decisions
+
 ## Leadership
 
 - Ensuring Survival.
@@ -11,17 +13,20 @@
 ## Decision Making under pressure
 
 1. Remove emotion from the process.
-	- What does the logic tell me?
-	- What are the facts?
 
-2. Get the Right Perspectives.
-	- Seek data driven insights, not just gut feelings.
+    - What does the logic tell me?
+    - What are the facts?
 
-3. Commit to the decision fully.
-	- Leadership is knowing when to **fight, adapt or let go**.
+1. Get the Right Perspectives.
 
-> [!info]
-> Recommended Reading: https://www.formula1.com/en/latest/article/brawn-gp-engineers-thought-wed-got-our-sums-wrongs-ahead-of-fairytale-start.F0Dk8F2qr7T7LGzeJC3sd
+    - Seek data driven insights, not just gut feelings.
+
+1. Commit to the decision fully.
+
+    - Leadership is knowing when to **fight, adapt or let go**.
+
+> [!NOTE]
+> Recommended Reading: <https://www.formula1.com/en/latest/article/brawn-gp-engineers-thought-wed-got-our-sums-wrongs-ahead-of-fairytale-start.F0Dk8F2qr7T7LGzeJC3sd>
 
 ## From Doubt to Dominance
 
@@ -32,11 +37,10 @@ The Cambridge Dictionary defines impostor syndrome as "the feeling that your ach
 ### Managing Doubt
 
 - Prepare.
-	- Revision.
-	- Relearning.
-	- Refinement.
-	- Reinforcement.
+  - Revision.
+  - Relearning.
+  - Refinement.
+  - Reinforcement.
 
 - Don't wait.
 - Stay calm.
-
