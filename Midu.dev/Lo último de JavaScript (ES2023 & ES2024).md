@@ -1,3 +1,5 @@
+# Lo último de JavaScript (ES2023 & ES2024)
+
 > [!info]
 > [Aprende lo último de JavaScript (ES2023 & ES2024) - Cursos de Programación y Desarrollo Web | midudev](https://midu.dev/curso/aprende-lo-ultimo-de-javascript)
 
@@ -9,7 +11,7 @@ El método `at()` recibe un número entero como parámetro y lo utiliza para a
 
 Igual que con los corchetes `[]`, el método `at()` también devuelve `undefined` si el índice que le pasamos no existe.
 
-### Facilita cambios inmutables en arrays con el método` array.with()`
+### Facilita cambios inmutables en arrays con el método ``array.with()`
 
 El método `with()` de los arrays en JavaScript permite crear una **copia** de un array y modificar un valor en un índice específico de manera inmutable, es decir, sin alterar el array original.
 
@@ -116,11 +118,11 @@ A diferencia del operador `||`, el operador `??` solo revisa si el valor es 
 
 ### Operadores de asignación lógica `&&=`, `||=`, `??=`
 
-##### Operador `&&=`
+#### Operador `&&=`
 
 El operador `&&=` asigna un valor solo si la variable ya es “truthy”.
 
-##### Operador `||=`
+#### Operador `||=`
 
 El operador `||=` asigna un valor solo si la variable es “falsy”.
 

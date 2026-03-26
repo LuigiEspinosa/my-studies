@@ -1,4 +1,6 @@
-> [!info]
+# Introducción al Web Scraping con Python
+
+> [!NOTE]
 > [Iniciación al Scraping con Python - Cursos de Programación y Desarrollo Web | midudev](https://midu.dev/curso/iniciacion-al-scraping-con-python)
 
 El **web scraping** o _raspado web_ es una técnica valiosa que nos permite extraer información de sitios web automáticamente. Pero, ¿qué significa realmente? En términos simples, es el proceso de **escribir código** para recopilar datos de páginas web.
@@ -56,7 +58,7 @@ Los CAPTCHAs son mecanismos diseñados para evitar que los bots accedan a conten
 import requests
 
 headers = {
-	'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+ 'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
 }
 
 response = requests.get('https://example.com', headers=headers)

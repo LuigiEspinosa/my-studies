@@ -1,4 +1,6 @@
->[!info]
+# Figma para Devs
+
+>[!NOTE]
 >[Figma para Devs - Cursos de Programación y Desarrollo Web | midudev](https://midu.dev/curso/figma-para-devs)
 
 El Dashboard de Figma **es el punto de partida para gestionar todos tus proyectos y archivos**, ya sea que trabajes de manera individual o en equipo. Este espacio centralizado te permite acceder a todo lo que necesitas para organizar y colaborar eficientemente.

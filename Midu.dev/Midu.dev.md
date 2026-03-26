@@ -1,6 +1,0 @@
-- [[Experiencias 3D con Vue]]
-- [[Figma para Devs]]
-- [[Lo último de JavaScript (ES2023 & ES2024)]]
-- [[Introducción al Web Scraping con Python]]
-- [[Lo último de JavaScript (ES2023 & ES2024)]]
-- [[PWA de Detección de Objetos con Angular 19 y TensorFlow.js]]

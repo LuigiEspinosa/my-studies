@@ -1,4 +1,6 @@
-> [!info]
+# PWA de Detección de Objetos con Angular 19 y TensorFlow.js
+
+> [!NOTE]
 > [Crea una PWA de Detección de Objetos con Angular 19 y TensorFlow.js - Cursos de Programación y Desarrollo Web | midudev](https://midu.dev/curso/creando-pwa-angular19-deteccion-objetos)
 
 ## Introducción a las PWA
