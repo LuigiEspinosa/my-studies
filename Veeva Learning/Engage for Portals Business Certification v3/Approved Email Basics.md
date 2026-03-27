@@ -1,3 +1,5 @@
+# Approved Email Basics
+
 ## Introduction to Approved Email
 
 Approved Email enables Reps to send approved, compliant emails to HCPs from Veeva CRM.
@@ -125,7 +127,7 @@ In addition, Content Creators can also reference the `Account`, `Approved_Docume
 {{ObjectAPIName.FieldAPIName}} {{ObjectAPIName.RelationshipName.FieldAPIName}}
 ```
 
-![[CRM Data Tokens.png]]
+![CRM Data Tokens.png](./Images/CRM%20Data%20Tokens.png)
 
 ## Vault Content Tokens
 
@@ -218,25 +220,32 @@ See the [21R3.0 Functionality Guide](https://crmhelp.veeva.com/doc/Content/CRM_t
 
 ## Quiz
 
-> [!faq]- A Template Fragment cannot be used across many Email Templates.
-> 
+> [!TIP]- A Template Fragment cannot be used across many Email Templates.
+>
 > False.
 
-> [!faq]- Approved Email has a very low open rate. Even lower than the industry average.
-> 
+---
+
+> [!TIP]- Approved Email has a very low open rate. Even lower than the industry average.
+>
 > False.
 
-> [!faq]- Select from the following the elements of a Veeva Approved Email.
-> 
+---
+
+> [!TIP]- Select from the following the elements of a Veeva Approved Email.
+>
 > - Template Fragments.
 > - Email Templates.
 > - Email Fragments.
 
-> [!faq]- The Rich Text token allows End Users to add a more versatile free text email by displaying a default text area of which of the following:
-> 
+---
+
+> [!TIP]- The Rich Text token allows End Users to add a more versatile free text email by displaying a default text area of which of the following:
+>
 > 400x300 pixels
 
-> [!faq]- The Vault Viewer can be embedded into an external branded website.
-> 
-> True.
+---
 
+> [!TIP]- The Vault Viewer can be embedded into an external branded website.
+>
+> True.

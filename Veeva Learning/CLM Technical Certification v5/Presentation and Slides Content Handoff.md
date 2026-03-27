@@ -1,3 +1,5 @@
+# Presentation and Slides Content Handoff
+
 ## Overview of Binder and Bulk Document Export
 
 The Binder Export and the Bulk Document Export functionality in Vault PromoMats enable you to download in a few steps all assets such as ZIP files related to one or more Multichannel Presentations or Approved Emails.
@@ -68,6 +70,7 @@ For Yes/No fields and Date fields, this is the format and rules:
 | Yes/No     | Accepts Yes or No, as well as True or False | Yes, True                |
 | Date       | Accepts yyyy-mm-dd or mm/dd/yyyy format     | 2013-03-29 or 03/29/2013 |
 | DateTime   | Accepts yyyy-mm-dd'T'hh:mm:ss:sssZ format   | 2013-03-29T14:55:03:000Z |
+
 ## Document Identifiers
 
 Best practice when using Multichannel Loader is to include a unique ID for each Multichannel Presentation and Slide to make it easier to update the documents. There are two options that can be used to identify documents:
@@ -87,12 +90,12 @@ If the External ID wasn't included in the original file upload, the Document ID 
 There are specific fields that need to be included in the CSV to add shared resources to your slides.
 
 - **For the Shared Resource**:
-	- `external_id__v` needs to be populated.
-	- Type = Shared.
-	- `slide.crm_shared_resource__v` column  header needs to be added with the line for the shared resource = Yes which indicates this is the shared resource.
+  - `external_id__v` needs to be populated.
+  - Type = Shared.
+  - `slide.crm_shared_resource__v` column  header needs to be added with the line for the shared resource = Yes which indicates this is the shared resource.
 
 - **For the Multichannel Slides that use the shared resource:**
-	- `slide.related_shared_resource__v` column header needs to be added and for all Multichannel Slides that are associated with the shared resource need to have this populated with the `external_id__v` value of the Shared Resource.
+  - `slide.related_shared_resource__v` column header needs to be added and for all Multichannel Slides that are associated with the shared resource need to have this populated with the `external_id__v` value of the Shared Resource.
 
 ## Adding Required Slides
 
@@ -179,7 +182,7 @@ In order to continue, the errors must be fixed in the source Vault PromoMats bef
 
 - I.e. in this example the external ID for the Product 'Natevba' is not the same in the Source and Target Vault which needs to be updated before migration occur.
 
-![[Validation Errors.png]]
+![Validation Errors.png](./Images/Validation%20Errors.png)
 
 ## Target Vault Confirmation
 
@@ -193,7 +196,7 @@ To ensure successful Vault to Vault Migration, it's important to ensure the foll
 
 1. Vault PromoMats and Veeva CRM Online are synced.
 2. External Id Field of the Product on the Presentation (and multichannel slides) exist in both Vaults (Source and Target).
-	- The customer should provide the External Id of the Product in the Target Vault PromoMats and these should be re-created in the Source Vault with a matching External Id.
+    - The customer should provide the External Id of the Product in the Target Vault PromoMats and these should be re-created in the Source Vault with a matching External Id.
 3. Matching Required Fields in both Vaults and ensuring presentation ID already exists in Target Vault.
 
 ## Product External ID
@@ -228,38 +231,52 @@ Filenames cannot include special characters (=, #. ?, etc.).
 
 ## Quiz
 
-> [!faq]- Can you use the Multichannel Loader to load Shared Resources?
-> 
+> [!TIP]- Can you use the Multichannel Loader to load Shared Resources?
+>
 > Yes.
 
-> [!faq]- Can you use the Multichannel Loader to load Required Slides?
-> 
+---
+
+> [!TIP]- Can you use the Multichannel Loader to load Required Slides?
+>
 > Yes.
 
-> [!faq]- Does the structure of the Multichannel Loader CSV depend on the Vault PromoMats configuration?
-> 
+---
+
+> [!TIP]- Does the structure of the Multichannel Loader CSV depend on the Vault PromoMats configuration?
+>
 > Yes.
 
-> [!faq]- Is the External ID of a document created automatically by Vault PromoMats?
-> 
+---
+
+> [!TIP]- Is the External ID of a document created automatically by Vault PromoMats?
+>
 > No.
 
-> [!faq]- Please select the documents that are used by the Multichannel Loader?
-> 
+---
+
+> [!TIP]- Please select the documents that are used by the Multichannel Loader?
+>
 > - Document ZIP files.
 > - CSV File.
 
-> [!faq]- Can you use the Multichannel Loader for Auto Packaging?
-> 
+---
+
+> [!TIP]- Can you use the Multichannel Loader for Auto Packaging?
+>
 > Yes, when the correct fields are populated.
 
-> [!faq]- Which export options are available in Vault PromoMats?
-> 
+---
+
+> [!TIP]- Which export options are available in Vault PromoMats?
+>
 > - Bulk Document Export.
 > - Binder Export.
 
-> [!faq]- Which of the following are examples of use cases for the Vault PromoMats Multichannel Loader?
-> 
+---
+
+> [!TIP]- Which of the following are examples of use cases for the Vault PromoMats Multichannel Loader?
+>
 > - Update ZIP source files for slides.
 > - Update document fields.
 > - Add slides to presentations.

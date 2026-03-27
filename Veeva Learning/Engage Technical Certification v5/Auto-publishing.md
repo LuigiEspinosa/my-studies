@@ -1,3 +1,5 @@
+# Auto-Publishing
+
 ## Auto-Publishing for CLM and Engage Content
 
 - Requires only one step to create multichannel content.
@@ -28,7 +30,7 @@ Consider tracking limitations when having one slide only for CLM. Related inform
 
 ### Original File Format vs. Vault Rendition Options
 
-![[Original File v Vault Rendition.png]]
+![Original File v Vault Rendition.png](./Images/Original%20File%20v%20Vault%20Rendition.png)
 
 ### Configuration: Document Fields
 
@@ -44,7 +46,7 @@ Consider tracking limitations when having one slide only for CLM. Related inform
 
 ### Creating Multichannel and Engage Content
 
-![[Multichannel and Engage Content.png]]
+![Multichannel and Engage Content.png](./Images/Multichannel%20and%20Engage%20Content.png)
 
 ## Auto-Publishing for Approved Email Fragments
 

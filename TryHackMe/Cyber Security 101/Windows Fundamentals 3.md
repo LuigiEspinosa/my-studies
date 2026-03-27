@@ -2,8 +2,8 @@
 
 To summarize the previous two rooms:
 
-- In [[Windows Fundamentals 1]] we covered the desktop, the file system, user account control, the control panel, settings, and the task manager.
-- In [[Windows Fundamentals 2]] we covered various utilities, such as System Configuration, Computer Management, Resource Monitor, etc.
+- In [Windows Fundamentals 1](./Windows%20Fundamentals%201.md) we covered the desktop, the file system, user account control, the control panel, settings, and the task manager.
+- In [Windows Fundamentals 2](./Windows%20Fundamentals%202.md) we covered various utilities, such as System Configuration, Computer Management, Resource Monitor, etc.
 
 ## Windows Updates
 

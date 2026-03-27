@@ -1,3 +1,5 @@
+# Loading Content and Syncing to CRM
+
 ## Uploading for Portals Content to Vault
 
 Content is loaded directly into Vault PromoMats first.
@@ -16,6 +18,7 @@ The Binder becomes the Engage for Portals Presentation record in Veeva CRM and g
 2. Click 'Create'.
 3. Select 'Binder'.
 4. Choose Binder Type 'Multichannel Presentation' and Click 'Ok' and 'Next'.
+
 ## Enter Required Vault Fields
 
 Before the Multichannel Presentation can be saved, the required metadata fields (highlighted yellow) need to be filled out.
@@ -54,7 +57,7 @@ Select an HTML, image, video, PPT or PDF file and upload it to Vault.
 
 The field CRM Meda Type needs to be populated (HTML, Image, Video, PPTX, PDF).
 
-- **Image:** Vault converts the image to png and creates a thumb.png (200x150px)[^2] of the image. 
+- **Image:** Vault converts the image to png and creates a thumb.png (200x150px)[^2] of the image.
 - **PDF or PPT:** Vault creates a thumbnail .png (200x150px), and zips the files creating the Veeva Distribution package.
 - **Video:** Vault converts the video to three video files and creates a poster and thumb.png (200x150px) of the first frame of the video.
 - **HTML:** Upload the zip file as Distribution Package rendition. if utilizing legacy packaging structure, enter the HTML file name. Do not enter this information if using the new Vault packaging structure with index.html.
@@ -109,12 +112,14 @@ These credentials are required to ensure successful synchronization of the conte
 Once the content has been uploaded, configured and staged  (or Approved) in Vault, it can be 'pulled' into CRM.
 
 Two new tabs in CRM enable you to manage the synchronization and testing of content:
+
 - Engage Metadata Admin
 - Engage Content Admin
- 
+
 Navigate to **Engage MetaData Admin** tab.
 
 Select 'Sync' on the Engage Metadata Sync Admin Console section.
+
 - Sync success and rows transferred will be shown on screen.
 - If the process fails, an error message will be provided.
 
@@ -140,7 +145,7 @@ The Display Order needs to be filled in as well (defaults to 1).
 
 ## Generate Engage URL
 
-![[Generate Engage URL.png]]
+![Generate Engage URL.png](./Images/Generate%20Engage%20URL.png)
 
 ## Account tracking if not using Approved Email
 

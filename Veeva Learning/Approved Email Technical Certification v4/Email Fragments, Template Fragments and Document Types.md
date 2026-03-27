@@ -1,3 +1,5 @@
+# Email Fragments, Template Fragments and Document Types
+
 ## What is an Email Fragment?
 
 ### Elements of an Approved Email
@@ -92,51 +94,70 @@ Download options can be controlled with the two fields below.
 
 ## Quiz
 
-> [!faq]- An Email Fragment is a modular HTML snippet that can't contain embedded text or images.
-> 
+> [!TIP]- An Email Fragment is a modular HTML snippet that can't contain embedded text or images.
+>
 > False.
 
-> [!faq]- Email Fragments can be placed in multiple locations within an Email Template.
-> 
+---
+
+> [!TIP]- Email Fragments can be placed in multiple locations within an Email Template.
+>
 > False.
 
-> [!faq]- Reference documents are opened in the Document Viewer. Which options below can be set by the customer to control document download?
-> 
+---
+
+> [!TIP]- Reference documents are opened in the Document Viewer. Which options below can be set by the customer to control document download?
+>
 > - Allow PDF download.
 > - Allow source download.
 > - Not available for download.
 
-> [!faq]- Email Fragments can be standalone in an Approved Email.
-> 
+---
+
+> [!TIP]- Email Fragments can be standalone in an Approved Email.
+>
 > True.
 
-> [!faq]- A Template Fragment is an HTML snippet, used to create a footer appended to an Email Template and can be used across many Email Templates.
-> 
+---
+
+> [!TIP]- A Template Fragment is an HTML snippet, used to create a footer appended to an Email Template and can be used across many Email Templates.
+>
 > True.
 
-> [!faq]- Documents in Vault Viewer can never be downloaded.
-> 
+---
+
+> [!TIP]- Documents in Vault Viewer can never be downloaded.
+>
 > False.
 
-> [!faq]- Which of the following are elements of a Veeva Approved Email?
-> 
+---
+
+> [!TIP]- Which of the following are elements of a Veeva Approved Email?
+>
 > - Email Templates.
 > - Template Fragments.
 > - Email Fragments.
 
-> [!faq]- Documents can be linked to 1 or more Email Templates and/or Email Fragments.
-> 
+---
+
+> [!TIP]- Documents can be linked to 1 or more Email Templates and/or Email Fragments.
+>
 > True.
 
-> [!faq]- The hyperlink of a Document is only a reference to the document in Vault and customers are unable to make any updates.
-> 
+---
+
+> [!TIP]- The hyperlink of a Document is only a reference to the document in Vault and customers are unable to make any updates.
+>
 > False.
 
-> [!faq]- It is possible to include multiple Email Fragments in a single Email Template.
-> 
+---
+
+> [!TIP]- It is possible to include multiple Email Fragments in a single Email Template.
+>
 > True.
 
-> [!faq]- Vault Viewer can be embedded into an external branded website.
-> 
-> True.
+---
 
+> [!TIP]- Vault Viewer can be embedded into an external branded website.
+>
+> True.

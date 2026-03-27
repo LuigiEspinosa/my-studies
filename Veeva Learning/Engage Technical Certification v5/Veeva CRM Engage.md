@@ -1,3 +1,5 @@
+# Veeva CRM Engage
+
 ## Veeva CRM Engage Platform Overview
 
 Veeva Engage is beyond an Engage Meeting and is about **Meet**, stay **Connected** and **Share** with HCPs, and is now about supporting hybrid engagements for the field.
@@ -10,7 +12,7 @@ It comprises 5 main business capabilities that support HCPs and Reps in and betw
 - Share content or capture signatures either remotely, in person or being socially distanced.
 - Provide a compliant way for field teams to chat with HCPs.
 
-![[CRM Engage.png]]
+![CRM Engage.png](./Images/CRM%20Engage.png)
 
 ## Veeva CRM Engage - Capability Examples
 
@@ -42,7 +44,7 @@ All the interactions in Veeva CRM and contribute to a better 360 view of the cus
 
 Less Engagements Expected With Hybrid Models. [^1]
 
-![[Hybrid Models.png]]
+![Hybrid Models.png](./Images/Hybrid%20Models.png)
 
 [^1]: Source; McKinsey: [Webinar - Hybrid: Go-To-Market Models, Roles, and Capabilities for HCP Engagement - YouTube](https://www.youtube.com/watch?v=YoUTgB9EE7g); May 2021.
 
@@ -54,27 +56,34 @@ Less Engagements Expected With Hybrid Models. [^1]
 
 ## Quiz
 
-> [!faq]- Engage Sign enables the user to capture a Sample or Medical Inquiry Signature.
-> 
+> [!TIP]- Engage Sign enables the user to capture a Sample or Medical Inquiry Signature.
+>
 > True.
 
-> [!faq]- With Integrated Scheduling the Rep has the ability to agree with the HCP how and when they would like to meet.
-> 
+---
+
+> [!TIP]- With Integrated Scheduling the Rep has the ability to agree with the HCP how and when they would like to meet.
+>
 > True.
 
-> [!faq]- Select the Veeva CRM Engage business capabilities:
-> 
+---
+
+> [!TIP]- Select the Veeva CRM Engage business capabilities:
+>
 > - Connect.
 > - Sign.
 > - Schedule.
 > - Share.
 > - Meet.
 
-> [!faq]- Through Digital Business Cards in the Engage Connect app, HCPs can initiate a conversation with Reps.
-> 
+---
+
+> [!TIP]- Through Digital Business Cards in the Engage Connect app, HCPs can initiate a conversation with Reps.
+>
 > True.
 
-> [!faq]- Veeva CRM Engage allows Users to share any compliant content stored in Veeva CRM.
-> 
-> True.
+---
 
+> [!TIP]- Veeva CRM Engage allows Users to share any compliant content stored in Veeva CRM.
+>
+> True.

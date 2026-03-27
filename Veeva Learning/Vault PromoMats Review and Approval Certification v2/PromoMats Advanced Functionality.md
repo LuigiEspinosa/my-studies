@@ -1,8 +1,11 @@
+# PromoMats Advanced Functionality
+
 ## User Profile
 
 Your User Profile is easily accessible by hovering over the user picture or silhouette in the top-right corner and selecting User Profile.
 
 From your User Profile, you have various options available:
+
 - Update your user information.
 - Change your password.
 - Opt-in for notification emails from Veeva.
@@ -14,10 +17,12 @@ From your User Profile, you have various options available:
 Updating your user information is simple. However, Vault administrators can disable this for users.
 
 To update user information:
+
 - Click **Edit** and update the relevant fields.
 - When complete, click **Save**. If your customer has this disabled, you will need to work with them to update your information.
 
 Form here, you can also upload a profile picture:
+
 - Click **Change Profile Image**.
 - Choose the image from your computer and click **OK**. [^1]
 
@@ -27,7 +32,7 @@ Form here, you can also upload a profile picture:
 
 For customers that are not using Single Sign-on (SSO), you can update your password via the User Profile.
 
-### To update your password:
+### To update your password
 
 1. Click **Change Password** in the menu on the left.
 2. Enter your current and new password, click **Confirm**.
@@ -40,7 +45,7 @@ Vault will lock your user account after 5 consecutive unsuccessful login attempt
 
 if you get locked out of Vault, you can manually request a password reset. [^2]
 
-1. Go to the login page https://login.veevault.com/ and click **Having trouble logging in?**
+1. Go to the login page <https://login.veevault.com/> and click **Having trouble logging in?**
 2. Enter your username or email address to start the process of resetting your password.
 
 [^2]: Requesting a Password Reset only works for customers not using SSO.
@@ -102,6 +107,7 @@ One of the main benefits of using Vault PromoMats as a DAM is content reuse. A f
 This allows for the fields, content, structure, and/or relationships of the original document to be copied. Additionally, a link is created between the original and copy for traceability.
 
 To make a copy of a document:
+
 - Select **Make a Copy** from the **Action Menu**.
 - Enter a name for the new document or binder.
 - Choose whether to copy content, fields, or both.
@@ -131,20 +137,23 @@ To make a copy of a document:
 ## Creating a Claim
 
 - The foundation of **Suggest Links** is the **Claims and Text Asset Library**. The process to manage and update claims will vary from customer to customer, but there may be times that you're asked to create a claim. A claim consist of a number of key elements:
-	- **Name:** this is automatically generated.
-	- **Match Text:** this is the actual claim, the main claim would be the match text and any variations would be managed under match text variations.
-	- **Category:** the type of the claim, efficacy or safety for example.
-	- **Product:** this will be a reference field and is the product of which the claim applies.
-	- **Country:** this is another reference field and is the country where the claim is used.
+  - **Name:** this is automatically generated.
+  - **Match Text:** this is the actual claim, the main claim would be the match text and any variations would be managed under match text variations.
+  - **Category:** the type of the claim, efficacy or safety for example.
+  - **Product:** this will be a reference field and is the product of which the claim applies.
+  - **Country:** this is another reference field and is the country where the claim is used.
 - A claim is created in Claims Library, vie the Claims tab. All the key elements must be completed for a claim to be created. [^4]
-	1. Click **Create**.
-	2. Enter **Country** and **Product** (optional) as matching fields.
-	3. Enter the **Match Text** (claim text that will match to the claim in document content).
-	4. Click **Save**.
+
+ 1. Click **Create**.
+ 2. Enter **Country** and **Product** (optional) as matching fields.
+ 3. Enter the **Match Text** (claim text that will match to the claim in document content).
+ 4. Click **Save**.
+
 - Once the claim's metadata is completed and saved, you'll be able to assign a document and/or anchor links as references to support the claim. These will be sued in the submission process. A reference document/anchor can be added in the references section below the Claim details. [^5]
-	1. Open **Reference** panel from the Claim record detail page.
-	2. Click **Add Reference** button.
-	3. Search or select the relevant Reference or specific anchor and click **+** button.
+
+ 1. Open **Reference** panel from the Claim record detail page.
+ 2. Click **Add Reference** button.
+ 3. Search or select the relevant Reference or specific anchor and click **+** button.
 
 [^4]: Naming convention for Claims tab may vary according to customer environment. Standard variations are Claims tab or Text Asset tab.
 [^5]: All Claims need to be approved through an MLR workflow.
@@ -152,17 +161,17 @@ To make a copy of a document:
 ## Using Suggest Links
 
 - Once the claims library has been populated and has approved claims, they can be used in the submission process. There are two ways to run Suggest Links.
-	- Use the **Suggest Links** action in the Actions menu or click on the light bulb icon.
-	- When configured, Vault can automatically create suggested links once a document enters a given life-cycle state.
+  - Use the **Suggest Links** action in the Actions menu or click on the light bulb icon.
+  - When configured, Vault can automatically create suggested links once a document enters a given life-cycle state.
 - Once you're notified that the process is complete, the document page.
-	- Click + balloon or light bulb icons to view document annotations.
-	- Any annotations created by Suggest Links will show the light bulb icon.
-	- You can also remove all Suggest Links by clicking the strike-through light bulb icon button.
+  - Click + balloon or light bulb icons to view document annotations.
+  - Any annotations created by Suggest Links will show the light bulb icon.
+  - You can also remove all Suggest Links by clicking the strike-through light bulb icon button.
 - If you run **Suggest Links** action on a document bu receive no Suggested Links as a result, there could be several reasons:
-	- The claim statements in the document do not exactly match any Match Text values in the claims library. This can happen for several reasons, including uncommon text effects or non-linear layouts in the source document.
-	- None of the approved claims have matching field values (Product, Country, or any other object reference and picklist fields) that match the equivalent fields on the document.
-	- None of the matching claims records are in approved state. (Only approved records are available to the Suggest Links action).
-	- Some combination of the above.
+  - The claim statements in the document do not exactly match any Match Text values in the claims library. This can happen for several reasons, including uncommon text effects or non-linear layouts in the source document.
+  - None of the approved claims have matching field values (Product, Country, or any other object reference and picklist fields) that match the equivalent fields on the document.
+  - None of the matching claims records are in approved state. (Only approved records are available to the Suggest Links action).
+  - Some combination of the above.
 
 ## Veeva Web2PDF
 
@@ -172,30 +181,35 @@ The PDF is created full length with embedded links and annotable text.
 
 ## Using Veeva Web2PDF
 
-To create a PDF of your website, access www.veevaweb2pdf.com and input:
+To create a PDF of your website, access <www.veevaweb2pdf.com> and input:
 
 1. Website URL you want to screenshot.
 2. Viewing Experince
-	-  Desktop
-	- Smartphone
-	- Tablet
+
+    - Desktop
+    - Smartphone
+    - Tablet
+
 3. Email Address that the PDF should be sent to.
 
 To create a general PDF of your website, open up your website and click on the Veeva Web2PDF Chrome extension and input:
 
 1. Email Address that the PDF should be sent to.
 2. Viewing Experince
-	-  Desktop
-	- Smartphone
-	- Tablet
+
+    - Desktop
+    - Smartphone
+    - Tablet
+
 3. If a Password should be entered to access restricted areas of the website.
 
 ## Using Hintify via Chrome Extension
 
 Use Hints to capture relevant interactions and hidden content without the need for a developer via adding:
-	- Clicks, hovers, carousels, and accordions.
-	- Form fill and submit.
-	- Sequences, decision trees, and scenarios.
+
+- Clicks, hovers, carousels, and accordions.
+- Form fill and submit.
+- Sequences, decision trees, and scenarios.
 
 Once all hints have been added, the PDF can be generated directly from the Chrome Extension.
 
@@ -215,20 +229,23 @@ VeevaWeb2PDF [^6] ISI control will automatically take 2 screenshots:
 - 2nd screenshot with stretched window to show the complete page.
 
 Hints created via the Chrome Extension are not permanent, and are local to your computer.
+
 - I.e., Only the individual that created the hints will be able to capture a PDF using these.
 
 In order to make hints permanent so that other users can create PDFs that include these interactions and hidden content, it is possible to download a JSON file that can be hosted on your website.
 
 Hints can be viewed and edited via the **Hint** tab from the Chrome extension.
+
 - There can be up to 150 hints in your Chrom extension at once.
 
-[^6]: To use Veeva Web2PDF go to https://veevaweb2pdf.com
+[^6]: To use Veeva Web2PDF go to <https://veevaweb2pdf.com>
 
 ## Standard Metrics
 
 Vault PromoMats Standard Metrics allows customers to keep track of key metrics about their content.
 
 Standard Metrics tracks information that helps to answer the following questions:
+
 - What types of materials have been developed?
 - What is the average approval time for a type of content?
 - How many review cycles does it take for content to be approved?

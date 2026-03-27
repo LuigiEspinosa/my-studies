@@ -1,3 +1,5 @@
+# Veeva CRM Content Administration
+
 ## Vault Packaging
 
 After creating a piece of media for CLM, Content Creators must prepare it before uploading to Veeva CRM. This process has previously been covered for CLM content that is uploaded to Veeva Vault before being synced to Veeva CRM, using Vault Packaging format, an example of which can be seen below.
@@ -30,26 +32,31 @@ This is where Legacy Packaging is important. Overall, the preparation of media i
 
 ## Legacy Packaging Examples
 
-**Image ZIPs contain**
+### Image ZIPs contain
+
 - File Name.jpg
 - File Name-thumb.jpg
 - File Name-full.jpg
 
-**PDF ZIPs contain**
+### PDF ZIPs contain
+
 - File Name.pdf
 - File Name-thumb.png
 - File Name-full.jpg
 
-**Video ZIPs contain**
+### Video ZIPs contain
+
 - File Name.mp4
 - File Name-full.jpg
 - File Name-thumb.jpg
 
-**Powerpoint ZIPs contain**
+### Powerpoint ZIPs contain
+
 - File Name.pptx
 - File Name-thumb.jpg
 
-**HTML ZIPs contain**
+### HTML ZIPs contain
+
 - File Name.html
 - File Name-full.html
 - File Name-thumb.jpg
@@ -86,6 +93,7 @@ After creating all the Key Messages for a Presentation, navigate to the 'CLM Pre
 Enter the name of the Presentation into the CLM Presentation Name field.
 
 Select the magnifying glass and search for the Product.
+
 - Please not this should be the same as the Key Messages you previously created.
 
 The click 'Save'.
@@ -108,6 +116,7 @@ The CLM Presentation Name will automatically populate.
 Select the magnifying glass next to the Key Message to search and select the desired Key Message.
 
 If required, enter the Display Order and click 'Save'.
+
 - This is the order in which the Slide will display using the Native Swipe.
 
 ## FTP Upload
@@ -128,13 +137,14 @@ Requirements to upload CLM content via FTP:
 4. A Control File per ZIP file.
 
 Open up the FTP client (e.g. Filezilla), enter the following details:
+
 - FTP Server Details into the Host field - remove https://
 - Admin Username e.g. cloader in Username field.
 - Admin Password in Password field.
 
 'Click Quickconnect'.
 
-Drag and drop each [[#Creating a Control File|.ctl]] file and the ZIP file into the right-hand side of the server (Remote site).
+Drag and drop each [.ctl](#creating-a-control-file) file and the ZIP file into the right-hand side of the server (Remote site).
 
 The FTP will show the number of files that are queued and the number of successful transfers.
 
@@ -157,6 +167,7 @@ Copy the FTP Server details and enter this in the Host field in the FTP without 
 For each ZIP file that needs to be uploaded as a Key Message an individual Control File needs to be created.
 
 The Control File needs to be created in one of the following encodings:
+
 - ASCII
 - ISO-8859-1
 - UTF-8
@@ -184,9 +195,11 @@ Once content is approved and verified in an agency sandbox, it often needs to be
 1. Select the CLM presentation to migrate and click 'Migrate'.
 2. Clicking 'Migrate' will display the list of presentations, related slides, and Key Messages that will be migrated in one package at the same time. [^5]
 3. Review any error messages
-	- Some erros may need to be resolved with the Customer and/or Services team.
+
+- Some erros may need to be resolved with the Customer and/or Services team.
 
 Destination or now contains:
+
 - CLM Presentation
 - CLM Presentation Slides
 - Key Messages
@@ -198,32 +211,44 @@ Any record that exist in the destination org will be overwritten.
 
 ## Quiz
 
-> [!faq]- Is it possible to migrate individual Key Messages from one Veeva CRM instance to another Veeva CRM instance?
-> 
+> [!TIP]- Is it possible to migrate individual Key Messages from one Veeva CRM instance to another Veeva CRM instance?
+>
 > No.
 
-> [!faq]- Is it possible to automatically link a Key Message to a CLM Presentation in Veeva CRM?
-> 
+---
+
+> [!TIP]- Is it possible to automatically link a Key Message to a CLM Presentation in Veeva CRM?
+>
 > Yes.
 
-> [!faq]- Is it possible to migrate CLM Content from one Veeva CRM instance to another Veeva CRM instance?
-> 
+---
+
+> [!TIP]- Is it possible to migrate CLM Content from one Veeva CRM instance to another Veeva CRM instance?
+>
 > Yes.
 
-> [!faq]- For Legacy Packaging, if the ZIP file is called Media1.zip what should the corresponding HTML file be called?
-> 
+---
+
+> [!TIP]- For Legacy Packaging, if the ZIP file is called Media1.zip what should the corresponding HTML file be called?
+>
 > Media1.html
 
-> [!faq]- Under what circumstances must you use legacy packaging?
-> 
+---
+
+> [!TIP]- Under what circumstances must you use legacy packaging?
+>
 > Loading content in to Veeva CRM.
 
-> [!faq]- Is it possible to create Key Messages directly in Veeva CRM?
-> 
+---
+
+> [!TIP]- Is it possible to create Key Messages directly in Veeva CRM?
+>
 > Yes.
 
-> [!faq]- Which of the following are requirements for uploading CLM content via FTP?
-> 
+---
+
+> [!TIP]- Which of the following are requirements for uploading CLM content via FTP?
+>
 > - Control file per ZIP file.
 > - FTP details.
 > - CLM ZIP files correctly packaged.

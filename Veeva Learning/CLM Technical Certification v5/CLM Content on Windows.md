@@ -1,3 +1,5 @@
+# CLM Content on Windows
+
 Reps can use the Veeva CRM for Windows application to perform actions in CRM from their Windows device.
 
 The Windows Device works and connects to the Veeva Ecosystem like the iPad but as it is a different operating environment there are a number of aspects to be aware of.
@@ -8,12 +10,12 @@ The Windows Device works and connects to the Veeva Ecosystem like the iPad but a
 
 Existing CLM content reusability varies based on the content type but the two main factors that affect the content rendering are:
 
-**Aspect Ratio**
+#### Aspect Ratio
 
 - In general, the iPads have an aspect ratio of 4:3.
 - The Windows aspect ratio is 16:9.
 
-**Rendering engine**
+#### Rendering engine
 
 - CLM content is rendered with the Windows WebView class, which uses the Microsoft Edge rendering engine.
 - The iPad App uses the WKWebview.
@@ -98,23 +100,30 @@ Many customers have made significant content investments on CLM for Veeva CRM. I
 
 ## Quiz
 
-> [!faq]- Do legacy CLM API functions work on Windows?
-> 
+> [!TIP]- Do legacy CLM API functions work on Windows?
+>
 > No.
 
-> [!faq]- Are all current CLM Image Types supported in Windows 10?
-> 
+---
+
+> [!TIP]- Are all current CLM Image Types supported in Windows 10?
+>
 > Yes.
 
-> [!faq]- How is CLM Content rendered on Windows?
-> 
+---
+
+> [!TIP]- How is CLM Content rendered on Windows?
+>
 > Using the Webview Class.
 
-> [!faq]- What is the supported resolution in Windows?
-> 
+---
+
+> [!TIP]- What is the supported resolution in Windows?
+>
 > 1920x1080.
 
-> [!faq]- What is the Aspect Ratio of Windows?
-> 
-> 16:9.
+---
 
+> [!TIP]- What is the Aspect Ratio of Windows?
+>
+> 16:9.

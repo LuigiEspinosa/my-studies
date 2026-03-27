@@ -1,3 +1,5 @@
+# Additional Functionalities in Approved Email
+
 ## Footnotes and Citations
 
 Email Fragments may contain information or links to documents that must properly reference a citation and/or footnote within the Email Template.
@@ -25,12 +27,14 @@ The following Tokens govern where the dynamically assembled content is inserted 
 The following Tokens are inserted into the Email Fragment:
 
 - `{{FootnoteSymbol[Sequence Number]}}` - Inserts a footnote symbol. For example, `{{FootnoteSymbol[3]}}` renders as ‡. If more footnote symbols are needed, symbols can be duplicated by including multiple tokens. For example, `{{FootnoteSymbol[3]}} {{FootnoteSymbol[3]}}` renders as ‡‡. The symbols order is:
-	1. *
-	2. †
-	3. ‡
-	4. §
-	5. ||
-	6. ¶
+
+ 1. -
+ 2. †
+ 3. ‡
+ 4. §
+ 5. ||
+ 6. ¶
+
 - `{{FootnoteStart}}` - Denotes the start of the footnote section.
 - `{{FootnoteEnd}}` - Denotes the end of the footnote section.
 
@@ -48,7 +52,7 @@ The following Tokens are inserted into the Email Fragment:
 
 ### Email Template and Email Fragments with Footnotes and Citations
 
-![[Footnotes and Citations.png]]
+![Footnotes and Citations.png](./Images/Footnotes%20and%20Citations.png)
 
 ## BEE Editor
 
@@ -97,17 +101,17 @@ Every content block has its own settings, such as granular control on padding.
 
 When working with Text content, you can easily personalize content by inserting Special Links and Merge Tags from the Text menu.
 
-**Special Links**
+#### Special Links
 
 - Approved Email Action Links: Double Opt-In Confirmation, Call to Action.
 - Vault Links: Engage Links, Survey Links, Links to other Vault Documents.
 - Unsubscribe Links.
 
-**Merge Tags**
+#### Merge Tags
 
 - Contain pre-populated tokens.
 
-![[BEE Editor.png]]
+![BEE Editor.png](./Images/BEE%20Editor.png)
 
 Thumbnails of images display in editor to help the user select the correct image.
 
@@ -135,15 +139,15 @@ BEE Editor gives customer the opportunity to add a link to the PI, ISI or other 
 
 These documents must first be identified in the Document's Related Document Properties before being added to the Template in BEE Editor and must be in the steady state (e.g. Approved).
 
-![[Adding Vault Doc Link.png]]
+![Adding Vault Doc Link.png](./Images/Adding%20Vault%20Doc%20Link.png)
 
-**Special links**
+#### Special links
 
 - **Approved Email Action Links** - Double Opt-In Confirmation, Call to Action.
 - **Vault Links** - Engage Link, Survey Link and Links to Approved Vault Documents.
 - **Unsubscribe Links** - Standard or custom unsubscribe Link.
 
-**Merge Tags**
+#### Merge Tags
 
 - Insert the known Approved Email Tokens like `{{accFName}}`, `{{accLName}}` or `{{userPhoto}}` to make the email personalized.
 
@@ -169,64 +173,87 @@ If the images for the fragments were originally hosted in the BEE Editor templat
 
 ## Quiz
 
-> [!faq]- Which of the following actions are visible in the BEE Editor Toolbar?
-> 
+> [!TIP]- Which of the following actions are visible in the BEE Editor Toolbar?
+>
 > - Preview.
 > - Close/Save.
 > - Show Structure.
 > - Help.
 
-> [!faq]- When working with Images in the BEE Editor, users are not able to edit the image (e.g. resize the image, apply visual effects, etc.).
-> 
+---
+
+> [!TIP]- When working with Images in the BEE Editor, users are not able to edit the image (e.g. resize the image, apply visual effects, etc.).
+>
 > False.
 
-> [!faq]- The Rep can view footnotes and citations in preview mode before sending the Approved Email.
-> 
+---
+
+> [!TIP]- The Rep can view footnotes and citations in preview mode before sending the Approved Email.
+>
 > False.
 
-> [!faq]- BEE Editor requires HTML knowledge.
-> 
+---
+
+> [!TIP]- BEE Editor requires HTML knowledge.
+>
 > False.
 
-> [!faq]- Under no circumstances should a BEE Editor email be downloaded and the HTML edited directly as it cause issues with the email filtering to SPAM.
-> 
+---
+
+> [!TIP]- Under no circumstances should a BEE Editor email be downloaded and the HTML edited directly as it cause issues with the email filtering to SPAM.
+>
 > True.
 
-> [!faq]- Which of the following tokens are available in BEE Editor?
-> 
+---
+
+> [!TIP]- Which of the following tokens are available in BEE Editor?
+>
 > - Double Opt-In Confirmation.
 > - Survey Link.
 > - Links to Approved Vault Documents.
 
-> [!faq]- When working with Text content in the BEE Editor, users can easily personalize content by inserting Special Links and Merge Tags from the Text menu.
-> 
+---
+
+> [!TIP]- When working with Text content in the BEE Editor, users can easily personalize content by inserting Special Links and Merge Tags from the Text menu.
+>
 > True.
 
-> [!faq]- In Approved Emails, users need to manually create footnotes, citations, and citation summaries.
-> 
+---
+
+> [!TIP]- In Approved Emails, users need to manually create footnotes, citations, and citation summaries.
+>
 > False.
 
-> [!faq]- The following citation tokens are inserted into the Email Fragment:
-> 
+---
+
+> [!TIP]- The following citation tokens are inserted into the Email Fragment:
+>
 > - `{{CitationNumber[Sequence Number]}}`
 > - `{{CitationStart}}`
-> 
+>
 
-> [!faq]- The following footnote tokens are inserted into the Email Fragment:
-> 
+---
+
+> [!TIP]- The following footnote tokens are inserted into the Email Fragment:
+>
 > - `{{FootnoteStart}}`
 > - `{{FootnoteEnd}}`
 > - `{{FootnoteSymbol[Sequence Number]}}`
 
-> [!faq]- In BEE Editor, it is not possible to have multiple columns in a row.
-> 
+---
+
+> [!TIP]- In BEE Editor, it is not possible to have multiple columns in a row.
+>
 > False.
 
-> [!faq]- BEE Editor gives customers the opportunity to add a link to the PI, ISI or other Vault Document. These documents must be in the steady state (e.g. Approved).
-> 
+---
+
+> [!TIP]- BEE Editor gives customers the opportunity to add a link to the PI, ISI or other Vault Document. These documents must be in the steady state (e.g. Approved).
+>
 > True.
 
-> [!faq]- Approved Email Configuration Tokens are used to define what citations and footnotes are included, and where they are located in the Email Template.
-> 
-> True.
+---
 
+> [!TIP]- Approved Email Configuration Tokens are used to define what citations and footnotes are included, and where they are located in the Email Template.
+>
+> True.

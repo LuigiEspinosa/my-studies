@@ -1,3 +1,5 @@
+# Veeva Vault PromoMats Administration
+
 ## Bulk Documents Actions
 
 Bulk Document Actions allow you to complete the same action across multiple documents within Vault PromoMats.
@@ -38,6 +40,7 @@ In order to update document field values, on Choose Action page select 'Edit Fie
 The Edit Fields page displays editable fields for these documents.
 
 Click the Edit field icon to open the edit option and enter the new value and Click Next.
+
 - If the field is already populated on a document, this new value will replate the existing value.
 - If you edit the field but leave it empty, Vault will clear the field across all selected documents.
 
@@ -46,6 +49,7 @@ Click the Edit field icon to open the edit option and enter the new value and Cl
 From the Confirmation page, review the summary of changes. Click 'Finish'. When the changes are complete, a notice will appear in your Notifications page and Vault will send you an email.
 
 Note, not all fields are available to edit using bulk document actions:
+
 - Field must be common across all selected documents.
 - Field cannot have dependencies.
 
@@ -152,11 +156,13 @@ Open a Multichannel Presentation and click the Export Binder option from the Act
 Check every slide you would like to export and click Next.
 
 Check 'Renditions' and un-select any renditions you do not want to download.
+
 - Distribution Package = the User uploaded ZIP package.
 - Veeva Distribution Package = Veeva generated ZIP package for documents with PDF rendition (auto packaging of image, PDF, etc. files).
 - CLM Video Distribution Package = Veeva generated ZIP package of video slides.
 
 Optional Steps:
+
 - Optional: Select "Document Fields" if the metadata should be exported.
 - Optional: Select "Source Documents" if the source document should be exported.
 
@@ -175,6 +181,7 @@ Refine your Selection and click 'Next'.
 Select the 'Document Export' Action and click 'Next'.
 
 Check the 'Source Documents' check box and select the Assets rendition in order to get the original HTML file and the ZIP file containing the image assets.
+
 - Optional: check the 'Document Fields' in order to download the document metadata
 
 Click 'Next' and then Finish on the summary page.
@@ -240,6 +247,7 @@ It is recommended to match exactly the field type in the Veeva CRM. [^9]
 ## Custom Field Types for Integrations
 
 **Supported Field Types** that will sync from Vault PromoMats to Veeva CRM:
+
 - Text
 - Text (up to 255 characters)
 - Single Select Picklist
@@ -249,7 +257,8 @@ It is recommended to match exactly the field type in the Veeva CRM. [^9]
 - Number
 - URL
 
-**Unsupported Field Types**
+### Unsupported Field Types
+
 - DateTime
 - Long Text Area
 - Custom Lookup
@@ -259,6 +268,7 @@ It is recommended to match exactly the field type in the Veeva CRM. [^9]
 ## Mapping Fields
 
 Once Custom Fields are created in both Vault PromoMats and Veeva CRM Sandboxes.
+
 - Go into the Integration Tab (CLM admin, Approved Email Admin or Engage Metadata Admin).
 - Click on View Map next to the Vault Credentials.
 - Click on Compare CRM to Valt
@@ -269,7 +279,8 @@ Otherwise, you may need to map fields manually.
 
 ## CRM Publishing Overview
 
-[[Managing Your Multichannel Sandboxes]] course covered how content can be synced from Vault PromoMats to Veeva CRM using the Production Administration tabs.
+[Managing Your Multichannel Sandboxes](Managing%20Your%20Multichannel%20Sandboxes.md) course covered how content can be synced from Vault PromoMats to Veeva CRM using the Production Administration tabs.
+
 - CLM Admin
 - Approved Email Admin
 - Engage Metadata Admin
@@ -299,7 +310,7 @@ The requirements to set up and use CRM Publishing are:
 
 In order to add an integration in CRM Publishing, the CRM Orgs object must be available in the Business Admin Menu.
 
-Using an Administration User in Vault PromoMats, click on the Admin button. 
+Using an Administration User in Vault PromoMats, click on the Admin button.
 
 Click on Configuration, then Objects Setup, then Objects, CRM Org and Edit.
 
@@ -312,6 +323,7 @@ This will allow the CRM Org object to be visible in the Business Admin tab in Va
 Navigate to the Business Admin Tab. Click on the Component Box and  type in 'CRM Orgs'.
 
 Click 'Create' and fill out the fields:
+
 - **Name:** Agency Sandbox Name.
 - **Status:** Active.
 - **CRM Org ID:** Sandbox ID [^11]
@@ -327,6 +339,7 @@ Click 'Create' and fill out the fields:
 Go to Vault Home and refresh the page. Select the CRM Publishing tab.
 
 Select the Integration you want to run and click 'Publish to CRM'. This will trigger the 'Sync' action in Veeva CRM Online. [^13]
+
 - CLM: Equivalent to the CLM Admin Tab in your CRM Sandbox.
 - Engage: Equivalent to the Engage Metadata Tab in your CRM Sandbox.
 - Approved Email: Equivalent to the Approved Email Admin Tab in your CRM Sandbox.
@@ -339,37 +352,50 @@ The User will receive an email notification once the sync is complete which will
 
 ## Quiz
 
-> [!faq]- Select the 2 ways to add a new version of a document to Vault PromoMats?
-> 
+> [!TIP]- Select the 2 ways to add a new version of a document to Vault PromoMats?
+>
 > - Upload a new version of a document.
 > - Create a document draft.
 
-> [!faq]- Is it possible to have multiple versions of a document in Vault PromoMats?
-> 
+---
+
+> [!TIP]- Is it possible to have multiple versions of a document in Vault PromoMats?
+>
 > Yes.
 
-> [!faq]- Can CRM Publishing be used in both Veeva CRM and Vault PromoMats?
-> 
+---
+
+> [!TIP]- Can CRM Publishing be used in both Veeva CRM and Vault PromoMats?
+>
 > Yes.
 
-> [!faq]- Can custom fields be created in Veeva Vault and CRM?
-> 
+---
+
+> [!TIP]- Can custom fields be created in Veeva Vault and CRM?
+>
 > Yes.
 
-> [!faq]- Can you use Bulk Actions to change the state of documents?
-> 
+---
+
+> [!TIP]- Can you use Bulk Actions to change the state of documents?
+>
 > Yes.
 
-> [!faq]- Which 2 ways can you download assets from Vault PromoMats?
-> 
+---
+
+> [!TIP]- Which 2 ways can you download assets from Vault PromoMats?
+>
 > - Binder Export.
 > - Bulk Document Export.
 
-> [!faq]- Can you use Bulk Actions to add Multichannel Slides to a Multichannel Presentation?
-> 
+---
+
+> [!TIP]- Can you use Bulk Actions to add Multichannel Slides to a Multichannel Presentation?
+>
 > Yes.
 
-> [!faq]- Which feature shows existing relationships between a document and a binder?
-> 
-> "Where Used".
+---
 
+> [!TIP]- Which feature shows existing relationships between a document and a binder?
+>
+> "Where Used".

@@ -1,3 +1,5 @@
+# Using CLM Content with Engage Meeting - Technical
+
 ## Adapting Content Strategy in a Digital World
 
 There are certain activities that Reps usually complete during a Face-to-Face (F2F) visit with an HCP including: [^1]
@@ -18,7 +20,7 @@ The freshness of content impacts the length of calls, so it is advisable to upda
 
 When using content in Engage Meeting, keep in mind that this is no longer a F2F experience. Certain taps or gestures which are obvious when F2F may not be apparent in a remote discussion.
 
-Unlike F2F, HCPs cannot interact with content directly. 
+Unlike F2F, HCPs cannot interact with content directly.
 
 Consider:
 
@@ -45,14 +47,14 @@ When creating content:
 - Reduce text and use more visual functional CLM content.
 - Use graphs and diagrams to support Key Message and product discussions.
 
-## Content Navigation.
+## Content Navigation
 
 Content Access:
 
- 1. Direct access to Home, abbreviations, etc.
- 2. Use icons/design elements to simplify content.
- 3. Structure message in 2-3 consecutive slides.
- 4. Use identificable icons.
+1. Direct access to Home, abbreviations, etc.
+2. Use icons/design elements to simplify content.
+3. Structure message in 2-3 consecutive slides.
+4. Use identificable icons.
 
 Pop Ups:
 
@@ -121,37 +123,38 @@ These are not visible to the HCP, but should be considered for custom navigation
 ## CLM Content Suitability Considerations
 
 - Does your content contain Video?
-	- At this time, vide content of any type does not display to participants when presented from Engage Meeting on iPad.
+  - At this time, vide content of any type does not display to participants when presented from Engage Meeting on iPad.
 
 - Does your content contain Audio?
-	- HTML Content should not contain `<audio>` tags as this may interfere with the audio of the meeting.
+  - HTML Content should not contain `<audio>` tags as this may interfere with the audio of the meeting.
 
 - Does your content contain Augmented Reality (AR)?
-	- AR content is not supported in Engage Meeting.
+  - AR content is not supported in Engage Meeting.
 
 - Is your content sized to the viewport?
-	- Include `width=device-width` through the viewport meta tag to match the screen's width.
-	- Ensure the page is accessible by not disabling user scaling.
-	- Do not use large fixed-width elements.
-	- Ensure your content does not rely on a specific viewport width to render.
+  - Include `width=device-width` through the viewport meta tag to match the screen's width.
+  - Ensure the page is accessible by not disabling user scaling.
+  - Do not use large fixed-width elements.
+  - Ensure your content does not rely on a specific viewport width to render.
 
 - Does your content include CSS animations?
-	- Certain animations within the transition and transform CSS properties, may not display to participants as expected.
+  - Certain animations within the transition and transform CSS properties, may not display to participants as expected.
 
 - Does your content include complex animations or animated GIFs?
-	- WebGL 2D and 3D animations do not display to participants.
-	- Complex JavaScript animations may not display or may only partially display.
-	- Animated GIFs will display to participants at two frames per second. If there are more than two frames per second, the content may not display as expected.
+  - WebGL 2D and 3D animations do not display to participants.
+  - Complex JavaScript animations may not display or may only partially display.
+  - Animated GIFs will display to participants at two frames per second. If there are more than two frames per second, the content may not display as expected.
 
 ## Supported Media Formats in Engage Meeting
 
-| Type       | Ext                  | Display (iPad and Online)                                                                | Additional Considerations                                                                                                                                                                         |
-| ---------- | -------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **HTML**   | .html<br>.htm        | Full screen - landscape.                                                                 | - Can be multiple files (HTML, CSS, images, video, PDF).<br>- Videos are not supported on iPad.                                                                                                   |
-| **Images** | .jpg<br>.png         | - Full screen - landscape.<br>-If resolution larger than display, pinch zooming allowed. | Should be smallest resolution and compressed as much as possible without impacting quality (max: 2499x2499).                                                                                      |
-| **PDF**    | .pdf                 | - Full screen - landscape.<br>- Stretches to fill scene width.<br>- Scrolls vertically.  | - Supports multi-page PDFs and retains hyperlinks.<br>- 150 dpi resolution with medium quality image compression.<br>- Certain interactive features not supported due to OS limitations.          |
-| **PPTX**   | .pptx                | Full screen - landscape.                                                                 | - Sub presentations are not supported.<br>- CLM PPT Presentations are not supported for Engage Meeting unless they are converted using Auto-Publishing.                                           |
-| **Video**  | .mov<br>.m4v<br>.mp4 | Full screen - landscape.                                                                 | - Video content can be embedded within HTML CLM content or as a standalone Vide Slide.<br>- Videos should be 1080p resolution or below for best results.<br>- .avi video files are not supported. |
+| Type       | Ext            | Display (iPad and Online)                                                             | Additional Considerations                                                                                                                                                                   |
+| ---------- | -------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **HTML**   | .html .htm     | Full screen - landscape.                                                              | - Can be multiple files (HTML, CSS, images, video, PDF). - Videos are not supported on iPad.                                                                                                |
+| **Images** | .jpg .png      | - Full screen - landscape. -If resolution larger than display, pinch zooming allowed. | Should be smallest resolution and compressed as much as possible without impacting quality (max: 2499x2499).                                                                                |
+| **PDF**    | .pdf           | - Full screen - landscape. - Stretches to fill scene width. - Scrolls vertically.     | - Supports multi-page PDFs and retains hyperlinks. - 150 dpi resolution with medium quality image compression. - Certain interactive features not supported due to OS limitations.          |
+| **PPTX**   | .pptx          | Full screen - landscape.                                                              | - Sub presentations are not supported. - CLM PPT Presentations are not supported for Engage Meeting unless they are converted using Auto-Publishing.                                        |
+| **Video**  | .mov .m4v .mp4 | Full screen - landscape.                                                              | - Video content can be embedded within HTML CLM content or as a standalone Vide Slide. - Videos should be 1080p resolution or below for best results. - .avi video files are not supported. |
+
 Note: It is possible to display content in Portrait mode on the iPad only.
 
 ## Video Support with Microsoft Edge WebView2
@@ -173,12 +176,12 @@ See [Microsoft's WebView2 documentation](https://learn.microsoft.com/en-us/micro
 ## Device Considerations when Sharing Content
 
 - Using **iPad**:
-	- Limit high resolution content with many different colors.
+  - Limit high resolution content with many different colors.
 
 - Using **Windows PC:**
-	- Confirm [JS Library](https://developer.veevacrm.com/doc/Content/clm-v1.htm) functions.
-	- Content sourced from Vault.
-	- Revise content built for iOS.
+  - Confirm [JS Library](https://developer.veevacrm.com/doc/Content/clm-v1.htm) functions.
+  - Content sourced from Vault.
+  - Revise content built for iOS.
 
 ## CLM Content Suitability Considerations
 
@@ -201,20 +204,20 @@ The code below provides a basic example of utilizing the Veeva CLM JavaScript Li
 
 ```js
 function start() {
-	getAccountName()
+    getAccountName();
 }
 
 function getAccountName() {
-	com.veeva.clm.getDataForCurrentObject('Account', 'Name', displayAccountName)
+    com.veeva.clm.getDataForCurrentObject('Account', 'Name', displayAccountName);
 }
 
 function displayAccountName(result) {
-	var AccountNameHTML = document.getElementById('account_name')
-	AccountNameHTML.innerHTML += result.Account.Name
+    var AccountNameHTML = document.getElementById('account_name');
+    AccountNameHTML.innerHTML += result.Account.Name;
 }
 ```
 
-Refer to the [Veeva CLM JavaScript Library documentation](https://developer.veevacrm.com/doc/C ontent/clm-v1.htm) for mor information.
+Refer to the [Veeva CLM JavaScript Library documentation](<https://developer.veevacrm.com/doc/C> ontent/clm-v1.htm) for mor information.
 
 While swipe is Veeva CLM's native navigation, it is also possible to leverage the Veeva CLM JavaScript Library to navigate with custom coded buttons or links. For example:
 
@@ -224,21 +227,21 @@ While swipe is Veeva CLM's native navigation, it is also possible to leverage th
 ```js
 // Navigating to a Presentation and a Slide
 function navigateToHomePage() {
-	com.veeva.clm.gotoSlide("Home_Page", "my_hidden_presentation");
+    com.veeva.clm.gotoSlide('Home_Page', 'my_hidden_presentation');
 }
 
 // Navigating to a Slide in the Current Presentation
 function navigateToHomePage() {
-	com.veeva.clm.gotoSlide("Home_Page", "");
+    com.veeva.clm.gotoSlide('Home_Page', '');
 }
 
 // Navigating to Next/Previous Slide
 function JSnextSlide() {
-	com.veeva.clm.nextSlide();
+    com.veeva.clm.nextSlide();
 }
 
 function JSprevSlide() {
-	com.veeva.clm.prevSlide();
+    com.veeva.clm.prevSlide();
 }
 ```
 
@@ -311,7 +314,7 @@ If Legacy Packaging is used, content will only be available to Reps on the iPad.
 Vault uses this packaging format. There is a zip called `<filename>.zip`. The contents of the zip files vary depending on content type:
 
 - **Image ZIPs** - contain files named `image.png` and `thumb.png`.
-- **HTML ZIPs** - contain `index.html`  and `thumb.png` along with images, js, etc. folders.
+- **HTML ZIPs** - contain `index.html` and `thumb.png` along with images, js, etc. folders.
 - **PDF ZIPs** - contain `pdf.pdf` and `thumb.png`.
 - **PowerPoint ZIPs** - contain `<document name>.pptx`, `poster.png`, and `thumb.png`.
 
@@ -327,26 +330,34 @@ Once CLM content is uploaded to Veeva Vault, it can be synced to Veeva CRM. This
 
 ## Quiz
 
-> [!faq]- Microsoft Edge WebView2 allows for the support of what types of video files in Engage Meeting?
-> 
+> [!TIP]- Microsoft Edge WebView2 allows for the support of what types of video files in Engage Meeting?
+>
 > - .mp4
 > - .m4v
 > - .mov
 
-> [!faq]- Existing CLM content can be reused in Engage Meeting.
-> 
+---
+
+> [!TIP]- Existing CLM content can be reused in Engage Meeting.
+>
 > True.
 
-> [!faq]- A CLM Presentation must be uploaded to Veeva Vault PromoMats in order to be visible in the Media Library when hosting an Engage Meeting from a Windows PC (via CRM Online).
-> 
+---
+
+> [!TIP]- A CLM Presentation must be uploaded to Veeva Vault PromoMats in order to be visible in the Media Library when hosting an Engage Meeting from a Windows PC (via CRM Online).
+>
 > True.
 
-> [!faq]- What should Content Creators consider when creating/adapting CLM content for use in Engage Meeting.
-> 
+---
+
+> [!TIP]- What should Content Creators consider when creating/adapting CLM content for use in Engage Meeting.
+>
 > - Enabling the laser pointer (iPad only).
 > - Adjusting content to ensure HCPs know which elements are being tapped or clicked.
 > - Enabling or disabling features on a channel basis.
 
-> [!faq]- All CLM JS Library functions are supported in CLM presentations used in Engage Meetings Hosted via the iPad.
-> 
+---
+
+> [!TIP]- All CLM JS Library functions are supported in CLM presentations used in Engage Meetings Hosted via the iPad.
+>
 > True.

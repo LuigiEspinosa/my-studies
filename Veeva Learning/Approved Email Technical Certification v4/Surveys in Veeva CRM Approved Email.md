@@ -1,3 +1,5 @@
+# Surveys in Veeva CRM Approved Email
+
 ## How to use Surveys in Approved Email?
 
 ### Surveys in Approved Email
@@ -55,46 +57,63 @@ Embedding the Survey iFrame in a custom landing page is not supported.
 
 ## Quiz
 
-> [!faq]- Which fields must be filled in when creating a survey in CRM for use in Approved Email?
-> 
+> [!TIP]- Which fields must be filled in when creating a survey in CRM for use in Approved Email?
+>
 > - External ID.
 > - Channels.
 
-> [!faq]- If an Approved Email includes a Survey, the user needs to create the Survey in Veeva CRM and set the External ID.
-> 
+---
+
+> [!TIP]- If an Approved Email includes a Survey, the user needs to create the Survey in Veeva CRM and set the External ID.
+>
 > True.
 
-> [!faq]- Embedding the Survey iFrame in a custom landing page is supported.
-> 
+---
+
+> [!TIP]- Embedding the Survey iFrame in a custom landing page is supported.
+>
 > False.
 
-> [!faq]- Surveys can be available to survey targets without being Published.
-> 
+---
+
+> [!TIP]- Surveys can be available to survey targets without being Published.
+>
 > False.
 
-> [!faq]- When an HCP receives an Approved Email with a link to a survey, the link launches the Survey in an iFrame on Veeva hosted site.
-> 
+---
+
+> [!TIP]- When an HCP receives an Approved Email with a link to a survey, the link launches the Survey in an iFrame on Veeva hosted site.
+>
 > True.
 
-> [!faq]- What are potential use cases for surveys in Approved Email?
-> 
+---
+
+> [!TIP]- What are potential use cases for surveys in Approved Email?
+>
 > - Gain feedback from HCPs on topics vie email.
 > - Conduct ad hoc market research with accounts.
 
-> [!faq]- If an Approved Email includes a Survey, the user needs to create the Survey Record in Vault and set the same External ID and Start & End Dates as in Veeva CRM.
-> 
+---
+
+> [!TIP]- If an Approved Email includes a Survey, the user needs to create the Survey Record in Vault and set the same External ID and Start & End Dates as in Veeva CRM.
+>
 > True.
 
-> [!faq]- Which fields must be filled in when creating a survey in Vault?
-> 
+---
+
+> [!TIP]- Which fields must be filled in when creating a survey in Vault?
+>
 > - Survey Name.
 > - External ID.
 
-> [!faq]- Which of the following tokens is used by the user to include a survey in the Email Template or Email Fragment?
-> 
+---
+
+> [!TIP]- Which of the following tokens is used by the user to include a survey in the Email Template or Email Fragment?
+>
 > `{{surveyLink}}`
 
-> [!faq]- When setting up surveys in CRM for Approved Email, which option must be selected for the Channels field?
-> 
-> Approved Email.
+---
 
+> [!TIP]- When setting up surveys in CRM for Approved Email, which option must be selected for the Channels field?
+>
+> Approved Email.

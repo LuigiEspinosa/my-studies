@@ -1,3 +1,4 @@
+# Introduction to Veeva CRM and Veeva Vault PromoMats
 
 ## Introduction to Veeva Commercial Cloud
 
@@ -13,7 +14,7 @@ It provides life sciences with the backbone to drive an omnichannel experience. 
 
 CRM stands for "**customer relationship management,** a process in which a business or other organization administers its interactions with customers, typically using data analysis to study large amounts of information." [^1]
 
-[^1]: Bardicchia, Marco (2020). *Digital CRM: Strategies and Emerging Trends: Building Customer Relationship in the Digital Era. p. 12*
+[^1]: Bardicchia, Marco (2020). _Digital CRM: Strategies and Emerging Trends: Building Customer Relationship in the Digital Era. p. 12_
 
 ## What is Veeva CRM?
 
@@ -33,7 +34,7 @@ Within the CRM Suite, there are **additional content-based products** that make 
 
 The following diagram shows the **products that make up the Veeva CRM Suite**. [^2]
 
-![[Products of Veeva CRM Suite.png]]
+![Products of Veeva CRM Suite.png](./Images/Products%20of%20Veeva%20CRM%20Suite.png)
 
 [^2]: There are additional regional Veeva Multichannel CRM Products, there are covered in standalone training for this region. Customers will have varying access to products based on the licenses they have purchased.
 
@@ -135,7 +136,7 @@ Through the collection of Standard Metrics, Vault PromoMats customers can benchm
 
 ## Vault PromoMats as a Multichannel Repository
 
-In addition to [[#Support the End-to-End Content Journey]] for commercial content for all channels, Vault PromoMats is the repository for all **Multichannel Content**. CLM, Approved Email and Engage content are loaded into Vault to allow Content Creators to test in Veeva CRM in the same manner as Customers manage their content.
+In addition to [Support the End-to-End Content Journey](#support-the-end-to-end-content-journey) for commercial content for all channels, Vault PromoMats is the repository for all **Multichannel Content**. CLM, Approved Email and Engage content are loaded into Vault to allow Content Creators to test in Veeva CRM in the same manner as Customers manage their content.
 
 ## Veeva Ecosystem for Content Partners
 

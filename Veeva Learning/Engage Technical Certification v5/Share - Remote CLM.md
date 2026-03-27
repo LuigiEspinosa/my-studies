@@ -1,3 +1,5 @@
+# Share - Remote CLM
+
 ## Engage Share
 
 Use the CLM Media Library to instantly share Content with an HCP using Remote CLM.
@@ -119,13 +121,13 @@ After creating a call and confirming the end of remote CLM, the CLM Details sect
 
 ## Remote CLM Content
 
-**Vault**
+### Vault
 
 - **Type:** CLM Presentation.
 - **Publish**: Auto-published / Binder & Slides.
 - **Trigger:** "Publish to CRM (Remote CLM)" and "Publish to Veeva CRM (CLM)".
 
-**Content Guidelines**
+### Content Guidelines
 
 - **Supported:** PDF, HTML, Images, Videos, goToSlide.
 - **Unsupported:** PPTX, AR, Shared Resources.
@@ -135,35 +137,35 @@ After creating a call and confirming the end of remote CLM, the CLM Details sect
 **Binders and Slides (Create Presentation)** supported file types:
 
 - **PPTX / PDF**
-	- No - PPTX / PDF + CRM rendition Single slide.
-	- No - PPTX + CRM rendition PPTX.
-	- Yes - PPTX / PDF + CRM rendition Multi-slide.
+  - No - PPTX / PDF + CRM rendition Single slide.
+  - No - PPTX + CRM rendition PPTX.
+  - Yes - PPTX / PDF + CRM rendition Multi-slide.
 
 - **HTML**
-	- Yes - HTML containing any PDF.
-	- Yes - HTML containing any JavaScript.
-	- Yes - Only Go-To-Slide.
+  - Yes - HTML containing any PDF.
+  - Yes - HTML containing any JavaScript.
+  - Yes - Only Go-To-Slide.
 
 - **Images/Video**
-	- Yes - Images.
-	- Yes - Video.
+  - Yes - Images.
+  - Yes - Video.
 
 ### Auto Published
 
 **Auto Published (Single Doc Publishing)** supported file types:
 
 - **PPTX / PDF / Word**
-	- Yes - PPTX / PDF / Word.
-	- Yes - Hyperlinks pointing to other sections within the document.
+  - Yes - PPTX / PDF / Word.
+  - Yes - Hyperlinks pointing to other sections within the document.
 
 - **Images / Video / Animations**
-	- Yes - Image.
-	- Yes - Video.
-	- Yes - Animations.
+  - Yes - Image.
+  - Yes - Video.
+  - Yes - Animations.
 
 ### Benefits
 
-**Auto Published Content Benefits**
+#### Auto Published Content Benefits
 
 Content can be made directly available for Multichannel purposes from its original document, without an extra Vault Binder.
 
@@ -180,42 +182,54 @@ Websites in the Media Library and Sending Links to Websites must be configured.
 
 ### Considerations
 
-**Field Force Usability**
+#### Field Force Usability
 
 In order to distinguish which CLM presentations can be used for Remote CLM and/or Sending Content by Web Links, it is best to include new [filter](https://crmhelp.veeva.com/doc/Content/CRM_topics/Multichannel/CLM/InitialConfig/ConfiguringCLM/CLMConfigUsers.htm) criteria for the Media Library.
 
 ## Auto Publishing Overview
 
-![[Auto Publishing.png]]
+![Auto Publishing.png](./Images/Auto%20Publishing.png)
 
 ## Quiz
 
-> [!faq]- After creating a call and confirming the end of Remote CLM, the CLM Details section of the Call Report displays to the Rep.
-> 
+> [!TIP]- After creating a call and confirming the end of Remote CLM, the CLM Details section of the Call Report displays to the Rep.
+>
 > True.
 
-> [!faq]- Users must have an active internet connection in order to start remote CLM.
-> 
+---
+
+> [!TIP]- Users must have an active internet connection in order to start remote CLM.
+>
 > True.
 
-> [!faq]- Remote CLM allows HCPs to view CLM content only in face-to-face meetings and not through Engage Meeting.
-> 
+---
+
+> [!TIP]- Remote CLM allows HCPs to view CLM content only in face-to-face meetings and not through Engage Meeting.
+>
 > False.
 
-> [!faq]- It is possible to enhance a phone call between a Rep and an HCP using Remote CLM.
-> 
+---
+
+> [!TIP]- It is possible to enhance a phone call between a Rep and an HCP using Remote CLM.
+>
 > True.
 
-> [!faq]- Only content published from Vault is supported in Remote CLM.
-> 
+---
+
+> [!TIP]- Only content published from Vault is supported in Remote CLM.
+>
 > True.
 
-> [!faq]- Which of the following entry points are available from the 'More Actions' button in Remote CLM? Select all that apply.
-> 
+---
+
+> [!TIP]- Which of the following entry points are available from the 'More Actions' button in Remote CLM? Select all that apply.
+>
 > - Presentation slide library.
 > - Specific slide in a presentation.
 > - Presentation thumbnail in the media library.
 
-> [!faq]- On ending a call, Rep users are prompted to select an account with which to associate the tracked remote CLM activity if one was not selected before sharing the presentation.
-> 
+---
+
+> [!TIP]- On ending a call, Rep users are prompted to select an account with which to associate the tracked remote CLM activity if one was not selected before sharing the presentation.
+>
 > True.

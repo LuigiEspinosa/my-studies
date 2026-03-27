@@ -1,8 +1,11 @@
+# Survey Basics
+
 ## Surveys in Veeva CRM
 
 Surveys are a module in Veeva CRM which, when enabled[^1], allows CRM Users to gather additional reliable information about HCPs.
 
 Some of the use cases for Surveys include:
+
 - Gathering information for market research to help brand messaging and to allocate sales resources.
 - Following up after an event.
 - Understanding HCP treatment preferences.
@@ -13,14 +16,17 @@ Some of the use cases for Surveys include:
 ## What are Surveys?
 
 Surveys are a set of questions that Reps can ask HCPs and respond to in Veeva CRM.
+
 - Reps can use it to help build useful Account profiles by better understanding the needs of their HCPs, as responses will be stored in the Survey Data fields to the CRM connected to the HCP Account.
 - Marketing can also use surveys to collect information for building effective Key Messages.
 
 Surveys are easy to design and deploy.
+
 - Administrators configure and enable Survey functionality.
 - Business Administrators can create and report on Surveys without the need for a System Administrator to be involved in the process.
 
 Types of Surveys Users:
+
 - Surveys Creators - End Users/Business Admins who create, design and publish surveys.
 - Reps - End users who administer the surveys for their HCPs.
 
@@ -29,9 +35,10 @@ Types of Surveys Users:
 Surveys can be created for two different purposes:
 
 1. Internal purposes, i.e., to gather feedback from Reps within the company.
-	- These are called User Surveys. To create the Record Type = User Survey.
 
-2. External purposes, i.e., to gather information from HCPs.
+- These are called User Surveys. To create the Record Type = User Survey.
+
+1. External purposes, i.e., to gather information from HCPs.
 
 ## External Surveys
 
@@ -49,6 +56,7 @@ Surveys can be accessed by Reps to complete with an HCP via Veeva CRM Mobile (iP
 ## Survey Channels
 
 A Survey can be completed via the following channels:
+
 - CRM: The rep can review or update the Survey on the device.
 - CLM: The Survey can be accessed within the CLM presentation via Survey Overlay or integrated into the HTML.
 - Approved Email: Reps can send an Approved Email to the HCP with a link to the Survey.
@@ -79,7 +87,7 @@ The Survey response is recorded and tracked in Veeva CRM against the Survey reco
 
 The Survey Data Model indicates where the information is stored in Veeva CRM when submitting a Survey.
 
-![[Survey Data Model.png]]
+![Survey Data Model.png](./Images/Survey%20Data%20Model.png)
 
 ## Survey Process
 
@@ -101,6 +109,7 @@ Open 'Surveys' tab (if the tab is not visible, click + to see all tabs).
 Click 'New'.
 
 Choose the relevant 'Survey Record Type':
+
 - One Time.
 - Recurring.
 - User Survey.
@@ -112,15 +121,17 @@ Enter a name in the 'Survey Name' field.
 Select a value from the 'Start Date' and 'End Date' fields, this controls how long the Survey is available for.
 
 Select the 'Channels' in which the survey will be published.
- 
+
 Select the 'Assignment type', either 'Product and Territory' or 'Territory'. If Product is selected then select the Product that this Survey will be associated to.
 
 Select the 'Include User Territories' drop-down.
+
 - Select at least one territory from the drop-down list and select Insert Selected. If the User creating the Survey only belongs to one territory this will auto-fill.
 
 Select 'Save'.
 
 Add questions. Choose the appropriate formatting for the question.
+
 - Picklist
 - Text
 - Radio
@@ -131,9 +142,10 @@ Add questions. Choose the appropriate formatting for the question.
 - Long Text
 - Description
 
-More information in [[#Question Bank Options]] section.
+More information in [Question Bank Options](#question-bank-options) section.
 
 Select targets.
+
 - Allows you to select specific HCP Accounts that this Survey is targeted for.
 
 ## Creating Survey Records
@@ -147,6 +159,7 @@ The External ID field in Veeva CRM and Vault PromoMats must be the same.
 ## Adding a Survey to Vault PromoMats
 
 The corresponding Survey record in Vault PromoMats needs to match the record created in Veeva CRM with the following fields:
+
 - Survey Name.
 - Start Date.
 - End Date.
@@ -159,12 +172,14 @@ Within the 'Business Admin' tab, there is a component object search box, click o
 To create a new Survey, click the 'Create' button.
 
 Enter the following fields to match the data in Veeva CRM:
+
 - Survey Name.
 - Start Date.
 - End Date.
 - External ID (this must match exactly and is case sensitive)
 
 And click 'Save' button.
+
 ## Question Bank Options
 
 The Question Bank is a list of reusable questions created for Surveys. Any questions created for a Survey can be added to the Question Bank to be used on other Surveys in the future.
@@ -223,7 +238,7 @@ Survey Branching is available via the CRM and CLM channels for use on the iPad, 
 
 Branching in Surveys allows for conditional questions based on previous answer choices. [^2]
 
-![[Branching.png]]
+![Branching.png](./Images/Branching.png)
 
 - Users see each of the main line questions when Survey initially loads on the page.
 - Once an answer for the parent question is selected the related children questions will also appear.
@@ -267,44 +282,57 @@ Internal Surveys in CLM are only available in training content on iPad (remember
 
 ## Quiz
 
-> [!faq]- Which of the following are Survey Type Records?
-> 
+> [!TIP]- Which of the following are Survey Type Records?
+>
 > - Recurring.
 > - User Survey.
 > - One Time.
 
-> [!faq]- Via which channels can a survey be completed?
-> 
+---
+
+> [!TIP]- Via which channels can a survey be completed?
+>
 > - CRM.
 > - Approved Email.
 > - CLM.
 > - Vault PromoMats.
 
-> [!faq]- Internal Surveys in CLM are only available from which of the following?
-> 
+---
+
+> [!TIP]- Internal Surveys in CLM are only available from which of the following?
+>
 > In training content.
 
-> [!faq]- Can the Rep open a survey from the Action Button menu?
-> 
+---
+
+> [!TIP]- Can the Rep open a survey from the Action Button menu?
+>
 > Yes.
 
-> [!faq]- Can the Rep embed a survey in an Approved Email?
-> 
+---
+
+> [!TIP]- Can the Rep embed a survey in an Approved Email?
+>
 > No.
 
-> [!faq]- On which platforms can you complete a survey?
-> 
+---
+
+> [!TIP]- On which platforms can you complete a survey?
+>
 > - Windows Tablet.
 > - iPad.
 > - iPhone.
 > - CRM Online.
 
-> [!faq]- Survey Branching is available via which channels?
-> 
+---
+
+> [!TIP]- Survey Branching is available via which channels?
+>
 > - CLM.
 > - CRM.
 
-> [!faq]- In order to make a survey available to a Rep what is the final step?
-> 
-> Published.
+---
 
+> [!TIP]- In order to make a survey available to a Rep what is the final step?
+>
+> Published.

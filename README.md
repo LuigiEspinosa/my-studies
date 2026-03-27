@@ -13,5 +13,4 @@ List of all the stuff I read, watch, follow, and so on.
 - [TryHackeMe](./TryHackMe/README.md)
 - [TypeHero](./TypeHero/README.md)
 - [Udemy](./Udemy/README.md)
-
-- [[Veeva Learning]]
+- [Veeva Learning](./Veeva%20Learning/README.md)

@@ -1,3 +1,5 @@
+# Content Best Practices and Content Reuse
+
 ## Content Best Practices
 
 - Determine how the **HCP** will **get to the persentation;** will they be recognized or anonymous?
@@ -41,24 +43,25 @@ While legacy content created for CLM can often be updated for Engage For Portals
 
 ## Content Reusability Matrix
 
-| Media Type | CLM | Engage for Portals |
-| ---------- | --- | ------------------ |
-| Images | Yes | Yes; Any Vault supported format at any resolution size and aspect ratio |
-| Video-only | Yes | Yes; Any Vault supported format at 720p at any aspect ratio |
-| Video-embedded in HTML | Yes | No |
-| HTML + browser events | All | All |
-| Rich HTML Interactions (drags, touch-specific, animations) | Yes | Yes |
-| PDF | Yes | Limited (Must be converted to image) |
+| Media Type                                                 | CLM | Engage for Portals                                                      |
+| ---------------------------------------------------------- | --- | ----------------------------------------------------------------------- |
+| Images                                                     | Yes | Yes; Any Vault supported format at any resolution size and aspect ratio |
+| Video-only                                                 | Yes | Yes; Any Vault supported format at 720p at any aspect ratio             |
+| Video-embedded in HTML                                     | Yes | No                                                                      |
+| HTML + browser events                                      | All | All                                                                     |
+| Rich HTML Interactions (drags, touch-specific, animations) | Yes | Yes                                                                     |
+| PDF                                                        | Yes | Limited (Must be converted to image)                                    |
 
-| Veeva JavaScript Support | CLM | Engage for Portals |
-| ------------------------ | --- | ------------------ |
-| Read - `GetDataForCurrentObject()` | Yes | Yes[^1] |
-| Write - `CreateRecord()` | Yes | No |
-| Custom Tracking | Call Clickstream | MC Activity Line |
-| Custom Navigation - `GoToSlide()` | Yes | No[^2] |
-| Requried to be included in .zip package | No | No |
+| Veeva JavaScript Support                | CLM              | Engage for Portals |
+| --------------------------------------- | ---------------- | ------------------ |
+| Read - `GetDataForCurrentObject()`      | Yes              | Yes[^1]            |
+| Write - `CreateRecord()`                | Yes              | No                 |
+| Custom Tracking                         | Call Clickstream | MC Activity Line   |
+| Custom Navigation - `GoToSlide()`       | Yes              | No[^2]             |
+| Requried to be included in .zip package | No               | No                 |
 
 [^1]: `GetDataForObject()`, Survey and Order read functions not supported.
+
 [^2]: `NextSlide()` and `PrevSlide()` are supported.
 
 ## Responsive Content on the Web
@@ -76,11 +79,11 @@ While legacy content created for CLM can often be updated for Engage For Portals
 
 ## Responsive vs Fixed Content Behavior
 
-| Type of Content                                   | Responsive Website                                                                                                                                                                                                                                      | Fixed Website                                                                                                                                                                                                                                                                                                             |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Responsive Content                                | Content automatically adjust for different screen sizes/devices                                                                                                                                                                                         | Player will stay at the size designated on the browser window.                                                                                                                                                                                                                                                            |
-| Fixed Content HTML height and width filled in     | Content will be centered in the player. <br>- If player gets too small, the content will be cut off. <br>- If player is larger, there will be black box around the content.                                                                             | Player size should be designated to be the same size as the HTML height and HTML width. Content adjust to fit the player. <br>- If player size is designated too small, the content will be cut off. <br>- If player size is designated too large, there will be a black box around the content.                          |
-| Fixed Content HTML height and width not filled in | Content will display starting from the top left corner of the player. <br>- If player gets too small, the content will be cut off. <br>- If player is larger, than there will be a black box in the empty space to the right and bottom of the content. | Player size should be designated to be the same size as the content. Content adjusts to fit the player. <br>- If player size is designated too small, the content will be cut off. <br>- If player size is designated too large, the there will be a black box in the empty space to the right and bottom of the content. |
+| Type of Content                                   | Responsive Website                                                                                                                                                                                                                              | Fixed Website                                                                                                                                                                                                                                                                                                     |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Responsive Content                                | Content automatically adjust for different screen sizes/devices                                                                                                                                                                                 | Player will stay at the size designated on the browser window.                                                                                                                                                                                                                                                    |
+| Fixed Content HTML height and width filled in     | Content will be centered in the player. - If player gets too small, the content will be cut off. - If player is larger, there will be black box around the content.                                                                             | Player size should be designated to be the same size as the HTML height and HTML width. Content adjust to fit the player. - If player size is designated too small, the content will be cut off. - If player size is designated too large, there will be a black box around the content.                          |
+| Fixed Content HTML height and width not filled in | Content will display starting from the top left corner of the player. - If player gets too small, the content will be cut off. - If player is larger, than there will be a black box in the empty space to the right and bottom of the content. | Player size should be designated to be the same size as the content. Content adjusts to fit the player. - If player size is designated too small, the content will be cut off. - If player size is designated too large, the there will be a black box in the empty space to the right and bottom of the content. |
 
 ## Available APIs Using JS library
 
@@ -90,7 +93,7 @@ The following functions in the library will work with Enage for Portals: [^3]
   - Append `&actId = <Account SFDC records ID>` parameters to Engage for Portals link to associate the specific account with the Multichannel Activity and Multichannel Activity Line.
   - The `&extId = <anything>` parameter can be utilized to associate a 3rd party external ID Multichannel Activity and Multichannel Activity Lines via an Account External ID Map record.
   - Allows access using following keywords: Account.
-  - Can be used to jump to other slides within  the same presentation or to slides within a different presentation.
+  - Can be used to jump to other slides within the same presentation or to slides within a different presentation.
 - `createMultichannelActivityLine`
   - Similar to Call Clickstream functionality in CLM.
 - `nextSlide`

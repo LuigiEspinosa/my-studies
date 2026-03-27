@@ -1,3 +1,5 @@
+# Veeva JavaScript Library
+
 With Veeva CLM it is possible to create a sophisticated presentation which can react to user interaction and/or data in Veeva CRM. There are various elements which enable this through a combination of coding and Veeva CLM functionality.
 
 ## What is the Veeva JavaScript Library?
@@ -17,7 +19,7 @@ The following examples illustrate the potencial use cases:
 
 Hidden Presentations are presentations that are hidden from the Rep on the Veeva CRM Mobile Application. It is not possible to see the presentation using the Media tab or native Veeva Swipe.
 
-There are a number of a reasons that you may want to hide content but at its essence, it is a **control mechanism**, i.e. to allow controlled access to that content. 
+There are a number of a reasons that you may want to hide content but at its essence, it is a **control mechanism**, i.e. to allow controlled access to that content.
 
 Presentations are indicated as Hidden in Vault.
 
@@ -77,6 +79,7 @@ The method is `gotoSlide(key, presentation)`:
 
 - The key uses the Media Fle Name. Key is a string.
 - The presentation is the Presetation ID, which is a separate field from Presentation Name and Presentation Description, is under Multichannel Properties in Vault. Presentation is a string.
+
 ### `getDataForCurrentObject`
 
 This function "Returns the value of a field for a specific record related to the current call". This means that you can request specific information from the database within the context of the call that you are in.

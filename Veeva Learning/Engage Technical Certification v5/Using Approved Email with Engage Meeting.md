@@ -1,3 +1,5 @@
+# Using Approved Email with Engage Meeting
+
 ## Approved Email Invitations for Engage Meeting
 
 The best way to invite an HCP to an Engage Meeting is by an Approved Email invitation.
@@ -18,7 +20,7 @@ The Participant URL can be added to the Email Template with the following Token:
 
 ## Date and Time Tokens
 
-To include the Meeting Date and Time in an Engage Meeting invitation, it is best to use the `{{parentCallDatetime}}` Token, This ensures compatibility for both Person Account and Group Account Calls, as well as with the Token used for [[#Add to Calendar Token for Engage Meeting|Calendar Reminders]].
+To include the Meeting Date and Time in an Engage Meeting invitation, it is best to use the `{{parentCallDatetime}}` Token, This ensures compatibility for both Person Account and Group Account Calls, as well as with the Token used for [Calendar Reminders](#add-to-calendar-token-for-engage-meeting).
 
 Other Date and Time related Tokens include:
 
@@ -109,7 +111,7 @@ In order to upload the Approved Email Invitation into Vault PromoMats, Content C
 7. Click 'Next' button.
 
 ## Enter Required Vault Fields
- 
+
 Before the Email Template can be saved the required metadata fields (highlighted yellow) need to be filled out.
 
 In addition, the Email Template Type drop=down must be selected as 'Remote Meeting Invite Template'.
@@ -154,46 +156,66 @@ if the Approved Email Administration Tab isn't visible, all Tabs in Veeva CRM ca
 
 ## Quiz
 
-> [!faq]- Meeting ID and Meeting Password tokens are used to display the unique meeting ID and password in an Approved Email Invitation.
-> 
+> [!TIP]- Meeting ID and Meeting Password tokens are used to display the unique meeting ID and password in an Approved Email Invitation.
+>
 > True.
 
-> [!faq]- To include the Meeting Date & Time in an Engage Meeting Invitation it is best to use the `{{Call2_vid__c.Cobrowse_URL_Participant_vod__C}}` token.
-> 
+---
+
+> [!TIP]- To include the Meeting Date & Time in an Engage Meeting Invitation it is best to use the `{{Call2_vid__c.Cobrowse_URL_Participant_vod__C}}` token.
+>
 > False.
 
-> [!faq]- Approved Email Templates used for Engage Meeting invitations cannot contain images.
-> 
+---
+
+> [!TIP]- Approved Email Templates used for Engage Meeting invitations cannot contain images.
+>
 > False.
 
-> [!faq]- An Email Template is the only required component to send an Approved Email Engage Meeting invitation.
-> 
+---
+
+> [!TIP]- An Email Template is the only required component to send an Approved Email Engage Meeting invitation.
+>
 > True.
 
-> [!faq]- Engage Meeting Invitations should never include the Participant URL.
-> 
+---
+
+> [!TIP]- Engage Meeting Invitations should never include the Participant URL.
+>
 > False.
 
-> [!faq]- `{{addToCalendar}}` token will not work if an Email Template is sent through the Veeva CRM Mobile Application on a Windows tablet.
-> 
+---
+
+> [!TIP]- `{{addToCalendar}}` token will not work if an Email Template is sent through the Veeva CRM Mobile Application on a Windows tablet.
+>
 > True.
 
-> [!faq]- When using the `{{addToCalendar}}` Token, any date & time Tokens will display in the HCP local format.
-> 
+---
+
+> [!TIP]- When using the `{{addToCalendar}}` Token, any date & time Tokens will display in the HCP local format.
+>
 > False.
 
-> [!faq]- The best way to invite an HCP to an Engage Meeting is by an Approved Email invitation.
-> 
+---
+
+> [!TIP]- The best way to invite an HCP to an Engage Meeting is by an Approved Email invitation.
+>
 > True.
 
-> [!faq]- To include the Meeting Date & Time in an Engage Meeting invitation it is best to use the `{{Call2_vod__c.Cobrowse_URL_Participant_vod__c}}` token.
-> 
+---
+
+> [!TIP]- To include the Meeting Date & Time in an Engage Meeting invitation it is best to use the `{{Call2_vod__c.Cobrowse_URL_Participant_vod__c}}` token.
+>
 > False.
 
-> [!faq]- There aren't Tokens that provide the HCP with the date and time of the meeting and details to join the meeting. 
-> 
+---
+
+> [!TIP]- There aren't Tokens that provide the HCP with the date and time of the meeting and details to join the meeting.
+>
 > False.
 
-> [!faq]- Before syncing Vault PromoMats and Veeva CRM, the Email Template for Engage Meeting must be set to Expired
-> 
+---
+
+> [!TIP]- Before syncing Vault PromoMats and Veeva CRM, the Email Template for Engage Meeting must be set to Expired
+>
 > False.

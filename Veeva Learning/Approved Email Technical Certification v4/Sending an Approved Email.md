@@ -1,3 +1,5 @@
+# Sending an Approved Email
+
 ## Sending an Approved Email from Veeva CRM Online
 
 Login to Veeva CRM Online (test.salesforce.com):
@@ -79,7 +81,7 @@ Example of Approved Emails requiring additional review:
 5. She composes another email to Dr. Ackerman addressing the reason for rejection and resends the email.
 6. The compliance user approves the email and it sends to Dr. Ackerman.
 
-![[Process Flow.png]]
+![Process Flow.png](./Images/Process%20Flow.png)
 
 ## Checking an Approved Email has been sent
 
@@ -144,51 +146,68 @@ Monitoring Rules defined which fields are monitored and managed by Approved Note
 
 | Feature                                     | Configuration Required | iPad | iPhone | Online | Windows |
 | ------------------------------------------- | ---------------------- | ---- | ------ | ------ | ------- |
-| Capturing Consent Using Confirmation Emails | No                     | ✔️   | ❌      | ✔️     | ✔️      |
+| Capturing Consent Using Confirmation Emails | No                     | ✔️   | ❌     | ✔️     | ✔️      |
 
 ## Quiz
 
-> [!faq]- To add related Email Fragments to the Email Template, click 'Preview', select the preferred Email Fragments and click 'Add Selected'.
-> 
+> [!TIP]- To add related Email Fragments to the Email Template, click 'Preview', select the preferred Email Fragments and click 'Add Selected'.
+>
 > False.
 
-> [!faq]- From the 'My Accounts' page, the Rep can send an email to up to how many recipients at once?
-> 
-> 50.
+---
 
-> [!faq]- The details on each email activity can not be reviewed on Veeva CRM Mobile.
-> 
+> [!TIP]- From the 'My Accounts' page, the Rep can send an email to up to how many recipients at once?
+>
+> 1.
+
+---
+
+> [!TIP]- The details on each email activity can not be reviewed on Veeva CRM Mobile.
+>
 > False.
 
-> [!faq]- Reps can't preview the template before sending.
-> 
+---
+
+> [!TIP]- Reps can't preview the template before sending.
+>
 > False.
 
-> [!faq]- In Veeva CRM Online, the details on each activity can be reviewed by clicking on the Email Activity record.
-> 
+---
+
+> [!TIP]- In Veeva CRM Online, the details on each activity can be reviewed by clicking on the Email Activity record.
+>
 > True.
 
-> [!faq]- In Sent Email Section in Veeva CRM Online, which of the following details are visible for the Reps from the Template Email sent:
-> 
+---
+
+> [!TIP]- In Sent Email Section in Veeva CRM Online, which of the following details are visible for the Reps from the Template Email sent:
+>
 > - Delivered.
 > - Product.
 > - Clicked.
 > - Name.
 > - Opened.
 
-> [!faq]- To send an Approved Email in Veeva CRM Mobile, first select the template and then the HCP Account (e.g. Clinton Ackerman).
-> 
+---
+
+> [!TIP]- To send an Approved Email in Veeva CRM Mobile, first select the template and then the HCP Account (e.g. Clinton Ackerman).
+>
 > False.
 
-> [!faq]- The user can add Email Fragments to the Email Template by selecting the eye icon.
-> 
+---
+
+> [!TIP]- The user can add Email Fragments to the Email Template by selecting the eye icon.
+>
 > False.
 
-> [!faq]- When sending an Approved Email, ensure the Account Approved Email Consent is set to 'Explicit Opt In'.
-> 
+---
+
+> [!TIP]- When sending an Approved Email, ensure the Account Approved Email Consent is set to 'Explicit Opt In'.
+>
 > False.
 
-> [!faq]- A Rep can send an Approved Email via Veeva CRM Online.
-> 
+---
+
+> [!TIP]- A Rep can send an Approved Email via Veeva CRM Online.
+>
 > True.
-

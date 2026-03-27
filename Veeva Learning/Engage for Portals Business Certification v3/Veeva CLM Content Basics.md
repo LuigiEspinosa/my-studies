@@ -1,3 +1,5 @@
+# Veeva CLM Content Basics
+
 ## Meet the Veeva CRM Mobile Application
 
 Veeva CRM is a Customer Relationship Management (CRM) software created specifically for the life sciences industry and is built on top of [Salesforce.com](https://www.salesfoce.com).
@@ -59,7 +61,7 @@ This allows for the automatic tracking of the media viewed to the Account.
 
 From this screen, the Rep can access actions quickly by using the icons to the right of the Account:
 
-![[My Accounts View Icons.png]]
+![My Accounts View Icons.png](./Images/My%20Accounts%20View%20Icons.png)
 
 Alternatively, the Rep can tap on the name of the Account to access the Account Detail Page.
 
@@ -237,22 +239,30 @@ Login using Veeva CRM testing Users (e.g. cviewer) and click 'Sync'.
 
 ## Quiz
 
-> [!faq]- Is there tracking out of the box?
+> [!TIP]- Is there tracking out of the box?
 >
 > Yes
 
-> [!faq]- What method is used for custom tracking?
+---
+
+> [!TIP]- What method is used for custom tracking?
 >
 > Veeva Call Clickstream
 
-> [!faq]- Which of the following versions are included in the Veeva CRM iOS Support Policy?
+---
+
+> [!TIP]- Which of the following versions are included in the Veeva CRM iOS Support Policy?
 >
 > The latest version and one previous version.
 
-> [!faq]- Which of the following can be disable within CLM?
+---
+
+> [!TIP]- Which of the following can be disable within CLM?
 >
 > The swipe motion for slide navigation.
 
-> [!faq]- Which of the following **cannot** be made available from the Action Button?
+---
+
+> [!TIP]- Which of the following **cannot** be made available from the Action Button?
 >
 > Connect to the Brand website.

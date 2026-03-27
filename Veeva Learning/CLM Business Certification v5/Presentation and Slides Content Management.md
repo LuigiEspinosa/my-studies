@@ -1,3 +1,5 @@
+# Presentation and Slides Content Management
+
 ## Veeva Content Packaging
 
 Vault PromoMats has a specific packaging format that must be followed for content to be available for use in CLM, Engage Meeting or Egange for Portals.
@@ -31,6 +33,7 @@ Vault PromoMats can automatically create Veeva Distribution Packages for Images,
 Vault PromoMats adds the content file and a system generated thumbnail to the ZIP package and displays a viewable rendition for annotations.
 
 To ensure that Vault PromoMats creates the Veeva Distribution Package for these content types there are additional fields that must be populated when loading the file:
+
 - CRM Media Type must be populated with Image, PDF or Video.
 - Publish for Veeva CRM (CLM) or Publish for Veeva CRM (Portals) must be populated with Yes.
 
@@ -51,6 +54,7 @@ There will be a notification visible under the alert bell button when the previe
 Open the Presentation again and select the 'Preview CLM' action.
 
 Functionalities:
+
 - Preview shows fix navigation elements like navigation bar and history bar.
 - Opens in new tba.
 - Change between regular and retina iPad resolution.
@@ -70,65 +74,84 @@ CLM Preview only mimics CLM.
 - **PDF and Video content** embedded in HTML is not supported.
 - **Links in PDF content** are not supported.
 - Shared Resources can be used if correctly coded:
-	- i.e. (./shared works, ../shared does not work)
+  - i.e. (./shared works, ../shared does not work)
 
 ## Quiz
 
-> [!faq]- Does Vault PromoMats have a specific packaging format?
-> 
+> [!TIP]- Does Vault PromoMats have a specific packaging format?
+>
 > Yes.
-> 
+>
 
-> [!faq]- For Auto-Packaging of Images, PDFs and Videos, which fields must be populated for CLM?
-> 
+---
+
+> [!TIP]- For Auto-Packaging of Images, PDFs and Videos, which fields must be populated for CLM?
+>
 > - CRM Media Type.
 > - Publish for CRM (CLM).
 > - CLM Content.
 
-> [!faq]- What is best practice for testing CLM content?
-> 
+---
+
+> [!TIP]- What is best practice for testing CLM content?
+>
 > View in Veeva CRM on the same device as Reps use in the field.
 
-> [!faq]- Vault PromoMats can automatically package content for which content types?
-> 
+---
+
+> [!TIP]- Vault PromoMats can automatically package content for which content types?
+>
 > - PDF.
 > - Image.
 > - Video.
 
-> [!faq]- Which content types must be created and manually packaged by a developer?
-> 
-> HTML.
-> 
+---
 
-> [!faq]- Fro HTML Content which files must be included in the ZIP file?
-> 
+> [!TIP]- Which content types must be created and manually packaged by a developer?
+>
+> HTML.
+>
+
+---
+
+> [!TIP]- Fro HTML Content which files must be included in the ZIP file?
+>
 > - `thumb.png`
 > - `index.html`
 
-> [!faq]- Can CLM content be previewed in Vault?
-> 
+---
+
+> [!TIP]- Can CLM content be previewed in Vault?
+>
 > Yes.
 
-> [!faq]- What types of content can be loaded?
-> 
+---
+
+> [!TIP]- What types of content can be loaded?
+>
 > - PDF.
 > - Video.
 > - HTML.
 > - PowerPoint.
 > - Image.
 
-> [!faq]- Which content type must be created and manually packaged?
-> 
+---
+
+> [!TIP]- Which content type must be created and manually packaged?
+>
 > HTML.
 
-> [!faq]- For Aut-Packaging of Images, PDFs and Videos, do you need to upload a ZIP file?
-> 
+---
+
+> [!TIP]- For Aut-Packaging of Images, PDFs and Videos, do you need to upload a ZIP file?
+>
 > No.
 
-> [!faq]- Excluding HTML, what other types o content can be packaged and loaded?
-> 
+---
+
+> [!TIP]- Excluding HTML, what other types o content can be packaged and loaded?
+>
 > - Image.
 > - PowerPoint.
 > - Video.
 > - PDF.
-

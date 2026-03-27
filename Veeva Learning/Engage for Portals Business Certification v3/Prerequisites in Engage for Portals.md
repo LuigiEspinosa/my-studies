@@ -1,3 +1,5 @@
+# Prerequisites in Engage for Portals
+
 ## Product Definition
 
 A product must be created and defined in Vault to match the product in CRM.
@@ -10,7 +12,7 @@ In Vault you must define an External ID in order to transfer content successfull
 
 ## Product view - Classic vs Lightning in CRM
 
-![[Classic vs Lightning in CRM.png]]
+![Classic vs Lightning in CRM.png](./Images/Classic%20vs%20Lightning%20in%20CRM.png)
 
 ## Websites
 
@@ -28,11 +30,11 @@ All Websites added in Vault must also be included in CRM.
 
 The following **Document Types** need to be mapped in both Vault and CRM for a successful sync and deployment.
 
-![[Vault and CRM Alignment - Document Types.png]]
+![Vault and CRM Alignment - Document Types.png](./Images/Vault%20and%20CRM%20Alignment%20-%20Document%20Types.png)
 
 The following **Objects** need to be mapped in both Vault and CRM for a successful sync and deployment.
 
-![[Vault and CRM Alignment - Objects.png]]
+![Vault and CRM Alignment - Objects.png](./Images/Vault%20and%20CRM%20Alignment%20-%20Objects.png)
 
 ## Key Messages
 
@@ -57,26 +59,29 @@ To utilize the Key Message functionality:
 
 ## Required Platforms for Engage for Portals
 
-**Vault PromoMats**
+### Vault PromoMats
+
 - Content is uploaded to Vault and reviewed/approved by the customer.
 - Content is managed and published within the Vault environment.
 - Ensures the latest version of approved content is pushed to the web and available for use in Engage for Portals.
 
-**Veeva CRM**
+### Veeva CRM
+
 - Approved content is synced between CRM and Vault.
 - Reps invite HCPs with accounts in CRM to view content using Engage for Portals. HCPs can also view content on a website without an invitation.
 - Data on content usage is captured and saved in CRM.
 - This is the Engage hub responsible for Account matching, activity tracking, and content authorization.
 
-**Website**
+### Website
+
 - Any website can be used for Engage for Portals.
 - The player is what gets deployed to customer hosted websites.
 
-**Content Distribution Network (CDN)**
+### Content Distribution Network (CDN)
+
 - In order to deliver quality content at the speed required in the customer space, global network infrastructure presence is necessary.
 - Veeva utilizes an enterprise grade CDN to ensure content is delivered well within the acceptable time frame.
 
 ## Sync Engage for Portals Content
 
 Only content with the Approved state will be pulled into CRM for testing and use.
-

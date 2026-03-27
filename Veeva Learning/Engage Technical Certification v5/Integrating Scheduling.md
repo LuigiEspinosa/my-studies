@@ -1,3 +1,5 @@
+# Integrating Scheduling
+
 ## Sending Meeting Requests with AE
 
 Users can now direct HCPs to a scheduling site via Approved Email. This site allows for HCPs to select a date, time and channel that works well with their schedules.
@@ -43,7 +45,7 @@ View on the Engage Scheduling site. HCPs cannot select times or dates displayed 
 
 ## Notifying Users About Meeting Requests
 
-When a recipient requests a meeting using the Engage Scheduling Site, users receive an email from scheduling@veevacrm.com stating a recipient requested a meeting, along with a prompt to respond and schedule the meeting as soon as possible.
+When a recipient requests a meeting using the Engage Scheduling Site, users receive an email from <scheduling@veevacrm.com> stating a recipient requested a meeting, along with a prompt to respond and schedule the meeting as soon as possible.
 
 Users on the Browser (Lightning) platform also receive a notification when a new meeting request is created and assigned to them.
 
@@ -63,30 +65,39 @@ A copy button has been added to both the Remote Meeting Information and Send Inv
 
 ## Quiz
 
-> [!faq]- What time periods can the Rep block vis Integrated Scheduling? Select all the options that apply.
-> 
+> [!TIP]- What time periods can the Rep block vis Integrated Scheduling? Select all the options that apply.
+>
 > - A specific time.
 > - All day.
 
-> [!faq]- Users have the option to accept or reschedule a meeting through Integrated Scheduling, but never decline it.
-> 
+---
+
+> [!TIP]- Users have the option to accept or reschedule a meeting through Integrated Scheduling, but never decline it.
+>
 > False.
 
-> [!faq]- CRM users can block time in their schedule via Integrated Scheduling, to prevent HCPs from requesting meetings during those times.
-> 
+---
+
+> [!TIP]- CRM users can block time in their schedule via Integrated Scheduling, to prevent HCPs from requesting meetings during those times.
+>
 > True.
 
-> [!faq]- Unavailable time slots in a schedule are displayed in blue in My Schedule in CRM.
-> 
+---
+
+> [!TIP]- Unavailable time slots in a schedule are displayed in blue in My Schedule in CRM.
+>
 > False.
 
-> [!faq]- Integrated Scheduling allows HCPs to select a date, time and channel that works for their schedule. 
-> 
+---
+
+> [!TIP]- Integrated Scheduling allows HCPs to select a date, time and channel that works for their schedule.
+>
 > True.
 
-> [!faq]- Which of the following are options for a meeting scheduled through Integrated Scheduling? Select all that apply.
-> 
+---
+
+> [!TIP]- Which of the following are options for a meeting scheduled through Integrated Scheduling? Select all that apply.
+>
 > - Video.
 > - In-person.
 > - Phone.
-

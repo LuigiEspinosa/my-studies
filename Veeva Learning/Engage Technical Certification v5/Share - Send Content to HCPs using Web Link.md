@@ -1,3 +1,5 @@
+# Share - Send Content to HCPs using Web Link
+
 ## Engage Share
 
 Use the CLM Media Library to **send** content to HCPs using **Web Links**.
@@ -11,11 +13,11 @@ Use the CLM Media Library to **send** content to HCPs using **Web Links**.
 
 Feature capable of sending content to HCPs by using Web Links (iPad, CRM Desktop and iPhone)
 
-**Timing**
+### Timing
 
 When convenient for HCP at any time.
 
-**Tracking**
+### Tracking
 
 1. When link is sent.
 2. When link is opened.
@@ -88,31 +90,32 @@ Interaction with the link itself is tracked, allowing admins to analyze engageme
 2. Select 'Send Presentation' to view the available sharing options.
 3. Select the appropriate app or sharing option.
 4. Select the recipient in the app, if applicable and not already populated. The recipient field is automatically populated if the following options are true
- - The user selected the account before selecting the sharing option.
- - The selected sharing options is Messages or WhatsApp.
- - The `SMS_vod` or `WhatsApp_vod` fields for the account are populated.
+
+- The user selected the account before selecting the sharing option.
+- The selected sharing options is Messages or WhatsApp.
+- The `SMS_vod` or `WhatsApp_vod` fields for the account are populated.
 
 If users attempt to send a link to expired content, the link is not generated, and an error message displays.
 
-**Vault**
+### Vault
 
 - **Type:** CLM Presentation.
 - **Publish**: Auto-published.
 - **Trigger:** "Publish to CRM (Web Links)" and "Publish to Veeva CRM (CLM)".
 
-**Content Guidelines**
+### Content Guidelines
 
 - **Supported:** PowerPoint, MS Word, PDF, Video.
 - **Unsupported**: Binder and Slides.
 
 ### Auto Published
 
-**PPTX / PDF / Word**
+#### PPTX / PDF / Word
 
 - Yes - PPTX / PDF / Word.
 - No - Hyperlinks pointing to other sections within the document.
 
-**Images / Video / Animations**
+#### Images / Video / Animations
 
 - Yes - Image.
 - Yes - Video.
@@ -126,7 +129,7 @@ If users attempt to send a link to expired content, the link is not generated, a
 
 ### Benefits
 
-**Auto Published Content Benefits**
+#### Auto Published Content Benefits
 
 Content can be made directly available for Multichannel purposes from its original document, without an extra Vault Binder.
 
@@ -147,42 +150,58 @@ In order to distinguish which CLM presentations can be used for Remote CLM and/o
 
 ## Auto Publishing Overview
 
-![[Auto Publishing.png]]
+![Auto Publishing.png](./Images/Auto%20Publishing.png)
 
 ## Quiz
 
-> [!faq]- Websites that are marked as training content cannot be shared from the media library in Veeva CRM.
+> [!TIP]- Websites that are marked as training content cannot be shared from the media library in Veeva CRM.
 >
 > True.
 
-> [!faq]- Binders and slides from Veeva Vault are not able to be sent via a link.
+---
+
+> [!TIP]- Binders and slides from Veeva Vault are not able to be sent via a link.
 >
 > True.
 
-> [!faq]- Admins can add tracking tokens to website links in Veeva CRM, to track visitor engagement with specific websites and identify where and when the link was shared.
+---
+
+> [!TIP]- Admins can add tracking tokens to website links in Veeva CRM, to track visitor engagement with specific websites and identify where and when the link was shared.
 >
 > True.
 
-> [!faq]- Users can send websites via a link in Veeva CRM.
+---
+
+> [!TIP]- Users can send websites via a link in Veeva CRM.
 >
 > True.
 
-> [!faq]- A document link sent via Veeva CRM expires after 2 weeks.
+---
+
+> [!TIP]- A document link sent via Veeva CRM expires after 2 weeks.
 >
 > False.
 
-> [!faq]- Only Auto-Published content can be shared via a link.
+---
+
+> [!TIP]- Only Auto-Published content can be shared via a link.
 >
 > True.
 
-> [!faq]- When sharing content through Veeva CRM, hyperlinks pointing to other sections within the same document will not work.
+---
+
+> [!TIP]- When sharing content through Veeva CRM, hyperlinks pointing to other sections within the same document will not work.
 >
 > True.
 
-> [!faq]- Admins can define the SMS and WhatsApp phone numbers for an Account in Veeva CRM.
+---
+
+> [!TIP]- Admins can define the SMS and WhatsApp phone numbers for an Account in Veeva CRM.
 >
 > True.
 
-> [!faq]- Reps using Veeva CRM for iPhone can send HCPs Web Links using messaging apps on their phone.
+---
+
+> [!TIP]- Reps using Veeva CRM for iPhone can send HCPs Web Links using messaging apps on their phone.
 >
 > True.

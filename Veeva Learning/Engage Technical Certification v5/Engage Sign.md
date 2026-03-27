@@ -1,4 +1,6 @@
-**Enable Remote Sampling**
+# Engage Sign
+
+## Enable Remote Sampling
 
 - Capture and fulfil sample requests while hosting an online meeting.
 - Validate sample details and save signatures in call record.
@@ -11,13 +13,13 @@ Now companies can complete drug sampling processes during remote meetings, in co
 
 Capturing a signature for:
 
-**Sampling request (BRC)**
+## Sampling request (BRC)
 
 - During an Engage Meeting.
 - By using a Web Link.
 - By using a QR-code.
 
-**Medial Inquiry**
+## Medial Inquiry
 
 - During an Engage Meeting.
 - Using Web links.
@@ -27,7 +29,7 @@ Capturing a signature for:
 
 Engage Meeting supports sampling BRCs and capturing a signature for those samples. Users can sample BRCs via the call report and capture a signature while in the remote meeting.
 
-**Business Value**
+### Business Value
 
 This extends the users' ability to provide samples to HCPs, without needing to face-to-face meeting.
 
@@ -43,7 +45,7 @@ This extends the users' ability to provide samples to HCPs, without needing to f
 
 Remote Signature capture for sampling using Share Link allows for the capture of a remote signature when outside of an Engage Meeting, or if using the browser.
 
-**Business Value**
+### Business Value
 
 - Ability to still capture a signature for a samples request if the remote engagement is not within an Engage Meeting.
 
@@ -70,7 +72,7 @@ The user must remain in Veeva CRM and keep the app in the foreground until the s
 
 QR code signature capture enables CRM users and HCPs to maintain physical distance, and eliminates the need to share devices during face-to-face visits.
 
-**Business Value**
+### Business Value
 
 - As COVID precautions are winding down, hospitals and clinics are opening and Reps will once again travel to meet with HCPs face-to-face.
 - As a safety precaution, Reps and MSLs need a way to capture signatures from HCPs without sharing their company issued handheld devices.
@@ -87,7 +89,7 @@ QR code signature capture enables CRM users and HCPs to maintain physical distan
 
 For convenience during remote meetings, and to accommodate any restrictions on in-person meetings, users can capture signatures for sample opt-in using Share Link or a QR code.
 
-**Business Value**
+### Business Value
 
 - Additional options for capturing sample opt-in signatures enable users to continue remote sampling, even when they do not have face-to-face interactions with HCPs.
 
@@ -103,22 +105,30 @@ For convenience during remote meetings, and to accommodate any restrictions on i
 
 ## Quiz
 
-> [!faq]- QR code signature capture enables CRM users and HCPs to maintain physical distance, and eliminates the need to share devices during face-to-face visits.
-> 
+> [!TIP]- QR code signature capture enables CRM users and HCPs to maintain physical distance, and eliminates the need to share devices during face-to-face visits.
+>
 > True.
 
-> [!faq]- For convenience during remote meetings, and to accommodate any restrictions on in-person meetings, users can capture signatures for samples opt-in using Share Link or a QR code.
-> 
+---
+
+> [!TIP]- For convenience during remote meetings, and to accommodate any restrictions on in-person meetings, users can capture signatures for samples opt-in using Share Link or a QR code.
+>
 > True.
 
-> [!faq]- Remote Signature capture for sampling using Share Link allows for the capture of a remote signature when outside of an Engage Meeting.
-> 
+---
+
+> [!TIP]- Remote Signature capture for sampling using Share Link allows for the capture of a remote signature when outside of an Engage Meeting.
+>
 > True.
 
-> [!faq]- Engage Meeting supports sampling BRCs, and capturing a signature for those samples.
-> 
+---
+
+> [!TIP]- Engage Meeting supports sampling BRCs, and capturing a signature for those samples.
+>
 > True.
 
-> [!faq]- Remote signature capture for sampling enables field reps to capture and fulfill HCPs sample requests.
-> 
+---
+
+> [!TIP]- Remote signature capture for sampling enables field reps to capture and fulfill HCPs sample requests.
+>
 > True.

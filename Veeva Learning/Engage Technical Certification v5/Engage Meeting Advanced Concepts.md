@@ -1,3 +1,5 @@
+# Engage Meeting Advanced Concepts
+
 ## Splash Screen
 
 When a Rep is not sharing a CLM Presentation during a Engage Meeting hosted on an iPad, a Splash Screen displays to HCPs.
@@ -24,22 +26,22 @@ Where Content Creators create a custom Splash Screen, they can dynamically pull 
 
 ```js
 function getUserName() {
-	com.veeva.clm.getDataForCurrentObject("User", "Name", didGetUserName);
+ com.veeva.clm.getDataForCurrentObject("User", "Name", didGetUserName);
 }
 
 function didGetUserName() {
-	namePlaceHolder = document.getElementById("userName");
-	if (result.success) {
-		namePaceHolder.innerHTML = rsult.User.Name;
-	}
+ namePlaceHolder = document.getElementById("userName");
+ if (result.success) {
+  namePaceHolder.innerHTML = rsult.User.Name;
+ }
 
-	com.veeva.clm.getDataForCurrentObject("User", "Id", didGetUserId);
+ com.veeva.clm.getDataForCurrentObject("User", "Id", didGetUserId);
 }
 
 function didGetUserId(result) {
-	if (result.success) {
-		com.veeva.clm.queryRecord("User_Detaul_vod__c", "Photo_vod__c", "User_vod__c='" + result.User.Id + "'", null, 1, didGetUserPhoto);
-	}
+ if (result.success) {
+  com.veeva.clm.queryRecord("User_Detaul_vod__c", "Photo_vod__c", "User_vod__c='" + result.User.Id + "'", null, 1, didGetUserPhoto);
+ }
 }
 ```
 
@@ -95,20 +97,20 @@ Based on this, the flow of CLM Presentation can be controlled to show only the c
 
 ```js
 function RemoteMeeting() {
-	com.veeva.clm.getDataForCurrentObject("Call", "Remote_Meeting_vod__c", ShowRemoteResponses);
+ com.veeva.clm.getDataForCurrentObject("Call", "Remote_Meeting_vod__c", ShowRemoteResponses);
 }
 
 function ShowRemoteResponses(result) {
-	if (result.success == true)	 {
-		alert("Remote_Meeting_vod__c: " + JSON.stringify(result.Call.Remote_Meeting_vod__c));
-		if (result.Call.Remote_Meeting_vod__c == null) {
-			// This is a CLM (F2F Call)
-		} else {
-			// This is a Remote Call (Engage Meeting)
-		}
-	} else {
-		alert("Remote_Meeting_vod__c: Fail");
-	}
+ if (result.success == true)  {
+  alert("Remote_Meeting_vod__c: " + JSON.stringify(result.Call.Remote_Meeting_vod__c));
+  if (result.Call.Remote_Meeting_vod__c == null) {
+   // This is a CLM (F2F Call)
+  } else {
+   // This is a Remote Call (Engage Meeting)
+  }
+ } else {
+  alert("Remote_Meeting_vod__c: Fail");
+ }
 }
 ```
 
@@ -128,7 +130,7 @@ There are many ways to include or exclude content on the basis of identifying th
 
 Global only wants to produce one version fo a CLM Presentation for Engage Meeting but Rep device usage varies across teams and countries.
 
-##### Solution 
+##### Solution
 
 There is no CRM field available with this information to query, however it is possible to query the device type via standard JavaScript.
 
@@ -150,20 +152,20 @@ Otherwise, the meeting was started from Veeva CRM Online (Windows PC).
 
 ```js
 function MobileID() {
-	com.veeva.clm.getDataForCurrentObject("Call", "Mobile_ID_vod__c", MobileIDResponses);
+ com.veeva.clm.getDataForCurrentObject("Call", "Mobile_ID_vod__c", MobileIDResponses);
 }
 
 function MobileIDResponses(result) {
-	if (result.success == true)	 {
-		alert("Mobile_ID_vod__c: " + JSON.stringify(result.Call.Mobile_ID_vod__c));
-		if (result.Call.Mobile_ID_vod__c == null) {
-			// This is Veeva CRM Online
-		} else {
-			// This is Veeva CRM on iPad
-		}
-	} else {
-		alert("Mobile_ID_vod__c: Fail");
-	}
+ if (result.success == true)  {
+  alert("Mobile_ID_vod__c: " + JSON.stringify(result.Call.Mobile_ID_vod__c));
+  if (result.Call.Mobile_ID_vod__c == null) {
+   // This is Veeva CRM Online
+  } else {
+   // This is Veeva CRM on iPad
+  }
+ } else {
+  alert("Mobile_ID_vod__c: Fail");
+ }
 }
 ```
 
@@ -173,7 +175,7 @@ You can use the following JavaScript to determine if you are presenting from the
 
 ```js
 navigator.platform.indexOf("iPad") !== -1 
-	|| (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+ || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 ```
 
 Additionally, `navigator.maxTouchPoints` determines the maximum number of simultaneous touch contact points that are supported by the current device.
@@ -196,22 +198,30 @@ Simply ask the HCP at the start of the Engage Meeting which device they are usin
 
 ## Quiz
 
-> [!faq]- Splash Screens are not required to use Engage Meeting.
-> 
+> [!TIP]- Splash Screens are not required to use Engage Meeting.
+>
 > True.
 
-> [!faq]- Once the custom Splash Screen has been created, where should it be uploaded?
-> 
+---
+
+> [!TIP]- Once the custom Splash Screen has been created, where should it be uploaded?
+>
 > Veeva CRM Online.
 
-> [!faq]- What Veeva JavaScript Library can be used to create Splash Screens?
-> 
+---
+
+> [!TIP]- What Veeva JavaScript Library can be used to create Splash Screens?
+>
 > Veeva MyInsights JavaScript Library.
 
-> [!faq]- Once the custom Splash Screen has been created, where in Veeva CRM Online should it be uploaded?
-> 
+---
+
+> [!TIP]- Once the custom Splash Screen has been created, where in Veeva CRM Online should it be uploaded?
+>
 > HTML Reports Tab.
 
-> [!faq]- Admins and Content Creators can customize the Splash Screen using a Veeva CRM MyInsights visualization.
-> 
+---
+
+> [!TIP]- Admins and Content Creators can customize the Splash Screen using a Veeva CRM MyInsights visualization.
+>
 > True.

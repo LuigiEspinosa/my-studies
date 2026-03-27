@@ -1,3 +1,5 @@
+# Engage Content
+
 Engage Content is a licensed mobile application used by end users to enable virtual connections and communication with HCPs, including the following functionality: [^1]
 
 - Connect end users with HCPs.
@@ -97,25 +99,33 @@ A new object has been added to allow the rep to create or edit settings for Enga
 
 ## Quiz
 
-> [!faq]- Engage Connect is a licensed mobile application, used to enable virtual communication between end users and HCPs.
-> 
+> [!TIP]- Engage Connect is a licensed mobile application, used to enable virtual communication between end users and HCPs.
+>
 > True.
 
-> [!faq]- Which of the following are functionalities included in Veeva CRM Engage? Select all that apply.
-> 
+---
+
+> [!TIP]- Which of the following are functionalities included in Veeva CRM Engage? Select all that apply.
+>
 > - Request samples and materials.
 > - Connect end users with HCPs.
 > - View upcoming Engage Meetings.
 > - Share Approved content.
 
-> [!faq]- Remote CLM is included in the Engage Connect app.
-> 
+---
+
+> [!TIP]- Remote CLM is included in the Engage Connect app.
+>
 > True.
 
-> [!faq]- Engage Connect can be used on an iPhone, on an iPad and in the browser.
-> 
+---
+
+> [!TIP]- Engage Connect can be used on an iPhone, on an iPad and in the browser.
+>
 > True.
 
-> [!faq]- Integrated Scheduling is included in the Engage Connect app.
-> 
+---
+
+> [!TIP]- Integrated Scheduling is included in the Engage Connect app.
+>
 > True.

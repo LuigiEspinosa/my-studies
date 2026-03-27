@@ -1,3 +1,5 @@
+# Supported File Types and Packaging Content
+
 ## Supported Media File Types
 
 Engage for Portals supports the following Media File types:
@@ -13,11 +15,11 @@ Engage for Portals supports the following Media File types:
 HTML can be coded as Fixed size or Responsive content:
 
 - **Fixed Size Content**
-	- If coded as Fixed Size content, content will display at that predetermined size with scroll bars as needed.
-	- May not take up the entire screen.
-	- Utilize the HTML height and width properties in Vault to center the fixed size content in the player.
+  - If coded as Fixed Size content, content will display at that predetermined size with scroll bars as needed.
+  - May not take up the entire screen.
+  - Utilize the HTML height and width properties in Vault to center the fixed size content in the player.
 - **Responsive Content**
-	- Content will resize and adjust with the player.
+  - Content will resize and adjust with the player.
 
 For the best results, HTML content should be coded using **Responsive design**.
 
@@ -78,7 +80,7 @@ These files must be compressed directly into a ZIP file (without an additional f
 
 The ZIP is named **\<filename\>.zip**
 
-![[HTML Content Packaging.png]]
+![HTML Content Packaging.png](./Images/HTML%20Content%20Packaging.png)
 
 ## Other CLM Content Packaging
 
@@ -89,7 +91,7 @@ As a reminder, **Image, PDF, Video** and **PowerPoint** ZIPs must follow the sam
 - **PDF:** contain pdf.pdf and thumb.png.
 - **PowerPoint:** contain \<document name\>.pptx, poster.png and thumb.png.
 
-![[Other CLM Content Packaging.png]]
+![Other CLM Content Packaging.png](./Images/Other%20CLM%20Content%20Packaging.png)
 
 ## Auto-Packaging for Images, PDFs and Videos
 

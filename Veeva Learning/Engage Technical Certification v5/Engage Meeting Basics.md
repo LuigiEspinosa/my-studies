@@ -1,3 +1,5 @@
+# Engage Meeting Basics
+
 ## Remote Engagement and Multichannel Strategy
 
 Remote engagement is essential to a multichannel strategy. With face-to-face interactions declining, it is more important than ever for Customers to stay connected with HCPs and be able to present relevant and current information quickly.
@@ -10,7 +12,7 @@ Veeva CRM provides multiple, different channels that Customers can leverage to h
 
 ## Overview
 
-Engage Meeting enables Reps and HCPs to connect virtually. 
+Engage Meeting enables Reps and HCPs to connect virtually.
 
 Reps can schedule and host video meetings with HCPs online, and share reusable, compliant content directly from Veeva CRM.
 
@@ -106,7 +108,7 @@ A Splash Screen displays to HCPs when a Rep is not sharing content during an Eng
 
 These can be useful to provide company or Rep content information during the meeting.
 
-Admins can Content Creators can customize the Splash Screen to enhance the meeting experience for HCP. 
+Admins can Content Creators can customize the Splash Screen to enhance the meeting experience for HCP.
 
 And if a custom Splash Screen is not used, a Veeva Standard Splash Screen will be displayed.
 
@@ -126,28 +128,35 @@ Many of the features in Engage Meeting are controlled by the group permissions i
 
 ## Quiz
 
-> [!faq]- How many Engage Meeting Licenses can Veeva Content Partners have in their sandbox?
-> 
-> 2.
+> [!TIP]- How many Engage Meeting Licenses can Veeva Content Partners have in their sandbox?
+>
+> 1.
 
-> [!faq]- Reps can use Engage Meeting to achieve which of the following?
-> 
+---
+
+> [!TIP]- Reps can use Engage Meeting to achieve which of the following?
+>
 > - Engage with HCPs that restrict access or have limited availability.
 > - Ensure business continuity.
 > - Create video recordings of their meetings with HCPs.
 > - React HCPs across a larger geographic area without the burden of travel.
 > - Host lunch & learns remotely.
 
-> [!faq]- Engage Meeting enables content reuse and compliance.
-> 
+---
+
+> [!TIP]- Engage Meeting enables content reuse and compliance.
+>
 > True.
 
-> [!faq]- Reps can host an Engage Meeting from which of the following?
-> 
+---
+
+> [!TIP]- Reps can host an Engage Meeting from which of the following?
+>
 > - Windows PC.
 > - iPad.
 
-> [!faq]- HCPs can join an Engage Meeting from a dedicated application on mobile devices or from the Web Client via a supported web browser.
-> 
-> True.
+---
 
+> [!TIP]- HCPs can join an Engage Meeting from a dedicated application on mobile devices or from the Web Client via a supported web browser.
+>
+> True.

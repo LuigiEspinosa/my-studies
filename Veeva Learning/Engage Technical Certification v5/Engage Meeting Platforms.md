@@ -1,4 +1,7 @@
+# Engage Meeting Platforms
+
 ## Hosting an Engage Meeting via an iPad
+
 ### Scheduling an Engage Meeting
 
 To schedule an Engage Meeting, the Rep needs to:
@@ -137,15 +140,15 @@ The 'Call Mode' banner will not be shared with attendees.
 
 - HCPs can join an Engage Meeting using the Participant URL sent to them by the Rep.
 - HCPs can also join using the Meeting ID and Password if needed. When the HCP joins the Engage Meeting, an onboarding page displays, instructing the HCP how to join their meeting based on their device and browser type. Supported Devices and Browsers are:
-	- Engage Web Client.
-	- Veeva Engage Android app in Google Play.
-	- Veeva Engage iOS app in Apple App Store.
-	- Windows 7+ HCP app for desktop/laptop.
+  - Engage Web Client.
+  - Veeva Engage Android app in Google Play.
+  - Veeva Engage iOS app in Apple App Store.
+  - Windows 7+ HCP app for desktop/laptop.
 - Via iOS or Android Mobile Device.
 - Via Web Client.
-	- Engage Web Client is supported on Internet Explorer 11+, Edge Chromium, Chrome, Firefox and Safari.
+  - Engage Web Client is supported on Internet Explorer 11+, Edge Chromium, Chrome, Firefox and Safari.
 - HCPs Joining an Engage Meeting on Windows 8+ PC, but without access to a supported browser, can join the meeting by downloading the Windows HCP Application.
-	- If the Engage Application has already been installed on the HCPs desktop, then the onboarding page will show a link to open the application.
+  - If the Engage Application has already been installed on the HCPs desktop, then the onboarding page will show a link to open the application.
 
 ## Engage for Zoom
 
@@ -175,47 +178,64 @@ To enable this process, the Call Report must be configured to include the '`--pa
 
 ## Quiz
 
-> [!faq]- Reps must share Engage Meeting details via Approved Email.
-> 
+> [!TIP]- Reps must share Engage Meeting details via Approved Email.
+>
 > False.
 
-> [!faq]- HCPs can ONLY join Engage Meetings using Approved Email Invitations.
-> 
+---
+
+> [!TIP]- HCPs can ONLY join Engage Meetings using Approved Email Invitations.
+>
 > False.
 
-> [!faq]- If there are multiple HCPs in an Engage Meeting, their attendance can be uniquely tracked.
-> 
+---
+
+> [!TIP]- If there are multiple HCPs in an Engage Meeting, their attendance can be uniquely tracked.
+>
 > True.
 
-> [!faq]- Engage Meetings can be scheduled from the Call Report?
-> 
+---
+
+> [!TIP]- Engage Meetings can be scheduled from the Call Report?
+>
 > True.
 
-> [!faq]- During an Engage Meeting what is captured on the Call Report?
-> 
+---
+
+> [!TIP]- During an Engage Meeting what is captured on the Call Report?
+>
 > - Products.
 > - Key Messages.
 
-> [!faq]- From which platform(s) can HCPs join an Engage Meeting via a Participant URL?
-> 
+---
+
+> [!TIP]- From which platform(s) can HCPs join an Engage Meeting via a Participant URL?
+>
 > - Veeva Engage Android application.
 > - Veeva Engage iOS application.
 > - Web Client.
 
-> [!faq]- When can a Rep send an Approved Email invitation to an Engage Meeting?
-> 
+---
+
+> [!TIP]- When can a Rep send an Approved Email invitation to an Engage Meeting?
+>
 > An Approved Email can be sent after scheduling an Engage Meeting.
 
-> [!faq]- How does a Rep know what they are sharing a CLM Presentation in an Engage Meeting?
-> 
-> A green border around the screen.
-> 
+---
 
-> [!faq]- The Meeting ID and Password are included in ALL Engage Meeting Participant URLs.
-> 
+> [!TIP]- How does a Rep know what they are sharing a CLM Presentation in an Engage Meeting?
+>
+> A green border around the screen.
+>
+
+---
+
+> [!TIP]- The Meeting ID and Password are included in ALL Engage Meeting Participant URLs.
+>
 > True.
 
-> [!faq]- What is a key difference about sharing CLM content in an Engage Meeting hosted from a Windows PC compared to an iPad?
-> 
-> The CLM Presentation(s) must be downloaded by the Rep within the Media Library.
+---
 
+> [!TIP]- What is a key difference about sharing CLM content in an Engage Meeting hosted from a Windows PC compared to an iPad?
+>
+> The CLM Presentation(s) must be downloaded by the Rep within the Media Library.

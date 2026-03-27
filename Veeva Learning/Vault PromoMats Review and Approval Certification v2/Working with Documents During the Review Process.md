@@ -1,3 +1,5 @@
+# Working with Documents During the Review Process
+
 ## Starting a New Workflow
 
 Each document type in Vault PromoMats has an associated document life-cycle which can have on or more workflows.
@@ -13,14 +15,14 @@ When a workflow is started, information will need to be populated such as the du
 
 There are may be times where you need to email the participants on a workflow to remind them of the task assigned to them. Vault PromoMats makes this easy to do from the following views:
 
-1. **'Active Workflows'** view on the Vault PromoMats home screen: Local the document/workflow, open the **'Action Menu'** and select **'Email Participants'**. 
+1. **'Active Workflows'** view on the Vault PromoMats home screen: Local the document/workflow, open the **'Action Menu'** and select **'Email Participants'**.
 2. **Document view**: Click the workflow icon (right arrow) next to the document name, open the 'Action Menu' and select **'Email Participants'**.
 
 ## Modifying Workflows
 
 There are several actions you can take on a workflow once it has started.
 
-These actions are accessible via the same methods used to [[#Emailing Workflow Participants|email participants]].
+These actions are accessible via the same methods used to [email participants](#emailing-workflow-participants).
 
 - Replace Participants - Choose a participant in the current workflow and another user to replace them with.
 - Update Workflow Dates - Change date associated with a workflow, i.e. changing the due date.
@@ -51,6 +53,7 @@ The new version will be uploaded, a new minor version will be created, and a new
 During the review and approval process there will be times a reply to an annotation is required. Most commonly, replies are used to ask questions or confirm that a request has been completed.
 
 To reply to an annotation:
+
 1. Enter into annotation mode by clicking the + balloon icon.
 2. Select the annotation.
 3. Click into the text box and type your reply an click **'Reply'**.
@@ -62,6 +65,7 @@ When working with annotations you can mention another user by using the @ symbol
 When working through annotations, the ability to resolve an annotation helps to keep track of them.
 
 To resolve an annotation:
+
 1. Enter into annotation mode by click the + balloon icon.
 2. Select the annotation.
 3. Click the check-mark in the header of the annotation.
@@ -73,6 +77,7 @@ The check-mark changes to a flag icon indicating it has been resolved.
 If you resolved an annotation by mistake or noticed an error after the fact, it can be reponed.
 
 To reopen an annotation:
+
 1. Enter into annotation mode by click the + balloon icon.
 2. Select the annotation.
 3. Click the flag icon in the header of the annotation.
@@ -81,9 +86,10 @@ The flag icon will change to a check-mark indicating the annotation is no longer
 
 ## Hiding an Annotation
 
-As you progress through annotations you may choose to hide them. This method of hiding an annotation is different than in the [[#Using Annotation Filters|annotation filters]] .
+As you progress through annotations you may choose to hide them. This method of hiding an annotation is different than in the [annotation filters](#using-annotation-filters).
 
 To hide an annotation:
+
 1. Enter into annotation mode by clicking the + balloon icon.
 2. Select the annotation.
 3. Click the ellipses in the header of the annotation.
@@ -96,6 +102,7 @@ When you use this method to hide annotations, you must refresh the page to have 
 You will only have the ability to delete annotations that you have created.
 
 To delete an annotation:
+
 1. Enter into annotation mode by clicking the + balloon icon.
 2. Select the annotation.
 3. Click the ellipses in the header of the annotation.
@@ -131,6 +138,7 @@ Annotations can be shown or hidden based on various criteria:
 There may be instances where you need to see where a specific anchor in a reference document is used.
 
 To find where an anchor is used:
+
 1. Navigate to the reference document where the anchor exists.
 2. Click the + balloon icon.
 3. Scroll to find the anchor of interest.
@@ -143,6 +151,7 @@ Below the Anchor Name, a list of documents that reference the anchor will be dis
 Similar to being able to find where an anchor is used you can do the same for a reference document for where a document link was created.
 
 To find where a document is used:
+
 1. Navigate to the reference document.
 2. Open the **Action Menu**.
 3. Scroll and select **Where Used**.
@@ -154,17 +163,20 @@ All of these actions can be found in the **Action Menu**.
 ## Bring Forward Annotations
 
 - When working with new versions of a document, Vault PromoMats has a feature called 'Bring Forward Annotations' that helps to save you time. To use Bring Forward Annotations:
-	1. Click the + balloon icon.
-	2. Click the right arrow icon.
-	3. Select the document version as well as the type of annotation to bring forward.
-	4. Click **Continue**.
-- Once you click **Continue**, the annotations will be brought forward and the page will refresh. If pages have been reorganized and/or text has been deleted, text selections will be brought forward as page level annotations. Image annotations will also be brought forward as page level annotations. You can use the [[#Moving an Annotation|move option]] to move the annotations or in some cases you may delete the annotation.
+
+ 1. Click the + balloon icon.
+ 2. Click the right arrow icon.
+ 3. Select the document version as well as the type of annotation to bring forward.
+ 4. Click **Continue**.
+
+- Once you click **Continue**, the annotations will be brought forward and the page will refresh. If pages have been reorganized and/or text has been deleted, text selections will be brought forward as page level annotations. Image annotations will also be brought forward as page level annotations. You can use the [move option](#moving-an-annotation) to move the annotations or in some cases you may delete the annotation.
 
 ## Import Document Links
 
 At times, content created will re-use existing references and annotations. To help with this process, Vault PromoMats allows you to import Document Links from another document.
 
 To import document links:
+
 1. Click the **Action Menu**.
 2. Select the **Import Document Links**
 3. Click the green + symbol next to the document you wish to import from.
@@ -177,6 +189,7 @@ These documents will now be in the Linked Documents panel where you can create a
 When referencing content, existing documents and anchor links can be used to make links to a selection of new content. This cuts down on the number of clicks required to create the link.
 
 To create the link(s):
+
 1. Go to the Relationships section of the Document Information panel.
 2. Find the Linked Documents panel and **Expand**.
 3. Next to the document links or anchors that exist, click the ellipsis icon.
@@ -189,27 +202,31 @@ To create the link(s):
 - Exporting annotations on a document can be a time saver when comments are received in a review cycle. Vault PromoMats provides two ways to download a PDF that includes annotations.
 
 1. **PDF with Annotations Renditions**
-	This option will download a PDF with annotations in the margins.
-	- To retrieve this PDF, click the down-arrow on the renditions icon next to the **Action Menu**.
-	- Select **PDF with Annotations**.
+ This option will download a PDF with annotations in the margins.
+
+    - To retrieve this PDF, click the down-arrow on the renditions icon next to the **Action Menu**.
+    - Select **PDF with Annotations**.
 
 2. **Export Annotations**
-	This option will download a PDF with native comments that you can interact with. This option requires that you can interact with. This option requires that your customer has offline annotations enabled.
-	- To retrieve this PDF, open the **Action Menu**.
-	- Select **Export Annotations**.
+ This option will download a PDF with native comments that you can interact with. This option requires that you can interact with. This option requires that your customer has offline annotations enabled.
+
+    - To retrieve this PDF, open the **Action Menu**.
+    - Select **Export Annotations**.
 
 ## Downloading Renditions
 
-Depending on the document type, there will be a number of renditions for a specific document. At a minimum, there will be a source document and a viewable rendition. 
+Depending on the document type, there will be a number of renditions for a specific document. At a minimum, there will be a source document and a viewable rendition.
 
 Document renditions can be download from:
 
 1. The **top of the document info page** where there is an icon for the document file type. When performing a document search, this same menu is accessible from the search results.
-	- Click on that icon to download the 'source file' or click on the down-arrow next to it to access other renditions.
+
+    - Click on that icon to download the 'source file' or click on the down-arrow next to it to access other renditions.
 
 2. Document renditions can also be downloaded **via the document information panel**.
-		- Select the **Document Files** section of the document information.
-		- The viewable renditions and any other renditions that exist for the document will be displayed here.
+
+    - Select the **Document Files** section of the document information.
+    - The viewable renditions and any other renditions that exist for the document will be displayed here.
 
 ## Bulk Download
 
@@ -222,6 +239,7 @@ Once you've added documents to your cart, the 'shopping cart' icon, next to the 
 To export all associated content and data for a given document, select Export All Files from the Actions menu. Vault will display a banner confirming your export and send a notification with a link to download the ZIP file.
 
 The exported ZIP file contains the following: [^1]
+
 - Document source file and all renditions
 - PDF with Annotations file.
 - Latest version of attachments.

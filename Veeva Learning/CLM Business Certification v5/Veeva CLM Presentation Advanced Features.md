@@ -1,3 +1,5 @@
+# Veeva CLM Presentation Advanced Features
+
 ## Training Content with Watermark
 
 CLM content can be designated as training content in Vault PromoMats which gives customers the ability to separate training content from field-ready content and gives Reps the ability to practice on content prior to use in the field with HCPs.
@@ -7,6 +9,7 @@ The training option is only visible to Reps, in the Media section on the Veeva C
 ## Flagging Content as Training Content
 
 To define a CLM Presentation as training content, navigate to the CLM Presentation Binder in Vault PromoMats, in the CLM Properties section select:
+
 - Publish for Veeva CRM (CLM) = Yes
 - Training = Yes
 
@@ -136,7 +139,7 @@ With PowerPoint or PDF content Vault PromoMats can package and create a Multicha
 
 This does not require the Content Creator to package this content according to the Vault packaging guidelines, as Vault automatically creates this as part of the Create Presentation feature.
 
-![[Create Presentation Feature.png]]
+![Create Presentation Feature.png](./Images/Create%20Presentation%20Feature.png)
 
 ## Uploading Content for Create Presentation
 
@@ -235,14 +238,16 @@ Create Presentation and Single Doc Publishing are very similar in functionality,
 
 1. Both processes support PowerPoint and PDF, but Single Doc Publishing also supports Word Documents.
 2. Create Presentation creates individual slides of the source document, however Single Doc Publishing retains the doc its entirety. This means, for Create Presentation, that individual slides can be replaced.
-	- A scenario to consider: A customer has an existing PowerPoint presentation with 70 slides of which 3 have rich animation. In this case using the Create Presentation function creates the individual slides. For the 3 slides with rich animation, they can be updated with HTML versions that include the rich animation.
-	- If there is a simple sequential presentation then Single Doc Publishing can be used.
+
+- A scenario to consider: A customer has an existing PowerPoint presentation with 70 slides of which 3 have rich animation. In this case using the Create Presentation function creates the individual slides. For the 3 slides with rich animation, they can be updated with HTML versions that include the rich animation.
+- If there is a simple sequential presentation then Single Doc Publishing can be used.
 
 ## Background to iOS Native Resolution Change
 
 Veeva has traditionally supported the original iPad resolution of 1024x768. However, for example, on an 11-inch iPad Pro, the Veeva CRM app displayed at its normal size but caused black bars to be displayed on the device.
 
 iPad Pros have had a variety of different display resolutions since 2017 including:
+
 - Larger screen sizes.
 - Wide screen aspect ratios.
 - Newer non-Pro iPads that are 10.2" and greater.
@@ -250,6 +255,7 @@ iPad Pros have had a variety of different display resolutions since 2017 includi
 ## What is Native Resolution?
 
 Content creators can set the display resolution of CLM Presentations created with HTML. This allows presentations to be responsive and fit screens with higher resolution, including the following devices:
+
 - iPad 2019 10.2 inch
 - iPad Air 2019 10.2 inch
 - iPad Pro 10.5 inch
@@ -283,7 +289,7 @@ For fixed resolution content designed to 1024z768 (designed for 9.7-inch iPad) i
 
 Before using Scale to Fit it is recommended to test to ensure this works well with the HTML code in the Presentation as this option injects code to scale the presentation.
 
-![[Fixed Size Non-Responsive Content.png]]
+![Fixed Size Non-Responsive Content.png](./Images/Fixed%20Size%20Non-Responsive%20Content.png)
 
 ## Responsive Content
 
@@ -308,24 +314,27 @@ This means if the product logo needs to be updated then the content updates are 
 ## Using Shared Resources
 
 There are 2 methods for packaging Shared Resources which affects how the content is referenced in the HTML file.
+
 - Please not, all Shared Resources ZIPs require an **index.html** and **image.png** file.
 
 1. `./shared/js/veeva_javascript_library_v3.2.js`
-	- ZIP Layer
-		- CSS
-		- JavaScript
-		- Images
-		- index.html
-		- image.png
 
-2. `./shared/Cholecap_Shared/js/veeva_javascript_library_v3.2.js`
-	- ZIP Layer
-		- Cholecap_Shared
-			- CSS
-			- JavaScript
-			- Images
-			- index.html
-			- image.png
+- ZIP Layer
+- CSS
+- JavaScript
+- Images
+- index.html
+- image.png
+
+1. `./shared/Cholecap_Shared/js/veeva_javascript_library_v3.2.js`
+
+- ZIP Layer
+- Cholecap_Shared
+- CSS
+- JavaScript
+- Images
+- index.html
+- image.png
 
 ## Using Shared Resources: Method 1
 
@@ -391,6 +400,7 @@ Before the content can be saved the required metadata fields (highlighted yellow
 The Name field is automatically pulled from the ZIP file but can be updated if needed.
 
 Require Vault fields:
+
 - Shared Resource = Yes.
 - Publish to Veeva CRM (CLM) or Publish for Veeva CRM (Portals)[^5] = Yes.
 - Product
@@ -422,6 +432,7 @@ Using Shared Resources is highly recommended when creating HTML content.
 Never add the Shared Slide to a Presentation: it causes errors during the sync.
 
 Shared relationships is always on Slide to Slide base:
+
 - One Shared Resource can be referenced by many regular Slides but one regular Slide can have only one Shared Resource.
 - One Shared Resource can be referenced by many Slides, even if they belong to different presentations.
 
@@ -429,62 +440,85 @@ When updating a Shared Resource, the update affects all content where the Shared
 
 ## Quiz
 
-> [!faq]- Can a Key Message be viewed in Portrait mode?
-> 
+> [!TIP]- Can a Key Message be viewed in Portrait mode?
+>
 > Yes, but only if the Rotation Lock has been disabled for the given Key Message.
 
+---
 
-> [!faq]- Select the native CLM functions that can be disabled?
-> 
+> [!TIP]- Select the native CLM functions that can be disabled?
+>
 > - Swipe.
 > - History Button.
 > - Navigation Bar.
 
-> [!faq]- Can the Custom Presentations Feature be turned on for specific presentations only?
-> 
+---
+
+> [!TIP]- Can the Custom Presentations Feature be turned on for specific presentations only?
+>
 > No.
 
-> [!faq]- Can you allow Reps to access content specifically for training and prevent this from being shown accidentally to an HCP?
-> 
+---
+
+> [!TIP]- Can you allow Reps to access content specifically for training and prevent this from being shown accidentally to an HCP?
+>
 > Yes.
 
-> [!faq]- Is it possible to require certain content to be viewed prior to the rest of the Presentation?
-> 
+---
+
+> [!TIP]- Is it possible to require certain content to be viewed prior to the rest of the Presentation?
+>
 > Yes.
 
-> [!faq]- If correctly configured, can PowerPoint content include navigation buttons when converted into a CLM Presentation?
-> 
+---
+
+> [!TIP]- If correctly configured, can PowerPoint content include navigation buttons when converted into a CLM Presentation?
+>
 > Yes.
 
-> [!faq]- Can Reps view CLM content via the PowerPoint application on their iPad?
-> 
+---
+
+> [!TIP]- Can Reps view CLM content via the PowerPoint application on their iPad?
+>
 > Yes.
 
-> [!faq]- What type of resources can be shared via "Shared Resources"?
-> 
+---
+
+> [!TIP]- What type of resources can be shared via "Shared Resources"?
+>
 > - JavaScript.
 > - Logos.
 > - PDF.
 > - CSS.
 
-> [!faq]- Is it possible to require specific content to be viewed?
-> 
+---
+
+> [!TIP]- Is it possible to require specific content to be viewed?
+>
 > Yes, if grouped as a presentation and associated as a sub-presentation.
 
-> [!faq]- Can the Custom Presentation be turned on presentation by presentation?
-> 
+---
+
+> [!TIP]- Can the Custom Presentation be turned on presentation by presentation?
+>
 > No.
 
-> [!faq]- If no option is selected, which resolution is selected by default?
-> 
+---
+
+> [!TIP]- If no option is selected, which resolution is selected by default?
+>
 > Scale to 1024x768.
 
-> [!faq]- Select all the Native Resolution Options?
-> 
+---
+
+> [!TIP]- Select all the Native Resolution Options?
+>
 > - Scale to 1024x768.
 > - Scale to Fit.
 > - Default for Device.
 
-> [!faq]- Does Veeva CLM support Microsoft PowerPoint natively?
-> 
+---
+
+> [!TIP]- Does Veeva CLM support Microsoft PowerPoint natively?
+>
 > Yes, but with certain considerations.

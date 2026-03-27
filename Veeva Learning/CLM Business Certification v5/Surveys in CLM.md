@@ -1,3 +1,5 @@
+# Surveys in CLM
+
 ## Survey Overlay in CLM
 
 Reps can open a pre-specified Survey from the CLM media player when viewing a particular presentation. The Survey Overlay feature eliminates the need to navigate away from the presentation, complete the Survey and navigate back to the presentation.
@@ -5,10 +7,12 @@ Reps can open a pre-specified Survey from the CLM media player when viewing a pa
 ## Enabling a Survey Overlay in CLM
 
 For CLM Content uploaded into Vault PromoMats, two fields must be populated to enable the Survey Overlay page to display in CLM [^1]
+
 - The Enable Survey Overlay field must equal Yes.
 - Populate the Survey lookup with the correct Survey.
 
 For CLM content uploaded directly into Veeva CRM, two fields must be populated to enable the Survey Overlay page to display in CLM. [^2]
+
 - The Enable Survey Overlay box must be checked.
 - Populate the Survey lookup with the correct Survey.
 
@@ -24,6 +28,7 @@ Before the 'Survey' option is available, an Account must be selected, and the Re
 The Survey Overlay appears over the top of the CLM content.
 
 The 3 options for a Rep in Survey Overlay are:
+
 - The Rep can cancel the Survey to return to the CLM content without completing the Survey.
 - Selecting 'Save' keeps the Survey in memory until the CLM is closed at which point the Survey opens on top of the Call Report.
 - Selecting 'Submit' will close the Survey and save all answers to sync to CRM Online.
@@ -33,15 +38,18 @@ The 3 options for a Rep in Survey Overlay are:
 Survey Branching allows for conditional questions based on previous answer choices.
 
 Parent Questions are the question that starts the Survey Branch.
+
 - The Parent Question must be either Picklist or Radio type question.
 
 In order to create Survey Branches, navigate to the Survey Questions section on the Survey and click the + button on the question that will be the Parent Question.
 
 There are two options:
+
 1. 'Create Child Question' which will enable the Content Creator to create a new question.
 2. 'Add Child Questions' will allow the Content Creator to select an existing question from the Question Bank as the child question.
 
 Once the child questions are created, the Content Creator must select the answer on the parent question that will cause each child question to display. [^3]
+
 - I.e. if the answer to Question 1 is Cholecap then display Child Question 1 and 2.
 - I.e. if the anser to Question 1 is Provastatin then display Child Question 3.
 
@@ -69,71 +77,91 @@ In order to integrate a Survey via HTML, it must be first associated to the CLM 
 Surveys can be accessed from CLM Presentations by utilizing Veeva's JavaScript library.
 
 - `getSurveyQuestions_Survey`
-	- **Survey** - Specifies the record ID of the Survey to get all related Survey Questions for a specific Survey.
-	- **Callback** - call back function that is used to return the information.
+  - **Survey** - Specifies the record ID of the Survey to get all related Survey Questions for a specific Survey.
+  - **Callback** - call back function that is used to return the information.
 
 - `getQuestionResponse_SurveyTarget`
-	- **SurveyTarget** - specifies the record ID of the Survey Target to get all related Question Responses for a specific Survey.
-	- **Callback** - call back function that is used to return the information.
+  - **SurveyTarget** - specifies the record ID of the Survey Target to get all related Question Responses for a specific Survey.
+  - **Callback** - call back function that is used to return the information.
 
 - `getSurveyTarget_Account`
-	- **Account** - specifies the record ID of the Account to get all related Survey Targets from.
-	- **Survey** - specifies the record ID of the Survey to get all related Survey Targets from.
-	- **Callback** - call back function that is used to return the information.
+  - **Account** - specifies the record ID of the Account to get all related Survey Targets from.
+  - **Survey** - specifies the record ID of the Survey to get all related Survey Targets from.
+  - **Callback** - call back function that is used to return the information.
 
 - `createRecord` and `updateRecord`
-	- **`createRecord`** and **`updateRecord`** methods are used to save responses to the database.
-	- **`createRecord`** and **`updateRecord`** methods are used to save responses to the database.
+  - **`createRecord`** and **`updateRecord`** methods are used to save responses to the database.
+  - **`createRecord`** and **`updateRecord`** methods are used to save responses to the database.
 
 ## Quiz
 
-> [!faq]- For Survey Branching, Parent questions can be which of the following types?
-> 
+> [!TIP]- For Survey Branching, Parent questions can be which of the following types?
+>
 > - Picklist.
 > - Radio.
 
-> [!faq]- Which of these are options for a Rep in the Survey Overlay?
-> 
+---
+
+> [!TIP]- Which of these are options for a Rep in the Survey Overlay?
+>
 > - The Rep can select save, allowing the survey to be stored.
 > - The Rep can cancel the survey without completing, and return to the CLM content.
 > - The Rep can submit the survey, all answers will be saved to CRM Online.
 
-> [!faq]- Select the advantages of using Survey Integration in CLM.
-> 
+---
+
+> [!TIP]- Select the advantages of using Survey Integration in CLM.
+>
 > - The survey can be delivered in a more interactive way.
 > - The Rep does not need to leave the CLM Presentation to complete the survey.
 
-> [!faq]- What is the advantage of using the Survey Overlay?
-> 
+---
+
+> [!TIP]- What is the advantage of using the Survey Overlay?
+>
 > Eliminates the need to navigate away from the presentation to complete a specified survey.
 
-> [!faq]- When Survey Branching is used, will the HCP see the child questions when the Survey initially loads on the page?
-> 
+---
+
+> [!TIP]- When Survey Branching is used, will the HCP see the child questions when the Survey initially loads on the page?
+>
 > No.
 
-> [!faq]- Does Survey Overlay need to be configured?
-> 
+---
+
+> [!TIP]- Does Survey Overlay need to be configured?
+>
 > Yes.
 
-> [!faq]- Is it possible to integrate a Veeva Survey into the HTML of a CLM Presentation?
-> 
+---
+
+> [!TIP]- Is it possible to integrate a Veeva Survey into the HTML of a CLM Presentation?
+>
 > Yes.
 
-> [!faq]- Which of the following Veeva JavaScript methods are used to add or update Survey Data in HTML?
-> 
+---
+
+> [!TIP]- Which of the following Veeva JavaScript methods are used to add or update Survey Data in HTML?
+>
 > - `updateRecord`.
 > - `createdRecord`.
 
-> [!faq]- Survey Branching allows for conditional questions based on previous answer choices.
-> 
+---
+
+> [!TIP]- Survey Branching allows for conditional questions based on previous answer choices.
+>
 > Yes.
 
-> [!faq]- Can the Survey Overlay be used without selecting an Account?
-> 
+---
+
+> [!TIP]- Can the Survey Overlay be used without selecting an Account?
+>
 > No.
 
-> [!faq]- Which of the following Veeva JavaScript methods are used to get Survey Data in HTML?
-> 
+---
+
+> [!TIP]- Which of the following Veeva JavaScript methods are used to get Survey Data in HTML?
+>
 > - `getSurveyQuestions_Survey`.
 > - `getSurveyTarget_Account`.
 > - `getQuestionsResponse_SurveyTarget`.

@@ -1,3 +1,5 @@
+# Uploading and Syncing Email Templates
+
 ## Upload an Email Template
 
 In order to upload the Approved Email Template into Vault PromoMats, Content Creators must have an HTML file as well as a separate Assets ZIP file containing the email images.
@@ -56,34 +58,48 @@ If the Approved Email Administration Tab isn't visible, all Tabs in Veeva CRM ca
 
 ## Quiz
 
-> [!faq]- Approved Email content is uploaded in Vault PromoMats and is accessible directly in Veeva CRM Online and Mobile without any additional steps.
-> 
+> [!TIP]- Approved Email content is uploaded in Vault PromoMats and is accessible directly in Veeva CRM Online and Mobile without any additional steps.
+>
 > False.
 
-> [!faq]- There is no way to re-render images if needed.
-> 
+---
+
+> [!TIP]- There is no way to re-render images if needed.
+>
 > False.
 
-> [!faq]- When populating the Vault Fields in a Email Template, the Subject field needs to be hard-coded.
-> 
+---
+
+> [!TIP]- When populating the Vault Fields in a Email Template, the Subject field needs to be hard-coded.
+>
 > False.
 
-> [!faq]- In order to upload the Approved Email Invitation into Vault PromoMats, Content Creators must have an HTML file with images inserted.
-> 
+---
+
+> [!TIP]- In order to upload the Approved Email Invitation into Vault PromoMats, Content Creators must have an HTML file with images inserted.
+>
 > False.
 
-> [!faq]- In Vault, the fields highlighted in __ are required.
-> 
+---
+
+> [!TIP]- In Vault, the fields highlighted in __ are required.
+>
 > Yellow.
 
-> [!faq]- Images in an Email Template need to be uploaded in the Assets Section.
-> 
+---
+
+> [!TIP]- Images in an Email Template need to be uploaded in the Assets Section.
+>
 > True.
 
-> [!faq]- To synchronize content from Vault PromoMats into CRM Online, the user needs to click on the:
-> 
+---
+
+> [!TIP]- To synchronize content from Vault PromoMats into CRM Online, the user needs to click on the:
+>
 > Approved Email Administration Tab.
 
-> [!faq]- If the Email Template is in the Staged State, then this will only be available to Users with the 'Approved Email Admin' field checked on their User Record.
-> 
+---
+
+> [!TIP]- If the Email Template is in the Staged State, then this will only be available to Users with the 'Approved Email Admin' field checked on their User Record.
+>
 > True.

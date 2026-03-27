@@ -1,3 +1,5 @@
+# Packaging and Administratrion of Presentations and Slides
+
 ## Terms to Know
 
 ### CLM Presentation
@@ -5,14 +7,17 @@
 A collection of Key Messages that make up the presentation that the Rep uses with the HCP.
 
 These are commonly referred to as IVAs (Interactive Visual Aids), eDAs (Electronic Visual Aids), DSAa (Digital Sales Aids), etc.
+
 ### Key Message
 
 Specific messages that are delivered for each product or detail topic selecting in the detailing section (e.g. Safety, Dosing, etc.).
 
 A Key Message is a slide of a CLM Presentation and can be an HTML, Image, PDF or Video file.
+
 ## Content Design Philosophy
 
-![[Content Design Philosophy.png]]
+![Content Design Philosophy.png](./Images/Content%20Design%20Philosophy.png)
+
 ## Wide Content Philosophy
 
 Wide Content means each slide or page in presentation is a individual file loaded as a separate Key Message.
@@ -23,16 +28,18 @@ Additional tracking can also be coded into the content to allow for more data us
 
 - Many slides in a presentation.
 - Navigation via native CLM Media Player capabilities
-	- Navigation bar
-	- Swipe left/right
-	- Pinch and Select
-	- gotoSlide
+  - Navigation bar
+  - Swipe left/right
+  - Pinch and Select
+  - gotoSlide
 - Tracking at slide level still allows good granularity.
 - Easy to update specific key message.
+
 ## Wide Content CLM Presentation and Tracking
 
 - Individual Key Messages and associated Slides are visible in the Navigation Bar.
 - On the Call Report, each Key Message viewed is recorded in the CRM.
+
 ## Deep Content Philosophy
 
 Deep Content means all slides or pages in a presentation are hosted in a single individual file loaded as a single Key Message.
@@ -44,13 +51,16 @@ This means that only the first slide viewed by an HCP can be tracked and reporte
 - Preferred by some agencies.
 - Poor for tracking, synchronization, and updates.
 - Loss of Default CLM functionality.
+
 ## Deep Content CLM Presentation and Tracking
 
 - Only the first Key Message is visible in the navigation bar as the entire presentation is one highly interactive asset.
 - On the Call Report, only one Key Message is viewed and recorded in the CRM.
+
 ## Wide versus Deep Content
 
-![[Wide versus Deep Content.png]]
+![Wide versus Deep Content.png](./Images/Wide%20versus%20Deep%20Content.png)
+
 ## Content Design Philosophy Summary
 
 Ideal content design will be a mix of both philosophies, meaning many slides but those slides will include elements of deep content within them.
@@ -62,6 +72,7 @@ Combination Content -> Complex Key Message Architecture
 - Great user experience, easy navigation.
 - Granular tracking (deep). easy reporting (wide)
 - Easy to update slides, best slide level performance.
+
 ## Content Packaging
 
 After creating an item of media, Content Creators must prepare the media before it can be loaded into Vault PromoMats.
@@ -80,6 +91,7 @@ Image, PDF, Video and PowerPoint ZIPs must follow the same process with specific
 - **Video:** contain video.mp4, poster.png and thumb.png.
 - **PDF:** contain pdf.pdf and thumb.png.
 - **PowerPoint:** contain \<document name\>.pptx , poster.png and thumb.png.
+
 ## Resolution Considerations
 
 Select the resolution which matches the majority of the devices that the Reps are using.
@@ -90,6 +102,7 @@ On Windows, images that are in the format 4:3 aspect ratio display centered with
 | -------------- | --------- | --------------- | ------------------ | ------------ |
 | Original Media | media.png | 2048x1536       | 1920x1080          | 250kB        |
 | Thumbnail      | thumb.png | 200x150         | 195x110            | 7kB          |
+
 ## Uploading CLM Content to Vault
 
 Content is loaded directly into Vault PromoMats first. Customers will usually complete the review and approval process within Vault PromoMats.
@@ -108,6 +121,7 @@ It is important to understand that the two different terms can refer to the same
 | Multichannel Slide           | Key Message            |
 | Multichannel Slide in Binder | CLM Presentation Slide |
 | Distribution Package         | Media File ZIP         |
+
 ## Create a Presentation
 
 The first step to uploaded content in Vault PromoMats is to create a Binder and specify this as a Multichannel Presentation.
@@ -118,6 +132,7 @@ The Binder becomes the CLM Presentation record in Veeva CRM and groups the Slide
 2. Click 'Create'.
 3. Select 'Binder'.
 4. Choose Binder Type 'Multichannel Presentation' and Click 'Ok' and 'Next'.
+
 ## Enter Required Vault Fields
 
 Before te Multichannel Presentation can be saved, the required metadata fields (highlighted yellow) need to be filled out.
@@ -125,6 +140,7 @@ Before te Multichannel Presentation can be saved, the required metadata fields (
 In addition, the CLM Content field must be selected '**Yes**' to allow the CLM content to be synced to Veeva CRM and viewed on the iPad/Windows device.
 
 After filling out the required fields, click '**Save**'.
+
 ## Managing Multichannel Presentations
 
 This creates an empty Multichannel Presentation in Vault PromoMats, in order to view content in the Veeva CRM Mobile Application on iPad/Winodws, slides need to be added in the Binder.
@@ -132,6 +148,7 @@ This creates an empty Multichannel Presentation in Vault PromoMats, in order to 
 Click '**Edit Binder**' to add slides.
 
 If metadata must be edited, this can be done by clicking '**Edit Fields**'.
+
 ## Add Content to Multichannel Presentation
 
 In Edit Binder mode, there are two options to add content by clicking the '**Add**' button.
@@ -139,6 +156,7 @@ In Edit Binder mode, there are two options to add content by clicking the '**Add
 '**Upload File**' allows content to be uploaded from the Desktop to Vault PromoMats directly within the Presentation.
 
 If the slides have previously been uploaded to Vault PromoMats, the '**Existing Documents**' button allows these to be linked in the Presentation.
+
 ## Upload New Slides to Presentation
 
 To upload new content, click '**Upload File**'.
@@ -189,24 +207,31 @@ Select '**Sync**'. If successful, this will sync the CLM Presentation and associ
 
 ## Quiz
 
-> [!faq]- Which statement describes Deep Content?
-> 
+> [!TIP]- Which statement describes Deep Content?
+>
 > All slides or pages in a presentations are hosted in an individual file loaded as a single Key Message.
 
-> [!faq]- Which statement describes Wide Content?
-> 
+---
+
+> [!TIP]- Which statement describes Wide Content?
+>
 > Each slide or page in a presentation is an individual file loaded as a separate Key Message.
 
-> [!faq]- HTML Content must be zipped and include which of the following?
-> 
+---
+
+> [!TIP]- HTML Content must be zipped and include which of the following?
+>
 > An `index.html` and a `thumb.png` file.
 
-> [!faq]- What are the 2 different content design philosophies in Veeva CLM?
-> 
+---
+
+> [!TIP]- What are the 2 different content design philosophies in Veeva CLM?
+>
 > - Wide
 > - Deep
 
-> [!faq]- Wide Content tracks which of the following?
-> 
-> Each Key Message on the Call Report.
+---
 
+> [!TIP]- Wide Content tracks which of the following?
+>
+> Each Key Message on the Call Report.

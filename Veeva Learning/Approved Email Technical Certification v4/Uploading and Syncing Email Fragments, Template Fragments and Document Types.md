@@ -1,3 +1,5 @@
+# Uploading and Syncing Email Fragments, Template Fragments and Document Types
+
 ## Uploading Email Fragments
 
 In order to upload the Approved Fragment into Vault, Content Creators must have the HTML file and images in Assets ZIP file.
@@ -97,7 +99,9 @@ In order to upload a Document into Vault, Content Creators must choose the Docum
 4. Select 'Upload' and 'Continue'.
 5. Upload the Document.
 6. Choose the Document type from the drop-down,
-	- These are usually Reference Documents (Important Safety Information or Prescribing Information) or Promotional Pieces.
+
+    - These are usually Reference Documents (Important Safety Information or Prescribing Information) or Promotional Pieces.
+
 7. Click 'Next'.
 
 ### Enter Required Vault Fields
@@ -153,35 +157,48 @@ If the Approved Email Administration Tab isn't visible, all Tabs in Veeva CRM ca
 
 ## Quiz
 
-> [!faq]- When a Fragment is associated with a Template, only the associated Fragment can be selected in that Template.
-> 
+> [!TIP]- When a Fragment is associated with a Template, only the associated Fragment can be selected in that Template.
+>
 > True.
 
-> [!faq]- In Vault, the required fields are highlighted in __
-> 
+---
+
+> [!TIP]- In Vault, the required fields are highlighted in __
+>
 > Yellow.
 
-> [!faq]- Content creators don't need to add the Vault Content Token in the HTML to link a Document in an Email Fragment.
-> 
+---
+
+> [!TIP]- Content creators don't need to add the Vault Content Token in the HTML to link a Document in an Email Fragment.
+>
 > False.
 
-> [!faq]- In order to upload an Email Fragment into Vault PromoMats, Content Creators must have an HTML file with images inserted.
-> 
+---
+
+> [!TIP]- In order to upload an Email Fragment into Vault PromoMats, Content Creators must have an HTML file with images inserted.
+>
 > False.
 
-> [!faq]- The token `{{PieceLink}}` in the HTML will link to a Prescribing Information Document Type.
-> 
+---
+
+> [!TIP]- The token `{{PieceLink}}` in the HTML will link to a Prescribing Information Document Type.
+>
 > False.
 
-> [!faq]- In CRM Online, the user will need to click on the __ to synchronize content from Vault PromoMats.
-> 
+---
+
+> [!TIP]- In CRM Online, the user will need to click on the __ to synchronize content from Vault PromoMats.
+>
 > Approved Email Administration Tab.
 
-> [!faq]- Before syncing Vault PromoMats and Veeva CRM, the Documents must be set to Staged in the Agency's environment.
-> 
+---
+
+> [!TIP]- Before syncing Vault PromoMats and Veeva CRM, the Documents must be set to Staged in the Agency's environment.
+>
 > False.
 
-> [!faq]- All Template Fragments need to contain images.
-> 
-> False.
+---
 
+> [!TIP]- All Template Fragments need to contain images.
+>
+> False.
