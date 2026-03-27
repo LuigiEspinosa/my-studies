@@ -1,3 +1,5 @@
+# Chapter 6: Managing State with Redux
+
 ## Principles
 
 - **Single source of truth:** This means that the whole application state is stored in a single object. In a real app, this object is likely to contain a complex tree of nested objects.
@@ -18,7 +20,7 @@ So, the first thing that needs to happen in order to update the `state` in a sto
 
 **Reducers** are pure functions that make the actual state changes.
 
-> *A **pure function** always returns the same result for a given set of parameters. So, these functions don't depend on any state outside the scope of the function that isn't passed into the function. Pure functions also don't change any state outside the scope of the function.*
+> _A **pure function** always returns the same result for a given set of parameters. So, these functions don't depend on any state outside the scope of the function that isn't passed into the function. Pure functions also don't change any state outside the scope of the function._
 
 - Reducers take in two parameters for the current state and the action that is being performed.
 - A `switch` statement is used on the action type and creates a new state object appropriately for each action type in each of its branches.
@@ -27,56 +29,68 @@ So, the first thing that needs to happen in order to update the `state` in a sto
 
 ## Creating Actions
 
-> *Interfaces can inherit properties and methods from another interface using the `extends` keyword. The interface that's being inherited from is specified after the extends keyword.*
+> _Interfaces can inherit properties and methods from another interface using the `extends` keyword. The interface that's being inherited from is specified after the extends keyword._
 
-Action creators are functions that create actions. When the process of creating the action is synchronous, the action creator will return the action object. However, when the process of creating the action is asynchronous, the action creator will return a function that dispatches the action. Asynchronous actions can also dispatch more than one action. 
+Action creators are functions that create actions. When the process of creating the action is synchronous, the action creator will return the action object. However, when the process of creating the action is asynchronous, the action creator will return a function that dispatches the action. Asynchronous actions can also dispatch more than one action.
 
 ## Creating a reducer
 
 The reducer takes in two parameters: one for the current state and another for the action that is being processed. The state will be undefined the first time the reducer is called, so we default this to the initial state we created earlier.
 
-The reducer needs to return the new state object for the given action. 
+The reducer needs to return the new state object for the given action.
 
-> *The `never` type is a TypeScript type that represents something that would never occur and is typically used to specify unreachable areas of code.*
+> _The `never` type is a TypeScript type that represents something that would never occur and is typically used to specify unreachable areas of code._
 
 ## Quiz
 
-> [!faq]- When implementing an action object, how many properties can it contain?
-> 
+> [!TIP]- When implementing an action object, how many properties can it contain?
+>
 > As many as we like. It needs to include at least one for the `type` property. It can then include as many other properties as we need for the reducer to change the state, but this is generally lumped in one additional property. So, generally, an action will have one or two properties.
 
-> [!faq]- Why did we need Redux Thunk in our Redux store?
-> 
+---
+
+> [!TIP]- Why did we need Redux Thunk in our Redux store?
+>
 > By default, a Redux store can't manage asynchronous action creators. Middleware needs to be added to the Redux store to facilitate asynchronous action creators. Redux Thunk is the middleware we added to do this.
 
-> [!faq]- How did we make the state in our store read-only?
-> 
+---
+
+> [!TIP]- How did we make the state in our store read-only?
+>
 > We used the `readonly` keyword in the properties in the interface for the state.
 
-> [!faq]- In the `questionsReducer` function we implemented, why didn't we use the array `push` method to add th new question to the state?
-> 
+---
+
+> [!TIP]- In the `questionsReducer` function we implemented, why didn't we use the array `push` method to add th new question to the state?
+>
 > ```tsx
 > case 'PostedQuestion': {
-> 	return {
-> 		...state,
-> 		unanswered: action.result
-> 			? (state.unanswered || []).push(action.result.question)
-> 			: state.unanswered
-> 		postedResult: action.result,
-> 	};
+>   return {
+>     ...state,
+>     unanswered: action.result
+>       ? (state.unanswered || []).push(action.result.question)
+>       : state.unanswered
+>     postedResult: action.result,
+>   };
 > }
 > ```
-> 
+>
 > The `push` method would mutate the product's state directly, which would make the function impure. This is because we have changed the state argument, which lives outside the scope of our function.
 
-> [!faq]- Does the `Provider` component from React Redux need to be placed at the top of the component tree?
-> 
+---
+
+> [!TIP]- Does the `Provider` component from React Redux need to be placed at the top of the component tree?
+>
 > The `Provider` component needs to be placed above the components that need access to the store. So, it doesn't need to be right at the top of the tree.
 
-> [!faq]- As well as the `Provider` component, what is the other item from React Redux that allows a component to consume data from the Redux store?
-> 
+---
+
+> [!TIP]- As well as the `Provider` component, what is the other item from React Redux that allows a component to consume data from the Redux store?
+>
 > The other key item from React Redux is a function called `connect`, which wraps a component, giving it access to the store.
 
-> [!faq]- Is a component that consumes the Redux store allowed to have a local state?
-> 
+---
+
+> [!TIP]- Is a component that consumes the Redux store allowed to have a local state?
+>
 > Yes, it is. if the state is not useful outside the component, then it is perfectly acceptable to have this state local within the component.

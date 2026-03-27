@@ -1,3 +1,5 @@
+# Chapter 13: Adding Automated Tests
+
 ## Understanding the different types of automated test
 
 A robust suite of automated tests helps us deliver software faster without sacrificing its quality. There are various types of test, though, with each type having benefits and challenges. In this section, we are going to understand the different types of test and the benefits they bring to a single-page application.
@@ -48,53 +50,65 @@ The `beforeEach` function allows us to define steps to be executed before each t
 
 ## Quiz
 
-> [!faq]- We have the following xUnit test method but it isn't being picked up by the test runner. What is wrong?
-> 
+> [!TIP]- We have the following xUnit test method but it isn't being picked up by the test runner. What is wrong?
+>
 > ```cs
 > public void Minus_When2Integers_ShouldReturnCorrectInteger() {
-> 	var result = Calc.Add(2, 1);
-> 	Assert.Equal(1, result);
+>  var result = Calc.Add(2, 1);
+>  Assert.Equal(1, result);
 > }
 > ```
-> 
+>
 > The `Fact` attribute is missing;
 
-> [!faq]- We have a `string` variable called `successMessage` in an xUnit test and we need to check that it contains the work "`success`" . What method in the `Assert` class could we use?
-> 
-> `Assert.Contains`
-> 
+---
 
-> [!faq]- We have created some Jest unit tests on a `List` component in a file called `ListTests.tsx`. However, when the Jest test runner runts, the test aren't picked up. Why is this so?
-> 
+> [!TIP]- We have a `string` variable called `successMessage` in an xUnit test and we need to check that it contains the work "`success`" . What method in the `Assert` class could we use?
+>
+> `Assert.Contains`
+>
+
+---
+
+> [!TIP]- We have created some Jest unit tests on a `List` component in a file called `ListTests.tsx`. However, when the Jest test runner runts, the test aren't picked up. Why is this so?
+>
 > The test filename needs to end with `.test.tsx`. So,if we rename the file `List.test.tsx`, then the test will get picked up.
 
-> [!faq]- We are implementing a test in Jest and we have a variable called `result`, which we want to check isn't `null`. Which Jest matcher function can we use?
-> 
+---
+
+> [!TIP]- We are implementing a test in Jest and we have a variable called `result`, which we want to check isn't `null`. Which Jest matcher function can we use?
+>
 > `expect(result).not.toBeNull()`
 
-> [!info] Let's say we have a variable called `person` that is of the, `Person` type:
-> 
+---
+
+> [!NOTE] Let's say we have a variable called `person` that is of the, `Person` type:
+>
 > ```ts
 > interface Person {
-> 	id: number;
-> 	firstName: string;
-> 	surname: string;
+>  id: number;
+>  firstName: string;
+>  surname: string;
 > }
 > ```
-> 
->> [!faq]- We want to check that the `person` variable is `{ id: 1, firstName: "Tom", surname: "Smith" }`. What Jest matcher function we use?
->> 
+>
+>> [!TIP]- We want to check that the `person` variable is `{ id: 1, firstName: "Tom", surname: "Smith" }`. What Jest matcher function we use?
+>>
 >> We can use `toEqual` function to compare objects:
->> 
+>>
 >> `expect(person).toEqual({ id: 1, firstName: "Tom", surname: "Smith" });`
 
-> [!faq]- We are writing an end to end test using Cypress for a page. The page has a heading: Sign In. What Cypress command can we use to check that this is rendered okay?
-> 
+---
+
+> [!TIP]- We are writing an end to end test using Cypress for a page. The page has a heading: Sign In. What Cypress command can we use to check that this is rendered okay?
+>
 > `cy.contains('Sign In')`;
 
-> [!faq]- We are writing and end-to-end test using Cypress for a page that renders the text loading... while data is being fetched. How can we assert that this text is rendered and then disappears when the data has been fetched?
-> 
+---
+
+> [!TIP]- We are writing and end-to-end test using Cypress for a page that renders the text loading... while data is being fetched. How can we assert that this text is rendered and then disappears when the data has been fetched?
+>
 > `cy.contains('Loading...');`
 > `cy.contains('Loading...').should('not.exist');`
-> 
+>
 > The first command will check that the page renders `Loading...` on the initial render. The second command will wait until the `Loading...` disappears-that is, the data has been fetched.

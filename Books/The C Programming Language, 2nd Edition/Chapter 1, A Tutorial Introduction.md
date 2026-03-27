@@ -1,3 +1,5 @@
+# Chapter 1: A Tutorial Introduction
+
 A C program, whatever its size, consists of functions and variables. A function contains statements that specify the computing operations to be done, and variables store values used during the computation. C functions are like the subroutines and functions of Fortran or the procedures and functions of Pascal. Our example is a function named, `main`. Normally you are at liberty to give functions whatever names you like, but "`main`" is special-your program begins executing at the
 beginning of `main`. This means that every program must have a main somewhere.
 
@@ -93,26 +95,10 @@ When the name of an array is used as an argument, the value passed to the functi
 
 Recall that in C array sizes do not grow and shrink dynamically after they are allocated.
 
-> [!info]
+> [!NOTE]
 > Change the book's original use of a function named `getline()` to `get_line()` in code examples, because it conflicts with the `stdio.h` file the defines `getline()` as a library function.
 
-`get_line` puts the character `\0` (the *null character*, whose value is zero) at the end of the array it is creating, to mark the end of the string of characters this conversion is also used by the C compiler: when a string constant like `"hello\n"` is written in a C program, the compiler creates an array of characters containing the characters of the string, and terminates it with a `\0` so that functions such as `printf` can detect the end:
-
-<table>
-	<thead>
-		<tr>
-			<th>h</th>
-			<th>e</th>
-			<th>l</th>
-			<th>l</th>
-			<th>o</th>
-			<th>\n</th>
-			<th>\0</th>
-		</tr>
-	</thead>
-	<tbody>
-	</tbody>
-</table>
+`get_line` puts the character `\0` (the *null character*, whose value is zero) at the end of the array it is creating, to mark the end of the string of characters this conversion is also used by the C compiler: when a string constant like `"hello\n"` is written in a C program, the compiler creates an array of characters containing the characters of the string, and terminates it with a `\0` so that functions such as `printf` can detect the end.
 
 The `%s` format specification in `printf` expects a string represented in this form.
 

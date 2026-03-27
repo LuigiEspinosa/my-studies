@@ -1,3 +1,5 @@
+# The C Programming Language, 2nd Edition
+
 - Online C Programming book by Brian Kernighan and Dennis Ritchie: [https://www.cc4e.com/book/chap00.md](http://cc4e.com/index.php?next=/book/chap00.md)
 - Dr. Chuck reads C Programming (the classic book by Kernigan and Ritchie): <https://www.youtube.com/watch?v=j-_s8f5K30I>
 
@@ -7,8 +9,8 @@ The creators of C and UNIX were advocating for a more minimal set of programming
 
 Many of the important ideas of C stem from the language BCPL, developed by Martin Richards. The influence of BCPL on C proceeded indirectly through the language B, which was written by Ken Thompson in 1970 for the first UNIX system on the DEC PDP-7.
 
-- [[Chapter 1, A Tutorial Introduction]]
-- [[Chapter 2, Types, Operators, and Expressions]]
+- [Chapter 1, A Tutorial Introduction](./Chapter%201,%20A%20Tutorial%20Introduction.md)
+- [Chapter 2, Types, Operators, and Expressions](./Chapter%202,%20Types,%20Operators,%20and%20Expressions.md)
 - [[Chapter 3, Control Flow]]
 - [[Chapter 4, Functions and Program Structure]]
 - [[Chapter 5, Pointers and Arrays]]

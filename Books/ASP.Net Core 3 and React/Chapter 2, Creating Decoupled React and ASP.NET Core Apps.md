@@ -1,3 +1,5 @@
+# Chapter 2: Creating Decoupled React and ASP.NET Core Apps
+
 ## Understanding the benefits of TypeScript
 
 TypeScript adds an optional static typing layer on top of JavaScript that we can use during our development. Static types allow us to catch certain problems earlier in the development process.
@@ -14,22 +16,30 @@ Enforcing a consistent code style improves the readability of the code base. **P
 
 ## Quiz
 
-> [!faq]- What class does an API controller need to inherit from for invalid models to automatically return HTTP status code 400?
-> 
+> [!TIP] - What class does an API controller need to inherit from for invalid models to automatically return HTTP status code 400?
+>
 > `ControllerBase`
 
-> [!faq]- What option on `create-react-app` did we use to create a React with a TypeScript project?
-> 
+---
+
+> [!TIP] - What option on `create-react-app` did we use to create a React with a TypeScript project?
+>
 > `--typescript`
 
-> [!faq]- What ESLint rule could we use to help to prevent `console.log` statements being added to our code?
-> 
+---
+
+> [!TIP] - What ESLint rule could we use to help to prevent `console.log` statements being added to our code?
+>
 > `no-console`
 
-> [!faq]- What setting in `.prettierrc` could we set to use single quotes in our code?  
-> 
+---
+
+> [!TIP] - What setting in `.prettierrc` could we set to use single quotes in our code?
+>
 > `"singleQuote": true`
 
-> [!faq]- What file can we use to tell Visual Studio Code to validate TypeScript code using ESLint and to automatically format code using Prettier?
-> 
+---
+
+> [!TIP] - What file can we use to tell Visual Studio Code to validate TypeScript code using ESLint and to automatically format code using Prettier?
+>
 > `settings.json` in a `.vscode` folder

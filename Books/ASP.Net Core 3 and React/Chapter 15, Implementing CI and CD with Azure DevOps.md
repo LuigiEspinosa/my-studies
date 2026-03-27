@@ -1,3 +1,5 @@
+# Chapter 15: Implementing CI and CD with Azure DevOps
+
 **Continuous Integration (CI)** and **Continuous Delivery (CD)**.
 
 ## Understanding CI and CD
@@ -14,30 +16,42 @@ The build configuration is defined in a YAML file.
 
 ## Quiz
 
-> [!faq]- What environment variable needs to be set for Jest tests to work well in a continuous integration environment?
-> 
+> [!TIP]- What environment variable needs to be set for Jest tests to work well in a continuous integration environment?
+>
 > An environment variable called `CI` needs to be set to `true`.
 
-> [!faq]- When we change the `azure-pipelines.yml` file, why does this trigger a build?
-> 
+---
+
+> [!TIP]- When we change the `azure-pipelines.yml` file, why does this trigger a build?
+>
 > The `azure-pipelines.yml` file is committed and pushed to our source code repository and the build is triggered when any code is pushed to the repository.
 
-> [!faq]- What YML step task can be used to execute `npm` commands?
-> 
+---
+
+> [!TIP]- What YML step task can be used to execute `npm` commands?
+>
 > `-script`
 
-> [!faq]- What YML step task can be used to publish artifacts to the pipeline?
-> 
+---
+
+> [!TIP]- What YML step task can be used to publish artifacts to the pipeline?
+>
 > `PublishBuildArtifact@1`
 
-> [!faq]- Why do we have several builds of a React frontend for the different environments?
-> 
+---
+
+> [!TIP]- Why do we have several builds of a React frontend for the different environments?
+>
 > The build sets the environment variable called `REACT_APP_ENV`, which the code uses to determine which environment it is in.
 
-> [!faq]- What task type in a release pipeline stage can be used to deploy build artifacts to Azure App Service?
-> 
+---
+
+> [!TIP]- What task type in a release pipeline stage can be used to deploy build artifacts to Azure App Service?
+>
 > Azure App Service Deploy.
 
-> [!faq]- What task type in a release pipeline stage can be used to run SQL Server scripts?
-> 
+---
+
+> [!TIP]- What task type in a release pipeline stage can be used to run SQL Server scripts?
+>
 > Azure App Database Deployment.

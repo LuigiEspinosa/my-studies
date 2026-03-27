@@ -1,3 +1,5 @@
+# Chapter 10: Improving Performance and Scalability
+
 ## Reducing database round trips
 
 Database round trips are expensive. The greater the distance between the web API and the database, the more expensive the round trip is. So, we want to keep the trips from the web API to the database to a minimum in order to gain maximum performance.
@@ -25,7 +27,7 @@ Paging helps with performance and scalability in the following ways:
 
 ## Making API Controllers Asynchronous
 
-For synchronous API code, when a request is made to the API, a thread from the thread pool will handle the request. If the code makes an I/O call (such as a database call) synchronously, the thread will block until the I/O call has finished. The blocked thread can't be used for any other work—it simply does nothing and waits for the I/O task to finish. If other requests are made to our API while the other thread is blocked, different threads in the thread pool will be used for the other requests. 
+For synchronous API code, when a request is made to the API, a thread from the thread pool will handle the request. If the code makes an I/O call (such as a database call) synchronously, the thread will block until the I/O call has finished. The blocked thread can't be used for any other work—it simply does nothing and waits for the I/O task to finish. If other requests are made to our API while the other thread is blocked, different threads in the thread pool will be used for the other requests.
 
 There is some overhead in using a thread—a thread consumes memory and it takes time to spin a new thread up. So, really, we want our API to use as few threads as possible.
 
@@ -53,84 +55,98 @@ So, creating large objects in our .NET code can hurt performance and an area whe
 
 ## Quiz
 
-> [!info] We have the following code in a data repository that uses Dapper's multi recordset feature to return a single order with many related detail lines in a single database call
-> 
+> [!NOTE] We have the following code in a data repository that uses Dapper's multi recordset feature to return a single order with many related detail lines in a single database call
+>
 > ```cs
 > using (var connection = new SqlConnection(_connectionString)) {
-> 	connection.Open()
+>  connection.Open()
 > 
-> 	using (GridReader results = connection.QueryMultiple(
-> 		@"EXEC dbo.Order_GetHeader @OrderId = @OrderId;
-> 		EXEC dbo.OrderDetails_Get_ByOrderId @OrderId = @OrderId",
-> 		new { OrderId = orderId })) 
-> 	{
-> 		// TODO: Read the order and details from the query result
-> 		return order;
-> 	}
+>  using (GridReader results = connection.QueryMultiple(
+>   @"EXEC dbo.Order_GetHeader @OrderId = @OrderId;
+>   EXEC dbo.OrderDetails_Get_ByOrderId @OrderId = @OrderId",
+>   new { OrderId = orderId })) 
+>  {
+>   // TODO: Read the order and details from the query result
+>   return order;
+>  }
 > }
 > ```
-> 
->> [!faq]- What are the missing statements that will read the order and its details from the results putting the details in the order model? The order model is of the `OrderGetSingleResponse` type, which contains a `Details` property of the `IEnumerable<OrderDetailGetResponse>` type.
->> 
+>
+>> [!TIP] - What are the missing statements that will read the order and its details from the results putting the details in the order model? The order model is of the `OrderGetSingleResponse` type, which contains a `Details` property of the `IEnumerable<OrderDetailGetResponse>` type.
+>>
 >> ```cs
 >> // TODO ...
 >> var order = results.Read\<OrderGetSingleResponse>().FirstOrDefault();
 >> if (order != null) {
->> 	order.Details = results.Read\<OrderDetaulsGetResponse>().ToList();
+>>  order.Details = results.Read\<OrderDetaulsGetResponse>().ToList();
 >> }
 >> ```
 
-> [!faq]- What is the downside of using Dapper's multi-mapping feature when reading data from many-to-one related tables in a single database call?
-> 
+---
+
+> [!TIP] - What is the downside of using Dapper's multi-mapping feature when reading data from many-to-one related tables in a single database call?
+>
 > The trade-off is that more data is transferred between the database and web server and then processed on the web server, which can hurt performance.
 
-> [!faq]- How does data paging help performance?
-> 
+---
+
+> [!TIP] - How does data paging help performance?
+>
 > - The number of the page read I/Os is reduced when SQL Server grans the data.
 > - The amount of data transferred from the database server to the web server is reduced.
 > - The amount of memory used to store the data on the web server in our model is reduced.
 > - The amount of data transferred from the web server to the client is reduced.
 
-> [!faq]- Does making code asynchronous make it faster?
-> 
+---
+
+> [!TIP] - Does making code asynchronous make it faster?
+>
 > No, it makes it more scalable by using the thread pool more efficiently.
 
-> [!faq]- What is the problem with the following asynchronous method:
-> 
+---
+
+> [!TIP] - What is the problem with the following asynchronous method:
+>
 > ```cs
 > public async AnswerGetResponse GetAnswer(int answerId) {
-> 	using (var connection = new SqlConnection(_connectionString)) {
-> 		connection.Open();
-> 		return await connection
-> 			.QueryFirstOrDefaultAsync\<AnswerGetResponse>(
-> 			"EXEC dbo.Answer_Get_ByAnswerId @AnswerId = @AnswerId",
-> 			new { AnswerId = answerId });
-> 	}
+>  using (var connection = new SqlConnection(_connectionString)) {
+>   connection.Open();
+>   return await connection
+>    .QueryFirstOrDefaultAsync\<AnswerGetResponse>(
+>    "EXEC dbo.Answer_Get_ByAnswerId @AnswerId = @AnswerId",
+>    new { AnswerId = answerId });
+>  }
 > }
 > ```
-> 
+>
 > Opening the connection is synchronous, which will mean the thread is blocked and not returned to the thread pool until the connection is opened. So, the whole code will have the same thread pool inefficiency as synchronous code but will have the overhead of asynchronous code as well.
-> 
+>
 > `await connection.OpenAsync()`
 
-> [!faq]- Why it is a good idea to set a size limit on memory cache?
-> 
+---
+
+> [!TIP] - Why it is a good idea to set a size limit on memory cache?
+>
 > This is to prevent the cache from taking up too much memory on the web server.
 
-> [!faq]- In our `QuestionCache` implementation, when adding a question to the cache, how can we invalidate that item in the cache after 30 minutes?
-> 
+---
+
+> [!TIP] - In our `QuestionCache` implementation, when adding a question to the cache, how can we invalidate that item in the cache after 30 minutes?
+>
 > ```cs
 > public void Set(QuestionGetSingleResponse question) {
-> 	var cacheEntryOptions =
-> 		new MemoryCacheEntryOptions()
-> 		.SetSize(1)
-> 		.SetSlidingExpiration(TimeSpan.FromMinutes(30));
-> 	_cache.Set(GetCacheKey(question.QuestionId), question, cacheEntryOptions);
+>  var cacheEntryOptions =
+>   new MemoryCacheEntryOptions()
+>   .SetSize(1)
+>   .SetSlidingExpiration(TimeSpan.FromMinutes(30));
+>  _cache.Set(GetCacheKey(question.QuestionId), question, cacheEntryOptions);
 > }
 > ```
 
-> [!faq]- When we registered our `QuestionCache` class for dependency injection, why did we use the `AddSingleton` method and not the `AddScoped` method like in the following?
-> 
+---
+
+> [!TIP] - When we registered our `QuestionCache` class for dependency injection, why did we use the `AddSingleton` method and not the `AddScoped` method like in the following?
+>
 > `services.AddScoped<QuestionCache>()`
-> 
+>
 > `AddScoped` would create a new instance of the cache for every request, which means the cache would be lost after each request. Using `AddSingleton` means that the cache lasts for the lifetime of the app.

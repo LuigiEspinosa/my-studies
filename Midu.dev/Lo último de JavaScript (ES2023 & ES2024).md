@@ -1,6 +1,6 @@
 # Lo último de JavaScript (ES2023 & ES2024)
 
-> [!info]
+> [!NOTE]
 > [Aprende lo último de JavaScript (ES2023 & ES2024) - Cursos de Programación y Desarrollo Web | midudev](https://midu.dev/curso/aprende-lo-ultimo-de-javascript)
 
 ## Arrays
