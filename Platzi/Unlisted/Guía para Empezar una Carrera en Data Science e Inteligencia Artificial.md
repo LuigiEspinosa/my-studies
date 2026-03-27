@@ -1,4 +1,6 @@
-URL: https://platzi.com/cursos/aprender-data-ia/
+# Guía para Empezar una Carrera en Data Science e Inteligencia Artificial
+
+URL: <https://platzi.com/cursos/aprender-data-ia/>
 
 ## ¿Qué es data science?
 

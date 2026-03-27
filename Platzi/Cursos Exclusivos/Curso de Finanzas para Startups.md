@@ -1,4 +1,7 @@
+# Curso de Finanzas para Startups
+
 URL: [Curso de Finanzas para Startups](https://platzi.com/cursos/financiera-startups/)
+
 ## ¿Por qué fracasan los negocios y el rol de las finanzas?
 
 ![Fracaso de los negocios](https://static.platzi.com/media/user_upload/Chart-63241f14-de18-4a19-a46d-13f5ebee3242.jpg)
@@ -360,7 +363,8 @@ Además de los anteriores, están dos indicadores más que son muy importantes a
 
 - CAC (Customer Acquisition Cost), que es: cuanto le cuesta a mi empresa adquirí un nuevo usuario.
 - LTV (Lifetime Value), que es: cuánto ingreso puedo esperar de un usuario durante el tiempo que sea mi cliente.
-- 
+-
+
 ## Arma tu modelo y calcula indicadores financieros
 
 Sabemos como construir los Estados Financieros de nuestro negocio, también cómo utilizar un Enfoque de Sistemas para que estén conectados dinámicamente entre ellos. En esta clase aprenderemos a crear el informe de Indicadores que también estará basado en el enfoque sistémico que aprendimos antes y que irá evolucionando y actualizándose dinámicamente de acuerdo a los ajustes que hagamos eventualmente sobre los supuestos que vayamos definiendo en nuestra Planificación.

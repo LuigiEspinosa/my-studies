@@ -1,4 +1,7 @@
-URL: https://platzi.com/clases/old/ingles-avanzado-trabajo/
+# Curso Avanzado de Inglés para el Trabajo (2020)
+
+URL: <https://platzi.com/clases/old/ingles-avanzado-trabajo/>
+
 ## Optimize your CV
 
 - Hard Skills: All your Knowledge and learned skills.

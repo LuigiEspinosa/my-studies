@@ -1,3 +1,5 @@
+# Curso de Inglés Básico A1: Fechas, Horas y Expresiones Simples
+
 URL: [Curso de Inglés Básico A1: Fechas, Horas y Expresiones Simples](https://platzi.com/cursos/fechas-horas-expresiones-simples/)
 
 ## Telling the Time
@@ -35,6 +37,7 @@ URL: [Curso de Inglés Básico A1: Fechas, Horas y Expresiones Simples](https://
 | 10 - Ten         | 10th - Tenth    |
 | 11 - Eleven      | 11th - Eleventh |
 | 12 - Twelve      | 12th - Twelfth  |
+
 ### Date Formats
 
 - Most Countries: dd/mm/yyyy -> 02/12/2021 - December 2nd, 2021.
@@ -73,7 +76,7 @@ When we are talking about things we hope to do in the future, **want and would 
 
 ## There is vs. There are
 
-- Use _there is_ when the noun is singular (“There is a cat”). Use _there are_ when the noun is plural (“There are two cats”).
+- Use *there is* when the noun is singular (“There is a cat”). Use *there are* when the noun is plural (“There are two cats”).
 
 ![There is - There are](https://www.grammar.cl/rules/there-is-there-are.gif)
 
@@ -87,7 +90,7 @@ When we are talking about things we hope to do in the future, **want and would 
 
 ## Likes, Dislikes and Opinions
 
-### Expressing Likes:
+### Expressing Likes
 
 - I like…
 - I love…
@@ -102,7 +105,7 @@ When we are talking about things we hope to do in the future, **want and would 
 - I’m keen on…
 - I’m a big fan of…
 
-### Expressing Dislikes:
+### Expressing Dislikes
 
 - I don’t like…
 - I dislike…
@@ -120,4 +123,3 @@ When we are talking about things we hope to do in the future, **want and would 
 - It’s not my cup of tea…
 - I’m not crazy about…
 - It rubs me the wrong way…
-

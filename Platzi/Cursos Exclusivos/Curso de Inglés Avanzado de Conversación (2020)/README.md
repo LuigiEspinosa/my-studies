@@ -1,3 +1,5 @@
+# Curso de Inglés Avanzado de Conversación (2020)
+
 URL: [Clases del Curso de Inglés Avanzado: Conversación 2020 - Platzi](https://platzi.com/clases/old/conversacion-avanzado/)
 
 ## The 3 Ps... and the Overlap
@@ -6,7 +8,7 @@ The 3 Ps = **Presentation, Presenting and Participating**.
 
 Most situations are not just one or the other. They overlap, or are very similar for both situations. They go in between being formal and informal, so you have to deal with both of those.
 
-**Business Savvy: Formal**
+### Business Savvy: Formal
 
 _They..._
 
@@ -21,7 +23,7 @@ _But also they..._
 - Haven't learned any slang
 - May sound very robotic
 
-**Discussion Ready: Informal**
+### Discussion Ready: Informal
 
 _They..._
 
@@ -32,7 +34,7 @@ _They..._
 - Are a little bit too informal for work
 - Say "you guys", "ain't", different things like that in a business meeting
 
-**Middle Ground: Clever Hybrid**
+### Middle Ground: Clever Hybrid
 
 - They're an expert on formal and informal situations
 - and prepare to deal with 21st century business situations
@@ -91,7 +93,7 @@ How much do you have?
 
 ### Informal Situation: Small Talk
 
-> "Making small talk is a **way to** contact and **connect** with people and intends to offer you contacts... **that last for a longer time period.**" *- Chitra Reddy, content.wisestep.com*
+> "Making small talk is a **way to** contact and **connect** with people and intends to offer you contacts... **that last for a longer time period.**" _- Chitra Reddy, content.wisestep.com_
 
 **What topics are ok to talk about?**
 
@@ -114,21 +116,21 @@ How much do you have?
 ### 3 Ways to Practice
 
 - Alone.
-	- Timing.
-	- Audio.
-	- Video.
-	- Take Notes.
-	- Repeat.
+  - Timing.
+  - Audio.
+  - Video.
+  - Take Notes.
+  - Repeat.
 
 - With a Partner.
-	- Record Yourself.
-	- Partner can give you suggestions.
-	- You can learn form their style.
+  - Record Yourself.
+  - Partner can give you suggestions.
+  - You can learn form their style.
 
 - With a Coach.
-	- Record Yourself.
-	- Fastest Progress.
-	- Learn New Techniques.
+  - Record Yourself.
+  - Fastest Progress.
+  - Learn New Techniques.
 
 ## P #2: Presenting
 
@@ -137,7 +139,7 @@ How much do you have?
 - Avoid Filler Words.
 - Appropriate Eye Contact.
 
-> *Pregnant Pauses always gave birth to new ideas.*
+> _Pregnant Pauses always gave birth to new ideas._
 
 ### Comparisons
 
@@ -154,9 +156,9 @@ Talking about the differences AND similarities between two things, people or pla
 - Transition Words.
 - Rhetorical Questions.
 
-> "When you're linking ideas together, transitions are what help you lead the reader \[or the listener\] from one idea to the next" *- Lisa McLendon, The Perfect English Grammar Workbook*.
+> "When you're linking ideas together, transitions are what help you lead the reader \[or the listener\] from one idea to the next" _- Lisa McLendon, The Perfect English Grammar Workbook_.
 
-**6 types of Transition Words**
+#### 6 types of Transition Words
 
 - Addition or Similarity (In addition).
 - Contrast or Opposite (However).
@@ -169,22 +171,22 @@ Talking about the differences AND similarities between two things, people or pla
 
 ### Be Original
 
-> "**\[A rhetorical\] question \[is\] asked in order to** create a dramatic effect or to make a point **rather than to get an answer**" *- Lexico.com, Oxford English and Spanish Dictionary*.
+> "**\[A rhetorical\] question \[is\] asked in order to** create a dramatic effect or to make a point **rather than to get an answer**" _- Lexico.com, Oxford English and Spanish Dictionary_.
 
 ## P #3: Participating
 
 ### Be a Good Listener
 
-*You heard... But are you listening?*
+_You heard... But are you listening?_
 
-**Avoid**
+#### Avoid
 
 - Looking at your device.
 - Any multi-tasking.
 - Hearing just to reply.
 - Don't just stare like a maniac.
 
-**Please**
+#### Please
 
 - Listen without interrupting.
 - Look at the person.
@@ -230,17 +232,17 @@ Not an attack, meant to help you improve (most of the time).
 
 ### Transition
 
-> "High self-monitors are like "social chameleons". They... present different "versions" of themselves, depending on the situation. They blend in." *- Ronald E. Riggio, PhD, Psychology Today*
+> "High self-monitors are like "social chameleons". They... present different "versions" of themselves, depending on the situation. They blend in." _- Ronald E. Riggio, PhD, Psychology Today_
 
 ### Informal to Formal
 
 - Informal: Can.
-	- Hey, can you come to the party later?
-	- Sorry, I can't make it today.
+  - Hey, can you come to the party later?
+  - Sorry, I can't make it today.
 
 - Formal: Able to.
-	- Hello, are you able to work late this evening?
-	- Sorry, I'm not able to today, but I can later this week.
+  - Hello, are you able to work late this evening?
+  - Sorry, I'm not able to today, but I can later this week.
 
 ---
 
@@ -251,25 +253,25 @@ Not an attack, meant to help you improve (most of the time).
 ### Formal to Informal
 
 - Formal: Spell it out.
-	- If you **are not** able to attend, please email.
-	- The client **should not** distribute this for commercial use.
+  - If you **are not** able to attend, please email.
+  - The client **should not** distribute this for commercial use.
 
 - Informal: Contractions and Acronyms.
-	- Hey, u coming ltr?
-	- Sry, idk. Ttyl.
-	- Please don't share this with anyone else.
+  - Hey, u coming ltr?
+  - Sry, idk. Ttyl.
+  - Please don't share this with anyone else.
 
 ### Help Others
 
 - Don't Gossip.
 - Be a Mentor.
 - Allow them to self-correct.
-	- Do you mean...?
-	- Could you say that again?
+  - Do you mean...?
+  - Could you say that again?
 - Lead like an Elephant.
-	- Be Gentle.
-	- Move Slowly.
-	- There is no I in Team.
+  - Be Gentle.
+  - Move Slowly.
+  - There is no I in Team.
 
 ### Clarify the level of Formality
 

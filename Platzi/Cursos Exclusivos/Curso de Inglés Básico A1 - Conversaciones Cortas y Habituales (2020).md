@@ -1,3 +1,5 @@
+# Curso de Inglés Básico A1 - Conversaciones Cortas y Habituales (2020)
+
 URL: [Clases del Curso de Inglés Básico A1: Conversaciones Cortas y Habituales (2020) - Platzi](https://platzi.com/clases/old/ingles-principiantes-2020/)
 
 ## The Alphabet
@@ -25,11 +27,11 @@ URL: [Clases del Curso de Inglés Básico A1: Conversaciones Cortas y Habituales
 ### Days of the Week
 
 - Lunes - Monday
-- Martes - Tuesday 
-- Miércoles - Wednesday 
-- Jueves - Thursday 
-- Viernes - Friday 
-- Sábado - Saturday 
+- Martes - Tuesday
+- Miércoles - Wednesday
+- Jueves - Thursday
+- Viernes - Friday
+- Sábado - Saturday
 - Domingo - Sunday
 
 ### Times of the Day
@@ -46,7 +48,8 @@ URL: [Clases del Curso de Inglés Básico A1: Conversaciones Cortas y Habituales
 - How are you?
 - Good Morning
 - Good afternoon
-- Good evening 
+- Good evening
+
 ## Farewells
 
 - Bye
@@ -84,7 +87,7 @@ URL: [Clases del Curso de Inglés Básico A1: Conversaciones Cortas y Habituales
 - Seldom = Rara vez 10%
 - Never = Nunca 0%
 
-**Noun** + **frequency** + **action** Example: 
+**Noun** + **frequency** + **action** Example:
 
-- **I never drink coffee.**, 
+- **I never drink coffee.**,
 - Exception: **Sometimes I go to the beach**.

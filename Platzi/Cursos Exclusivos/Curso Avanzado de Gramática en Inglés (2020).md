@@ -1,4 +1,7 @@
-URL: https://platzi.com/clases/old/avanzado-gramatica-2020/
+# Curso Avanzado de Gramática en Inglés (2020)
+
+URL: <https://platzi.com/clases/old/avanzado-gramatica-2020/>
+
 ## The 4 types of conditionals
 
 ### Zero Conditional
@@ -59,7 +62,7 @@ if + past perfect, ...would + have + past participle
 
 ![Present Simple](https://www.perfect-english-grammar.com/image-files/xpresent-simple-infographic.jpg.pagespeed.ic.Bd1PTySYkh.jpg)
 
-### To talk about the present:
+### To talk about the present
 
 - Things we do regularly.
 - Facts.
@@ -75,7 +78,7 @@ Examples:
 - Matt is tall.
 - Stealing is wrong.
 
-### To talk about the future:
+### To talk about the future
 
 - Timetable future events.
 
@@ -84,7 +87,7 @@ Examples:
 - I'd better hurry, my bus leaves in 5 minutes.
 - The exam starts at 9 am.
 
-### To talk about the past:
+### To talk about the past
 
 - Telling a story.
 - Newspaper headlines.
@@ -100,7 +103,7 @@ Examples:
 
 ## Uses of the past
 
-### To talk about the past:
+### To talk about the past
 
 - An event that happened and finished.
 - When we know the time something happened.
@@ -111,7 +114,7 @@ Examples:
 - Last year we travelled to Florida.
 - When the airplane landed, we waited, and then we got off.
 
-### To talk about the present:
+### To talk about the present
 
 - When a plan isn't certain.
 - To be polite.
@@ -125,7 +128,7 @@ Examples:
 - It's time we left.
 - Suppose we went to Italy on vacation.
 
-### To talk about the future:
+### To talk about the future
 
 - With "wish" and "if only".
 
@@ -377,7 +380,7 @@ General Rules:
 
 - Refer to something already mentioned: On Friday, someone stole $1000 from the bank. The thief was caught yesterday.
 
-- Assume there is just 1 of something: Where is the bathroom? 
+- Assume there is just 1 of something: Where is the bathroom?
 
 - In clauses with a defined person/object: The main with the red card down the street.
 
@@ -426,7 +429,7 @@ General Rules
 
 ** The are some exception depending on the vowel/consonant pronunciation.
 
-Examples: 
+Examples:
 
 - Should I bring a grif to the party?
 - I have a new book.

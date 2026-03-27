@@ -1,4 +1,6 @@
-URL: https://platzi.com/cursos/creacion-habitos/
+# Curso para Crear Hábitos Positivos
+
+URL: <https://platzi.com/cursos/creacion-habitos/>
 
 > "¡Somos la suma de nuestros hábitos, nuestros hábitos detienen nuestras rutinas y gracias a esas rutinas nosotros obtenemos los resultados que obtenemos!"
 

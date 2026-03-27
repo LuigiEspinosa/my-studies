@@ -1,10 +1,12 @@
+# Curso de Inglés Básico A1: Presente Simple y Vocabulario Común
+
 URL: [Curso de Inglés Básico A1: Presente Simple y Vocabulario Común](https://platzi.com/cursos/presente-simple-vocabulario-comun/)
 
 ## How to Introduce Others
 
 To introduce one person, we use **This**. To introduce more than one person, we use **These**.
 
-- **This is** : Singular 
+- **This is** : Singular
 - **These are** : Plural
 
 ## Introduce Myself
@@ -14,50 +16,50 @@ To introduce one person, we use **This**. To introduce more than one person, we
 - Job/Occupation
 - Age
 
-## Simple Present Tense 
+## Simple Present Tense
 
 ### Verb "To be"
 
 ![Simple Present Tense](https://gcfglobalidiomas.blob.core.windows.net/idiomas-container/course/en/levels/image/tabla-verbos-tobe_xl.png)
 
 - **Affirmative sentences**
-    - I + am + Complement
-    - He/She/It + is + Complement
-    - You/We/They + are + Complement
+  - I + am + Complement
+  - He/She/It + is + Complement
+  - You/We/They + are + Complement
 
 - **Negative Sentences**
-    - I + am not + Complement
-    - He/She/It + is not / isn't + Complement
-    - You/We/They + are not / aren't + Complement
+  - I + am not + Complement
+  - He/She/It + is not / isn't + Complement
+  - You/We/They + are not / aren't + Complement
 
 - **Interrogative Sentences**
-    - Am + I + Complement + ?
-    - Is + He/she/It + Complement + ?
-    - Are + You/We/They + Complement + ?
+  - Am + I + Complement + ?
+  - Is + He/she/It + Complement + ?
+  - Are + You/We/They + Complement + ?
 
 ### Other Verbs
 
 ![Simple Present Tense](https://static.platzi.com/media/user_upload/Captura-8cfc6af4-9279-4a0b-ae27-d72ed6934b47.jpg)
 
 - **Affirmative Sentences**
-    - I/You/We/They + Verb + Complement
-    - He/She/It + Verb + s/es/ies + Complement
+  - I/You/We/They + Verb + Complement
+  - He/She/It + Verb + s/es/ies + Complement
 
 - **Negative Sentences**
-    - I/You/We/They + do not / don't + Verb + Complement
-    - He/She/It + does not / doesn't + Verb + Complement
+  - I/You/We/They + do not / don't + Verb + Complement
+  - He/She/It + does not / doesn't + Verb + Complement
 
-- **Interrogative Sentences**    
-    - Do + I/You/We/They+ Verb + Complement + ?
-    - Does + He/She/It + Verb + Complement + ?
+- **Interrogative Sentences**
+  - Do + I/You/We/They+ Verb + Complement + ?
+  - Does + He/She/It + Verb + Complement + ?
 
-- **Answers**    
-    - Yes, I/You/We/They do
-    - Yes, He/She/It does
-    - No, I/You/We/They don't
-    - No, He/She/It doesn't
+- **Answers**
+  - Yes, I/You/We/They do
+  - Yes, He/She/It does
+  - No, I/You/We/They don't
+  - No, He/She/It doesn't
 
-## Prepositions of Place 
+## Prepositions of Place
 
 ![Prepositions of Place](https://static.platzi.com/media/user_upload/preposition_of_place-4b7ca26b-ca1f-49df-bb9a-f6fab0e21a2b.jpg)
 
@@ -89,7 +91,7 @@ We don't mention the pronouns (I, You, He, She, It). We only say the action (Go,
 
 ## And vs. But
 
-We use these two words in similar ways, but, we use them with different intentions. 
+We use these two words in similar ways, but, we use them with different intentions.
 
 - And - Similar ideas.
 - But - Show contrast.
