@@ -1,4 +1,4 @@
-## It came without buffering! It came without lag!
+# It came without buffering! It came without lag
 
 [Advent of Cyber Day 13: Exploring WebSocket Vulnerabilities with InsiderPhD](https://www.youtube.com/watch?v=ozgRXn44FF0)
 
@@ -12,7 +12,7 @@ Take a chat app as an example. With HTTP, your browser would keep asking, "Any n
 
 WebSockets handle things differently. Once the connection is established, it remains open, allowing the server to push updates to you whenever there’s something new. It’s more like leaving the door open so updates can come in immediately without the constant back-and-forth. This approach is faster and uses fewer resources.
 
-### WebSockets Vulnerabilities
+## WebSockets Vulnerabilities
 
 - **Weak Authentication and Authorization:** Unlike regular HTTP, WebSockets don't have built-in ways to handle user authentication or session validation. If you don't set these controls up properly, attackers could slip in and get access to sensitive data or mess with the connection.
 - **Message Tampering:** WebSockets let data flow back and forth constantly, which means attackers could intercept and change messages if encryption isn't used. This could allow them to inject harmful commands, perform actions they shouldn't, or mess with the sent data.
@@ -29,4 +29,3 @@ This kind of manipulation can also lead to more significant problems. Hackers co
 - **Gaining Extra Privileges:** Attackers could also manipulate messages to make the system think they have more privileges than they actually do. This could let them access admin controls, change user data, view sensitive info, or mess with system settings.
 - **Messing Up Data:** One of the significant risks is data corruption. If someone is changing the messages, they could feed bad data into the system. This could mess with user accounts, transactions, or anything else the app handles. They could change things in real-time and disrupt everyone's work in circumstances such as a shared document or tool.
 - **Crashing the System:** An attacker could also spam the server with bad requests, causing it to slow down or crash. If this happens enough, the system could go offline, causing serious downtime for users and businesses.
-

@@ -1,3 +1,5 @@
+# Linux Fundamentals Part 3
+
 ## Terminal Text Editors
 
 ### Nano
@@ -8,7 +10,7 @@ Nano has a few features that are easy to remember & covers the most general thin
 
 - Searching for text
 - Copying and Pasting  
-    
+
 - Jumping to a line number
 - Finding out what line number you are on
 
@@ -40,7 +42,7 @@ Working on a model of SOURCE and DESTINATION, SCP allows you to:
 
 ### Serving Files From Your Host - WEB
 
-Ubuntu machines come pre-packaged with python3. Python helpfully provides a lightweight and easy-to-use module called "HTTPServer". This module turns your computer into a quick and easy web server that you can use to serve your own files, where they can then be downloaded by another computing using commands such as `curl` and `wget`. 
+Ubuntu machines come pre-packaged with python3. Python helpfully provides a lightweight and easy-to-use module called "HTTPServer". This module turns your computer into a quick and easy web server that you can use to serve your own files, where they can then be downloaded by another computing using commands such as `curl` and `wget`.
 
 Python3's "HTTPServer" will serve the files in the directory where you run the command, but this can be changed by providing options that can be found within the manual pages. Simply, all we need to do is run `python3 -m  http.server` in the terminal to start the module!
 
@@ -50,11 +52,11 @@ One flaw with this module is that you have no way of indexing, so you must know 
 
 ## Processes
 
-Processes are the programs that are running on your machine. They are managed by the kernel, where each process will have an ID associated with it, also known as its [[#^ac349a|PID]] The PID increments for the order In which the process starts. I.e. the 60th process will have a PID of 60.
+Processes are the programs that are running on your machine. They are managed by the kernel, where each process will have an ID associated with it, also known as its [PID](#glossary) The PID increments for the order In which the process starts. I.e. the 60th process will have a PID of 60.
 
 ### Viewing Processes
 
-We can use the friendly `ps` command to provide a list of the running processes as our user's session and some additional information such as its status code, the session that is running it, how much usage time of the [[#^54eab0|CPU]] it is using, and the name of the actual program or command that is being executed
+We can use the friendly `ps` command to provide a list of the running processes as our user's session and some additional information such as its status code, the session that is running it, how much usage time of the [CPU](#glossary) it is using, and the name of the actual program or command that is being executed
 
 To see the processes run by other users and those that don't run from a session (i.e. system processes), we need to provide **aux** to the `ps` command like so: `ps aux`.
 
@@ -72,11 +74,11 @@ Below are some of the signals that we can send to a process when it is killed:
 
 ### How do Processes Start?
 
-Let's start off by talking about namespaces. The Operating System ([[#^70c330|OS]]) uses namespaces to ultimately split up the resources available on the computer to (such as CPU, [[#^6a7498|RAM]] and priority) processes. Think of it as splitting your computer up into slices -- similar to a cake. Processes within that slice will have access to a certain amount of computing power, however, it will be a small portion of what is actually available to every process overall.
+Let's start off by talking about namespaces. The Operating System ([OS](#glossary)) uses namespaces to ultimately split up the resources available on the computer to (such as CPU, [RAM](#glossary) and priority) processes. Think of it as splitting your computer up into slices -- similar to a cake. Processes within that slice will have access to a certain amount of computing power, however, it will be a small portion of what is actually available to every process overall.
 
 Namespaces are great for security as it is a way of isolating processes from another -- only those that are in the same namespace will be able to see each other.
 
-We previously talked about how PID works, and this is where it comes into play. The process with an ID of 0 is a process that is started when the system boots. This process is the system's init on Ubuntu, such as **systemd**, which is used to provide a way of managing a user's processes and sits in between the operating system and the user. 
+We previously talked about how PID works, and this is where it comes into play. The process with an ID of 0 is a process that is started when the system boots. This process is the system's init on Ubuntu, such as **systemd**, which is used to provide a way of managing a user's processes and sits in between the operating system and the user.
 
 For example, once a system boots and it initialises, **systemd** is one of the first processes that are started. Any program or piece of software that we want to start will start as what's known as a child process of **systemd**. This means that it is controlled by **systemd**, but will run as its own process (although sharing the resources from **systemd**) to make it easier for us to identify and the likes.
 
@@ -104,6 +106,7 @@ This is great for commands such as copying files because it means that we can ru
 We can do the exact same when executing things like scripts -- rather than relying on the & operator, we can use `Ctrl + Z` on our keyboard to background a process. It is also an effective way of "pausing" the execution of a script or command.
 
 With our process backgrounded using either `Ctrl + Z` or the `&` operator, we can use `fg` to bring this back to focus like below, where we can see the `fg` command is being used to bring the background process back into use on the terminal, where the output of the script is now returned to us.
+
 ## Managing You System: Automation
 
 Users may want to schedule a certain action or task to take place after the system has booted. Take, for example, running commands, backing up files, or launching your favourite programs on, such as Spotify or Google Chrome.  
@@ -120,7 +123,8 @@ A crontab is simply a special file with formatting that is recognized by the `cr
 | MON   | What month of the year to execute at      |
 | DOW   | What day of the week to execute at        |
 | CMD   | The actual command that will be executed. |
-Let's use the example of backing up files. You may wish to backup "cmnatic"'s  "Documents" every 12 hours. We would use the following formatting: 
+
+Let's use the example of backing up files. You may wish to backup "cmnatic"'s  "Documents" every 12 hours. We would use the following formatting:
 
 ```bash
 0 */12 * * * cp -R /home/cmnatic/Documents /var/backups/
@@ -149,10 +153,11 @@ One method of adding repositories is to use the `add-apt-repository` command we
 These services and logs are a great way in monitoring the health of your system and protecting it. Not only that, but the logs for services such as a web server contain information about every single request - allowing developers or administrators to diagnose performance issues or investigate an intruder's activity.
 
 There are, of course, logs that store information about how the OS is running itself and actions that are performed by users, such as authentication attempts.
+
 ## Glossary
 
-- In the context of operating systems, PID stands for Process ID. It is a unique identifier assigned to each running process in a system. PIDs are usually assigned in sequential order as processes are created, but can be recycled once a process has completed and terminated. ^ac349a
-- A central processing unit (CPU)—also called a central processor or main processor—is the most important processor in a given computer. Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output (I/O) operations. This role contrasts with that of external components, such as main memory and I/O circuitry, and specialized co-processors such as graphics processing units (GPUs). ^54eab0
-- Operating System (OS) is a layer between the hardware and the applications. From the application's perspective, the OS provides an interface to access the different hardware components, such as CPU, RAM, and disk storage. Examples of OS are Android, FreeBSD, Linux, macOS, and Windows. ^70c330
-- Random-access memory (RAM; /ræm/) is a form of electronic computer memory that can be read and changed in any order, typically used to store working data and machine code. ^6a7498
+- In the context of operating systems, PID stands for Process ID. It is a unique identifier assigned to each running process in a system. PIDs are usually assigned in sequential order as processes are created, but can be recycled once a process has completed and terminated.
+- A central processing unit (CPU)—also called a central processor or main processor—is the most important processor in a given computer. Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output (I/O) operations. This role contrasts with that of external components, such as main memory and I/O circuitry, and specialized co-processors such as graphics processing units (GPUs).
+- Operating System (OS) is a layer between the hardware and the applications. From the application's perspective, the OS provides an interface to access the different hardware components, such as CPU, RAM, and disk storage. Examples of OS are Android, FreeBSD, Linux, macOS, and Windows.
+- Random-access memory (RAM; /ræm/) is a form of electronic computer memory that can be read and changed in any order, typically used to store working data and machine code.
 - GPG stands for GNU Privacy Guard. It is a free and open-source encryption software that uses public-key cryptography. GPG can be used to encrypt files and messages, and to sign files and messages. Encryption makes it so that only the intended recipient can decrypt the file or message while signing makes it so that the recipient can verify that the file or message was sent by the person it claims to be from.

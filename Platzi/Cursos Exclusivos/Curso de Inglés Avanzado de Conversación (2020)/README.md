@@ -43,11 +43,11 @@ _They..._
 
 ### STTIP
 
-- [[#S - Setting]]
-- [[#T - Time]]
-- [[#T - Tools]]
-- [[#I - Ingredients]]
-- [[#P - Practice]]
+- [#S - Setting](#s---setting)
+- [#T - Time](#t---time)
+- [#T - Tools](#t---tools)
+- [#I - Ingredients](#i---ingredients)
+- [#P - Practice](#p---practice)
 
 #### S - Setting
 
@@ -149,7 +149,7 @@ Talking about the differences AND similarities between two things, people or pla
 - Like.
 - As.
 
-![[Comparisons - Negative Description.png]]
+![Comparisons - Negative Description.png](./Images/Comparisons%20-%20Negative%20Description.png)
 
 ### Keep it Moving
 
@@ -167,7 +167,7 @@ Talking about the differences AND similarities between two things, people or pla
 - Time or Sequence (Meanwhile).
 - Conclusion or Summary (To sum up).
 
-![[Transition Words.png]]
+![Transition Words.png](./Images/Transition%20Words.png)
 
 ### Be Original
 

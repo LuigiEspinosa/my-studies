@@ -1,9 +1,9 @@
-## Maybe SOC-mas music, he thought, doesn't come from a store?
+# Maybe SOC-mas music, he thought, doesn't come from a store?
 
 [Advent of Cyber 2024 - TryHackMe (Day 1)](https://www.youtube.com/watch?v=CYYD_fbwHtg)
 
 - **Malvertising**: Many sites contain malicious ads that can exploit vulnerabilities in a user's system, which could lead to infection.
-- **[[#^796888|Phishing]] scams**: Users can be tricked into providing personal or sensitive information via fake surveys or offers.
+- **[Phishing](#glossary) scams**: Users can be tricked into providing personal or sensitive information via fake surveys or offers.
 - **Bundled malware**: Some converters may come with malware, tricking users into unknowingly running it.
 
 To determine the file's content:
@@ -26,7 +26,7 @@ What this PowerShell command does:
 - The `DownloadFile` method pulls a file (in this case, `IS.ps1`) from a remote server ([https://raw.githubusercontent.com/MM-WarevilleTHM/IS/refs/heads/main/IS.ps1](https://raw.githubusercontent.com/MM-WarevilleTHM/IS/refs/heads/main/IS.ps1)) and saves it in the `C:\\ProgramData\\` directory on the target machine.
 - Once downloaded, the script is executed with PowerShell using the `iex` command, which triggers the downloaded `s.ps1` file.
 
-## ## Introduction to [[#^fbeee2|OPSEC]]
+## Introduction to [OPSEC](#glossary)
 
 In the context of cyber security, when malicious actors fail to follow proper OPSEC practices, they might leave digital traces that can be pieced together to reveal their identity. Some common OPSEC mistakes include:
 
@@ -37,5 +37,5 @@ In the context of cyber security, when malicious actors fail to follow proper O
 
 ## Glossary
 
-- Operational Security (OPSEC) is a set of principals and tactics used to attempt to protect the security of an operator or operation. An example of this may be using code names instead of your real names, or using a proxy to conceal your IP address. ^fbeee2
-- Phishing Scams - When emails are sent to a target(s) purporting to be from a trusted entity to lure individuals into providing sensitive information. ^796888
+- Operational Security (OPSEC) is a set of principals and tactics used to attempt to protect the security of an operator or operation. An example of this may be using code names instead of your real names, or using a proxy to conceal your IP address.
+- Phishing Scams - When emails are sent to a target(s) purporting to be from a trusted entity to lure individuals into providing sensitive information.

@@ -1,8 +1,10 @@
+# Active Directory Basics
+
 Microsoft's Active Directory is the backbone of the corporate world. It simplifies the management of devices and users within a corporate environment.
 
 ## Windows Domains
 
-**Windows domain** is a group of users and computers under the administration of a given business. The main idea behind a domain is to centralize the administration of common components of a Windows computer network in a single repository called **Active Directory ([[#^b4c088|AD]])**. The server that runs the Active Directory services is known as a **Domain Controller ([[#^7938cf|DC]])**.
+**Windows domain** is a group of users and computers under the administration of a given business. The main idea behind a domain is to centralize the administration of common components of a Windows computer network in a single repository called **Active Directory ([AD](#glossary))**. The server that runs the Active Directory services is known as a **Domain Controller ([DC](#glossary))**.
 
 The main advantages of having a configured Windows domain are:
 
@@ -48,7 +50,7 @@ You can obtain the complete list of default security groups from the [Microsoft 
 
 ### Active Directory Users and Computers
 
-These objects are organised in **Organizational Units (OUs)** which are container objects that allow you to classify users and machines. OUs are mainly used to define sets of users with similar policing requirements. The people in the Sales department of your organisation are likely to have a different set of policies applied than the people in IT, for example. Keep in mind that a user can only be a part of a single [[#^1a868e|OU]] at a time.
+These objects are organised in **Organizational Units (OUs)** which are container objects that allow you to classify users and machines. OUs are mainly used to define sets of users with similar policing requirements. The people in the Sales department of your organisation are likely to have a different set of policies applied than the people in IT, for example. Keep in mind that a user can only be a part of a single [OU](#glossary) at a time.
 
 These containers are created by Windows automatically and contain the following:
 
@@ -77,15 +79,15 @@ By default, all the machines that join a domain (except for the DCs) will be put
 
 While there is no golden rule on how to organise your machines, an excellent starting point is segregating devices according to their use. In general, you'd expect to see devices divided into at least the three following categories:
 
-**1. Workstations**
+### 1. Workstations
 
 Workstations are one of the most common devices within an Active Directory domain. Each user in the domain will likely be logging into a workstation. This is the device they will use to do their work or normal browsing activities. These devices should never have a privileged user signed into them.  
 
-**2. Servers**
+### 2. Servers
 
 Servers are the second most common device within an Active Directory domain. Servers are generally used to provide services to users or other servers.
 
-**3. Domain Controllers**
+### 3. Domain Controllers
 
 Domain Controllers are the third most common device within an Active Directory domain. Domain Controllers allow you to manage the Active Directory Domain. These devices are often deemed the most sensitive devices within the network as they contain hashed passwords for all user accounts within the environment.
 
@@ -93,11 +95,11 @@ Domain Controllers are the third most common device within an Active Directory d
 
 We can push different configurations and security baselines to users depending on their department.
 
-Windows manages such policies through **Group Policy Objects ([[#^b71fb8|GPO]])**. GPOs are simply a collection of settings that can be applied to OUs. GPOs can contain policies aimed at either users or computers, allowing you to set a baseline on specific machines and identities.
+Windows manages such policies through **Group Policy Objects ([GPO](#glossary))**. GPOs are simply a collection of settings that can be applied to OUs. GPOs can contain policies aimed at either users or computers, allowing you to set a baseline on specific machines and identities.
 
 To configure GPOs, you can use the **Group Policy Management** tool, available from the start menu
 
-![[GPOs.png]]
+![GPOs.png](./Images/GPOs.png)
 
 We can see in the image above that 3 GPOs have been created. From those, the `Default Domain Policy` and `RDP Policy` are linked to the `thm.local` domain as a whole, and the `Default Domain Controllers Policy` is linked to the `Domain Controllers` OU only. Something important to have in mind is that any GPO will apply to the linked OU and any sub-OUs under it. For example, the `Sales` OU will still be affected by the `Default Domain Policy`.
 
@@ -126,27 +128,25 @@ While NetNTLM should be considered obsolete, most networks will have both protoc
 
 ### Kerberos Authentication
 
-[[#^1dcfdf|Kerberos]] authentication is the default authentication protocol for any recent version of Windows. Users who log into a service using Kerberos will be assigned tickets. Think of tickets as proof of a previous authentication. Users with tickets can present them to a service to demonstrate they have already authenticated into the network before and are therefore enabled to use it.
+[Kerberos](#glossary) authentication is the default authentication protocol for any recent version of Windows. Users who log into a service using Kerberos will be assigned tickets. Think of tickets as proof of a previous authentication. Users with tickets can present them to a service to demonstrate they have already authenticated into the network before and are therefore enabled to use it.
 
 When Kerberos is used for authentication, the following process happens:
 
 1. The user sends their username and a timestamp encrypted using a key derived from their password to the **Key Distribution Center (KDC)**, a service usually installed on the Domain Controller in charge of creating Kerberos tickets on the network.
-    
-    The KDC will create and send back a **Ticket Granting Ticket ([[#^6ea377|TGT]])**, which will allow the user to request additional tickets to access specific services. The need for a ticket to get more tickets may sound a bit weird, but it allows users to request service tickets without passing their credentials every time they want to connect to a service. Along with the TGT, a **Session Key** is given to the user, which they will need to generate the following requests.
-    
+
+    The KDC will create and send back a **Ticket Granting Ticket ([TGT](#glossary))**, which will allow the user to request additional tickets to access specific services. The need for a ticket to get more tickets may sound a bit weird, but it allows users to request service tickets without passing their credentials every time they want to connect to a service. Along with the TGT, a **Session Key** is given to the user, which they will need to generate the following requests.
+
     Notice the TGT is encrypted using the **krbtgt** account's password hash, and therefore the user can't access its contents. It is essential to know that the encrypted TGT includes a copy of the Session Key as part of its contents, and the KDC has no need to store the Session Key as it can recover a copy by decrypting the TGT if needed.
-    
 
 ![Kerberos step 1](https://tryhackme-images.s3.amazonaws.com/user-uploads/5ed5961c6276df568891c3ea/room-content/d36f5a024c20fb480cdae8cd09ddc09f.png)
 
-3. When a user wants to connect to a service on the network like a share, website or database, they will use their TGT to ask the KDC for a **Ticket Granting Service (TGS)**. TGS are tickets that allow connection only to the specific service they were created for. To request a TGS, the user will send their username and a timestamp encrypted using the Session Key, along with the TGT and a **Service Principal Name (SPN),** which indicates the service and server name we intend to access.
-    
+1. When a user wants to connect to a service on the network like a share, website or database, they will use their TGT to ask the KDC for a **Ticket Granting Service (TGS)**. TGS are tickets that allow connection only to the specific service they were created for. To request a TGS, the user will send their username and a timestamp encrypted using the Session Key, along with the TGT and a **Service Principal Name (SPN),** which indicates the service and server name we intend to access.
+
     As a result, the KDC will send us a TGS along with a **Service Session Key**, which we will need to authenticate to the service we want to access. The TGS is encrypted using a key derived from the **Service Owner Hash**. The Service Owner is the user or machine account that the service runs under. The TGS contains a copy of the Service Session Key on its encrypted contents so that the Service Owner can access it by decrypting the TGS.
-    
 
 ![Kerberos step 2](https://tryhackme-images.s3.amazonaws.com/user-uploads/5ed5961c6276df568891c3ea/room-content/84504666e78373c613d3e05d176282dc.png)
 
-5. The TGS can then be sent to the desired service to authenticate and establish a connection. The service will use its configured account's password hash to decrypt the TGS and validate the Service Session Key.
+1. The TGS can then be sent to the desired service to authenticate and establish a connection. The service will use its configured account's password hash to decrypt the TGS and validate the Service Session Key.
 
 ![Kerberos step 3](https://tryhackme-images.s3.amazonaws.com/user-uploads/5ed5961c6276df568891c3ea/room-content/8fbf08d03459c1b792f3b6efa4d7f285.png)
 
@@ -158,7 +158,7 @@ NetNTLM works using a challenge-response mechanism. The entire process is as fo
 
 1. The client sends an authentication request to the server they want to access.
 2. The server generates a random number and sends it as a challenge to the client.
-3. The client combines their [[#^b25774|NTLM]] password hash with the challenge (and other known data) to generate a response to the challenge and sends it back to the server for verification.
+3. The client combines their [NTLM](#glossary) password hash with the challenge (and other known data) to generate a response to the challenge and sends it back to the server for verification.
 4. The server forwards the challenge and the response to the Domain Controller for verification.
 5. The domain controller uses the challenge to recalculate the response and compares it to the original response sent by the client. If they both match, the client is authenticated; otherwise, access is denied. The authentication result is sent back to the server.
 6. The server forwards the authentication result to the client.
@@ -199,10 +199,10 @@ It is important to note that having a trust relationship between domains doesn't
 
 ## Glossary
 
-- Active Directory is a directory service developed by Microsoft for Windows domain networks. It stores information about network objects such as computers, users, and groups. It provides authentication and authorization services, and allows administrators to manage network resources centrally. ^b4c088
-- A domain controller is a server that manages security authentication requests in a Windows Server network. It stores user account information and controls access to resources on the network. It is a critical component for managing and securing a network infrastructure. ^7938cf
-- In Windows domains, Organizational Unit (OU) refers to containers that hold users, groups and computers to which similar policies should apply. In most cases, OUs will match departments in an enterprise. ^1a868e
-- Group Policy Object (GPO) is a feature in Windows Server that allows administrators to control user and computer settings across the network. It provides a centralised way to manage and configure operating systems, applications, and user settings. ^b71fb8
-- Kerberos is a computer network authentication protocol that operates based on tickets, allowing nodes to securely prove their identity to one another over a non-secure network. It primarily aims at a client-server model and provides mutual authentication, where the user and the server verify each other's identity. The Kerberos protocol messages are protected against eavesdropping and replay attacks, and it builds on symmetric-key cryptography, requiring a trusted third party. ^1dcfdf
-- In Kerberos, a Ticket Granting Ticket (TGT) serves as a user's proof of authentication and allows a user to request service tickets from the KDC, which can then be used to connect to services across the network. ^6ea377
-- Windows New Technology LAN Manager (NTLM) is a suite of security protocols offered by Microsoft to authenticate users’ identity and protect the integrity and confidentiality of their activity. ^b25774
+- Active Directory is a directory service developed by Microsoft for Windows domain networks. It stores information about network objects such as computers, users, and groups. It provides authentication and authorization services, and allows administrators to manage network resources centrally.
+- A domain controller is a server that manages security authentication requests in a Windows Server network. It stores user account information and controls access to resources on the network. It is a critical component for managing and securing a network infrastructure.
+- In Windows domains, Organizational Unit (OU) refers to containers that hold users, groups and computers to which similar policies should apply. In most cases, OUs will match departments in an enterprise.
+- Group Policy Object (GPO) is a feature in Windows Server that allows administrators to control user and computer settings across the network. It provides a centralised way to manage and configure operating systems, applications, and user settings.
+- Kerberos is a computer network authentication protocol that operates based on tickets, allowing nodes to securely prove their identity to one another over a non-secure network. It primarily aims at a client-server model and provides mutual authentication, where the user and the server verify each other's identity. The Kerberos protocol messages are protected against eavesdropping and replay attacks, and it builds on symmetric-key cryptography, requiring a trusted third party.
+- In Kerberos, a Ticket Granting Ticket (TGT) serves as a user's proof of authentication and allows a user to request service tickets from the KDC, which can then be used to connect to services across the network.
+- Windows New Technology LAN Manager (NTLM) is a suite of security protocols offered by Microsoft to authenticate users’ identity and protect the integrity and confidentiality of their activity.

@@ -1,4 +1,4 @@
-# I merely noticed that you’re improperly stored, my dear secret!
+# I merely noticed that you’re improperly stored, my dear secret
 
 [Advent Of Cyber Day 19: Game Hacking](https://www.youtube.com/watch?v=W6QxdRBL6Xk)
 

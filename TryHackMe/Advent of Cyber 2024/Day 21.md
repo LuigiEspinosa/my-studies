@@ -1,10 +1,10 @@
-## HELP ME...I'm REVERSE ENGINEERING!
+# HELP ME...I'm REVERSE ENGINEERING
 
 [Getting Started With Reverse Engineering | TryHackMe Advent Of Cyber - Day 21 Walkthrough](https://www.youtube.com/watch?v=K-oowwtK_8Q)
 
 Reverse Engineering (RE) is the process of breaking something down to understand its function. In cyber security, reverse engineering is used to analyse how applications (binaries) function. This can be used to determine whether or not the application is malicious or if there are any security bugs present.
 
-﻿In computing, binaries are files compiled from source code. For example, you run a binary when launching an executable file on your computer. At one point in time, this application would've been programmed in a programming language such as C#. It is then compiled, and the compiler translates the code into machine instructions.
+In computing, binaries are files compiled from source code. For example, you run a binary when launching an executable file on your computer. At one point in time, this application would've been programmed in a programming language such as C#. It is then compiled, and the compiler translates the code into machine instructions.
 
 Binaries have a specific structure depending on the operating system they are designed to run. For example, Windows binaries follow the Portable Executable (PE) structure, whereas on Linux, binaries follow the Executable and Linkable Format (ELF). This is why, for example, you cannot run a **.exe** file on MacOS. With that said, all binaries will contain at least:
 
@@ -24,6 +24,7 @@ Decompiling, however, converts the binary into its high-level code, such as C++,
 | **Level of output** | The translated output is the exact instructions that the machine will perform.                    | The translated output is often a "best guess". The output may not be accurate, and useful information, such as variables, function names, etc, will likely be lost.       |
 | **Difficulty**      | The difficulty can be considered higher as the machine instructions are translated into assembly. | The machine instructions are translated into a high-level language, which makes them easier to understand if you are familiar with the language the binary is written in. |
 | **Usefulness**      | The entire behaviour of the binary can be studied given enough time.                              | Decompiling is a quick way to understand some of the logic of the binary.                                                                                                 |
+
 1. **Stage 1 - Dropper:** This binary is usually a lightweight, basic binary responsible for actions such as enumerating the operating system to see if the payload will work. Once certain conditions are verified, the binary will download the second - much more malicious - binary from the attacker's infrastructure.
 2. **Stage 2 - Payload:** This binary is the "meat and bones" of the attack. For example, in the event of ransomware, this payload will encrypt and exfiltrate the data.
 

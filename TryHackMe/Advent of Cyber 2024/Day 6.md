@@ -1,4 +1,4 @@
-## If I can't find a nice malware to use, I'm not going.
+# If I can't find a nice malware to use, I'm not going
 
 [Advent of Cyber 2024 - Day 6 - "If I can't find a nice malware to use, I'm not going"](https://www.youtube.com/watch?v=cIiPcTfEqS0)
 
@@ -6,18 +6,18 @@ YARA is a tool used to identify and classify malware based on patterns in its co
 
 ```javascript
 rule SANDBOXDETECTED {
-	meta:
-		description = "Detects the sandbox by querying the registry key for Program Path"
-		author = "TryHackMe"
-		date = "2024-10-08"
-		version = "1.1"
+ meta:
+  description = "Detects the sandbox by querying the registry key for Program Path"
+  author = "TryHackMe"
+  date = "2024-10-08"
+  version = "1.1"
 
-	strings:
-		
-	$cmd= "Software\\Microsoft\\Windows\\CurrentVersion\" /v ProgramFilesDir" nocase
-	
-	condition:
-		$cmd
+ strings:
+  
+ $cmd= "Software\\Microsoft\\Windows\\CurrentVersion\" /v ProgramFilesDir" nocase
+ 
+ condition:
+  $cmd
 }
 ```
 
@@ -31,6 +31,5 @@ floss.exe C:\Tools\Malware\MerryChristmas.exe | Out-file C:\tools\malstrings.txt
 ```
 
 - `floss.exe C:\Tools\Malware\MerryChristmas.exe`: This command scans for strings in the binary MerryChrismas.exe. If any hardcoded variables were defined in the malware, Floss should find them.
-- The `|` symbol redirects the output of the command in front of it to the input of the command behind it. 
+- The `|` symbol redirects the output of the command in front of it to the input of the command behind it.
 - `Out-file C:\tools\malstrings.txt`: We save the command results in a file called `malstrings.txt`.
-

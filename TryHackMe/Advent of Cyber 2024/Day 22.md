@@ -1,6 +1,6 @@
-## It's because I'm kubed, isn't it?
+# It's because I'm kubed, isn't it?
 
-https://www.youtube.com/watch?v=8LP9akZaJzU
+<https://www.youtube.com/watch?v=8LP9akZaJzU>
 
 Back in the day, it was very common for companies/organisations to use a monolithic architecture when building their applications. A monolithic architecture is an application built as a single unit, a single code base, and usually, a single executable deployed as a single component. For many companies, this worked and still does to this day; however, for some companies, this style of architecture was causing problems, especially when it came to scaling. The problem with monolithic applications is that if one single part of the application needs scaling, the whole application has to be scaled with it. It would make far more sense for companies with applications that receive fluctuating levels of demand across their parts to break the application down component by component and run them as their own microservices. That way, if one "microservice" starts to receive an increase in demand, it can be scaled up rather than the entire application.
 

@@ -1,4 +1,4 @@
-## The Wareville’s Key Vault grew three sizes that day.
+# The Wareville’s Key Vault grew three sizes that day
 
 [TryHackMe | Advent of Cyber 2024: Day 16 (Azure) - YouTube](https://www.youtube.com/watch?v=t1_FG5IUBcs)
 

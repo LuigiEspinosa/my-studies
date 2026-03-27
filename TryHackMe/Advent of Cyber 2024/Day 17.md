@@ -1,4 +1,4 @@
-## He analyzed and analyzed till his analyzer was sore!
+# He analyzed and analyzed till his analyzer was sore
 
 [Advent of Cyber - Day 17: Log Analysis & Hunting with Splunk! -- (TryHackMe!)](https://www.youtube.com/watch?v=JK_wGZdMM8I)
 

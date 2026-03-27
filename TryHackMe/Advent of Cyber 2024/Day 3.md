@@ -1,8 +1,8 @@
-## Even if I wanted to go, their vulnerabilities wouldn't allow it.
+# Even if I wanted to go, their vulnerabilities wouldn't allow it
 
 [TryHackMe Advent Of Cyber - Day 3 (Log Analysis)](https://www.youtube.com/watch?v=FnbTVkbLbqY)
 
-Log analysis is crucial to blue-teaming work. Analyzing logs can quickly become overwhelming, especially if you have multiple devices and services. [[#^339502|ELK]], or Elasticsearch, Logstash, and Kibana, combines data analytics and processing tools to make analyzing logs much more manageable.
+Log analysis is crucial to blue-teaming work. Analyzing logs can quickly become overwhelming, especially if you have multiple devices and services. [ELK](#glossary), or Elasticsearch, Logstash, and Kibana, combines data analytics and processing tools to make analyzing logs much more manageable.
 
 | **Query/Syntax** | **Description**                                                                                                                                                                               | **Example**                                             |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -12,14 +12,14 @@ Log analysis is crucial to blue-teaming work. Analyzing logs can quickly become 
 | AND              | This logical operator is used to show documents that contain **both** values.                                                                                                                 | "Ben" AND "25"                                          |
 | :                | This is used to search the (specified) field of a document for a value, such as an IP address. Note that the field you provide here will depend on the fields available in the index pattern. | ip.address: 10.10.10.10                                 |
 
-### Why Unrestricted File Uploads Are Dangerous
+## Why Unrestricted File Uploads Are Dangerous
 
 Unrestricted file uploads can be particularly dangerous because they allow an attacker to upload any type of file. If the file's contents aren't properly validated to ensure only specific formats like PNG or JPG are accepted, an attacker could upload a malicious script, such as a PHP file or an executable, that the server might process and run. This can lead to code execution on the server, allowing attackers to take over the system.
 
 Examples of abuse through unrestricted file uploads include:
 
-- Uploading a script that the server executes, leading to RCE. 
-- Uploading a crafted image file that triggers a vulnerability when processed by the server. 
+- Uploading a script that the server executes, leading to RCE.
+- Uploading a crafted image file that triggers a vulnerability when processed by the server.
 - Uploading a web shell and browsing to it directly using a browser.
 
 ### Usage of Weak Credentials
@@ -40,7 +40,7 @@ A web shell typically gives the attacker a web-based interface to run commands. 
 
 ## Glossary
 
-- ELK stands for Elasticsearch, Logstash, and Kibana. These are three open-source tools that are commonly used together to collect, store, analyze, and visualize data. ^339502
+- ELK stands for Elasticsearch, Logstash, and Kibana. These are three open-source tools that are commonly used together to collect, store, analyze, and visualize data.
 - RCE - Remote Code Execution.
 - Kibana is a web-based visualization tool for exploring data stored in Elasticsearch. It can be used to create interactive dashboards and charts that help users to understand data.
 - KQL can refer to Kusto Query Language in the context of Azure, and Kibana Query Language in the context of Elastic. Both are query languages used to explore and process data based on search terms and filters.

@@ -1,3 +1,5 @@
+# Become a Hacker
+
 ## What is Offensive Security?
 
 In short, offensive security is the process of breaking into computer systems, exploiting software bugs, and finding loopholes in applications to gain unauthorized access to them.
@@ -18,7 +20,7 @@ hydra -l admin -P passlist.txt www.onlineshop.thm http-post-form "/login:usernam
 
 [vanhauser-thc/thc-hydra: hydra (github.com)](https://github.com/vanhauser-thc/thc-hydra)
 
-Hydra is a free and open-source password-cracking tool. It can try numerous passwords till the correct password is found. It can be used to crack passwords for various network services, including SSH, Telnet, FTP, and HTTP. ^4d0b23
+Hydra is a free and open-source password-cracking tool. It can try numerous passwords till the correct password is found. It can be used to crack passwords for various network services, including SSH, Telnet, FTP, and HTTP.
 
 ## What careers are there?
 

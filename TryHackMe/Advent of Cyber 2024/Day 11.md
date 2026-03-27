@@ -1,4 +1,4 @@
-## If you'd like to WPA, press the star key!
+# If you'd like to WPA, press the star key
 
 [Beginner WiFi Hacking Tutorial (TryHackMe Advent of Cyber Day 11)](https://www.youtube.com/watch?v=svxqeFWqXQc)
 

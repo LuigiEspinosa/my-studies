@@ -1,4 +1,4 @@
-## SOC-mas XX-what-ee?
+# SOC-mas XX-what-ee?
 
 [Advent of Cyber - Day 5: Exploiting XXE in Web Apps!](https://www.youtube.com/watch?v=w7aAinxT1pE)
 
@@ -8,11 +8,11 @@ A DTD (Document Type Definition) is a set of **rules** that defines the struct
 
 ```dtd
 <!DOCTYPE people [ 
-	<!ELEMENT people(name, address, email, phone)> 
-	<!ELEMENT name (#PCDATA)> 
-	<!ELEMENT address (#PCDATA)> 
-	<!ELEMENT email (#PCDATA)> 
-	<!ELEMENT phone (#PCDATA)> 
+ <!ELEMENT people(name, address, email, phone)> 
+ <!ELEMENT name (#PCDATA)> 
+ <!ELEMENT address (#PCDATA)> 
+ <!ELEMENT email (#PCDATA)> 
+ <!ELEMENT phone (#PCDATA)> 
 ]>
 ```
 

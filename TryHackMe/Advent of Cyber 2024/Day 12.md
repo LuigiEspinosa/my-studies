@@ -1,4 +1,4 @@
-## If I can’t steal their money, I’ll steal their joy!
+# If I can’t steal their money, I’ll steal their joy
 
 [TryHackMe - Advent of Cyber 2024 - Day 12 Walkthrough](https://www.youtube.com/watch?v=0FGAm4QrdvM)
 

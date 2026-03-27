@@ -1,15 +1,17 @@
+# Windows Fundamentals 3
+
 To summarize the previous two rooms:
 
-- In [[Windows Fundamentals 1]] we covered the desktop, the file system, user account control, the control panel, settings, and the task manager.   
+- In [[Windows Fundamentals 1]] we covered the desktop, the file system, user account control, the control panel, settings, and the task manager.
 - In [[Windows Fundamentals 2]] we covered various utilities, such as System Configuration, Computer Management, Resource Monitor, etc.
 
 ## Windows Updates
 
-Windows Update is a service provided by Microsoft to provide security updates, feature enhancements, and patches for the Windows operating system and other Microsoft products, such as Microsoft Defender. 
+Windows Update is a service provided by Microsoft to provide security updates, feature enhancements, and patches for the Windows operating system and other Microsoft products, such as Microsoft Defender.
 
 Updates are typically released on the 2nd Tuesday of each month. This day is called **Patch Tuesday**. That doesn't necessarily mean that a critical update/patch has to wait for the next Patch Tuesday to be released. If the update is urgent, then Microsoft will push the update via the Windows Update service to the Windows devices.  
 
-Refer to the following link to see the **Microsoft Security Update** **Guide** [here](https://msrc.microsoft.com/update-guide)**.**
+Refer to the following link to see the **Microsoft Security Update** **Guide** here: <https://msrc.microsoft.com/update-guide>**.**
 
 Another way to access Windows Update is from the Run dialog box, or CMD, by running the command `control /name Microsoft.WindowsUpdate`.
 
@@ -41,38 +43,38 @@ Virus & threat protection is divided into two parts:
 
 ### Current threats
 
-**Scan options**
+#### Scan options
 
 - **Quick scan** - Checks folders in your system where threats are commonly found.
 - **Full scan** - Checks all files and running programs on your hard disk. This scan could take longer than one hour.
 - **Custom scan** - Choose which files and locations you want to check.
 
-**Threat history**
+#### Threat history
 
 - **Last scan** - Windows Defender Antivirus automatically scans your device for viruses and other threats to help keep it safe.
 - **Quarantined threats** - Quarantined threats have been isolated and prevented from running on your device. They will be periodically removed.
-- **Allowed threats** - Allowed threats are items identified as threats, which you allowed to run on your device. 
+- **Allowed threats** - Allowed threats are items identified as threats, which you allowed to run on your device.
 
 **Warning**: Allow an item to run that has been identified as a threat only if you are **100%** sure of what you are doing.
 
 ### Virus & threat protection settings
 
-**Manage settings** 
+#### Manage settings
 
 - **Real-time protection** - Locates and stops malware from installing or running on your device.
 - **Cloud-delivered protection** - Provides increased and faster protection with access to the latest protection data in the cloud.
-- **Automatic sample submission** - Send sample files to Microsoft to help protect you and others from potential threats. 
+- **Automatic sample submission** - Send sample files to Microsoft to help protect you and others from potential threats.
 - **Controlled folder access** - Protect files, folders, and memory areas on your device from unauthorized changes by unfriendly applications.
 - **Exclusions** - Windows Defender Antivirus won't scan items that you've excluded.
-- **Notifications** - Windows Defender Antivirus will send notifications with critical information about the health and security of your device. 
+- **Notifications** - Windows Defender Antivirus will send notifications with critical information about the health and security of your device.
 
-Warning: Excluded items could contain threats that make your device vulnerable. Only use this option if you are **100%** sure of what you are doing.   
+Warning: Excluded items could contain threats that make your device vulnerable. Only use this option if you are **100%** sure of what you are doing.
 
-**Virus & threat protection updates**
+#### Virus & threat protection updates
 
 - **Check for updates** - Manually check for updates to update Windows Defender Antivirus definitions.  
 
-**Ransomware protection**
+#### Ransomware protection
 
 - **Controlled folder access** - Ransomware protection requires this feature to be enabled, which in turn requires Real-time protection to be enabled.
 
@@ -86,7 +88,7 @@ What is the difference between the 3 (**Domain**, **Private**, and **Public**)?
 
 Per Microsoft, "_Windows Firewall offers three firewall profiles: domain, private and public"._
 
-- **Domain** - _The domain profile applies to networks where the host system can authenticate to a domain controller._ 
+- **Domain** - _The domain profile applies to networks where the host system can authenticate to a domain controller._
 - **Private** - _The private profile is a user-assigned profile and is used to designate private or home networks._
 - **Public** - _The default profile is the public profile, used to designate public networks such as Wi-Fi hotspots at coffee shops, airports, and other locations._
 
@@ -96,7 +98,7 @@ Unless you are **100%** confident in what you are doing, it is recommended that 
 
 You can view what the current settings for any firewall profile are. In the above image, several apps have access in the Private and/or Public firewall profile. Some of the apps will provide additional information if it's available via the `Details` button.
 
-Configuring the **Windows Defender Firewall** is for advanced Windows users. Refer to the following Microsoft documentation on best practices [here](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/best-practices-configuring). 
+Configuring the **Windows Defender Firewall** is for advanced Windows users. Refer to the following Microsoft documentation on best practices here: <https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/best-practices-configuring>.
 
 Command to open the Windows Defender Firewall is `WF.msc`.
 
@@ -104,7 +106,7 @@ Command to open the Windows Defender Firewall is `WF.msc`.
 
 Per Microsoft, "_Microsoft Defender SmartScreen protects against phishing or malware websites and applications, and the downloading of potentially malicious files_".
 
-Refer to the official Microsoft document for more information on Microsoft Defender SmartScreen [here](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview).
+Refer to the official Microsoft document for more information on Microsoft Defender SmartScreen here: <https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-smartscreen/microsoft-defender-smartscreen-overview>.
 
 - **Windows Defender SmartScreen** helps protect your device by checking for unrecognized apps and files from the web.
 - Exploit protection is built into Windows 10 to help protect your device against attacks.
@@ -131,15 +133,15 @@ On devices with TPM installed, BitLocker offers the best protection.
 
 Per Microsoft, "_BitLocker provides the most protection when used with a Trusted Platform Module (TPM) version 1.2 or later. The TPM is a hardware component installed in many newer computers by the computer manufacturers. It works with BitLocker to help protect user data and to ensure that a computer has not been tampered with while the system was offline_".
 
-Refer to the official Microsoft documentation to learn more about BitLocker [here](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview).
+Refer to the official Microsoft documentation to learn more about BitLocker here: <https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview>.
 
 ## Volume Shadow Copy Service
 
-Per [Microsoft](https://docs.microsoft.com/en-us/windows-server/storage/file-server/volume-shadow-copy-service), the Volume Shadow Copy Service (VSS) coordinates the required actions to create a consistent shadow copy (also known as a snapshot or a point-in-time copy) of the data that is to be backed up. 
+Per [Microsoft](https://docs.microsoft.com/en-us/windows-server/storage/file-server/volume-shadow-copy-service), the Volume Shadow Copy Service (VSS) coordinates the required actions to create a consistent shadow copy (also known as a snapshot or a point-in-time copy) of the data that is to be backed up.
 
 Volume Shadow Copies are stored on the System Volume Information folder on each drive that has protection enabled.  
 
-If VSS is enabled (**System Protection** turned on), you can perform the following tasks from within **advanced system settings**. 
+If VSS is enabled (**System Protection** turned on), you can perform the following tasks from within **advanced system settings**.
 
 - **Create a restore point**
 - **Perform system restore**

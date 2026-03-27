@@ -1,10 +1,12 @@
+# Windows Fundamentals 2
+
 ## System Configuration
 
-The **System Configuration** utility (`MSConfig`) is for advanced troubleshooting, and its main purpose is to help diagnose startup issues. 
+The **System Configuration** utility (`MSConfig`) is for advanced troubleshooting, and its main purpose is to help diagnose startup issues.
 
-Reference the following document [here](https://docs.microsoft.com/en-us/troubleshoot/windows-client/performance/system-configuration-utility-troubleshoot-configuration-errors) for more information on the System Configuration utility.
+Reference the following document here: <https://docs.microsoft.com/en-us/troubleshoot/windows-client/performance/system-configuration-utility-troubleshoot-configuration-errors> for more information on the System Configuration utility.
 
-The utility has five tabs across the top. Below are the names for each tab. We will briefly cover each tab in this task. 
+The utility has five tabs across the top. Below are the names for each tab. We will briefly cover each tab in this task.
 
 1. In the **General** tab, we can select what devices and services for Windows to load upon boot. The options are: **Normal**, **Diagnostic**, or **Selective**.
 2. In the **Boot** tab, we can define various boot options for the Operating System.
@@ -40,9 +42,9 @@ The standard logs are visible under Windows Logs. Below is a table from [docs.
 
 **Shared Folders** is where you will see a complete list of shares and folders shared that others can connect to.
 
-In the above image, under Shares, are the default share of Windows, C$, and default remote administration shares created by Windows, such as ADMIN$. 
+In the above image, under Shares, are the default share of Windows, C$, and default remote administration shares created by Windows, such as ADMIN$.
 
-As with any object in Windows, you can right-click on a folder to view its properties, such as Permissions (who can access the shared resource). 
+As with any object in Windows, you can right-click on a folder to view its properties, such as Permissions (who can access the shared resource).
 
 Under **Sessions**, you will see a list of users who are currently connected to the shares.
 
@@ -71,7 +73,7 @@ Disk Management is a system utility in Windows that enables you to perform advan
 
 Recall from the previous task; a service is a special type of application that runs in the background. Here you can do more than enable and disable a service, such as view the Properties for the service.
 
-[[#^d0d948|WMI]] Control configures and controls the **Windows Management Instrumentation** (WMI) service.
+[WMI](#glossary) Control configures and controls the **Windows Management Instrumentation** (WMI) service.
 
 Per Wikipedia, "_WMI allows scripting languages (such as VBScript or Windows PowerShell) to manage Microsoft Windows personal computers and servers, both locally and remotely. Microsoft also provides a command-line interface to WMI called Windows Management Instrumentation Command-line (WMIC)._"
 
@@ -124,14 +126,14 @@ In the Overview tab, Resmon has four sections:
 
 The command prompt (`cmd`), In early operating systems, the command line was the sole way to interact with the operating system.
 
-When the GUI (graphical user interface) was introduced, it allowed users to perform complex tasks with a few clicks of a button instead of entering commands in the command prompt. 
+When the GUI (graphical user interface) was introduced, it allowed users to perform complex tasks with a few clicks of a button instead of entering commands in the command prompt.
 
 Even though the GUI is the primary way to interact with the operating system, a computer user can still interact via the command prompt.
 
 - The command **`hostname`** will output the computer name.
 - The command **`whoami`** will output the name of the logged-in user.
 - A command used often is `ipconfig`. This command will show the network address settings for the computer.
-- `netstat`. Per the help manual, this command will display protocol statistics and current [[#^4e1419|TCP]]/IP network connections.
+- `netstat`. Per the help manual, this command will display protocol statistics and current [TCP](#glossary)/IP network connections.
 - The `net` command is primarily used to manage network resources. This command supports sub-commands.
 
 Each command will have a help manual to explain the expected syntax to execute the command properly, along with any additional parameters that can be added to the command to expand its execution.
@@ -150,13 +152,13 @@ The registry contains information that Windows continually references during ope
 - What hardware exists on the system
 - The ports that are being used.
 
-The registry is for advanced computer users. Making changes to the registry can affect normal computer operations. 
+The registry is for advanced computer users. Making changes to the registry can affect normal computer operations.
 
 There are various ways to view/edit the registry. One way is to use the **Registry Editor** (`regedit`).
 
-Refer to the following Microsoft documentation [here](https://docs.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users) to learn more about the Windows Registry.
+Refer to the following Microsoft documentation here: <https://docs.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users> to learn more about the Windows Registry.
 
 ## Glossary
 
-- Windows Management Instrumentation (WMI) is the infrastructure for management data and operations on Windows-based operating systems. It is used to automate administrative tasks on remote computers and supply management data to other parts of the operating system and products. ^d0d948
-- Transmission Control Protocol (TCP) is a connection-oriented protocol requiring a TCP three-way-handshake to establish a connection. TCP provides reliable data transfer, flow control and congestion control. Higher-level protocols such as HTTP, POP3, IMAP and SMTP use TCP ^4e1419
+- Windows Management Instrumentation (WMI) is the infrastructure for management data and operations on Windows-based operating systems. It is used to automate administrative tasks on remote computers and supply management data to other parts of the operating system and products.
+- Transmission Control Protocol (TCP) is a connection-oriented protocol requiring a TCP three-way-handshake to establish a connection. TCP provides reliable data transfer, flow control and congestion control. Higher-level protocols such as HTTP, POP3, IMAP and SMTP use TCP

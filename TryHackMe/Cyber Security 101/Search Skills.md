@@ -1,3 +1,5 @@
+# Search Skills
+
 On the Internet, everyone can publish their writings. It can be in the form of blog posts, articles, or social media posts. It can be even in more subtle ways, such as by editing a public wiki page. This ability makes it possible for anyone to voice their unfounded claims. Everyone can express their opinion about best cyber security practices, future programming trends, and how to best prepare for a DevSecOps interview.
 
 It is our job, as readers, to evaluate the information. We will mention a few things to consider when evaluating information:
@@ -8,10 +10,10 @@ It is our job, as readers, to evaluate the information. We will mention a few th
 - **Corroboration and consistency**: Validate the presented information by corroboration from multiple independent sources. Check whether multiple reliable and reputable sources agree on the central claims.
 
 1. What do you call a cryptographic method or product considered bogus or fraudulent?
-	- Snake Oil
+    - Snake Oil
 
 2. What is the name of the command replacing `netstat` in Linux systems?
-	- ss (Socket Statistics)
+    - ss (Socket Statistics)
 
 ## Search Engines
 
@@ -28,7 +30,7 @@ You can check more advanced controls in various search engines in this [advanced
 
 ### Shodan
 
-[Shodan](https://www.shodan.io), a search engine for devices connected to the Internet. It allows you to search for specific types and versions of servers, networking equipment, industrial control systems, and IoT devices. You may want to see how many servers are still running [[#^881cb2|Apache]] 2.4.1 and the distribution across countries. To find the answer, we can search for `apache 2.4.1`, which will return the list of servers with the string “apache 2.4.1” in their headers.
+[Shodan](https://www.shodan.io), a search engine for devices connected to the Internet. It allows you to search for specific types and versions of servers, networking equipment, industrial control systems, and IoT devices. You may want to see how many servers are still running [Apache](#glossary) 2.4.1 and the distribution across countries. To find the answer, we can search for `apache 2.4.1`, which will return the list of servers with the string “apache 2.4.1” in their headers.
 
 ### Censys
 
@@ -54,7 +56,7 @@ The MITRE Corporation maintains the CVE system. For more information and to sear
 
 There are many reasons why you would want to exploit a vulnerable application; one would be assessing a company’s security as part of its red team. The Exploit Database lists exploit codes from various authors; some of these exploit codes are tested and marked as verified.
 
-[GitHub](https://github.com), a web-based platform for software development, can contain many tools related to CVEs, along with proof-of-concept ([[#^5c6a7e|PoC]]) and exploit codes. To demonstrate this idea, check the screenshot below of search results on GitHub that are related to the Heartbleed vulnerability.
+[GitHub](https://github.com), a web-based platform for software development, can contain many tools related to CVEs, along with proof-of-concept ([PoC](#glossary)) and exploit codes. To demonstrate this idea, check the screenshot below of search results on GitHub that are related to the Heartbleed vulnerability.
 
 ## Technical Documentation
 
@@ -80,5 +82,5 @@ Besides staying updated via social media channels and groups, we should mention 
 
 ## Glossary
 
-- Apache is the most widely used web server software. Developed and maintained by Apache Software Foundation, Apache is an open source software available for free. ^881cb2
-- A Proof of Concept is often a piece of code or an application that is used to demonstrate an idea or theory is possible. Proof of Concepts are often used to demonstrate vulnerabilities ^5c6a7e
+- Apache is the most widely used web server software. Developed and maintained by Apache Software Foundation, Apache is an open source software available for free.
+- A Proof of Concept is often a piece of code or an application that is used to demonstrate an idea or theory is possible. Proof of Concepts are often used to demonstrate vulnerabilities

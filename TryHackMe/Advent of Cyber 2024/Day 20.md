@@ -1,4 +1,4 @@
-## If you utter so much as one packet…
+# If you utter so much as one packet…
 
 [TryHackMe | Advent of Cyber 2024: Day 20 (Traffic Analysis)](https://www.youtube.com/watch?v=4S17sVDNCtM)
 
@@ -19,7 +19,6 @@ Usually, the reply from a C2 server contains the command, instructing the malici
 4. **Exfiltrating data:** This is one of the most common objectives. The program may be instructed to steal valuable data such as sensitive files, credentials, or personal information.
 
 A typical C2 beacon returns regular status updates from the compromised machine to its C2 server. The beacons may be sent after regular or irregular intervals to the C2 as a heartbeat.
-
 
 ## Glossary
 

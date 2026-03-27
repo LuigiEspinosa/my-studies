@@ -1,10 +1,12 @@
+# Linux Fundamentals Part 2
+
 ## What is SSH & how Does it Work?
 
 Secure Shell (SSH) refers to a cryptographic network protocol used in secure communication between devices. SSH encrypts data using cryptographic algorithms, such as Advanced Encryption System (AES) and is often used when logging in remotely to a computer or server.
 
 Secure Shell or SSH simply is a protocol between devices in an encrypted form. Using cryptography, any input we send in a human-readable format is encrypted for travelling over a network -- where it is then un-encrypted once it reaches the remote machine, such as in the diagram below.
 
-![[SSH.png]]
+![SSH.png](./Images/SSH.png)
 
 - SSH allows us to remotely execute commands on another device remotely.
 - Any data sent between the devices is encrypted when it is sent over a network such as the Internet
@@ -64,6 +66,3 @@ Switching between users on a Linux install is easy work thanks to the `su` comma
 - **/root** - Unlike the **/home** directory, the **/root** folder is actually the home for the "root" system user. There isn't anything more to this folder other than just understanding that this is the home directory for the "root" user. But, it is worth a mention as the logical presumption is that this user would have their data in a directory such as "**/home/root**" by default.
 
 - **/tmp** - This is a unique root directory found on a Linux install. Short for "temporary", the /tmp directory is volatile and is used to store data that is only needed to be accessed once or twice. Similar to the memory on your computer, once the computer is restarted, the contents of this folder are cleared out.
-
-
-

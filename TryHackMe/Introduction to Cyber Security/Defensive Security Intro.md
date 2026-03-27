@@ -1,17 +1,19 @@
+# Defensive Security Intro
+
 Some of the tasks that are related to defensive security include:
 
 - **User cyber security awareness:** Training users about cyber security helps protect against attacks targeting their systems.
 - **Documenting and managing assets:** We need to know the systems and devices we must manage and protect adequately.
 - **Updating and patching systems:** Ensuring that computers, servers, and network devices are correctly updated and patched against any known vulnerability (weakness).
-- **Setting up preventative security devices:** firewall and intrusion prevention systems ([[#^e2ddf6|IPS]]) are critical components of preventative security. Firewalls control what network traffic can go inside and what can leave the system or network. ([[#^e2ddf6|IPS]]) blocks any network traffic that matches present rules and attack signatures.
+- **Setting up preventative security devices:** firewall and intrusion prevention systems ([IPS](#glossary)) are critical components of preventative security. Firewalls control what network traffic can go inside and what can leave the system or network. ([IPS](#glossary)) blocks any network traffic that matches present rules and attack signatures.
 - **Setting up logging and monitoring devices:** Proper network logging and monitoring are essential for detecting malicious activities and intrusions. If a new unauthorized device appears on our network, we should be able to detect it.
 
 There is much more to defensive security. Aside from the above, we will also cover the following related topics:
 
-- [[#Security Operations Center (SOC)]]
-- [[#Threat Intelligence]]
-- [[#Digital Forensics and Incident Response (DFIR)]]
-- [[#Malware Analysis]]
+- [Security Operations Center (SOC)](#security-operations-center-soc)
+- [Threat Intelligence](#threat-intelligence)
+- [igital Forensics and Incident Response (DFIR)](#digital-forensics-and-incident-response-dfir)
+- [Malware Analysis](#malware-analysis)
 
 ## Security Operations Center (SOC)
 
@@ -59,7 +61,8 @@ Malware stands for malicious software. _Software_ refers to programs, document
 - A virus is a piece of code (part of a program) that attaches itself to a program. It is designed to spread from one computer to another and works by altering, overwriting, and deleting files once it infects a computer. The result ranges from the computer becoming slow to unusable.
 - Trojan Horse is a program that shows one desirable function but hides a malicious function underneath. For example, a victim might download a video player from a shady website that gives the attacker complete control over their system.
 - Ransomware is a malicious program that encrypts the user’s files. Encryption makes the files unreadable without knowing the encryption password. The attacker offers the user the encryption password if the user is willing to pay a “ransom.”
+
 ## Glossary
 
-- **Intrusion Prevention System (IPS)** is a device or application that detects and stops intrusions attempts proactively. They are usually deployed in front of the protected asset and block any potential threat from reaching their target. ^e2ddf6
+- **Intrusion Prevention System (IPS)** is a device or application that detects and stops intrusions attempts proactively. They are usually deployed in front of the protected asset and block any potential threat from reaching their target.
 - Security Information and Event Management (SIEM) system that is used to aggregate security information in the form of logs, alerts, artifacts and events into a centralized platform that would allow security analysts to perform near real-time analysis during security monitoring.

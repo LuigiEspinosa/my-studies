@@ -1,3 +1,5 @@
+# Linux Fundamentals Part 1
+
 Linux is a command line operating system based on unix. There are multiple operating systems that are based on Linux.
 
 ## Where is Linux Used?
@@ -23,6 +25,7 @@ For example, Ubuntu & Debian are some of the more commonplace distributions of L
 | cd      | change directory                                 |
 | cat     | concatenate                                      |
 | pwd     | print working directory                          |
+
 ## Shell Operators
 
 | Symbol / Operator | Description                                                                                                                                      |

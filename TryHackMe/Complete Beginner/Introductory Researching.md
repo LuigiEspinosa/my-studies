@@ -1,3 +1,4 @@
+# Introductory Researching
 
 Without a doubt, the ability to research effectively is _the_ most important quality for a hacker to have. By its very nature, hacking requires a _vast_ knowledge base — because how are you supposed to break into something if you don't know how it works? The thing is: no one knows everything. Everyone (professional or amateur, experienced or totally new to the subject) will encounter problems which they don't automatically know how to solve. This is where research comes in, as, in the real world, you can't ever expect to simply be handed the answers to your questions.
 
@@ -8,43 +9,43 @@ The methodology here. We started with nothing, but gradually built up a picture 
 ## Questionary
 
 1. In the Burp Suite Program that ships with Kali Linux, what mode would you use to manually send a request (often repeating a captured request numerous times)?
-	- Repeater
+    - Repeater
 
 2. What hash format are modern Windows login passwords stored in?
-	- NTLM
+    - NTLM
 
 3. What are automated tasks called in Linux?
-	- Cron Jobs
+    - Cron Jobs
 
 4. What number base could you use as a shorthand for base 2 (binary)?
-	- Base 16
+    - Base 16
 
 5. If a password hash starts with $6$, what format is it (Unix variant)?
-	- sha512crypt
+    - sha512crypt
 
 6. What is the CVE for the 2020 Cross-Site Scripting (XSS) vulnerability found in WPForms?
-	- CVE-2020-10385
+    - CVE-2020-10385
 
 7. There was a Local Privilege Escalation vulnerability found in the _Debian_ version of Apache Tomcat, back in 2016. What's the CVE for this vulnerability?
-	- CVE-2016-1240
+    - CVE-2016-1240
 
 8. What is the very first CVE found in the VLC media player?
-	- CVE-2007-0017
+    - CVE-2007-0017
 
 9. If you wanted to exploit a 2020 buffer overflow in the sudo program, which CVE would you use?
-	- CVE-2019-18634
+    - CVE-2019-18634
 
 10. SCP is a tool used to copy files from one computer to another. _What switch would you use to copy an entire directory?_
-	- -r
+    - -r
 
 11. fdisk is a command used to view and alter the partitioning scheme used on your hard drive. _What switch would you use to list the current partitions?_
-	- -L
+    - -L
 
 12. nano is an easy-to-use text editor for Linux. _What switch would you use to make a backup when opening a file with nano?_
-	- -B
+    - -B
 
 13. Netcat is a basic tool used to manually send and receive network requests. _What **command** would you use to start netcat in listen mode, using port 12345?_
-	- nc -l -p 12345
+    - nc -l -p 12345
 
 ## Vulnerability Searching
 
@@ -61,6 +62,7 @@ NVD keeps track of CVEs (**C**ommon **V**ulnerabilities and **E**xposures) -- wh
 ## Manual Pages
 
 One of the many useful features of Linux is the inbuilt `man` command, which gives you access to the manual pages for most tools directly inside your terminal. Occasionally you'll find a tool that doesn't have a manual entry; however, this is rare. Generally speaking, when you don't know how to use a tool, `man` should be your first port of call.
+
 ## Glossary
 
 - Linux is a command line operating system based on unix. There are multiple operating systems that are based on Linux.

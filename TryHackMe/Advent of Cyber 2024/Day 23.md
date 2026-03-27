@@ -1,4 +1,4 @@
-## You wanna know what happens to your hashes?
+# You wanna know what happens to your hashes?
 
 [TryHackMe - Advent of Cyber 2024 - Day 23 Walkthrough](https://www.youtube.com/watch?v=Nf5txFuGKvM)
 
