@@ -1,4 +1,0 @@
-- [[AI for Copywriting]]
-- [[Desarrollo web ultra rápido con Astro]]
-- [[Game Development in JS-TS with Phaser 3]]
-- [[Prompt Engineering]]

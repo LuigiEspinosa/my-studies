@@ -1,4 +1,6 @@
-> [!info]
+# NodeJS - De Cero a Experto
+
+> [!NOTE]
 > [NodeJS: De cero a experto | Udemy](https://www.udemy.com/course/nodejs-de-cero-a-experto/)
 
 ## Instalaciones recomendadas
@@ -11,4 +13,3 @@ Node Version Manager - POSIX-compliant bash script to manage multiple active nod
 
 - [nvm-sh/nvm: Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions (github.com)](https://github.com/nvm-sh/nvm)
 - Windows: [coreybutler/nvm-windows: A node.js version management utility for Windows. Ironically written in Go. (github.com)](https://github.com/coreybutler/nvm-windows)
-

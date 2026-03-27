@@ -11,8 +11,7 @@ List of all the stuff I read, watch, follow, and so on.
 - [Roadmap.sh](./roadmap.sh/README.md)
 - [Santander Open Academy](./Santander%20Open%20Academy/README.md)
 - [TryHackeMe](./TryHackMe/README.md)
-
 - [TypeHero](./TypeHero/README.md)
+- [Udemy](./Udemy/README.md)
 
-- [[Udemy]]
 - [[Veeva Learning]]
