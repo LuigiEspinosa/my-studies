@@ -77,3 +77,94 @@ All variables must be declared before use although certain declarations can be m
 Variables may also be initialized in their declaration, although there are some restrictions. If the name is followed by an equals sign and a constant, tha serves as an initializer.
 
 If the variable in question is external or static, the initialization is done once only, conceptually before the program starts executing. Explicitly initialized automatic variables are initialized each time the function they are in is called. Automatic variables for which there is no explicit initializer have undefined values. External and static variables are initialized to zero by deafult, but its good style to state the initialization anyway.
+
+## Arithmetic Operators
+
+The binary arithmetic operators are `+`, `-`, `*`, `/`. and the modulus operator `%`. There is a unary `-`, but no unary `+`.
+
+The `%` operator cannot be applied to `float` or `double`.
+
+The order of evaluation is no specified for associative and commutative operatos lik `*` and `+`; the compiler may rearrange a parenthesized computation involving one of these. Thus `a + (b + c)` can be evaluated as `(a + b) + c`. This rarely makes any difference, but if a particular order i s required, explicit temporary variables must be used.
+
+Allowing the compiler to reorder computations even in the presense of parenthesis is known as the "K&R C Rearrangement License". This rule was subtly adjusted in the ISO version of C but ISO C still does not strictly force the order of otherwise commutative operations - even in the presense of parenthesis.
+
+## Relational and Logical Operators
+
+The relational operators are: `> >= < <=`.
+
+The all have the same precedence. Just below them in precedence are the equality operators: `== !=`, which have the same precedence. Relationals ahve lower precedence than arithmetic operators.
+
+The logical connectives `&&` and `||`. Expressions connected by `&&` or `||` are evaluated left to right, and evaluation stops as soon as the truth or falsehood of the result is known.
+
+The precedence of `&&` is greater than that of `||`, and both are lower than relational and equality operators, so expressions like `i < lim - 1 && (c = getchar()) != '\n' && c != EOF` need no extra parentheses. But since theprecedence of `!=` is higher than assignment, parentheses are needed in `(c = getchar()) != '\n'` to achieve the desired result.
+
+The unary negation operator `!` converts a non-zero or true operand into 0, and a zero or false operand into 1. A common use of `!` is constructions like `if (!inword)` rather than `if (inword === 0)`. It's hard to generalize about which form is better.
+
+## Type Conversions
+
+When operands of different types appear in expressions, they are converted to a common type according to a small number of rules. In general, the only conversions that happen automatically are those that make sense, such as converting an integer to floating point in an expression like `f + i`. Expressions that don't make sense, like using a `float` as a subscript, are disallowed.
+
+First, `char`'s and `int`'s may be freely intermixed in arithmetic expressions: every `char` in an expression is automatically converted to an `int`. This permits considerable flexibility in certain kinds of character transformations. One is exemplified by the function `atoi`, which converts a string of digits into its numeric equivalent.
+
+## Increment and Decrement Operators
+
+C provides two unusual operators for incrementing and decrementing variables. The increment operator `++` adds 1 to its operand; the decrement operator `--` substracts 1.
+
+The unusual aspect is that `++` and `--` may be used either as prefix operators (before the variable, as in `++n`), or posfix (after the variable: `n++`). In both cases, the effect is to increment `n`. But the expression `++n` increments `n` _before_ using its value, while `n++` increments `n` _after_ its value has been used.
+
+## Bitwise Logical Operators
+
+C provides a number of operators for bit manipulation; these may not be applied to `float` or `double`.
+
+- `&` - bitwise AND
+- `|` - bitwise inclusive OR
+- `^` - bitwise exclusive OR
+- `<<` - left shift
+- `>>` - right shift
+- `~` - one's complement (unary)
+
+You should carefully distinguish the bitwise operators `&` and `|` from the logical connectives `&&` and `||`, which imply left-to-right evaluation of a truth value. For example, if `x` is 1 and `y` is 2, then `x & b` is zero while `x && y` is one.
+
+Bitwise operators also play an important role in encryption, decryption, and checksum calculations. Modern languages like Java and Python support bitwise operators following the same patterns that we established in C so things like TCP/IP and encryption algorithms can also be implemented in these langauges.
+
+## Assignment Operators and Expressions
+
+Expressions such as `i = i + 2` in which the left hand side is repeated on the right can be written in the compressed form `i += 2` using an _assignment operator_ like `+=`.
+
+Most binary operators have a corresponding assignment operator _op=_, where _op_ is one of: `+ - * / % << >> & ^ |`.
+
+## Conditional Expressions
+
+```c
+if (a > b)
+  z = a;
+else
+  z = b;
+```
+
+of course compute in `z` the maximum of `a` and `b`. The _conditional expression_, written with the ternary operator `"?:"`, provides an alternate way to write this and similar construcions.
+
+```c
+z = (a > b) ? a : b; /* z = max(a, b) */
+```
+
+## Precedence and Order of Evaluation
+
+The table below summarize the rules for precedence and associativity of all operators.
+
+|            OPERATOR             | ASSOCIATIVITY |
+| :-----------------------------: | :-----------: |
+| `() [] -> .`                    | left to right |
+| `! ~ ++ -- = (type) * & sizeof` | right to left |
+| `+ -`                           | left to right |
+| `<< >>`                         | left to right |
+| `< <= > >=`                     | left to right |
+| `== !=`                         | left to right |
+| `&`                             | left to right |
+| `^`                             | left to right |
+| `\|`                            | left to right |
+| `&&`                            | left to right |
+| `\|\|`                          | left to right |
+| `?:`                            | right to left |
+| `= += -=` etc.                  | right to left |
+| `,`                             | left to right |
