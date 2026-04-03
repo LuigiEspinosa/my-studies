@@ -11,7 +11,7 @@ Many of the important ideas of C stem from the language BCPL, developed by Marti
 
 - [Chapter 1, A Tutorial Introduction](./Chapter%201,%20A%20Tutorial%20Introduction.md)
 - [Chapter 2, Types, Operators, and Expressions](./Chapter%202,%20Types,%20Operators,%20and%20Expressions.md)
-- [[Chapter 3, Control Flow]]
+- [Chapter 3, Control Flow](./Chapter%203,%20Control%20Flow.md)
 - [[Chapter 4, Functions and Program Structure]]
 - [[Chapter 5, Pointers and Arrays]]
 - [[Chapter 6, Structures]]
