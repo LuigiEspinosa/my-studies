@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-for-portals-business-certification-v3/embedding-the-engage-for-portals-player
+status: done
+started: 2024-10-15
+finished: 2025-03-01
+tags: []
+code: []
+kind: note
+---
+
 # Embedding the Engage for Portals Player
 
 A website is required to host the Engage player with the following considerations:

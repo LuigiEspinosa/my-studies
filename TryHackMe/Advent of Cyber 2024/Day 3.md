@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-3
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # Even if I wanted to go, their vulnerabilities wouldn't allow it
 
 [TryHackMe Advent Of Cyber - Day 3 (Log Analysis)](https://www.youtube.com/watch?v=FnbTVkbLbqY)

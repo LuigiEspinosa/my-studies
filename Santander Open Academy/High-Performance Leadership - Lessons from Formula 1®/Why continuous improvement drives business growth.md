@@ -1,3 +1,14 @@
+---
+source: santander
+slug: santander/high-performance-leadership-lessons-from-formula-1/why-continuous-improvement-drives-business-growth
+status: done
+started: 2025-06-17
+finished: 2025-06-17
+tags: []
+code: []
+kind: note
+---
+
 # Why continuous improvement drives business growth
 
 Long-term business growth is driven by leaders who treat improvement as a habit, not a reaction. In today’s fast-moving world, what worked yesterday may not work tomorrow, and standing still means falling behind. That’s why great leaders embed continuous improvement into the way their teams think and operate.

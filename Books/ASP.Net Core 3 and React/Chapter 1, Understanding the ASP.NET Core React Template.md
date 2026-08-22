@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-1-understanding-the-asp-net-core-react-template
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 1: Understanding the ASP.NET Core React Template
 
 ## SPA Architecture

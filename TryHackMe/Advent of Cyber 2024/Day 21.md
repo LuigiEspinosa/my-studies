@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-21
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # HELP ME...I'm REVERSE ENGINEERING
 
 [Getting Started With Reverse Engineering | TryHackMe Advent Of Cyber - Day 21 Walkthrough](https://www.youtube.com/watch?v=K-oowwtK_8Q)

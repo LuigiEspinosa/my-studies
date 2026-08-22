@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-technical-certification-v5/veeva-crm-engage
+status: done
+started: 2025-03-14
+finished: 2025-03-14
+tags: []
+code: []
+kind: note
+---
+
 # Veeva CRM Engage
 
 ## Veeva CRM Engage Platform Overview

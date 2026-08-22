@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-4
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # I’m all atomic inside
 
 [Exploring Phishing with Atomic Red Team | THM Advent of Cyber Day 4](https://www.youtube.com/watch?v=xIrlwCQu3EE)

@@ -1,4 +1,17 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: index
+---
+
 # Advent of Cyber 2024
+
+<!-- studylink:begin -->
 
 - [Day 1: Maybe SOC-mas music, he thought, doesn't come from a store?](./Day%201.md)
 - [Day 2: One man's false positive is another man's potpourri.](./Day%202.md)
@@ -24,6 +37,8 @@
 - [Day 22: It's because I'm kubed, isn't it?](./Day%2022.md)
 - [Day 23: You wanna know what happens to your hashes?](./Day%2023.md)
 - Day 24: You can’t hurt SOC-mas, Mayor Malware!
+
+<!-- studylink:end -->
 
 ## Glossary
 

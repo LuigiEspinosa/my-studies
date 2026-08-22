@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-6
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # If I can't find a nice malware to use, I'm not going
 
 [Advent of Cyber 2024 - Day 6 - "If I can't find a nice malware to use, I'm not going"](https://www.youtube.com/watch?v=cIiPcTfEqS0)

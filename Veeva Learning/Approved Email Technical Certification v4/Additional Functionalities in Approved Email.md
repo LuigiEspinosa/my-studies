@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/approved-email-technical-certification-v4/additional-functionalities-in-approved-email
+status: done
+started: 2025-03-30
+finished: 2025-04-06
+tags: []
+code: []
+kind: note
+---
+
 # Additional Functionalities in Approved Email
 
 ## Footnotes and Citations

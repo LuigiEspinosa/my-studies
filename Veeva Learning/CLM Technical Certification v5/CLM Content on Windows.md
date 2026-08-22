@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/clm-technical-certification-v5/clm-content-on-windows
+status: done
+started: 2025-03-03
+finished: 2025-03-03
+tags: []
+code: []
+kind: note
+---
+
 # CLM Content on Windows
 
 Reps can use the Veeva CRM for Windows application to perform actions in CRM from their Windows device.

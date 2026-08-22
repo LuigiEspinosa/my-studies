@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-20
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # If you utter so much as one packet…
 
 [TryHackMe | Advent of Cyber 2024: Day 20 (Traffic Analysis)](https://www.youtube.com/watch?v=4S17sVDNCtM)

@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-7
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # Oh, no. I'M SPEAKING IN CLOUDTRAIL
 
 [Advent of Cyber - Day 7: Detecting Malicious Behavior in AWS!](https://www.youtube.com/watch?v=134vRszJTus)

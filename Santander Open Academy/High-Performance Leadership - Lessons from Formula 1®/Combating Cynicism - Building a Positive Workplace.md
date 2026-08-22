@@ -1,3 +1,14 @@
+---
+source: santander
+slug: santander/high-performance-leadership-lessons-from-formula-1/combating-cynicism-building-a-positive-workplace
+status: done
+started: 2025-06-17
+finished: 2025-06-17
+tags: []
+code: []
+kind: note
+---
+
 # Combating Cynicism - Building a Positive Workplace
 
 Cynicism is infectious. A negative mindset will leak into your vision, culture and your work. If a leader is unsure, lacking belief, or demotivated, their team will also feel the repercussions. Negativity is limiting because you can’t do anything if you don’t believe in it first.

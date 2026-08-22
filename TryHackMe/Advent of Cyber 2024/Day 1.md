@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-1
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # Maybe SOC-mas music, he thought, doesn't come from a store?
 
 [Advent of Cyber 2024 - TryHackMe (Day 1)](https://www.youtube.com/watch?v=CYYD_fbwHtg)

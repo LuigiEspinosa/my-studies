@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-5-working-with-forms
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 5: Working with Forms
 
 > _An **indexable type** is where the index signature is defined rather than specific properties. The type in the square brackets defines the type for the keys in the object and the type after the colon defines the return type when indexed._

@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-23
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # You wanna know what happens to your hashes?
 
 [TryHackMe - Advent of Cyber 2024 - Day 23 Walkthrough](https://www.youtube.com/watch?v=Nf5txFuGKvM)

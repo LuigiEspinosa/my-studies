@@ -1,3 +1,14 @@
+---
+source: santander
+slug: santander/high-performance-leadership-lessons-from-formula-1/beyond-emotion-leading-with-sound-decisions
+status: done
+started: 2025-06-17
+finished: 2025-06-17
+tags: []
+code: []
+kind: note
+---
+
 # Beyond Emotion - Leading with Sound Decisions
 
 ## Leadership

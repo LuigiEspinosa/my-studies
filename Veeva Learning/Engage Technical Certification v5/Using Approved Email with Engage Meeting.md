@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-technical-certification-v5/using-approved-email-with-engage-meeting
+status: done
+started: 2025-03-14
+finished: 2025-03-31
+tags: []
+code: []
+kind: note
+---
+
 # Using Approved Email with Engage Meeting
 
 ## Approved Email Invitations for Engage Meeting

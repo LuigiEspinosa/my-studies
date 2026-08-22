@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-for-portals-business-certification-v3/content-best-practices-and-content-reuse
+status: done
+started: 2024-10-15
+finished: 2025-03-01
+tags: []
+code: []
+kind: note
+---
+
 # Content Best Practices and Content Reuse
 
 ## Content Best Practices

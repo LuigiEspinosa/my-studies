@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/clm-technical-certification-v5/managing-your-multichannel-sandboxes
+status: done
+started: 2025-03-03
+finished: 2025-03-03
+tags: []
+code: []
+kind: note
+---
+
 # Managing Your Multichannel Sandboxes
 
 ## Veeva Ecosystem for Content Partners

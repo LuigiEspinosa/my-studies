@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-technical-certification-v5/share-send-content-to-hcps-using-web-link
+status: done
+started: 2025-03-03
+finished: 2025-03-14
+tags: []
+code: []
+kind: note
+---
+
 # Share - Send Content to HCPs using Web Link
 
 ## Engage Share

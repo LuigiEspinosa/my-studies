@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-for-portals-business-certification-v3/veeva-engage-for-portal-basics
+status: done
+started: 2024-10-15
+finished: 2025-03-01
+tags: []
+code: []
+kind: note
+---
+
 # Veeva Engage for Portal Basics
 
 ## Engage for Portals: Content Basics

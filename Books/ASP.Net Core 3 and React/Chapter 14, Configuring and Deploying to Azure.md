@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-14-configuring-and-deploying-to-azure
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 14: Configuring and Deploying to Azure
 
 We are going to use just a couple of these services:

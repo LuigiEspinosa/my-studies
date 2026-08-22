@@ -1,3 +1,14 @@
+---
+source: santander
+slug: santander/high-performance-leadership-lessons-from-formula-1/self-awareness-the-cornerstone-of-effective-leadership
+status: done
+started: 2025-06-17
+finished: 2025-06-17
+tags: []
+code: []
+kind: note
+---
+
 # Self-Awareness - The Cornerstone of Effective Leadership
 
 Self-awareness allows leaders to understand their strengths, limitations, values and emotional triggers, and when leaders understand this, it enables them to be more authentic, intentional and empathetic.

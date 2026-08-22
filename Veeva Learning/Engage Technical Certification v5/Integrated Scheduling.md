@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-technical-certification-v5/integrated-scheduling
+status: done
+started: 2025-03-17
+finished: 2025-03-17
+tags: []
+code: []
+kind: note
+---
+
 # Integrated Scheduling
 
 ## Sending Meeting Requests with AE

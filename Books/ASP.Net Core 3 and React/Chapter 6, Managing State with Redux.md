@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-6-managing-state-with-redux
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 6: Managing State with Redux
 
 ## Principles

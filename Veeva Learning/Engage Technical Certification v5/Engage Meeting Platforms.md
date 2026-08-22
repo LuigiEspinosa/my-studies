@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-technical-certification-v5/engage-meeting-platforms
+status: done
+started: 2025-03-14
+finished: 2025-03-14
+tags: []
+code: []
+kind: note
+---
+
 # Engage Meeting Platforms
 
 ## Hosting an Engage Meeting via an iPad

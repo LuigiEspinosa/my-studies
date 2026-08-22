@@ -1,4 +1,13 @@
+---
+source: veeva
+status: done
+tags: []
+kind: platform
+---
+
 # Veeva Learning
+
+<!-- studylink:begin -->
 
 - [Start Here - Multichannel Certification](./Start%20Here%20-%20Multichannel%20Certification/README.md)
 - [Vault PromoMats MLR Renewal Certification](./Vault%20PromoMats%20MLR%20Renewal%20Certification/README.md)
@@ -13,3 +22,5 @@
 - [Approved Email Technical Certification v5](./Approved%20Email%20Technical%20Certification%20v5/README.md)
 - [Approved Email Business Certification v4](./Approved%20Email%20Business%20Certification%20v4/README.md)
 - [Approved Email Business Certification v5](./Approved%20Email%20Business%20Certification%20v5/README.md)
+
+<!-- studylink:end -->

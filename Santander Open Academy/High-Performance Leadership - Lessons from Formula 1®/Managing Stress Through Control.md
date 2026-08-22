@@ -1,3 +1,14 @@
+---
+source: santander
+slug: santander/high-performance-leadership-lessons-from-formula-1/managing-stress-through-control
+status: done
+started: 2025-06-17
+finished: 2025-06-17
+tags: []
+code: []
+kind: note
+---
+
 # Managing Stress Through Control
 
 Every stressful situation in your working life can be boiled down to two components: the things you can control and the things you can’t control. It’s crucial to remember that there will always be parts of a situation you cannot control - whether it’s deadline demands, client expectations or unforeseen complications.

@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-technical-certification-v5/veeva-javascript-library
+status: done
+started: 2025-03-14
+finished: 2025-03-14
+tags: []
+code: []
+kind: note
+---
+
 # Veeva JavaScript Library
 
 With Veeva CLM it is possible to create a sophisticated presentation which can react to user interaction and/or data in Veeva CRM. There are various elements which enable this through a combination of coding and Veeva CLM functionality.

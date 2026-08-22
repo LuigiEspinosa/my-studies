@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-13-adding-automated-tests
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 13: Adding Automated Tests
 
 ## Understanding the different types of automated test

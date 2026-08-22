@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-18
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 #  I could use a little AI interaction
 
 [Advent Of Cyber: Day 18 - Interacting with AI Chatbot - YouTube](https://www.youtube.com/watch?v=XNP4qBxdZBY)

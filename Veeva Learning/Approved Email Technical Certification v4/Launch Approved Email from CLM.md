@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/approved-email-technical-certification-v4/launch-approved-email-from-clm
+status: done
+started: 2025-03-30
+finished: 2025-04-21
+tags: []
+code: []
+kind: note
+---
+
 # Launch Approved Email from CLM
 
 Launching Approved Email from CLM provides a seamless experience for a Rep allowing an easy transition from detailing to follow up activities.

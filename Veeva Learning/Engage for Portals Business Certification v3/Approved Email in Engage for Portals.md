@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-for-portals-business-certification-v3/approved-email-in-engage-for-portals
+status: done
+started: 2024-10-15
+finished: 2025-03-01
+tags: []
+code: []
+kind: note
+---
+
 # Approved Email in Engage for Portals
 
 ## Using Approved Email in Engage for Portals

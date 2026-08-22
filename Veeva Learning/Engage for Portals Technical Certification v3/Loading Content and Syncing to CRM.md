@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-for-portals-technical-certification-v3/loading-content-and-syncing-to-crm
+status: done
+started: 2024-10-15
+finished: 2025-03-01
+tags: []
+code: []
+kind: note
+---
+
 # Loading Content and Syncing to CRM
 
 ## Uploading for Portals Content to Vault

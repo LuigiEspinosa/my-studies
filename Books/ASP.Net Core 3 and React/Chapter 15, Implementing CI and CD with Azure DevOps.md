@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-15-implementing-ci-and-cd-with-azure-devops
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 15: Implementing CI and CD with Azure DevOps
 
 **Continuous Integration (CI)** and **Continuous Delivery (CD)**.

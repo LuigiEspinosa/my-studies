@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-11
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # If you'd like to WPA, press the star key
 
 [Beginner WiFi Hacking Tutorial (TryHackMe Advent of Cyber Day 11)](https://www.youtube.com/watch?v=svxqeFWqXQc)

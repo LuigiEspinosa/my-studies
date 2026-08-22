@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-technical-certification-v5/using-clm-content-with-engage-meeting-technical
+status: done
+started: 2025-03-14
+finished: 2025-03-14
+tags: []
+code: []
+kind: note
+---
+
 # Using CLM Content with Engage Meeting - Technical
 
 ## Adapting Content Strategy in a Digital World

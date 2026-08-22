@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-4-routing-with-react-router
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 4: Routing with React Router
 
 > _Unlike other attributes, you don't need to specify the value of a Boolean attribute on an HTML element. Its presence on an element automatically means the value is `true` and its absence means the value is `false`._

@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/approved-email-technical-certification-v4/surveys-in-veeva-crm-approved-email
+status: done
+started: 2025-03-30
+finished: 2025-04-06
+tags: []
+code: []
+kind: note
+---
+
 # Surveys in Veeva CRM Approved Email
 
 ## How to use Surveys in Approved Email?

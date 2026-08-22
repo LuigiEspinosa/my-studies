@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-2-creating-decoupled-react-and-asp-net-core-apps
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 2: Creating Decoupled React and ASP.NET Core Apps
 
 ## Understanding the benefits of TypeScript

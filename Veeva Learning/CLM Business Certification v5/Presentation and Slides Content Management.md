@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/clm-business-certification-v5/presentation-and-slides-content-management
+status: done
+started: 2025-03-01
+finished: 2025-04-21
+tags: []
+code: []
+kind: note
+---
+
 # Presentation and Slides Content Management
 
 ## Veeva Content Packaging

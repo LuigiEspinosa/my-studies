@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-7-interacting-with-the-database-with-dapper
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 7: Interacting with the Database with Dapper
 
 ## Understanding what Dapper is and its benefits

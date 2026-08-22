@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-19
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # I merely noticed that you’re improperly stored, my dear secret
 
 [Advent Of Cyber Day 19: Game Hacking](https://www.youtube.com/watch?v=W6QxdRBL6Xk)

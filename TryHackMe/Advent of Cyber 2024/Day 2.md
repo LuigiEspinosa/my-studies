@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-2
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # One man's false positive is another man's potpourri
 
 [Advent of Cyber - Day 2: Threat Hunting with Elastic SIEM!](https://www.youtube.com/watch?v=-FSt5WmvTEM)

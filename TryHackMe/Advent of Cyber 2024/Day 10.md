@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-10
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # He had a brain full of macros, and had shells in his soul
 
 [Crush Advent of Cyber Day 10 (Catch that Sweet Rev Shell)](https://www.youtube.com/watch?v=egM0Emlgvkw)

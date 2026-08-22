@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-13
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # It came without buffering! It came without lag
 
 [Advent of Cyber Day 13: Exploring WebSocket Vulnerabilities with InsiderPhD](https://www.youtube.com/watch?v=ozgRXn44FF0)

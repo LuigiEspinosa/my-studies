@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-9
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # Nine o'clock, make GRC fun, tell no one
 
 [Learn to Assess Third Party Risk (GRC Skills)](https://www.youtube.com/watch?v=NoMNMJGdwn0)

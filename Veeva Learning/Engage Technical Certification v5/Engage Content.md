@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-technical-certification-v5/engage-content
+status: done
+started: 2025-03-14
+finished: 2025-03-14
+tags: []
+code: []
+kind: note
+---
+
 # Engage Content
 
 Engage Content is a licensed mobile application used by end users to enable virtual connections and communication with HCPs, including the following functionality: [^1]

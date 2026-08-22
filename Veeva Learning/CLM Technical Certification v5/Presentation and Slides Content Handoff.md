@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/clm-technical-certification-v5/presentation-and-slides-content-handoff
+status: done
+started: 2025-03-03
+finished: 2025-03-03
+tags: []
+code: []
+kind: note
+---
+
 # Presentation and Slides Content Handoff
 
 ## Overview of Binder and Bulk Document Export

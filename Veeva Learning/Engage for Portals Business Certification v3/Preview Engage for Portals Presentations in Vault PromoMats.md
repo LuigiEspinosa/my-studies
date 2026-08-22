@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-for-portals-business-certification-v3/preview-engage-for-portals-presentations-in-vault-promomats
+status: done
+started: 2024-10-15
+finished: 2025-03-01
+tags: []
+code: []
+kind: note
+---
+
 # Preview Engage for Portals Presentations in Vault PromoMats
 
 ## Preview Presentations

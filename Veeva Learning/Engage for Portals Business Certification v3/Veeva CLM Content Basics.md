@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-for-portals-business-certification-v3/veeva-clm-content-basics
+status: done
+started: 2024-10-15
+finished: 2025-03-03
+tags: []
+code: []
+kind: note
+---
+
 # Veeva CLM Content Basics
 
 ## Meet the Veeva CRM Mobile Application

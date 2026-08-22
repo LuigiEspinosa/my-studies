@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-15
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # Be it ever so heinous, there's no place like Domain Controller
 
 [Advent of Cyber Day 15: Crash Course on Active Directory](https://www.youtube.com/watch?v=WCcSy_rjr6s)

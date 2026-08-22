@@ -1,3 +1,17 @@
+---
+source: midudev
+url: https://midu.dev/curso/iniciacion-al-scraping-con-python
+slug: midudev/introduccion-al-web-scraping-con-python
+status: done
+started: 2025-04-29
+finished: 2025-04-30
+tags: []
+code:
+  - ../../my-studies-code/Midu.dev/Introducción al Web Scraping con Python
+code_url: https://github.com/LuigiEspinosa/my-studies-code/tree/main/Midu.dev/Introducci%C3%B3n%20al%20Web%20Scraping%20con%20Python
+kind: note
+---
+
 # Introducción al Web Scraping con Python
 
 > [!NOTE]

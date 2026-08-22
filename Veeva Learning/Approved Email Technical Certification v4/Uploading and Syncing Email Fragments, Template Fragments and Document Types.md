@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/approved-email-technical-certification-v4/uploading-and-syncing-email-fragments-template-fragments-and-document-types
+status: done
+started: 2025-03-30
+finished: 2025-04-06
+tags: []
+code: []
+kind: note
+---
+
 # Uploading and Syncing Email Fragments, Template Fragments and Document Types
 
 ## Uploading Email Fragments

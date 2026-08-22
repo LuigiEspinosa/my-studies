@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-9-creating-a-real-time-api-with-signalr
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 9: Creating a Real-Time API with SignalR
 
 ## Understanding the benefits of SignalR

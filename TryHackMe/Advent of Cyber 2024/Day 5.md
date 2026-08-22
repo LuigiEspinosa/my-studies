@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-5
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # SOC-mas XX-what-ee?
 
 [Advent of Cyber - Day 5: Exploiting XXE in Web Apps!](https://www.youtube.com/watch?v=w7aAinxT1pE)

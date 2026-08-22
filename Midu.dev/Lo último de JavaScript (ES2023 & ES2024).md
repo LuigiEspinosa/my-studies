@@ -1,3 +1,17 @@
+---
+source: midudev
+url: https://midu.dev/curso/aprende-lo-ultimo-de-javascript
+slug: midudev/lo-ultimo-de-javascript-es2023-es2024
+status: done
+started: 2025-04-30
+finished: 2025-04-30
+tags: []
+code:
+  - ../../my-studies-code/Midu.dev/Lo último de JavaScript (ES2023 & ES2024)
+code_url: https://github.com/LuigiEspinosa/my-studies-code/tree/main/Midu.dev/Lo%20%C3%BAltimo%20de%20JavaScript%20%28ES2023%20&%20ES2024%29
+kind: note
+---
+
 # Lo último de JavaScript (ES2023 & ES2024)
 
 > [!NOTE]

@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-14
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # Even if we're horribly mismanaged, there'll be no sad faces on SOC-mas
 
 [TryHackMe | Advent of Cyber 2024: Day 14 (Certificate Mismanagement)](https://www.youtube.com/watch?v=yWoYRhQIRJU)

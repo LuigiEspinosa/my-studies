@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-12
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # If I can’t steal their money, I’ll steal their joy
 
 [TryHackMe - Advent of Cyber 2024 - Day 12 Walkthrough](https://www.youtube.com/watch?v=0FGAm4QrdvM)

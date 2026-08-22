@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/engage-for-portals-business-certification-v3/approved-email-basics
+status: done
+started: 2024-10-15
+finished: 2025-03-14
+tags: []
+code: []
+kind: note
+---
+
 # Approved Email Basics
 
 ## Introduction to Approved Email

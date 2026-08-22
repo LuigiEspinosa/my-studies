@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/approved-email-technical-certification-v4/uploading-and-syncing-email-templates
+status: done
+started: 2025-03-30
+finished: 2025-04-06
+tags: []
+code: []
+kind: note
+---
+
 # Uploading and Syncing Email Templates
 
 ## Upload an Email Template

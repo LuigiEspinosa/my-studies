@@ -1,3 +1,14 @@
+---
+source: books
+slug: books/asp-net-core-3-and-react/chapter-3-getting-started-with-react-and-typescript
+status: done
+started: 2025-02-27
+finished: 2025-02-27
+tags: []
+code: []
+kind: note
+---
+
 # Chapter 3: Getting Started with React and TypeScript
 
 > _An arrow function is an alternative function syntax that was introduced in ES6. The arrow function syntax is a little shorter than the original syntax and it also preserves the lexical scope of `this`. The function parameters are defined in parentheses and the code that the function executes follows `a =>`, which is often referred to as a "fat arrow"._

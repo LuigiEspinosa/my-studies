@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-16
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # The Wareville’s Key Vault grew three sizes that day
 
 [TryHackMe | Advent of Cyber 2024: Day 16 (Azure) - YouTube](https://www.youtube.com/watch?v=t1_FG5IUBcs)

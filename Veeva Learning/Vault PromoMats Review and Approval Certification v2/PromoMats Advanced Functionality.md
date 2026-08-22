@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/vault-promomats-review-and-approval-certification-v2/promomats-advanced-functionality
+status: done
+started: 2024-10-15
+finished: 2025-03-01
+tags: []
+code: []
+kind: note
+---
+
 # PromoMats Advanced Functionality
 
 ## User Profile

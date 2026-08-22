@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-17
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # He analyzed and analyzed till his analyzer was sore
 
 [Advent of Cyber - Day 17: Log Analysis & Hunting with Splunk! -- (TryHackMe!)](https://www.youtube.com/watch?v=JK_wGZdMM8I)

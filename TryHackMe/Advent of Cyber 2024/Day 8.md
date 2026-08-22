@@ -1,3 +1,14 @@
+---
+source: tryhackme
+slug: tryhackme/advent-of-cyber-2024/day-8
+status: done
+started: 2025-01-01
+finished: 2025-01-01
+tags: []
+code: []
+kind: note
+---
+
 # Shellcodes of the world, unite
 
 [Unlock the World of Shellcode - Day 8 of TryHackMe Advent of Cyber 2024](https://www.youtube.com/watch?v=ZBZhfu1A3Fw)

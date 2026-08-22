@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/vault-promomats-review-and-approval-certification-v2/working-with-documents-during-the-review-process
+status: done
+started: 2024-10-15
+finished: 2025-03-01
+tags: []
+code: []
+kind: note
+---
+
 # Working with Documents During the Review Process
 
 ## Starting a New Workflow

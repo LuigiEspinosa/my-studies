@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/clm-business-certification-v5/veeva-clm-presentation-advanced-features
+status: done
+started: 2025-03-01
+finished: 2025-04-21
+tags: []
+code: []
+kind: note
+---
+
 # Veeva CLM Presentation Advanced Features
 
 ## Training Content with Watermark

@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/clm-technical-certification-v5/veeva-crm-content-administration
+status: done
+started: 2025-03-03
+finished: 2025-03-03
+tags: []
+code: []
+kind: note
+---
+
 # Veeva CRM Content Administration
 
 ## Vault Packaging

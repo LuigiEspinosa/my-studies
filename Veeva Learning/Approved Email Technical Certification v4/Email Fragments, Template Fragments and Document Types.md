@@ -1,3 +1,14 @@
+---
+source: veeva
+slug: veeva/approved-email-technical-certification-v4/email-fragments-template-fragments-and-document-types
+status: done
+started: 2025-03-30
+finished: 2025-04-06
+tags: []
+code: []
+kind: note
+---
+
 # Email Fragments, Template Fragments and Document Types
 
 ## What is an Email Fragment?
