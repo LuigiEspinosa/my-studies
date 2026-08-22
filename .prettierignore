@@ -1,0 +1,4 @@
+# Obsidian's own configuration. The editor rewrites these files as you work,
+# including cursor position and pane layout in workspace.json, so formatting
+# them is churn prettier and Obsidian would take turns undoing.
+.obsidian/
