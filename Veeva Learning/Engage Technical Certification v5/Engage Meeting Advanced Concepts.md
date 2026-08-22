@@ -19,7 +19,7 @@ Admins and Content Creators can customize the Splash Screen using a Veeva CRM My
 
 ### How MyInsights Relates to Splash Screens
 
-For context, MyInsights allows Content Creators to create custom visualizations using the [Veeva MyInsights JavaScript Library]([MyInsights v2.0](https://developer.veevacrm.com/doc/Content/CRM_topics/Veeva/myinsights-veeva.htm)) and HTML.
+For context, MyInsights allows Content Creators to create custom visualizations using the [Veeva MyInsights JavaScript Library](https://developer.veevacrm.com/doc/Content/CRM_topics/Veeva/myinsights-veeva.htm) and HTML.
 
 These visualizations or 'HTML Reports' can be directly delivered to Reps via Veeva CRM and displays contextual and historical information to assist under in their day-to-day activities.
 
