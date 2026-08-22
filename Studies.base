@@ -1,0 +1,31 @@
+filters:
+  and:
+    - kind != "platform"
+views:
+  - type: table
+    name: In progress
+    filters:
+      and:
+        - status == "active"
+    order:
+      - file.name
+      - source
+      - started
+      - tags
+  - type: table
+    name: By platform
+    order:
+      - source
+      - file.name
+      - status
+      - finished
+      - tags
+  - type: table
+    name: Has code
+    filters:
+      and:
+        - code.length > 0
+    order:
+      - file.name
+      - source
+      - code_url
