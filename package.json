@@ -1,0 +1,11 @@
+{
+    "name": "my-studies",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Markdown study notes. Lint tooling runs through npx so the Obsidian vault never gains a node_modules tree.",
+    "scripts": {
+        "lint": "npx -y markdownlint-cli@0.49.1 \"**/*.md\" --ignore node_modules",
+        "format": "npx -y prettier@3.9.6 --write \"**/*.{md,json,js,ts}\"",
+        "format:check": "npx -y prettier@3.9.6 --check \"**/*.{md,json,js,ts}\""
+    }
+}
