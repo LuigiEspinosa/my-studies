@@ -2,7 +2,7 @@
 
 ## Meet the Veeva CRM Mobile Application
 
-Veeva CRM is a Customer Relationship Management (CRM) software created specifically for the life sciences industry and is built on top of [Salesforce.com](https://www.salesfoce.com).
+Veeva CRM is a Customer Relationship Management (CRM) software created specifically for the life sciences industry and is built on top of [Salesforce.com](https://www.salesforce.com).
 
 The Veeva CRM Mobile Application is used by Reps on either an iPad, Windows tablet or iPhone to support their day-to-day business processes. [^1]
 
