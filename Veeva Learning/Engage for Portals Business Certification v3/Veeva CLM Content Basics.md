@@ -4,7 +4,7 @@ slug: veeva/engage-for-portals-business-certification-v3/veeva-clm-content-basic
 status: done
 started: 2024-10-15
 finished: 2025-03-03
-tags: []
+tags: [clm, veeva-crm, content-management]
 code: []
 kind: note
 ---

@@ -4,7 +4,7 @@ slug: veeva/engage-technical-certification-v5/using-clm-content-with-engage-meet
 status: done
 started: 2025-03-14
 finished: 2025-03-14
-tags: []
+tags: [engage, clm, content-strategy, user-experience]
 code: []
 kind: note
 ---

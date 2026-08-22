@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-20
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [network-security, malware, command-and-control]
 code: []
 kind: note
 ---

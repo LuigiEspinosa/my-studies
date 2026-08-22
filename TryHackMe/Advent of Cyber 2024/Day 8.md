@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-8
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [exploitation, reverse-engineering, shellcode]
 code: []
 kind: note
 ---

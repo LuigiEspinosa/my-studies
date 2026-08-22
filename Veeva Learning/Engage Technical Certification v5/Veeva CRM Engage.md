@@ -4,7 +4,7 @@ slug: veeva/engage-technical-certification-v5/veeva-crm-engage
 status: done
 started: 2025-03-14
 finished: 2025-03-14
-tags: []
+tags: [engage, veeva-crm, remote-engagement]
 code: []
 kind: note
 ---

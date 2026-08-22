@@ -4,7 +4,7 @@ slug: veeva/engage-for-portals-technical-certification-v3
 status: done
 started: 2024-10-15
 finished: 2025-03-01
-tags: []
+tags: [engage-for-portals, veeva-crm]
 code: []
 kind: index
 ---

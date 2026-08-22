@@ -5,7 +5,7 @@ slug: midudev/pwa-de-deteccion-de-objetos-con-angular-19-y-tensorflow-js
 status: done
 started: 2025-04-30
 finished: 2025-04-30
-tags: []
+tags: [frontend, angular, pwa, machine-learning]
 code:
   - ../../my-studies-code/Midu.dev/PWA de Detección de Objetos con Angular 19 y TensorFlow.js
 code_url: https://github.com/LuigiEspinosa/my-studies-code/tree/main/Midu.dev/PWA%20de%20Detecci%C3%B3n%20de%20Objetos%20con%20Angular%2019%20y%20TensorFlow.js

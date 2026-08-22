@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-11-securing-the-backend
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [backend, security, authentication, oidc]
 code: []
 kind: note
 ---

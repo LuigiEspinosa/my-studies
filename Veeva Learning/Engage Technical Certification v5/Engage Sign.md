@@ -4,7 +4,7 @@ slug: veeva/engage-technical-certification-v5/engage-sign
 status: done
 started: 2025-03-14
 finished: 2025-03-14
-tags: []
+tags: [engage, e-signature, sampling]
 code: []
 kind: note
 ---

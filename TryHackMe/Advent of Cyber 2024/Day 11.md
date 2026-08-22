@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-11
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [network-security, wifi, wpa2]
 code: []
 kind: note
 ---

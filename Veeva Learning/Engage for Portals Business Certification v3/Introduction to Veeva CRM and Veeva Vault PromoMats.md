@@ -4,7 +4,7 @@ slug: veeva/engage-for-portals-business-certification-v3/introduction-to-veeva-c
 status: done
 started: 2024-10-15
 finished: 2025-03-01
-tags: []
+tags: [veeva-crm, veeva-vault, promomats]
 code: []
 kind: note
 ---

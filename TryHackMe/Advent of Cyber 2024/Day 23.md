@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-23
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [cryptography, hashing, password-cracking]
 code: []
 kind: note
 ---

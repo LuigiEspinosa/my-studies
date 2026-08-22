@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-7
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [cloud-security, aws, log-analysis]
 code: []
 kind: note
 ---

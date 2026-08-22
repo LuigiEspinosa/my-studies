@@ -4,7 +4,7 @@ slug: veeva/engage-technical-certification-v5/engage-meeting-basics
 status: done
 started: 2025-03-14
 finished: 2025-03-14
-tags: []
+tags: [engage, remote-engagement, multichannel]
 code: []
 kind: note
 ---

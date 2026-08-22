@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-3
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [blue-team, log-analysis, elk, web-security]
 code: []
 kind: note
 ---

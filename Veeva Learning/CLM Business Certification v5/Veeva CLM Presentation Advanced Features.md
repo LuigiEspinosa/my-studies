@@ -4,7 +4,7 @@ slug: veeva/clm-business-certification-v5/veeva-clm-presentation-advanced-featur
 status: done
 started: 2025-03-01
 finished: 2025-04-21
-tags: []
+tags: [clm, content-management]
 code: []
 kind: note
 ---

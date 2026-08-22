@@ -4,7 +4,7 @@ slug: veeva/engage-business-certification-v5/using-clm-content-with-engage-meeti
 status: done
 started: 2025-03-17
 finished: 2025-03-17
-tags: []
+tags: [engage, clm, content-strategy, user-experience]
 code: []
 kind: note
 ---

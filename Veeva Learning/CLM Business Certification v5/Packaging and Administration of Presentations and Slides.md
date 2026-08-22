@@ -4,7 +4,7 @@ slug: veeva/clm-business-certification-v5/packaging-and-administration-of-presen
 status: done
 started: 2025-03-01
 finished: 2025-04-21
-tags: []
+tags: [clm, content-packaging, content-strategy, tracking]
 code: []
 kind: note
 ---

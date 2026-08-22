@@ -4,7 +4,7 @@ slug: santander/high-performance-leadership-lessons-from-formula-1/combating-cyn
 status: done
 started: 2025-06-17
 finished: 2025-06-17
-tags: []
+tags: [leadership, team-culture, change-management]
 code: []
 kind: note
 ---

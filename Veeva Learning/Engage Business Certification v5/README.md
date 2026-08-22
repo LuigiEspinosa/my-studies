@@ -4,7 +4,7 @@ slug: veeva/engage-business-certification-v5
 status: done
 started: 2025-03-17
 finished: 2025-03-17
-tags: []
+tags: [engage, veeva-crm]
 code: []
 kind: index
 ---

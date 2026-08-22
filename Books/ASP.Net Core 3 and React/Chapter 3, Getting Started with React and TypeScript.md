@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-3-getting-started-with-react-and-ty
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [frontend, react, typescript, hooks, state-management]
 code: []
 kind: note
 ---

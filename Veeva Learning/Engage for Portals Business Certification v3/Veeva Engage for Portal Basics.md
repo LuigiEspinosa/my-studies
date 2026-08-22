@@ -4,7 +4,7 @@ slug: veeva/engage-for-portals-business-certification-v3/veeva-engage-for-portal
 status: done
 started: 2024-10-15
 finished: 2025-03-01
-tags: []
+tags: [engage-for-portals, content-management]
 code: []
 kind: note
 ---

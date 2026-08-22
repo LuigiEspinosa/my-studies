@@ -5,7 +5,7 @@ slug: midudev/figma-para-devs
 status: done
 started: 2025-05-01
 finished: 2025-05-01
-tags: []
+tags: [ui-design, figma, design-systems]
 code: []
 kind: note
 ---

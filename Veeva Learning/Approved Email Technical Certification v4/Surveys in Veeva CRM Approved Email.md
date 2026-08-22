@@ -4,7 +4,7 @@ slug: veeva/approved-email-technical-certification-v4/surveys-in-veeva-crm-appro
 status: done
 started: 2025-03-30
 finished: 2025-04-06
-tags: []
+tags: [approved-email, surveys]
 code: []
 kind: note
 ---

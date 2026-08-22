@@ -4,7 +4,7 @@ slug: veeva/engage-technical-certification-v5/share-send-content-to-hcps-using-w
 status: done
 started: 2025-03-03
 finished: 2025-03-14
-tags: []
+tags: [engage, content-management, tracking]
 code: []
 kind: note
 ---

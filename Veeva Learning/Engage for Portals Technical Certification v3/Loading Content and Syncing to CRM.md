@@ -4,7 +4,7 @@ slug: veeva/engage-for-portals-technical-certification-v3/loading-content-and-sy
 status: done
 started: 2024-10-15
 finished: 2025-03-01
-tags: []
+tags: [engage-for-portals, veeva-vault, content-sync]
 code: []
 kind: note
 ---

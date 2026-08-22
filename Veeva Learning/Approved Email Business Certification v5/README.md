@@ -4,7 +4,7 @@ slug: veeva/approved-email-business-certification-v5
 status: done
 started: 2024-10-15
 finished: 2025-04-21
-tags: []
+tags: [approved-email, veeva-crm]
 code: []
 kind: index
 ---

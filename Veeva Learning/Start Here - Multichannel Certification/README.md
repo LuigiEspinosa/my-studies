@@ -4,7 +4,7 @@ slug: veeva/start-here-multichannel-certification
 status: done
 started: 2024-10-15
 finished: 2024-10-15
-tags: []
+tags: [multichannel, veeva-crm]
 code: []
 kind: index
 ---

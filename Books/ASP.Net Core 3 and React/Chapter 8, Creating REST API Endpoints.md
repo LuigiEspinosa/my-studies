@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-8-creating-rest-api-endpoints
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [backend, aspnet-core, rest, api-design, validation]
 code: []
 kind: note
 ---

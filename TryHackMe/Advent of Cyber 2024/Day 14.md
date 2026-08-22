@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-14
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [cryptography, pki, certificates]
 code: []
 kind: note
 ---

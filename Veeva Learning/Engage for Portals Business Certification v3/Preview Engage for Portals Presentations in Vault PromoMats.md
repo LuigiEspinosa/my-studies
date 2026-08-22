@@ -4,7 +4,7 @@ slug: veeva/engage-for-portals-business-certification-v3/preview-engage-for-port
 status: done
 started: 2024-10-15
 finished: 2025-03-01
-tags: []
+tags: [engage-for-portals, promomats, content-management]
 code: []
 kind: note
 ---

@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-13
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [web-security, exploitation, websockets]
 code: []
 kind: note
 ---

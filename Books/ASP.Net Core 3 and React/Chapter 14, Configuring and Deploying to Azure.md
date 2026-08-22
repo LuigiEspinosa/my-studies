@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-14-configuring-and-deploying-to-azu
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [devops, azure, deployment]
 code: []
 kind: note
 ---

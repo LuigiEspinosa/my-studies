@@ -4,7 +4,7 @@ slug: veeva/engage-technical-certification-v5/using-approved-email-with-engage-m
 status: done
 started: 2025-03-14
 finished: 2025-03-31
-tags: []
+tags: [engage, approved-email, email-templates]
 code: []
 kind: note
 ---

@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-2-creating-decoupled-react-and-asp-
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [frontend, react, typescript, tooling]
 code: []
 kind: note
 ---

@@ -4,7 +4,7 @@ slug: veeva/clm-technical-certification-v5
 status: done
 started: 2025-03-03
 finished: 2025-03-03
-tags: []
+tags: [clm, veeva-crm]
 code: []
 kind: index
 ---

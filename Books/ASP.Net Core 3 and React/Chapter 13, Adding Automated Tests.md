@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-13-adding-automated-tests
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [testing, unit-testing, end-to-end-testing]
 code: []
 kind: note
 ---

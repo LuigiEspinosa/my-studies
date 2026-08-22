@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-18
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [ai-security, prompt-injection]
 code: []
 kind: note
 ---

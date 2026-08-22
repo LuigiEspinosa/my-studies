@@ -4,7 +4,7 @@ slug: veeva/vault-promomats-review-and-approval-certification-v2/preparing-docum
 status: done
 started: 2024-10-15
 finished: 2025-03-01
-tags: []
+tags: [promomats, document-review, annotations]
 code: []
 kind: note
 ---

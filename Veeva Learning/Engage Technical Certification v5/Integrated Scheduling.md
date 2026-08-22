@@ -4,7 +4,7 @@ slug: veeva/engage-technical-certification-v5/integrated-scheduling
 status: done
 started: 2025-03-17
 finished: 2025-03-17
-tags: []
+tags: [engage, scheduling, approved-email]
 code: []
 kind: note
 ---

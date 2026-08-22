@@ -4,7 +4,7 @@ slug: santander/high-performance-leadership-lessons-from-formula-1/managing-stre
 status: done
 started: 2025-06-17
 finished: 2025-06-17
-tags: []
+tags: [leadership, productivity, stress-management]
 code: []
 kind: note
 ---

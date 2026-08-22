@@ -4,7 +4,7 @@ slug: veeva/approved-email-technical-certification-v4
 status: done
 started: 2025-03-30
 finished: 2025-04-21
-tags: []
+tags: [approved-email, veeva-crm]
 code: []
 kind: index
 ---

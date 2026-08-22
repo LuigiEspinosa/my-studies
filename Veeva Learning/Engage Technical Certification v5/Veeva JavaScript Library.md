@@ -4,7 +4,7 @@ slug: veeva/engage-technical-certification-v5/veeva-javascript-library
 status: done
 started: 2025-03-14
 finished: 2025-03-14
-tags: []
+tags: [javascript, veeva-crm, clm]
 code: []
 kind: note
 ---

@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-10-improving-performance-and-scalab
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [backend, performance, caching, sql]
 code: []
 kind: note
 ---

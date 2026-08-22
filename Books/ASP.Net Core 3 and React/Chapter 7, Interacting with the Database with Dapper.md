@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-7-interacting-with-the-database-wit
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [backend, aspnet-core, sql, dapper]
 code: []
 kind: note
 ---

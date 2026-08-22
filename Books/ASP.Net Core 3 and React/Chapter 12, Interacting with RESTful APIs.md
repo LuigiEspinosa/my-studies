@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-12-interacting-with-restful-apis
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [frontend, react, rest, api-design]
 code: []
 kind: note
 ---

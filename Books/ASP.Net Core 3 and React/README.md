@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [full-stack, react, typescript, aspnet-core]
 code:
   - ../../../my-studies-code/Books/ASP.NET Core 3 and React
 code_url: https://github.com/LuigiEspinosa/my-studies-code/tree/main/Books/ASP.NET%20Core%203%20and%20React

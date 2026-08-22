@@ -4,7 +4,7 @@ slug: santander/high-performance-leadership-lessons-from-formula-1/self-awarenes
 status: done
 started: 2025-06-17
 finished: 2025-06-17
-tags: []
+tags: [leadership, self-awareness]
 code: []
 kind: note
 ---

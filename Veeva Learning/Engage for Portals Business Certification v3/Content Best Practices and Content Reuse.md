@@ -4,7 +4,7 @@ slug: veeva/engage-for-portals-business-certification-v3/content-best-practices-
 status: done
 started: 2024-10-15
 finished: 2025-03-01
-tags: []
+tags: [engage-for-portals, content-strategy, html, responsive-design]
 code: []
 kind: note
 ---

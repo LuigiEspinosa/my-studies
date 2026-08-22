@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-1
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [blue-team, opsec, phishing, malware]
 code: []
 kind: note
 ---

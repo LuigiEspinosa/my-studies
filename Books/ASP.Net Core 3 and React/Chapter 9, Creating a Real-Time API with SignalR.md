@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-9-creating-a-real-time-api-with-sig
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [backend, aspnet-core, signalr, real-time]
 code: []
 kind: note
 ---

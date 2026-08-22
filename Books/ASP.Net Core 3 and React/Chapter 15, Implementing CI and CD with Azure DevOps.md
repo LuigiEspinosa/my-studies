@@ -4,7 +4,7 @@ slug: books/asp-net-core-3-and-react/chapter-15-implementing-ci-and-cd-with-azur
 status: done
 started: 2025-02-27
 finished: 2025-02-27
-tags: []
+tags: [devops, azure, deployment, ci-cd]
 code: []
 kind: note
 ---

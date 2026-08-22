@@ -4,7 +4,7 @@ slug: veeva/engage-for-portals-business-certification-v3/tracking-in-engage-for-
 status: done
 started: 2024-10-15
 finished: 2025-03-01
-tags: []
+tags: [engage-for-portals, tracking, multichannel]
 code: []
 kind: note
 ---

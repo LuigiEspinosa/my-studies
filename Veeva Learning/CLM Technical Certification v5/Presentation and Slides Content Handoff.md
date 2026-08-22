@@ -4,7 +4,7 @@ slug: veeva/clm-technical-certification-v5/presentation-and-slides-content-hando
 status: done
 started: 2025-03-03
 finished: 2025-03-03
-tags: []
+tags: [content-management, veeva-vault, multichannel]
 code: []
 kind: note
 ---

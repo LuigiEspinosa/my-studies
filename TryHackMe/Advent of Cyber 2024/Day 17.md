@@ -4,7 +4,7 @@ slug: tryhackme/advent-of-cyber-2024/day-17
 status: done
 started: 2025-01-01
 finished: 2025-01-01
-tags: []
+tags: [blue-team, siem, log-analysis, splunk]
 code: []
 kind: note
 ---

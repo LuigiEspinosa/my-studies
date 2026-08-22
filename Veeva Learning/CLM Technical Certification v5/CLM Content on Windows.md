@@ -4,7 +4,7 @@ slug: veeva/clm-technical-certification-v5/clm-content-on-windows
 status: done
 started: 2025-03-03
 finished: 2025-03-03
-tags: []
+tags: [clm, veeva-crm, windows]
 code: []
 kind: note
 ---

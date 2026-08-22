@@ -4,7 +4,7 @@ slug: veeva/engage-for-portals-business-certification-v3/approved-email-basics
 status: done
 started: 2024-10-15
 finished: 2025-03-14
-tags: []
+tags: [approved-email, email-templates, veeva-vault]
 code: []
 kind: note
 ---
