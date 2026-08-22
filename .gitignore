@@ -166,3 +166,10 @@ zsdoc/data
 !/tests/_output/.gitkeep
 
 # End of https://www.toptal.com/developers/gitignore/api/git,vim,linux,macos,windows,visualstudiocode,zsh
+
+### Obsidian ###
+# Per-machine editor state: pane layout and recently-opened files. Obsidian
+# rewrites it as you work, so tracking it means a dirty tree most sessions.
+# The rest of .obsidian/ is deliberately tracked, because plugin toggles and
+# appearance are vault settings worth sharing between machines.
+.obsidian/workspace.json
