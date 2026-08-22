@@ -47,19 +47,20 @@ There are three types of video annotations:
 
 ## Using Offline Annotations
 
-- **Offline Annotation** is a feature that allows users to review documents while offline by using a preferred PDF editor. User can export the document with annotations, replay and create new annotations and once finished, import all the changes to Vault. This feature must be *Enable by an Admin*. To make offline annotations, choose **'Export Annotations'** from the document's Actions menu,
+- **Offline Annotation** is a feature that allows users to review documents while offline by using a preferred PDF editor. User can export the document with annotations, replay and create new annotations and once finished, import all the changes to Vault. This feature must be _Enable by an Admin_. To make offline annotations, choose **'Export Annotations'** from the document's Actions menu,
 - To import a PDF with offline annotations:
 
- 1. From the Actions menu, choose **'Import Annotations'**.
- 2. Click **'Choose'** and select the file that you previously downloaded and annotated.
- 3. Click **'OK'** to upload the file.
- 4. To remove an import, choose **Undo Last Import** option [^1] from the Actions menu.
+1. From the Actions menu, choose **'Import Annotations'**.
+2. Click **'Choose'** and select the file that you previously downloaded and annotated.
+3. Click **'OK'** to upload the file.
+4. To remove an import, choose **Undo Last Import** option [^1] from the Actions menu.
 
-- The export feature allows you to annotate offline and import those annotations for an existing document. Vault does not support uploading the exported file as a new document. Vault cannot distinguish between new and preexisting Adobe Acrobat annotations and treats all annotations as new upon upload. Do not upload PDF source files with existing Adobe Acrobat annotations. *Supported PDF Viewers*: [^2]
+- The export feature allows you to annotate offline and import those annotations for an existing document. Vault does not support uploading the exported file as a new document. Vault cannot distinguish between new and preexisting Adobe Acrobat annotations and treats all annotations as new upon upload. Do not upload PDF source files with existing Adobe Acrobat annotations. _Supported PDF Viewers_: [^2]
   - Adobe Reader: All versions currently supported by Adobe.
   - Adobe Acrobat: All versions currently supported by Adobe.
 
 [^1]: Undo Last Import option will only appear if the last import created new annotations or replies.
+
 [^2]: Note that you may be able to view and add annotations using other applications, but Vault cannot re-import those annotations.
 
 ## Creating Links on a Document
@@ -97,7 +98,7 @@ There is a feature to pull annotations from Linked Documents into new content. T
 To create the link(s):
 
 1. Go to the 'Relationships' section of the Document Information panel.
-2. Find the Linked Documents panel and *Expand* it.
+2. Find the Linked Documents panel and _Expand_ it.
 3. Next to the document links or anchors that exist, click the three dots icon.
 4. Select **'Link to Content'**.
 5. Scroll to the relevant content in your document and selects as you would when creating an annotation.
@@ -142,11 +143,11 @@ To create sections in a binder:
 - Documents can be added directly to the binder or to a section within a binder. This creates a link to the document, it does not create a duplicate version of the document. Any updates made to the document in the library or the state of the document will be reflected in the binder.
 - To add the document(s):
 
- 1. While in the binder, click **'Edit Binder'**.
- 2. By default, the document will be added to the root of the binder unless you click into a section.
- 3. Click **'Add'**, select **'Existing Documents'**.
- 4. The document selector will open allowing you to search to use filters to find the documents you're looking for.
- 5. Click the document selector and click **'Done Editing'** when you've added all documents.
+1. While in the binder, click **'Edit Binder'**.
+2. By default, the document will be added to the root of the binder unless you click into a section.
+3. Click **'Add'**, select **'Existing Documents'**.
+4. The document selector will open allowing you to search to use filters to find the documents you're looking for.
+5. Click the document selector and click **'Done Editing'** when you've added all documents.
 
 ## Uploading Directly into a Binder
 
@@ -165,11 +166,11 @@ To upload directly into a binder:
 
 There are a number of tools available to help you when navigating through binder content.
 
-*The document filter within a binder* allows you to filter the content that is shown.
+_The document filter within a binder_ allows you to filter the content that is shown.
 
-You can *switch between compact view and outline view* for a binder.
+You can _switch between compact view and outline view_ for a binder.
 
-With *outline view* selected, you can easily expand the sections and view the content within them without having to click into each section.
+With _outline view_ selected, you can easily expand the sections and view the content within them without having to click into each section.
 
 You can also take actions on the documents from this view via the **'Action Menu'**.
 

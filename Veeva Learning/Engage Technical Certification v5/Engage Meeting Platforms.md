@@ -226,7 +226,6 @@ To enable this process, the Call Report must be configured to include the '`--pa
 > [!TIP]- How does a Rep know what they are sharing a CLM Presentation in an Engage Meeting?
 >
 > A green border around the screen.
->
 
 ---
 

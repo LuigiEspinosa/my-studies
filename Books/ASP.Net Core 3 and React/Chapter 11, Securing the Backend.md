@@ -33,7 +33,7 @@ The header usually contains the type of the token in a `typ` field and the signi
 
 OIDC deals with securely storing passwords, authenticating users, generating access tokens, and much more. Being able to leverage an industry-standard technology such as OIDC not only saves us lots of time but also gives us the peace of mind that the implementation is very secure and will receive updates as attackers get smarter.
 
-> *A claim is information about a user from a trusted source. A claim represents what the subject is, not what the subject can do. The ASP.NET Core authentication middleware automatically puts `userId` in a name identifier claim for us.*
+> _A claim is information about a user from a trusted source. A claim represents what the subject is, not what the subject can do. The ASP.NET Core authentication middleware automatically puts `userId` in a name identifier claim for us._
 
 ## Quiz
 
@@ -54,7 +54,6 @@ OIDC deals with securely storing passwords, authenticating users, generating acc
 > [!TIP] - What attribute can be added to a protected action method to allow unauthenticated users to access it?
 >
 > `AllowAnonymous`
->
 
 ---
 
@@ -70,9 +69,9 @@ OIDC deals with securely storing passwords, authenticating users, generating acc
 > })
 > ```
 >
->> [!TIP] - When we try to access protected resources in our ASP.NET Core backend, we receive HTTP status code 401. What is the problem?
->>
->> The problem is that the ASP.NET Core backend validations that the audience in the JIWT is `https://myapp`, but the identity provider has been configured to set the audience to `http://my-app`. This results in the request being unauthorized.
+> > [!TIP] - When we try to access protected resources in our ASP.NET Core backend, we receive HTTP status code 401. What is the problem?
+> >
+> > The problem is that the ASP.NET Core backend validations that the audience in the JIWT is `https://myapp`, but the identity provider has been configured to set the audience to `http://my-app`. This results in the request being unauthorized.
 
 ---
 
@@ -95,9 +94,9 @@ OIDC deals with securely storing passwords, authenticating users, generating acc
 >
 > `Authorisation: bearer some-access-token`
 >
->> [!TIP] - We receive HTTP status code 401 from the request though. What is the problem?
->>
->> The problem is that the HTTP header name needs to be `Authorization` there is a typo.
+> > [!TIP] - We receive HTTP status code 401 from the request though. What is the problem?
+> >
+> > The problem is that the HTTP header name needs to be `Authorization` there is a typo.
 
 ---
 
@@ -107,11 +106,11 @@ OIDC deals with securely storing passwords, authenticating users, generating acc
 >
 > ```cs
 > private readonly IHttpContextAccessor _httpContextAccessor;
-> 
+>
 > public MyClass(IHttpContextAccessor httpContextAccessor) {
 >  _httpContextAccessor = httpContextAccessor;
 > }
-> 
+>
 > public SomeMethod() {
 >  var request = _httpContextAccessor.HttpContext.Request;
 > }

@@ -219,7 +219,7 @@ Veeva CRM on iPad is supported on the most current available iOS version, as wel
 
 New iOS versions are supported on the first day that Apple announces general availability.
 
-As of September 16, 2020, Veeva supports iPad OS,  iOS 14 & iOS 13 and all minor version in between.
+As of September 16, 2020, Veeva supports iPad OS, iOS 14 & iOS 13 and all minor version in between.
 
 iOS devices supported are iPad, iPad Mini, iPad Air, iPad Pro.
 

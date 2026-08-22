@@ -17,6 +17,7 @@ For CLM content uploaded directly into Veeva CRM, two fields must be populated t
 - Populate the Survey lookup with the correct Survey.
 
 [^1]: A Survey record must have been created in Veeva CRM and Vault PromoMats prior to completing these steps.
+
 [^2]: These fields may need to be configured in your Content Partner sandbox. A Survey record must have been created in Veeva CRM.
 
 ## Using Survey Overlay in CLM
@@ -58,6 +59,7 @@ When Survey Branching is used, HCPs will only see the main (parent) Survey Quest
 Once an answer for the parent question is selected, then the related child questions will appear. [^4]
 
 [^3]: Parent questions can contain multiple child questions, but a child question can not have another sub-level of questions, i.e., a question can not be both a child and a parent.
+
 [^4]: If a Child Question is required, the system will only enforce that the HCP answers the question if the Child Question is visible when the Survey is submitted.
 
 ## Survey Integration in CLM

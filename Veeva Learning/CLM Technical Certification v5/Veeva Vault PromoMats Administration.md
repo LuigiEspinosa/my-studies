@@ -125,7 +125,9 @@ The Create New Draft option can also be used for Binders, to do this, select the
 This action will create a new minor version with the document status of draft.
 
 [^4]: Vault PromoMats does not execute document state entry actions or entry criteria for drafts created with the Create Draft action. You must have the Version permission to access this option.
+
 [^5]: Major version is created once a document reaches the Steady state such as Approved.
+
 [^6]: Admin must enable the option to reuse a document's source file when creating a new draft version. If this option is not available, you must select a source file for upload. In some customers Vault PromoMats the starting state may not be draft.
 
 ## Upload a New Version
@@ -285,7 +287,7 @@ Otherwise, you may need to map fields manually.
 - Approved Email Admin
 - Engage Metadata Admin
 
-These integration tabs allow the User to pull content into Veeva CRM by  logging in as an admin user in CRM.
+These integration tabs allow the User to pull content into Veeva CRM by logging in as an admin user in CRM.
 
 The CRM Publishing feature allows the User to trigger the Vault-CRM integration from within Vault PromoMats without needing to log into Veeva CRM.
 
@@ -320,7 +322,7 @@ This will allow the CRM Org object to be visible in the Business Admin tab in Va
 
 ## Add New CRM Orgs
 
-Navigate to the Business Admin Tab. Click on the Component Box and  type in 'CRM Orgs'.
+Navigate to the Business Admin Tab. Click on the Component Box and type in 'CRM Orgs'.
 
 Click 'Create' and fill out the fields:
 
@@ -332,6 +334,7 @@ Click 'Create' and fill out the fields:
 - **Type:** Sandbox.
 
 [^11]: This field is required an must correspond to the 18-digit ID in CRM. You'll need to convert the 15-digit Salesforce ID that you see in the CRM Org.
+
 [^12]: Include NSS = Include Non Steady State.
 
 ## Using CRM Publishing

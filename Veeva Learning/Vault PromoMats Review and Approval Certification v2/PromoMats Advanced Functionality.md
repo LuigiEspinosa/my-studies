@@ -124,7 +124,7 @@ To make a copy of a document:
 ### How
 
 - Matches pre-approved Claims and Reusable Text Asset records and references to documents.
-- Creates easy-to-review *Suggested Link* annotations for non-exact text matches.
+- Creates easy-to-review _Suggested Link_ annotations for non-exact text matches.
 - When approved, Suggested Links become Approved Link Annotations.
 - Generates Auto Links for exact text matches which do not require review or approval.
 
@@ -144,18 +144,19 @@ To make a copy of a document:
   - **Country:** this is another reference field and is the country where the claim is used.
 - A claim is created in Claims Library, vie the Claims tab. All the key elements must be completed for a claim to be created. [^4]
 
- 1. Click **Create**.
- 2. Enter **Country** and **Product** (optional) as matching fields.
- 3. Enter the **Match Text** (claim text that will match to the claim in document content).
- 4. Click **Save**.
+1. Click **Create**.
+2. Enter **Country** and **Product** (optional) as matching fields.
+3. Enter the **Match Text** (claim text that will match to the claim in document content).
+4. Click **Save**.
 
 - Once the claim's metadata is completed and saved, you'll be able to assign a document and/or anchor links as references to support the claim. These will be sued in the submission process. A reference document/anchor can be added in the references section below the Claim details. [^5]
 
- 1. Open **Reference** panel from the Claim record detail page.
- 2. Click **Add Reference** button.
- 3. Search or select the relevant Reference or specific anchor and click **+** button.
+1. Open **Reference** panel from the Claim record detail page.
+2. Click **Add Reference** button.
+3. Search or select the relevant Reference or specific anchor and click **+** button.
 
 [^4]: Naming convention for Claims tab may vary according to customer environment. Standard variations are Claims tab or Text Asset tab.
+
 [^5]: All Claims need to be approved through an MLR workflow.
 
 ## Using Suggest Links
@@ -186,9 +187,9 @@ To create a PDF of your website, access <www.veevaweb2pdf.com> and input:
 1. Website URL you want to screenshot.
 2. Viewing Experince
 
-    - Desktop
-    - Smartphone
-    - Tablet
+   - Desktop
+   - Smartphone
+   - Tablet
 
 3. Email Address that the PDF should be sent to.
 
@@ -197,9 +198,9 @@ To create a general PDF of your website, open up your website and click on the V
 1. Email Address that the PDF should be sent to.
 2. Viewing Experince
 
-    - Desktop
-    - Smartphone
-    - Tablet
+   - Desktop
+   - Smartphone
+   - Tablet
 
 3. If a Password should be entered to access restricted areas of the website.
 

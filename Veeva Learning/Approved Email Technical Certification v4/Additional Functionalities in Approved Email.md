@@ -28,12 +28,12 @@ The following Tokens are inserted into the Email Fragment:
 
 - `{{FootnoteSymbol[Sequence Number]}}` - Inserts a footnote symbol. For example, `{{FootnoteSymbol[3]}}` renders as ‡. If more footnote symbols are needed, symbols can be duplicated by including multiple tokens. For example, `{{FootnoteSymbol[3]}} {{FootnoteSymbol[3]}}` renders as ‡‡. The symbols order is:
 
- 1. -
- 2. †
- 3. ‡
- 4. §
- 5. ||
- 6. ¶
+1. -
+2. †
+3. ‡
+4. §
+5. ||
+6. ¶
 
 - `{{FootnoteStart}}` - Denotes the start of the footnote section.
 - `{{FootnoteEnd}}` - Denotes the end of the footnote section.
@@ -60,7 +60,7 @@ The following Tokens are inserted into the Email Fragment:
 
 BEE is a WYSIWYG (What you see is what you get) drag and drop editing service allowing Content Creators to create responsive Approved Email templates within Veeva Vault PromoMats.
 
-BEE Editor can reduce the time spent  on prototyping or building Approved Email templates and doesn't require any HTML knowledge.
+BEE Editor can reduce the time spent on prototyping or building Approved Email templates and doesn't require any HTML knowledge.
 
 BEE Editor can't be used to create Email Fragments.
 
@@ -230,7 +230,6 @@ If the images for the fragments were originally hosted in the BEE Editor templat
 >
 > - `{{CitationNumber[Sequence Number]}}`
 > - `{{CitationStart}}`
->
 
 ---
 

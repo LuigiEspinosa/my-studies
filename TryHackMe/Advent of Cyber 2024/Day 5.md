@@ -7,12 +7,12 @@ XML is a commonly used method to transport and store data in a structured forma
 A DTD (Document Type Definition) is a set of **rules** that defines the structure of an XML document. Just like a database scheme, it acts like a blueprint, telling you what elements (tags) and attributes are allowed in the XML file. Think of it as a guideline that ensures the XML document follows a specific structure.
 
 ```dtd
-<!DOCTYPE people [ 
- <!ELEMENT people(name, address, email, phone)> 
- <!ELEMENT name (#PCDATA)> 
- <!ELEMENT address (#PCDATA)> 
- <!ELEMENT email (#PCDATA)> 
- <!ELEMENT phone (#PCDATA)> 
+<!DOCTYPE people [
+ <!ELEMENT people(name, address, email, phone)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT address (#PCDATA)>
+ <!ELEMENT email (#PCDATA)>
+ <!ELEMENT phone (#PCDATA)>
 ]>
 ```
 

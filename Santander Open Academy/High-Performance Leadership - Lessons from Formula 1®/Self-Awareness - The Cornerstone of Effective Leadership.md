@@ -12,6 +12,6 @@ Without self-awareness. even well-meaning leaders can fall short, overlooking ho
 2. Trust the power of a pause.
 3. Identify your stress signals.
 4. Celebrate your wins.
-5. Find your *centre*.
+5. Find your _centre_.
 6. Set intentions.
 7. Cultivate gratitude.

@@ -151,12 +151,12 @@ Notifications will be displayed in a hover menu allowing you to click on the doc
 2. Click the blue **'Create'** button.
 3. Select **'Placeholder'**.
 4. Click **'Continue'**.
-5. As with the creation of any document, you will need to classify the document. Document types and sub-types  will vary from customer to customer, it's important to understand each customer's process and taxonomy. To classify a placeholder/document:
+5. As with the creation of any document, you will need to classify the document. Document types and sub-types will vary from customer to customer, it's important to understand each customer's process and taxonomy. To classify a placeholder/document:
 
-    - You can click into the document type field and scroll through available types.
-    - You can begin to type the document type and select from the predictive list.
-    - You can click the binoculars to select the type, sub-type and classification (if applicable).
-    - One you've found the document type, click **'Next'**.
+   - You can click into the document type field and scroll through available types.
+   - You can begin to type the document type and select from the predictive list.
+   - You can click the binoculars to select the type, sub-type and classification (if applicable).
+   - One you've found the document type, click **'Next'**.
 
 6. Next step is to populate the metadata for the document. At a minimum, the required fields (highlighted in yellow) will need to be completed. Taxonomy and required fields will vary between customers. Populating Metadata:
 7. Fill in any text fields.
@@ -173,10 +173,10 @@ Notifications will be displayed in a hover menu allowing you to click on the doc
 4. Click **'Continue'**.
 5. From here you can either drag and drop the file you are uploading into Vault PromoMats or click the Choose button to select it from you computer. The next step is to classify the document. To classify the document:
 
-    - You can click into the document type field and scroll through available options.
-    - You can begin to enter the document type and select from the predictive list.
-    - You can click the binoculars to select the type, sub-type and classification (if applicable).
-    - Once you've found the document type, click **'Next'**.
+   - You can click into the document type field and scroll through available options.
+   - You can begin to enter the document type and select from the predictive list.
+   - You can click the binoculars to select the type, sub-type and classification (if applicable).
+   - Once you've found the document type, click **'Next'**.
 
 6. Next step is to populate the metadata for the document. At a minimum, the required fields (highlighted in yellow) will need to be completed. Taxonomy and required fields will vary between customers. Populating Metadata:
 7. Fill in any text fields.
@@ -193,9 +193,9 @@ Notifications will be displayed in a hover menu allowing you to click on the doc
 
 - During the review and approval process, you'll be uploading new versions of a document as revisions are made. This will usually be accomplished by using the **Create Draft** functionality accessible via the Action Menu. To create a draft:
 
- 1. Click the **'Action Menu'**.
- 2. Select **'Create Draft'**.
- 3. Either copy the current version or select to upload the new file.
- 4. If uploading, click **'Choose'** and select the file and then click **'Ok'**.
+1. Click the **'Action Menu'**.
+2. Select **'Create Draft'**.
+3. Either copy the current version or select to upload the new file.
+4. If uploading, click **'Choose'** and select the file and then click **'Ok'**.
 
 - A new minor version of the document has been created. The ability to create drafts is controlled by permissions and may only be available to you on documents in specific workflow states.

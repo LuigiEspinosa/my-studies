@@ -81,7 +81,6 @@ CLM Preview only mimics CLM.
 > [!TIP]- Does Vault PromoMats have a specific packaging format?
 >
 > Yes.
->
 
 ---
 
@@ -110,7 +109,6 @@ CLM Preview only mimics CLM.
 > [!TIP]- Which content types must be created and manually packaged by a developer?
 >
 > HTML.
->
 
 ---
 

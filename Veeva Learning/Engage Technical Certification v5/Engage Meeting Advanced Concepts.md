@@ -174,7 +174,7 @@ function MobileIDResponses(result) {
 You can use the following JavaScript to determine if you are presenting from the iPad:
 
 ```js
-navigator.platform.indexOf("iPad") !== -1 
+navigator.platform.indexOf("iPad") !== -1
  || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 ```
 

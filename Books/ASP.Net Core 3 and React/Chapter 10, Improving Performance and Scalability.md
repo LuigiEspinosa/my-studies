@@ -35,7 +35,7 @@ If the API was to work in an asynchronous manner, when a request is made to our 
 
 So, if we make our API asynchronous, it will be able to handle requests more efficiently and increase scalability. It is important to note that making an API asynchronous won't make it more performant because a single request will take roughly the same amount of time. The improvement we are about to make is so that our API can use the server's resources more efficiently.
 
-> *When making code asynchronous, all the I/O calls in the calling stack must be asynchronous. If any I/O call is synchronous, then the thread will be blocked rather than returning to the thread pool and so threads won't be managed efficiently.*
+> _When making code asynchronous, all the I/O calls in the calling stack must be asynchronous. If any I/O call is synchronous, then the thread will be blocked rather than returning to the thread pool and so threads won't be managed efficiently._
 
 ## Caching data
 
@@ -60,11 +60,11 @@ So, creating large objects in our .NET code can hurt performance and an area whe
 > ```cs
 > using (var connection = new SqlConnection(_connectionString)) {
 >  connection.Open()
-> 
+>
 >  using (GridReader results = connection.QueryMultiple(
 >   @"EXEC dbo.Order_GetHeader @OrderId = @OrderId;
 >   EXEC dbo.OrderDetails_Get_ByOrderId @OrderId = @OrderId",
->   new { OrderId = orderId })) 
+>   new { OrderId = orderId }))
 >  {
 >   // TODO: Read the order and details from the query result
 >   return order;
@@ -72,15 +72,15 @@ So, creating large objects in our .NET code can hurt performance and an area whe
 > }
 > ```
 >
->> [!TIP] - What are the missing statements that will read the order and its details from the results putting the details in the order model? The order model is of the `OrderGetSingleResponse` type, which contains a `Details` property of the `IEnumerable<OrderDetailGetResponse>` type.
->>
->> ```cs
->> // TODO ...
->> var order = results.Read\<OrderGetSingleResponse>().FirstOrDefault();
->> if (order != null) {
->>  order.Details = results.Read\<OrderDetaulsGetResponse>().ToList();
->> }
->> ```
+> > [!TIP] - What are the missing statements that will read the order and its details from the results putting the details in the order model? The order model is of the `OrderGetSingleResponse` type, which contains a `Details` property of the `IEnumerable<OrderDetailGetResponse>` type.
+> >
+> > ```cs
+> > // TODO ...
+> > var order = results.Read\<OrderGetSingleResponse>().FirstOrDefault();
+> > if (order != null) {
+> >  order.Details = results.Read\<OrderDetaulsGetResponse>().ToList();
+> > }
+> > ```
 
 ---
 

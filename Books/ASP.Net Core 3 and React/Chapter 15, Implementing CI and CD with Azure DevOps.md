@@ -12,7 +12,7 @@ CD is the process of getting changes that developers make to the software into p
 
 The build configuration is defined in a YAML file.
 
-> ***YAML Ain't Markup Language (YAML)** is commonly used for configuration files because it is a little more compact than JSON and can contain comments.*
+> _**YAML Ain't Markup Language (YAML)** is commonly used for configuration files because it is a little more compact than JSON and can contain comments._
 
 ## Quiz
 

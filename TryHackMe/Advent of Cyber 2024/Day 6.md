@@ -13,9 +13,9 @@ rule SANDBOXDETECTED {
   version = "1.1"
 
  strings:
-  
+
  $cmd= "Software\\Microsoft\\Windows\\CurrentVersion\" /v ProgramFilesDir" nocase
- 
+
  condition:
   $cmd
 }

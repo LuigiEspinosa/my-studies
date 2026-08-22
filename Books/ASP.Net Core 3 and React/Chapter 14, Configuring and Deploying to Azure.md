@@ -1,15 +1,15 @@
 # Chapter 14: Configuring and Deploying to Azure
 
-We are going to use just a couple of these  services:
+We are going to use just a couple of these services:
 
 - **App services**: We will use this service to host our ASP.NET Core backend API as well as our React frontend.
 - **SQL database**: We will use this service to host our SQL Server database.
 
-> *If our frontend React didn't contain multiple client-side pages, we could host it using the static website option in Azure Storage, which is nice and cheap. For multiple client-side page apps, we need a URL rewrite rule so that deep links to the pages work. The URL rewrite rule requires IIS, which is available in an Azure App Service but, unfortunately, not in Azure Storage.*
+> _If our frontend React didn't contain multiple client-side pages, we could host it using the static website option in Azure Storage, which is nice and cheap. For multiple client-side page apps, we need a URL rewrite rule so that deep links to the pages work. The URL rewrite rule requires IIS, which is available in an Azure App Service but, unfortunately, not in Azure Storage._
 
 ## Configuring the ASP.NET Core backend for staging and production
 
-> *We can have different settings files for different environments. The `appsettings.json` file is the default settings file and can contain settings common to all environments. `appsettings.Development.json` is used during development when we run the backend in Visual Studio and overrides any duplicate settings that are in the `appsettings.json` file. The middle part of the filename needs to match an environment variable called `ASPNETCORE_ENVIRONMENT`, which is set to Development in Visual Studio by default and Production by default in Azure. So, `appsettings.Production.json` can be used for settings specific to the production environment in Azure.*
+> _We can have different settings files for different environments. The `appsettings.json` file is the default settings file and can contain settings common to all environments. `appsettings.Development.json` is used during development when we run the backend in Visual Studio and overrides any duplicate settings that are in the `appsettings.json` file. The middle part of the filename needs to match an environment variable called `ASPNETCORE_ENVIRONMENT`, which is set to Development in Visual Studio by default and Production by default in Azure. So, `appsettings.Production.json` can be used for settings specific to the production environment in Azure._
 
 ## Quiz
 
@@ -29,15 +29,15 @@ We are going to use just a couple of these  services:
 >
 > `"build:qa": "cross-env REACT_APP_ENV=qa npm run build"`
 >
->> [!TIP]- What `npm` command would we use to produce a QA build?
->>
->> `npm run build:qa`
+> > [!TIP]- What `npm` command would we use to produce a QA build?
+> >
+> > `npm run build:qa`
 
 ---
 
 > [!TIP]- What would be broken if we didn't include the `web.config` file with our React frontend?
 >
-> We wouldn't be able to deep-link into our app. For example, putting the path to a question, such as `https://qandafrontend.z19.web.core.windows.net/questions/1`, directly in the browser's address bar and pressing *Enter* will result in a `Page not Found` error being returned.
+> We wouldn't be able to deep-link into our app. For example, putting the path to a question, such as `https://qandafrontend.z19.web.core.windows.net/questions/1`, directly in the browser's address bar and pressing _Enter_ will result in a `Page not Found` error being returned.
 
 ---
 

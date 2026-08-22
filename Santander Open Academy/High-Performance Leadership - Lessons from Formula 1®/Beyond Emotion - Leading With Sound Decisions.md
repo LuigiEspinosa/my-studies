@@ -14,16 +14,16 @@
 
 1. Remove emotion from the process.
 
-    - What does the logic tell me?
-    - What are the facts?
+   - What does the logic tell me?
+   - What are the facts?
 
 1. Get the Right Perspectives.
 
-    - Seek data driven insights, not just gut feelings.
+   - Seek data driven insights, not just gut feelings.
 
 1. Commit to the decision fully.
 
-    - Leadership is knowing when to **fight, adapt or let go**.
+   - Leadership is knowing when to **fight, adapt or let go**.
 
 > [!NOTE]
 > Recommended Reading: <https://www.formula1.com/en/latest/article/brawn-gp-engineers-thought-wed-got-our-sums-wrongs-ahead-of-fairytale-start.F0Dk8F2qr7T7LGzeJC3sd>

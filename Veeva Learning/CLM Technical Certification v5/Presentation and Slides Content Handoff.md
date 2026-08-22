@@ -47,7 +47,7 @@ Regular document fields use the format: `[type].[field name]`.
 
 The type options are slide. and pres. For example, the CRM Media Type field on a Multichannel Slide would become `slide.crm_media_type__v`.
 
-Fields that are based on Objects use the format: `[type].[object name].[field name]`. For example, the Product Name field for the product referenced by  Multichannel Slide would become `slide.product__v.name__v`.
+Fields that are based on Objects use the format: `[type].[object name].[field name]`. For example, the Product Name field for the product referenced by Multichannel Slide would become `slide.product__v.name__v`.
 
 The column headers Type and `slide.filename` are mandatory.
 
@@ -92,7 +92,7 @@ There are specific fields that need to be included in the CSV to add shared reso
 - **For the Shared Resource**:
   - `external_id__v` needs to be populated.
   - Type = Shared.
-  - `slide.crm_shared_resource__v` column  header needs to be added with the line for the shared resource = Yes which indicates this is the shared resource.
+  - `slide.crm_shared_resource__v` column header needs to be added with the line for the shared resource = Yes which indicates this is the shared resource.
 
 - **For the Multichannel Slides that use the shared resource:**
   - `slide.related_shared_resource__v` column header needs to be added and for all Multichannel Slides that are associated with the shared resource need to have this populated with the `external_id__v` value of the Shared Resource.
@@ -196,7 +196,7 @@ To ensure successful Vault to Vault Migration, it's important to ensure the foll
 
 1. Vault PromoMats and Veeva CRM Online are synced.
 2. External Id Field of the Product on the Presentation (and multichannel slides) exist in both Vaults (Source and Target).
-    - The customer should provide the External Id of the Product in the Target Vault PromoMats and these should be re-created in the Source Vault with a matching External Id.
+   - The customer should provide the External Id of the Product in the Target Vault PromoMats and these should be re-created in the Source Vault with a matching External Id.
 3. Matching Required Fields in both Vaults and ensuring presentation ID already exists in Target Vault.
 
 ## Product External ID

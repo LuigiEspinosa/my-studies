@@ -50,7 +50,7 @@ The following content packaging formats are **not supported** for remote CLM:
 - AR.
 - Shared Resources.
 
-External links in HTML  content are not supported. When a user selects an external link and launches the browser, the browser window is not displayed to the attendee.
+External links in HTML content are not supported. When a user selects an external link and launches the browser, the browser window is not displayed to the attendee.
 
 ## Starting Remote CLM
 

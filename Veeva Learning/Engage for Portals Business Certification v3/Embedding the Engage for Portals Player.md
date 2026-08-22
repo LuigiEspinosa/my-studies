@@ -102,9 +102,9 @@ There are multiple ways in which an HCP would access the Engage for Portals cont
 1. **Approved Email via link**
 2. **Open access website with the Engage for Portals Player** embedded within an existing branded page.
 3. **Logging in/registering as an HCP** on the customer Portal and navigating to Engage content in the Portal with all activity tracked in CRM.
-    - Implement an HCP registration/authentication process that can support HCP registration and can return an unique identifier for each HCP (either SFDC Id or an account external Id) referring to the HCP within CRM.
-    - Maintenance of the Mapping can be done manually by an Admin in both systems or via customs Integration.
-    - The registration and authentication process can become fairly complex.
+   - Implement an HCP registration/authentication process that can support HCP registration and can return an unique identifier for each HCP (either SFDC Id or an account external Id) referring to the HCP within CRM.
+   - Maintenance of the Mapping can be done manually by an Admin in both systems or via customs Integration.
+   - The registration and authentication process can become fairly complex.
 
 ### Accessing the Content
 

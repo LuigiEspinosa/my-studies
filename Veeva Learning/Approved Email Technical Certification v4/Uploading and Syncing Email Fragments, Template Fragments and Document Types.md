@@ -100,7 +100,7 @@ In order to upload a Document into Vault, Content Creators must choose the Docum
 5. Upload the Document.
 6. Choose the Document type from the drop-down,
 
-    - These are usually Reference Documents (Important Safety Information or Prescribing Information) or Promotional Pieces.
+   - These are usually Reference Documents (Important Safety Information or Prescribing Information) or Promotional Pieces.
 
 7. Click 'Next'.
 

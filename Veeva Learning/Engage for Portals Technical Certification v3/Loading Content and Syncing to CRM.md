@@ -109,7 +109,7 @@ The Engage Metadata Admin page must be populated with CRM Admin user credentials
 
 These credentials are required to ensure successful synchronization of the content from Vault.
 
-Once the content has been uploaded, configured and staged  (or Approved) in Vault, it can be 'pulled' into CRM.
+Once the content has been uploaded, configured and staged (or Approved) in Vault, it can be 'pulled' into CRM.
 
 Two new tabs in CRM enable you to manage the synchronization and testing of content:
 

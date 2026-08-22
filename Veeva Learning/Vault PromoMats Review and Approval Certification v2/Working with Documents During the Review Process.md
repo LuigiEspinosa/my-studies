@@ -7,7 +7,7 @@ Each document type in Vault PromoMats has an associated document life-cycle whic
 Workflows can be started in two ways:
 
 1. **Workflow Actions Menu**, through the arrow icon which displays if workflows are available.
-2. Upon task completion,  a new workflow may be initiated.
+2. Upon task completion, a new workflow may be initiated.
 
 When a workflow is started, information will need to be populated such as the due date and the reviewers/approvers.
 
@@ -164,10 +164,10 @@ All of these actions can be found in the **Action Menu**.
 
 - When working with new versions of a document, Vault PromoMats has a feature called 'Bring Forward Annotations' that helps to save you time. To use Bring Forward Annotations:
 
- 1. Click the + balloon icon.
- 2. Click the right arrow icon.
- 3. Select the document version as well as the type of annotation to bring forward.
- 4. Click **Continue**.
+1. Click the + balloon icon.
+2. Click the right arrow icon.
+3. Select the document version as well as the type of annotation to bring forward.
+4. Click **Continue**.
 
 - Once you click **Continue**, the annotations will be brought forward and the page will refresh. If pages have been reorganized and/or text has been deleted, text selections will be brought forward as page level annotations. Image annotations will also be brought forward as page level annotations. You can use the [move option](#moving-an-annotation) to move the annotations or in some cases you may delete the annotation.
 
@@ -202,16 +202,16 @@ To create the link(s):
 - Exporting annotations on a document can be a time saver when comments are received in a review cycle. Vault PromoMats provides two ways to download a PDF that includes annotations.
 
 1. **PDF with Annotations Renditions**
- This option will download a PDF with annotations in the margins.
+   This option will download a PDF with annotations in the margins.
 
-    - To retrieve this PDF, click the down-arrow on the renditions icon next to the **Action Menu**.
-    - Select **PDF with Annotations**.
+   - To retrieve this PDF, click the down-arrow on the renditions icon next to the **Action Menu**.
+   - Select **PDF with Annotations**.
 
 2. **Export Annotations**
- This option will download a PDF with native comments that you can interact with. This option requires that you can interact with. This option requires that your customer has offline annotations enabled.
+   This option will download a PDF with native comments that you can interact with. This option requires that you can interact with. This option requires that your customer has offline annotations enabled.
 
-    - To retrieve this PDF, open the **Action Menu**.
-    - Select **Export Annotations**.
+   - To retrieve this PDF, open the **Action Menu**.
+   - Select **Export Annotations**.
 
 ## Downloading Renditions
 
@@ -221,12 +221,12 @@ Document renditions can be download from:
 
 1. The **top of the document info page** where there is an icon for the document file type. When performing a document search, this same menu is accessible from the search results.
 
-    - Click on that icon to download the 'source file' or click on the down-arrow next to it to access other renditions.
+   - Click on that icon to download the 'source file' or click on the down-arrow next to it to access other renditions.
 
 2. Document renditions can also be downloaded **via the document information panel**.
 
-    - Select the **Document Files** section of the document information.
-    - The viewable renditions and any other renditions that exist for the document will be displayed here.
+   - Select the **Document Files** section of the document information.
+   - The viewable renditions and any other renditions that exist for the document will be displayed here.
 
 ## Bulk Download
 

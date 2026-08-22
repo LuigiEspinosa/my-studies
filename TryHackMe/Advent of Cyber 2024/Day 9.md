@@ -25,52 +25,52 @@ Once we have identified the risks and the likelihood of a risk, the next step is
 
 1. Data in transit and data at rest needs to be encrypted with AES encryption as a requirement for this project. What type of AES encryption does your company use for data in transit and data at rest?
 
-    - R: AES-256 for data in transit and AES-256 for data at rest.
-    - D: Data captured and later decrypted
-    - Impact Level - High
-    - Likelihood Level - Unlikely
+   - R: AES-256 for data in transit and AES-256 for data at rest.
+   - D: Data captured and later decrypted
+   - Impact Level - High
+   - Likelihood Level - Unlikely
 
 2. What kind of access controls do you have to ensure data is accessed only by authorized people?
 
-    - R: Data can be accessed by all the people on the relevant team.
-    - D: Data is accessed by individuals with access but not with need to know, resulting in data compromise.
-    - Impact Level - Critical
-    - Likelihood Level - Possible
+   - R: Data can be accessed by all the people on the relevant team.
+   - D: Data is accessed by individuals with access but not with need to know, resulting in data compromise.
+   - Impact Level - Critical
+   - Likelihood Level - Possible
 
 3. How long do you keep client data after the case is closed?
 
-    - R: More than 1 month.
-    - D: Retaining data longer than need to can result in data compromise through a data breach.
-    - Impact Level - Critical
-    - Likelihood Level - Very Likely
+   - R: More than 1 month.
+   - D: Retaining data longer than need to can result in data compromise through a data breach.
+   - Impact Level - Critical
+   - Likelihood Level - Very Likely
 
 4. Data in transit and data at rest needs to be encrypted with AES encryption as a requirement for this project. What type of AES encryption does your company use for data in transit and data at rest?
 
-    - R: None for data in transit and AES-256 for data at rest.
-    - D: AitM or network sniffing can results in data in transit compromise to include altering or confidentiality breach.
-    - Impact Level - High
-    - Likelihood Level - Likely
+   - R: None for data in transit and AES-256 for data at rest.
+   - D: AitM or network sniffing can results in data in transit compromise to include altering or confidentiality breach.
+   - Impact Level - High
+   - Likelihood Level - Likely
 
 5. What kind of access controls do you have to ensure data is accessed only by authorized people?
 
-    - R: Data can be accessed only on a need-to-know-basis.
-    - D: An insider threat could leak data or cause compromise.
-    - Impact Level - Critical
-    - Likelihood Level - Unlikely
+   - R: Data can be accessed only on a need-to-know-basis.
+   - D: An insider threat could leak data or cause compromise.
+   - Impact Level - Critical
+   - Likelihood Level - Unlikely
 
 6. What kind of access controls do you have to ensure data is accessed only by authorized people?
 
-    - R: Data can be accessed by all the people on the relevant team, and the global administrators
-    - D: Individuals without a need to know could access it (insider threat) or credential compromise could result in unauthorized access.
-    - Impact Level - Critical
-    - Likelihood Level - Likely
+   - R: Data can be accessed by all the people on the relevant team, and the global administrators
+   - D: Individuals without a need to know could access it (insider threat) or credential compromise could result in unauthorized access.
+   - Impact Level - Critical
+   - Likelihood Level - Likely
 
 7. How long do you keep client data after the case is closed?
 
-    - R: Less than 1 week
-    - D: A compromise occurs within the 1 week time window and results in data leakage.
-    - Impact Level - Critical
-    - Likelihood Level - Likely
+   - R: Less than 1 week
+   - D: A compromise occurs within the 1 week time window and results in data leakage.
+   - Impact Level - Critical
+   - Likelihood Level - Likely
 
 ## Glossary
 
