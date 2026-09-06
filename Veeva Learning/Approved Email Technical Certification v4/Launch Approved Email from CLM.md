@@ -3,7 +3,7 @@ source: veeva
 slug: veeva/approved-email-technical-certification-v4/launch-approved-email-from-clm
 status: done
 started: 2025-03-30
-finished: 2025-04-21
+finished: 2025-04-06
 tags: [approved-email, clm, javascript]
 code: []
 kind: note

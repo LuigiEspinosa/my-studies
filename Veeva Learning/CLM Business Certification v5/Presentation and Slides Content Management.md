@@ -3,7 +3,7 @@ source: veeva
 slug: veeva/clm-business-certification-v5/presentation-and-slides-content-management
 status: done
 started: 2025-03-01
-finished: 2025-04-21
+finished: 2025-03-03
 tags: [clm, content-packaging, content-management]
 code: []
 kind: note

@@ -3,7 +3,7 @@ source: veeva
 slug: veeva/clm-business-certification-v5/survey-basics
 status: done
 started: 2025-03-01
-finished: 2025-04-21
+finished: 2025-03-03
 tags: [surveys, veeva-crm]
 code: []
 kind: note
