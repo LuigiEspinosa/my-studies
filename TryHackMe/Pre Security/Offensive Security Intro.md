@@ -11,4 +11,6 @@ kind: note
 
 # Offensive Security Intro
 
+[Offensive Security Intro (TryHackMe)](https://tryhackme.com/room/offensivesecurityintro)
+
 Offensive Security is about thinking like an attacker to find weaknesses before real hackers do.
