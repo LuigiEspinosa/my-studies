@@ -20,5 +20,6 @@ To attack or defend any technology, you first need to understand what powers it.
 
 - [[Offensive Security Intro]]
 - [Defensive Security Intro](./Defensive%20Security%20Intro.md)
+- [Careers in Cyber](Careers%20in%20Cyber.md)
 
 <!-- studylink:end -->
