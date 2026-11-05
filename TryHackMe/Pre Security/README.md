@@ -22,5 +22,6 @@ To attack or defend any technology, you first need to understand what powers it.
 - [Defensive Security Intro](./Defensive%20Security%20Intro.md)
 - [Careers in Cyber](Careers%20in%20Cyber.md)
 - [Inside a Computer System](Inside%20a%20Computer%20System.md)
+- [Computer Types](./Computer%20Types.md)
 
 <!-- studylink:end -->
